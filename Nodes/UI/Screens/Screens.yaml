@@ -1,0 +1,7 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- File: Master/Master.yaml
+- File: Receiving/Receiving.yaml
+- File: Pellet_Mill/Pellet_Mill.yaml
+- File: Mixer/Mixer.yaml
