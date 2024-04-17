@@ -12,13 +12,29 @@ Children:
     - Name: Panels
       Type: BaseObjectType
       Children:
+      - Name: Panel4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Mixer Master View"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/UI/Screens/Mixer/Mixer_Master"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel1
         Type: NavigationPanelItem
         Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Manual Batch Feed Controls"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -34,7 +50,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Manual Batch Controls"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -50,27 +66,11 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Equipment in/out of service"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/Florida_Green1/UI/Screens/Mixer/MotorOOC3"
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-      - Name: Panel4
-        Type: NavigationPanelItem
-        Children:
-        - Name: Title
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Mixer Master"}
-        - Name: Panel
-          Type: NodePointer
-          DataType: NodeId
-          Value: "/Objects/Florida_Green1/UI/Screens/Mixer/Mixer_Master"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -169,89 +169,6 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
-    - Name: LinearGauge3
-      Type: LinearGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 0.0
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=20;g=33325e8b-536e-2ed0-1bfc-c1906544dd25}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 0.0
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 100.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 38.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 150.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 566.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 388.0
-      - Name: Orientation
-        Type: BaseDataVariableType
-        DataType: OrientationEnum
-        ModellingRule: Optional
-        Value: 1
-      - Name: ScalePosition
-        Type: BaseDataVariableType
-        DataType: PositionEnum
-        ModellingRule: Optional
-        Value: 2
-      - Name: Editable
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: LabelVisible
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: ScalePadding
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: MinorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#fe953b"
     - Name: Status Bar
       Type: Panel
       Children:
@@ -1689,44 +1606,33 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 0.0
-    - Name: Switch1
-      Type: Switch
+    - Name: Image1
+      Type: Image
       Children:
-      - Name: Checked
+      - Name: Path
         Type: BaseDataVariableType
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Status/Drag_Hopper_Start"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
+        DataType: ResourceUri
+        Value: "ns=20;%PROJECTDIR%/mixer.svg"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 210.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 320.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 350.0
+        Value: 1709.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 97.0
+        Value: 1038.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 115.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 17.0
 - Name: Manual_Batch_feed
   Id: g=f0655d50f850ded4ec0ca87fc6a8b501
   Supertype: Screen
@@ -6119,6 +6025,11 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
       - Name: Panel2
         Type: Panel
         Children:

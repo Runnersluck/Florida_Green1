@@ -18,7 +18,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Master"}
+          Value: {"LocaleId":"en-US","Text":"Pellet Mill Master View"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -66,7 +66,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Equipment in/out of service"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -169,797 +169,6 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
-    - Name: LinearGauge3
-      Type: LinearGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 0.0
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=20;g=33325e8b-536e-2ed0-1bfc-c1906544dd25}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 0.0
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 100.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 38.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 150.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 566.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 388.0
-      - Name: Orientation
-        Type: BaseDataVariableType
-        DataType: OrientationEnum
-        ModellingRule: Optional
-        Value: 1
-      - Name: ScalePosition
-        Type: BaseDataVariableType
-        DataType: PositionEnum
-        ModellingRule: Optional
-        Value: 2
-      - Name: Editable
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: LabelVisible
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: ScalePadding
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: MinorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#fe953b"
-    - Name: Image1
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=20;%PROJECTDIR%/Pellet Mill Side Veiw.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 650.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 390.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: FillMode
-        Type: BaseDataVariableType
-        DataType: FillModeEnum
-        ModellingRule: Optional
-        Value: 1
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 148.0
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 134.0
-      - Name: BarGraph1
-        Type: ScaleLayout
-        WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-        Children:
-        - Name: LevelColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ff9900"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#263a4e"
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/KokomoGreen2/CommDrivers/Pellet Mill PLC/Pellet mill PLC/Tags/Controller Tags/Pellet_mill_2_io/Level"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 0.0
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 100.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 152.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 45.0
-        - Name: Outline
-          Type: Rectangle
-          Children:
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#918f8f"
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 171.8000030517578
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.719999313354492
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#231f2080"
-        - Name: Overlay
-          Type: Rectangle
-          Children:
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#00000000"
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.9998273253440857
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.999947190284729
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 169.8000030517578
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 18.719898223876953
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#ffffff"
-        - Name: Background
-          Type: Rectangle
-          Children:
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#00000000"
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 2.4313206672668457
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 2.437915325164795
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 168.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 15.828007698059082
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#263a4e"
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../FillColor"
-        - Name: BarGraph_level
-          Type: LinearGauge
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 70.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../Value"
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../MinValue"
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../MaxValue"
-          - Name: WarningZones
-            Type: BaseObjectType
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 166.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 12.0
-          - Name: MajorTickCount
-            Type: BaseDataVariableType
-            DataType: Float
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: Orientation
-            Type: BaseDataVariableType
-            DataType: OrientationEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: ImagePath
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            ModellingRule: Optional
-            Value: "ns=20;%PROJECTDIR%/res/BarGraph_LinearGauge_level.svg"
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#00baff"
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../LevelColor"
-          - Name: ValueChangeBehaviour
-            Type: BaseDataVariableType
-            DataType: ValueChangeBehaviour
-            ModellingRule: Optional
-            Value: 1
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 2.5
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 4.0
-        - Name: Gloss
-          Type: Rectangle
-          Children:
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#00000000"
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 2.5
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 4.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 166.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 11.5
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#ffffff40"
-        - Name: OriginalWidth
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 171.8000030517578
-        - Name: OriginalHeight
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 20.719999313354492
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 471.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 766.0
-        - Name: FillMode
-          Type: BaseDataVariableType
-          DataType: FillModeEnum
-          ModellingRule: Optional
-          Value: 1
-        - Name: Rotation
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 270.0
-      - Name: ImageLeftMargin
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: 0.0
-    - Name: Image2
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=20;%PROJECTDIR%/Lone Pm.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 876.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 258.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -2.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 358.0
-      - Name: FillMode
-        Type: BaseDataVariableType
-        DataType: FillModeEnum
-        ModellingRule: Optional
-        Value: 1
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 0
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 0
-      - Name: BarGraph1
-        Type: ScaleLayout
-        WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-        Children:
-        - Name: LevelColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ff9900"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#263a4e"
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/KokomoGreen2/CommDrivers/Pellet Mill PLC/Pellet mill PLC/Tags/Controller Tags/Pellet_mill_1_io/Level"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 0.0
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 100.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 152.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 45.0
-        - Name: Outline
-          Type: Rectangle
-          Children:
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#918f8f"
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 171.8000030517578
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.719999313354492
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#231f2080"
-        - Name: Overlay
-          Type: Rectangle
-          Children:
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#00000000"
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.9998273253440857
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.999947190284729
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 169.8000030517578
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 18.719898223876953
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#ffffff"
-        - Name: Background
-          Type: Rectangle
-          Children:
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#00000000"
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 2.4313206672668457
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 2.437915325164795
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 168.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 15.828007698059082
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#263a4e"
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../FillColor"
-        - Name: BarGraph_level
-          Type: LinearGauge
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 70.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../Value"
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../MinValue"
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../MaxValue"
-          - Name: WarningZones
-            Type: BaseObjectType
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 166.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 12.0
-          - Name: MajorTickCount
-            Type: BaseDataVariableType
-            DataType: Float
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: Orientation
-            Type: BaseDataVariableType
-            DataType: OrientationEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: ImagePath
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            ModellingRule: Optional
-            Value: "ns=20;%PROJECTDIR%/res/BarGraph_LinearGauge_level.svg"
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#00baff"
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../LevelColor"
-          - Name: ValueChangeBehaviour
-            Type: BaseDataVariableType
-            DataType: ValueChangeBehaviour
-            ModellingRule: Optional
-            Value: 1
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 2.5
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 4.0
-        - Name: Gloss
-          Type: Rectangle
-          Children:
-          - Name: BorderColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#00000000"
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -1.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 2.5
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 4.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 166.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 11.5
-          - Name: FillColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#ffffff40"
-        - Name: OriginalWidth
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 171.8000030517578
-        - Name: OriginalHeight
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 20.719999313354492
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 476.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 87.0
-        - Name: FillMode
-          Type: BaseDataVariableType
-          DataType: FillModeEnum
-          ModellingRule: Optional
-          Value: 1
-        - Name: Rotation
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 270.0
     - Name: Status Bar
       Type: Panel
       Children:
@@ -2397,6 +1606,87 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 0.0
+    - Name: Image1
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=20;%PROJECTDIR%/fg pellet mill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1769.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1005.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 55.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 9.0
+      - Name: Image1
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=20;%PROJECTDIR%/pellet mill.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 469.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 394.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 678.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 383.0
+      - Name: Image2
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=20;%PROJECTDIR%/pellet mill.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 469.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 394.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 680.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 15.0
 - Name: MotorOOC1
   Id: g=6ddf97574d2117c69c04ad272f560858
   Supertype: Screen
