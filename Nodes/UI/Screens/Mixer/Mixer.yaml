@@ -2611,7 +2611,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_name"
+                Value: "{Vfdstatusalias}/HMI_Name"
         - Name: Panel2
           Type: Panel
           Children:
@@ -2634,7 +2634,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/Manual_mode"
+                    Value: "{Vfdstatusalias}/Manual_Mode"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -2676,7 +2676,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -2773,7 +2773,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
             - Name: Label1
               Type: Label
               Children:
@@ -2793,7 +2793,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_status"
+                      Value: "{Vfdstatusalias}/HMI_Status"
                   - Name: Pairs
                     Type: BaseObjectType
                     Children:
@@ -3005,7 +3005,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_name"
+                Value: "{Vfdstatusalias}/HMI_Name"
         - Name: Panel2
           Type: Panel
           Children:
@@ -3028,7 +3028,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/Manual_mode"
+                    Value: "{Vfdstatusalias}/Manual_Mode"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -3070,7 +3070,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -3167,7 +3167,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
             - Name: Label1
               Type: Label
               Children:
@@ -3187,7 +3187,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_status"
+                      Value: "{Vfdstatusalias}/HMI_Status"
                   - Name: Pairs
                     Type: BaseObjectType
                     Children:
@@ -3399,7 +3399,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_name"
+                Value: "{Vfdstatusalias}/HMI_Name"
         - Name: Panel2
           Type: Panel
           Children:
@@ -3422,7 +3422,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/Manual_mode"
+                    Value: "{Vfdstatusalias}/Manual_Mode"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -3464,7 +3464,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -3561,7 +3561,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
             - Name: Label1
               Type: Label
               Children:
@@ -3581,7 +3581,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_status"
+                      Value: "{Vfdstatusalias}/HMI_Status"
                   - Name: Pairs
                     Type: BaseObjectType
                     Children:
@@ -5109,7 +5109,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Valves"
+            Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
       - Name: NonVFDMotorController2
         Type: NonVFDMotorController1
         Children:
@@ -6400,7 +6400,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Valves"
+            Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
       - Name: VFDMotorController1
         Type: VFDMotorController1
         Children:
@@ -9588,7 +9588,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Valves"
+            Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
       - Name: VFDMotorController1
         Type: VFDMotorController1
         Children:
@@ -11031,7 +11031,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Valves"
+            Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
       - Name: VFDMotorController2
         Type: VFDMotorController1
         Children:
@@ -13167,7 +13167,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Valves"
+                Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -13347,7 +13347,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Valves"
+                Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment

@@ -2048,7 +2048,7 @@ Children:
       - Name: NonVFDstatusAlias
         Type: Alias
         DataType: NodeId
-        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bagger_feed_elevator"
+        Value: {"IdType":2,"Id":"823bcd9f0d0cdad9a3d06d498a81fbec","Namespace":20}
         Children:
         - Name: Kind
           Type: PropertyType

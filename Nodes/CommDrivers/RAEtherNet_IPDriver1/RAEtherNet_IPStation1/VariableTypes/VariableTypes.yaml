@@ -1,10 +1,10 @@
 Name: VariableTypes
 Type: FolderType
 Children:
-- Name: Valves
-  Id: g=a8252f7730cb1dd578d8517d68caf1f6
+- Name: VALVES
+  Id: g=1fec974a9c1fb8c5f97608d022110fb3
   Supertype: TagStructure
-  DataType: Valves
+  DataType: VALVES
   ValueRank: Any
   Children:
   - Name: Auto_mode
@@ -1683,6 +1683,69 @@ Children:
   DataType: HMI_ALARMS
   ValueRank: Any
   Children:
+  - Name: Bagger_Elevator_EXP_1_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_EXP_1_Tripped"
+  - Name: Bagger_Elevator_Low_Flow
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_Low_Flow"
+  - Name: Bagger_Elevator_Low_Speed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_Low_Speed"
+  - Name: Bagger_Elevator_Lower_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_Lower_Left_Rub_Trip"
+  - Name: Bagger_Elevator_Lower_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_Lower_Right_Rub_Trip"
+  - Name: Bagger_Elevator_Upper_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_Upper_Left_Rub_Trip"
+  - Name: Bagger_Elevator_Upper_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_Upper_Right_Rub_Trip"
   - Name: Batch_Elevator_Alarm
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1755,6 +1818,69 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Elevator_Low_Speed"
+  - Name: Cooler_Elevator_EXP_1_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_EXP_1_Tripped"
+  - Name: Cooler_Elevator_Low_Flow
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Low_Flow"
+  - Name: Cooler_Elevator_Low_Speed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Low_Speed"
+  - Name: Cooler_Elevator_Lower_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Lower_Left_Rub_Trip"
+  - Name: Cooler_Elevator_Lower_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Lower_Right_Rub_Trip"
+  - Name: Cooler_Elevator_Upper_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Upper_Left_Rub_Trip"
+  - Name: Cooler_Elevator_Upper_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Upper_Right_Rub_Trip"
   - Name: Explosion_Valve_4_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -2256,10 +2382,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Year"
-- Name: Elevator_IO
-  Id: g=ec512be8acc6344a9d90f5a41589863b
+- Name: ELEVATOR_IO
+  Id: g=39c5231392abf8865f32b9e322a1a6e6
   Supertype: TagStructure
-  DataType: Elevator_IO
+  DataType: ELEVATOR_IO
   ValueRank: Any
   Children:
   - Name: Explosion_1_Timer
@@ -2494,6 +2620,64 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Explosion_4_Trip"
+  - Name: Flow_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Flow_Trip"
+  - Name: Flow_Trip_Timer
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
   - Name: Low_Speed_Timer
     Type: TIMER
     DataType: TIMER

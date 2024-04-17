@@ -3451,7 +3451,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_Status"
+                Value: "{Vfdstatusalias}/Manual_Mode"
             - Name: Pairs
               Type: BaseObjectType
               Children:
@@ -8278,7 +8278,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Valves"
+      Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
 - Name: DRY_OOCValve2
   Id: g=ddd71a5d021006050cd4fa060951ef4d
   Supertype: Panel
@@ -8494,5 +8494,5 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Valves"
+      Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
 - File: Main_panel_widgets/Main_panel_widgets.yaml

@@ -2,15 +2,15 @@ Name: DataTypes
 Type: FolderType
 Children:
 - Class: DataType
-  Name: Valves
-  Id: g=aae58839dc4ae58496efbde1e3f89fca
+  Name: VALVES
+  Id: g=6d636c0fb4bec5f5e73253c8fb9fc1da
   Supertype: Structure
   StructDefinition: 
    {
-    "Name": "Valves",
+    "Name": "VALVES",
     "DataType": {
      "IdType": 2,
-     "Id": "aae58839dc4ae58496efbde1e3f89fca",
+     "Id": "6d636c0fb4bec5f5e73253c8fb9fc1da",
      "Namespace": 20
     },
     "Fields": [{
@@ -150,7 +150,7 @@ Children:
       }
      }]
    }
-  DisplayName: {"LocaleId":"","Text":"Valves"}
+  DisplayName: {"LocaleId":"","Text":"VALVES"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -770,6 +770,41 @@ Children:
      "Namespace": 20
     },
     "Fields": [{
+      "Name": "Bagger_Elevator_EXP_1_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Low_Flow",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Low_Speed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Lower_Left_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Lower_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Upper_Left_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Upper_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Batch_Elevator_Alarm",
       "DataType": {
        "Id": 1
@@ -806,6 +841,41 @@ Children:
       }
      },{
       "Name": "Batch_Elevator_Low_Speed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_EXP_1_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Low_Flow",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Low_Speed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Lower_Left_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Lower_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Upper_Left_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Upper_Right_Rub_Trip",
       "DataType": {
        "Id": 1
       }
@@ -1115,15 +1185,15 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: Elevator_IO
-  Id: g=013dfb6d63ea0be21f6e574e037b12c6
+  Name: ELEVATOR_IO
+  Id: g=67a5f4e5f45695f288061ccb7053bee7
   Supertype: Structure
   StructDefinition: 
    {
-    "Name": "Elevator_IO",
+    "Name": "ELEVATOR_IO",
     "DataType": {
      "IdType": 2,
-     "Id": "013dfb6d63ea0be21f6e574e037b12c6",
+     "Id": "67a5f4e5f45695f288061ccb7053bee7",
      "Namespace": 20
     },
     "Fields": [{
@@ -1173,6 +1243,18 @@ Children:
       "Name": "Explosion_4_Trip",
       "DataType": {
        "Id": 1
+      }
+     },{
+      "Name": "Flow_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Flow_Trip_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
       }
      },{
       "Name": "Low_Speed_Timer",
@@ -1260,7 +1342,7 @@ Children:
       }
      }]
    }
-  DisplayName: {"LocaleId":"","Text":"Elevator_IO"}
+  DisplayName: {"LocaleId":"","Text":"ELEVATOR_IO"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType

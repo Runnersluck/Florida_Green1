@@ -1392,7 +1392,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_Status"
+                    Value: "{Vfdstatusalias}/Manual_Mode"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -1786,7 +1786,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_Status"
+                    Value: "{Vfdstatusalias}/Manual_Mode"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -2180,7 +2180,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_Status"
+                    Value: "{Vfdstatusalias}/Manual_Mode"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -3473,7 +3473,7 @@ Children:
       - Name: NonVFDstatusAlias
         Type: Alias
         DataType: NodeId
-        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Elevator"
         Children:
         - Name: Kind
           Type: PropertyType
@@ -6708,7 +6708,7 @@ Children:
             - Name: OOCnovfdalias
               Type: Alias
               DataType: NodeId
-              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
+              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Elevator"
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -14557,7 +14557,7 @@ Children:
         - Name: NonVFDcont
           Type: Alias
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Elevator"
           Children:
           - Name: Kind
             Type: PropertyType
