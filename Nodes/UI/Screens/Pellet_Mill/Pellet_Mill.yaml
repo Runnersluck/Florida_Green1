@@ -1707,7 +1707,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_name"
+                Value: "{Vfdstatusalias}/HMI_Name"
         - Name: Panel2
           Type: Panel
           Children:
@@ -1730,7 +1730,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/Manual_mode"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -1772,7 +1772,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -1869,7 +1869,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
             - Name: Label1
               Type: Label
               Children:
@@ -1889,7 +1889,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_status"
+                      Value: "{Vfdstatusalias}/HMI_Status"
                   - Name: Pairs
                     Type: BaseObjectType
                     Children:
@@ -2101,7 +2101,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_name"
+                Value: "{Vfdstatusalias}/HMI_Name"
         - Name: Panel2
           Type: Panel
           Children:
@@ -2124,7 +2124,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/Manual_mode"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -2166,7 +2166,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -2263,7 +2263,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
             - Name: Label1
               Type: Label
               Children:
@@ -2283,7 +2283,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_status"
+                      Value: "{Vfdstatusalias}/HMI_Status"
                   - Name: Pairs
                     Type: BaseObjectType
                     Children:
@@ -2495,7 +2495,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_name"
+                Value: "{Vfdstatusalias}/HMI_Name"
         - Name: Panel2
           Type: Panel
           Children:
@@ -2518,7 +2518,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/Manual_mode"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -2560,7 +2560,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -2657,7 +2657,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
             - Name: Label1
               Type: Label
               Children:
@@ -2677,7 +2677,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_status"
+                      Value: "{Vfdstatusalias}/HMI_Status"
                   - Name: Pairs
                     Type: BaseObjectType
                     Children:
@@ -2889,7 +2889,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_name"
+                Value: "{Vfdstatusalias}/HMI_Name"
         - Name: Panel2
           Type: Panel
           Children:
@@ -2912,7 +2912,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/Manual_mode"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -2954,7 +2954,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
                 - Name: Pairs
                   Type: BaseObjectType
                   Children:
@@ -3051,7 +3051,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Vfdstatusalias}/HMI_status"
+                    Value: "{Vfdstatusalias}/HMI_Status"
             - Name: Label1
               Type: Label
               Children:
@@ -3071,7 +3071,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_status"
+                      Value: "{Vfdstatusalias}/HMI_Status"
                   - Name: Pairs
                     Type: BaseObjectType
                     Children:
