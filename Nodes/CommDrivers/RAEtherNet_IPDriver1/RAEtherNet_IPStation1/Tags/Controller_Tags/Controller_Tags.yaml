@@ -1700,6 +1700,7 @@ Children:
       DataType: String
       Value: "Pellet_mill_shaker.Start"
 - Name: Cooler_airlock
+  Id: g=b01b071904d4fc4134bb859d3556bb2e
   Type: MTR_STARTER_CONTROLS
   DataType: MTR_STARTER_CONTROLS
   Children:
@@ -1937,6 +1938,7 @@ Children:
       DataType: String
       Value: "Cooler_airlock.Start"
 - Name: Cooler_shaker
+  Id: g=1350a8bd43dd5166988e94f57fdb3354
   Type: MTR_STARTER_CONTROLS
   DataType: MTR_STARTER_CONTROLS
   Children:
@@ -8541,6 +8543,7 @@ Children:
       DataType: String
       Value: "Cooler_input.System_status"
 - Name: Cooler_Grid
+  Id: g=741f52dee0ffc650a6ad0f316d9071ee
   Type: MTR_STARTER_CONTROLS
   DataType: MTR_STARTER_CONTROLS
   Children:
@@ -8778,6 +8781,7 @@ Children:
       DataType: String
       Value: "Cooler_Grid.Start"
 - Name: Bagger_feed_elevator
+  Id: g=823bcd9f0d0cdad9a3d06d498a81fbec
   Type: MTR_STARTER_CONTROLS
   DataType: MTR_STARTER_CONTROLS
   Children:
@@ -9015,6 +9019,7 @@ Children:
       DataType: String
       Value: "Bagger_feed_elevator.Start"
 - Name: Bulk_auger
+  Id: g=4ed5fe115393b3d26b8f691b171c5ff5
   Type: VFD_CONTROLS
   DataType: VFD_CONTROLS
   Children:

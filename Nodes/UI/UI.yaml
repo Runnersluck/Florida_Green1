@@ -175,6 +175,14 @@ Children:
     Children:
     - Name: Default
       Type: CheckBoxStyle
+  - Name: ScreenColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+  - Name: WindowColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000afb"
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
@@ -1375,7 +1383,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: Optional
-                  Value: {"LocaleId":"en-US","Text":"????"}
+                  Value: {"LocaleId":"en-US","Text":"Cooler"}
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
@@ -1439,7 +1447,7 @@ Children:
                           Type: BaseDataVariableType
                           DataType: NodeId
                           Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                          Value: {"IdType":2,"Id":"f9f5a5f0039c91f0effe4a0e2bebf7f9","Namespace":20}
+                          Value: "/Objects/Florida_Green1/UI/Screens/Cooler/Side_Nav_3"
                         - Name: AliasNode
                           Type: BaseDataVariableType
                           DataType: NodeId
@@ -1585,7 +1593,7 @@ Children:
                           Type: BaseDataVariableType
                           DataType: NodeId
                           Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                          Value: {"IdType":2,"Id":"7cdda2d24938ce1e341a36b4500c1026","Namespace":20}
+                          Value: "/Objects/Florida_Green1/UI/Screens/BagLine/Side_Nav_4"
                         - Name: AliasNode
                           Type: BaseDataVariableType
                           DataType: NodeId

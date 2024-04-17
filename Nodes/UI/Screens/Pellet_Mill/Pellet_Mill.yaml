@@ -2495,7 +2495,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Vfdstatusalias}/HMI_name"
+                Value: "{Vfdstatusalias}/HMI_Name"
         - Name: Panel2
           Type: Panel
           Children:

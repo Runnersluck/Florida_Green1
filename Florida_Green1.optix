@@ -82,15 +82,15 @@ Project:
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
  Statistics:
-  TotalNodeCount: 18329
-  Objects: 4017
-  ObjectTypes: 51
-  Variables: 14235
+  TotalNodeCount: 21941
+  Objects: 5151
+  ObjectTypes: 57
+  Variables: 16707
   VariableTypes: 13
   DataTypes: 13
   Methods: 0
-  References: 19
+  References: 23
   ReferenceTypes: 0
-  Files: 33
+  Files: 35
  Nodes:
  - File: Nodes/Florida_Green1.yaml
