@@ -359,7 +359,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Auto_Seq/Receiving_auto_stage"
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Auto_Seq/Batch_Feed_auto_stage"
                     - Name: Pairs
                       Type: BaseObjectType
                       Children:
@@ -730,7 +730,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/KokomoGreen2/CommDrivers/Pellet Mill PLC/Pellet mill PLC/Tags/Controller Tags/SYS/Cooler_discharge_Status"
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Auto_Seq/Batch_Loop_auto_stage"
                     - Name: Pairs
                       Type: BaseObjectType
                       Children:
