@@ -758,6 +758,242 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: HMI_ALARMS
+  Id: g=627948029e059bb533d20ecf752257fd
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "HMI_ALARMS",
+    "DataType": {
+     "IdType": 2,
+     "Id": "627948029e059bb533d20ecf752257fd",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Batch_Elevator_Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Alarm_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Alarm_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Alarm_3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Alarm_4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Explosion_Panel_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Explosion_Valve_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Low_Speed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Explosion_Valve_4_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Explosion_Valve_5_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Explosion_Valve_6_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Explosion_Valve_7_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Hopper_Explosion_Valve_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ON_UPS_Power_Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_EXP_1_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_EXP_2_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_EXP_3_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_EXP_4_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_EXP_5_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_EXP_6_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Low_Flow_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Low_Speed_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Lower_Left_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Lower_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Upper_Left_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Upper_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pellet_MIl_1_Discharge",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pellet_Mill_2_Discharge",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pellet_MIll_3_Discharge",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pellet_Mill_Explosion_Valve_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Alarm_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Alarm_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Alarm_3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Alarm_4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Explosion_Panel_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Explosion_Valve_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Low_Speed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Replace_UPS_Battery",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Rotoclone_Low_Water",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Shaker_Discharge",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Surge_Hopper_Explosion_Valve_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Surge_Tank_Low_Level",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"HMI_ALARMS"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: SYSTEM
   Id: g=bcd107f6afeb4922003bb872d8828b3a
   Supertype: Structure

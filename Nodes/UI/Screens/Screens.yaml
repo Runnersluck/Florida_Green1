@@ -5,3 +5,5 @@ Children:
 - File: Receiving/Receiving.yaml
 - File: Pellet_Mill/Pellet_Mill.yaml
 - File: Mixer/Mixer.yaml
+- File: Cooler/Cooler.yaml
+- File: BagLine/BagLine.yaml

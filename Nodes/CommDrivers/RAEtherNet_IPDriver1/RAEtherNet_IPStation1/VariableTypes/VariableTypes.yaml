@@ -1677,6 +1677,399 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Super_Sac_2_Loss_In_Weight"
+- Name: HMI_ALARMS
+  Id: g=1ce2075e8d229df97a75ff19a909127e
+  Supertype: TagStructure
+  DataType: HMI_ALARMS
+  ValueRank: Any
+  Children:
+  - Name: Batch_Elevator_Alarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Alarm"
+  - Name: Batch_Elevator_Alarm_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Alarm_1"
+  - Name: Batch_Elevator_Alarm_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Alarm_2"
+  - Name: Batch_Elevator_Alarm_3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Alarm_3"
+  - Name: Batch_Elevator_Alarm_4
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Alarm_4"
+  - Name: Batch_Elevator_Explosion_Panel_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Explosion_Panel_Tripped"
+  - Name: Batch_Elevator_Explosion_Valve_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Explosion_Valve_Tripped"
+  - Name: Batch_Elevator_Low_Speed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Low_Speed"
+  - Name: Explosion_Valve_4_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Explosion_Valve_4_Tripped"
+  - Name: Explosion_Valve_5_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Explosion_Valve_5_Tripped"
+  - Name: Explosion_Valve_6_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Explosion_Valve_6_Tripped"
+  - Name: Explosion_Valve_7_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Explosion_Valve_7_Tripped"
+  - Name: Hopper_Explosion_Valve_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Hopper_Explosion_Valve_Tripped"
+  - Name: ON_UPS_Power_Alarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ON_UPS_Power_Alarm"
+  - Name: Outside_Elevator_EXP_1_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_EXP_1_Tripped"
+  - Name: Outside_Elevator_EXP_2_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_EXP_2_Tripped"
+  - Name: Outside_Elevator_EXP_3_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_EXP_3_Tripped"
+  - Name: Outside_Elevator_EXP_4_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_EXP_4_Tripped"
+  - Name: Outside_Elevator_EXP_5_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_EXP_5_Tripped"
+  - Name: Outside_Elevator_EXP_6_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_EXP_6_Tripped"
+  - Name: Outside_Elevator_Low_Flow_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_Low_Flow_Trip"
+  - Name: Outside_Elevator_Low_Speed_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_Low_Speed_Trip"
+  - Name: Outside_Elevator_Lower_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_Lower_Left_Rub_Trip"
+  - Name: Outside_Elevator_Lower_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_Lower_Right_Rub_Trip"
+  - Name: Outside_Elevator_Upper_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_Upper_Left_Rub_Trip"
+  - Name: Outside_Elevator_Upper_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Outside_Elevator_Upper_Right_Rub_Trip"
+  - Name: Pellet_MIl_1_Discharge
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pellet_MIl_1_Discharge"
+  - Name: Pellet_Mill_2_Discharge
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pellet_Mill_2_Discharge"
+  - Name: Pellet_MIll_3_Discharge
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pellet_MIll_3_Discharge"
+  - Name: Pellet_Mill_Explosion_Valve_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pellet_Mill_Explosion_Valve_Tripped"
+  - Name: PM_Elevator_Alarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Alarm"
+  - Name: PM_Elevator_Alarm_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Alarm_1"
+  - Name: PM_Elevator_Alarm_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Alarm_2"
+  - Name: PM_Elevator_Alarm_3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Alarm_3"
+  - Name: PM_Elevator_Alarm_4
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Alarm_4"
+  - Name: PM_Elevator_Explosion_Panel_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Explosion_Panel_Tripped"
+  - Name: PM_Elevator_Explosion_Valve_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Explosion_Valve_Tripped"
+  - Name: PM_Elevator_Low_Speed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Low_Speed"
+  - Name: Replace_UPS_Battery
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Replace_UPS_Battery"
+  - Name: Rotoclone_Low_Water
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Rotoclone_Low_Water"
+  - Name: Shaker_Discharge
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Shaker_Discharge"
+  - Name: Surge_Hopper_Explosion_Valve_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Surge_Hopper_Explosion_Valve_Tripped"
+  - Name: Surge_Tank_Low_Level
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Surge_Tank_Low_Level"
 - Name: SYSTEM
   Id: g=703bf618498abd3ed2725df2dd6dca33
   Supertype: TagStructure

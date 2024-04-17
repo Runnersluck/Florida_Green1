@@ -105,6 +105,915 @@ Children:
       DataType: NavigationPanelTabPositionEnum
       ModellingRule: Optional
       Value: 2
+- Name: Receiving_Master
+  Id: g=c9ddc0ad1ebf2bf189249f42216a9a66
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#002559"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1200.0
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: ScaleLayout1
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1852.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1092.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Status Bar
+      Type: Panel
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 602.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Panel1
+          Type: Panel
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Panel1
+              Type: Panel
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: Pm Status
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Receiving System Status"}
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#fdfdfd"
+                - Name: WordWrap
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ModellingRule: Optional
+                  Value: true
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 66.0
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 18.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 2
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: TextVerticalAlignment
+                  Type: BaseVariableType
+                  DataType: TextVerticalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 59.0
+            - Name: Panel2
+              Type: Panel
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: PM status box
+                Type: TextBox
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: KeyValueConverter1
+                    Type: ValueMapConverter
+                    Children:
+                    - Name: Source
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Auto_Seq/Receiving_auto_stage"
+                    - Name: Pairs
+                      Type: BaseObjectType
+                      Children:
+                      - Name: Pair
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 0
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Not Ready"
+                      - Name: Pair1
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 5
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused due to cooler level"
+                      - Name: Pair2
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 6
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused due to blender not ready"
+                      - Name: Pair3
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 7
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused due to rotoclone not started"
+                      - Name: Pair4
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 10
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused due to airlock not started"
+                      - Name: Pair5
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 15
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused due to cooler elevator not started"
+                      - Name: Pair6
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 20
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused due to Pellet mill shaker not running"
+                      - Name: Pair7
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 25
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused due to pellet mill not running"
+                      - Name: Pair8
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 30
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Pellet mill system running"
+                      - Name: Pair9
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 26
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Pellet mill system running. Pellet Mill #1 only"
+                      - Name: Pair10
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 27
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Pellet mill system running. Pellet Mill #2 only."
+                      - Name: Pair11
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 1
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Everything Not In Auto"
+                      - Name: Pair12
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 2
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Ready for Auto Start"
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 268.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 5.0
+                - Name: ContentType
+                  Type: BaseVariableType
+                  DataType: InputTypeEnum
+                  ModellingRule: Optional
+                  Value: 0
+                - Name: Visible
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ModellingRule: Optional
+                  Value: true
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: BottomMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 5.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -59.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+    - Name: TankStorage1
+      Type: ScaleLayout
+      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+      Children:
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#bcbec0"
+      - Name: LevelColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00aeef"
+      - Name: Level
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 0.0
+      - Name: MinLevel
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 0.0
+      - Name: MaxLevel
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 100.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 127.64099884033203
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 240.0
+      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Outline
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 127.64099884033203
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 240.0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Outline.svg"
+      - Name: vessel_fill
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=20;%PROJECTDIR%/res/TankStorage_vessel_fill.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 127.64099884033203
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 240.0
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#bcbec0"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+      - Name: TankStorage_vessel_level
+        Type: LinearGauge
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 70.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Level"
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../MinLevel"
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 100.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../MaxLevel"
+        - Name: WarningZones
+          Type: BaseObjectType
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 122.9020004272461
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 235.63400268554688
+        - Name: MajorTickCount
+          Type: BaseDataVariableType
+          DataType: Float
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Orientation
+          Type: BaseDataVariableType
+          DataType: OrientationEnum
+          ModellingRule: Optional
+          Value: 1
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=20;%PROJECTDIR%/res/TankStorage_LinearGauge_vessel_level.svg"
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#00aeef"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../LevelColor"
+        - Name: ValueChangeBehaviour
+          Type: BaseDataVariableType
+          DataType: ValueChangeBehaviour
+          ModellingRule: Optional
+          Value: 1
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 2.555999994277954
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 2.1816000938415527
+        - Name: ScalePosition
+          Type: BaseDataVariableType
+          DataType: PositionEnum
+          ModellingRule: Optional
+          Value: 2
+      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Overlay
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 127.64099884033203
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 240.0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Overlay.svg"
+      - Name: OriginalWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 127.64099884033203
+      - Name: OriginalHeight
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 240.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 165.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 338.0
+    - Name: TankStorage2
+      Type: ScaleLayout
+      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+      Children:
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#bcbec0"
+      - Name: LevelColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00aeef"
+      - Name: Level
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 0.0
+      - Name: MinLevel
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 0.0
+      - Name: MaxLevel
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 100.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 127.64099884033203
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 240.0
+      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Outline
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 127.64099884033203
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 240.0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Outline.svg"
+      - Name: vessel_fill
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=20;%PROJECTDIR%/res/TankStorage_vessel_fill.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 127.64099884033203
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 240.0
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#bcbec0"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+      - Name: TankStorage_vessel_level
+        Type: LinearGauge
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 70.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Level"
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../MinLevel"
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 100.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../MaxLevel"
+        - Name: WarningZones
+          Type: BaseObjectType
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 122.9020004272461
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 235.63400268554688
+        - Name: MajorTickCount
+          Type: BaseDataVariableType
+          DataType: Float
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Orientation
+          Type: BaseDataVariableType
+          DataType: OrientationEnum
+          ModellingRule: Optional
+          Value: 1
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=20;%PROJECTDIR%/res/TankStorage_LinearGauge_vessel_level.svg"
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#00aeef"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../LevelColor"
+        - Name: ValueChangeBehaviour
+          Type: BaseDataVariableType
+          DataType: ValueChangeBehaviour
+          ModellingRule: Optional
+          Value: 1
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 2.555999994277954
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 2.1816000938415527
+        - Name: ScalePosition
+          Type: BaseDataVariableType
+          DataType: PositionEnum
+          ModellingRule: Optional
+          Value: 2
+      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Overlay
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 127.64099884033203
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 240.0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Overlay.svg"
+      - Name: OriginalWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 127.64099884033203
+      - Name: OriginalHeight
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 240.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 468.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 334.0
+    - Name: Image1
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=20;%PROJECTDIR%/3wayvalve SVG.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 176.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 126.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 191.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 536.0
+    - Name: Image2
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=20;%PROJECTDIR%/3wayvalve SVG.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 176.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 126.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 493.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 531.0
 - Name: Manual_Batch_feed1
   Id: g=84e8d0346b6e4b9fafd3698870fd4a7b
   Supertype: Screen
@@ -2716,1888 +3625,3 @@ Children:
     DataType: Color
     ModellingRule: Optional
     Value: "#002559"
-- Name: Receiving_Master
-  Id: g=c9ddc0ad1ebf2bf189249f42216a9a66
-  Supertype: Screen
-  ReferenceType: HasComponent
-  Children:
-  - Name: BackgroundColor
-    Type: BaseDataVariableType
-    DataType: Color
-    ModellingRule: Optional
-    Value: "#002559"
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 1920.0
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 1200.0
-  - Name: HorizontalAlignment
-    Type: BaseVariableType
-    DataType: HorizontalAlignment
-    ModellingRule: Optional
-    Value: 3
-  - Name: ScaleLayout1
-    Type: ScaleLayout
-    Children:
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1852.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1092.0
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: Status Bar
-      Type: Panel
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 602.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 144.0
-      - Name: VerticalLayout1
-        Type: ColumnLayout
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: Panel1
-          Type: Panel
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Panel1
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Pm Status
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"en-US","Text":"Pellet Mill System Status"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 0.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 0.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#fdfdfd"
-                - Name: WordWrap
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ModellingRule: Optional
-                  Value: true
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 66.0
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 18.0
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 3
-                - Name: TextHorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: TextHorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: TextVerticalAlignment
-                  Type: BaseVariableType
-                  DataType: TextVerticalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-              - Name: RightMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 59.0
-            - Name: Panel2
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: PM status box
-                Type: TextBox
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: KeyValueConverter1
-                    Type: ValueMapConverter
-                    Children:
-                    - Name: Source
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      ReferenceType: HasSource
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "/Objects/KokomoGreen2/CommDrivers/Pellet Mill PLC/Pellet mill PLC/Tags/Controller Tags/SYS/Pellet_mill_status"
-                    - Name: Pairs
-                      Type: BaseObjectType
-                      Children:
-                      - Name: Pair
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Not Ready"
-                      - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 5
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler level"
-                      - Name: Pair2
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 6
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to blender not ready"
-                      - Name: Pair3
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 7
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to rotoclone not started"
-                      - Name: Pair4
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 10
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to airlock not started"
-                      - Name: Pair5
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 15
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler elevator not started"
-                      - Name: Pair6
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 20
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to Pellet mill shaker not running"
-                      - Name: Pair7
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 25
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to pellet mill not running"
-                      - Name: Pair8
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 30
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Pellet mill system running"
-                      - Name: Pair9
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 26
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Pellet mill system running. Pellet Mill #1 only"
-                      - Name: Pair10
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 27
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Pellet mill system running. Pellet Mill #2 only."
-                      - Name: Pair11
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 1
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Everything Not In Auto"
-                      - Name: Pair12
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 2
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Ready for Auto Start"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 268.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 0.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 5.0
-                - Name: ContentType
-                  Type: BaseVariableType
-                  DataType: InputTypeEnum
-                  ModellingRule: Optional
-                  Value: 0
-                - Name: Visible
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ModellingRule: Optional
-                  Value: true
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 3
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 3
-                - Name: BottomMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 5.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: -59.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-        - Name: Panel2
-          Type: Panel
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: HorizontalLayout1
-            Type: RowLayout
-            Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Panel1
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Cooler status
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"en-US","Text":"Cooler System Status"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 0.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 0.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#fdfdfd"
-                - Name: WordWrap
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ModellingRule: Optional
-                  Value: true
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 160.0
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 18.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: -1.0
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 3
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: TextHorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: TextHorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: TextVerticalAlignment
-                  Type: BaseVariableType
-                  DataType: TextVerticalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-              - Name: RightMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 59.0
-            - Name: Panel2
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: cooler status box
-                Type: TextBox
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: KeyValueConverter1
-                    Type: ValueMapConverter
-                    Children:
-                    - Name: Source
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      ReferenceType: HasSource
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "/Objects/KokomoGreen2/CommDrivers/Pellet Mill PLC/Pellet mill PLC/Tags/Controller Tags/SYS/Cooler_discharge_Status"
-                    - Name: Pairs
-                      Type: BaseObjectType
-                      Children:
-                      - Name: Pair
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Not Ready"
-                      - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 5
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Waiting on Cooler Dwell Timer"
-                      - Name: Pair2
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 6
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to Bagging hopper level"
-                      - Name: Pair3
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 7
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to Low Cooler Level"
-                      - Name: Pair4
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 10
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler discharge elevator not started"
-                      - Name: Pair5
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 15
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler shaker not started"
-                      - Name: Pair6
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 20
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler bottom screws not started"
-                      - Name: Pair7
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 25
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Cooler system running"
-                      - Name: Pair8
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 1
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Everything Not in Auto"
-                      - Name: Pair9
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 2
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Ready for Auto Start"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 268.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 0.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 5.0
-                - Name: ContentType
-                  Type: BaseVariableType
-                  DataType: InputTypeEnum
-                  ModellingRule: Optional
-                  Value: 0
-                - Name: Visible
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ModellingRule: Optional
-                  Value: true
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 3
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 3
-                - Name: BottomMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 5.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: -59.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: Panel3
-          Type: Panel
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: auto start pb
-            Type: Button
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Auto Start"}
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: ImagePath
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              ModellingRule: Optional
-              Value: ""
-            - Name: MouseDownEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ns=3;ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Value: "/Objects/Commands/VariableCommands"
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: ns=3;Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Toggle"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: VariableToModify
-                      Type: BaseDataVariableType
-                      DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: {"IdType":2,"Id":"98eb221c7972c17fbfefd8f2ff42f43b","Namespace":20}
-                    - Name: ArrayIndex
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
-                      ValueRank: ScalarOrOneDimension
-                      Value: 0
-              - Name: EventArguments
-                Type: MouseDownEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                  Value: ""
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                  Value: ""
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-                  Value: 0
-            - Name: MouseUpEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ns=3;ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Value: "/Objects/Commands/VariableCommands"
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: ns=3;Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Toggle"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: VariableToModify
-                      Type: BaseDataVariableType
-                      DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: {"IdType":2,"Id":"98eb221c7972c17fbfefd8f2ff42f43b","Namespace":20}
-                    - Name: ArrayIndex
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
-                      ValueRank: ScalarOrOneDimension
-                      Value: 0
-              - Name: EventArguments
-                Type: MouseUpEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                  Value: ""
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                  Value: ""
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-                  Value: 0
-            - Name: Visible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 2
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 160.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 40.0
-          - Name: auto stop pb
-            Type: Button
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Auto Stop"}
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: ImagePath
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              ModellingRule: Optional
-              Value: ""
-            - Name: MouseDownEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ns=3;ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Value: "/Objects/Commands/VariableCommands"
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: ns=3;Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Toggle"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: VariableToModify
-                      Type: BaseDataVariableType
-                      DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: {"IdType":2,"Id":"937bf3bf5b71b43f9c141602ccea1e05","Namespace":20}
-                    - Name: ArrayIndex
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
-                      ValueRank: ScalarOrOneDimension
-                      Value: 0
-              - Name: EventArguments
-                Type: MouseDownEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                  Value: ""
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                  Value: ""
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-                  Value: 0
-            - Name: MouseUpEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ns=3;ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Value: "/Objects/Commands/VariableCommands"
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: ns=3;Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Toggle"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: VariableToModify
-                      Type: BaseDataVariableType
-                      DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: {"IdType":2,"Id":"937bf3bf5b71b43f9c141602ccea1e05","Namespace":20}
-                    - Name: ArrayIndex
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
-                      ValueRank: ScalarOrOneDimension
-                      Value: 0
-              - Name: EventArguments
-                Type: MouseUpEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                  Value: ""
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                  Value: ""
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-                  Value: 0
-            - Name: Visible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/KokomoGreen2/CommDrivers/Pellet Mill PLC/Pellet mill PLC/Tags/Controller Tags/SYS/Auto_mode_ON"
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 2
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 160.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 40.0
-          - Name: AutoStartPb1
-            Type: Button
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Auto ALL PB"}
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: ImagePath
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              ModellingRule: Optional
-              Value: ""
-            - Name: MouseDownEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ns=3;ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Value: "/Objects/Commands/VariableCommands"
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: ns=3;Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Toggle"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: VariableToModify
-                      Type: BaseDataVariableType
-                      DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: {"IdType":2,"Id":"50c23c68806e869bafd36a4ebe6a7664","Namespace":20}
-                    - Name: ArrayIndex
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
-                      ValueRank: ScalarOrOneDimension
-                      Value: 0
-              - Name: EventArguments
-                Type: MouseDownEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                  Value: ""
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                  Value: ""
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-                  Value: 0
-            - Name: MouseUpEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ns=3;ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Value: "/Objects/Commands/VariableCommands"
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: ns=3;Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Toggle"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: VariableToModify
-                      Type: BaseDataVariableType
-                      DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
-                      Value: {"IdType":2,"Id":"50c23c68806e869bafd36a4ebe6a7664","Namespace":20}
-                    - Name: ArrayIndex
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
-                      ValueRank: ScalarOrOneDimension
-                      Value: 0
-              - Name: EventArguments
-                Type: MouseUpEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                  Value: ""
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                  Value: ""
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-                  Value: 0
-            - Name: Visible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 160.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 40.0
-            - Name: WordWrap
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: Optional
-              Value: true
-            - Name: ImagePosition
-              Type: BaseDataVariableType
-              DataType: Position
-              ModellingRule: Optional
-              Value: 4
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: BackgroundColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#0e65ff"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#fdfdfd"
-          - Name: Switch1
-            Type: Switch
-            Children:
-            - Name: Checked
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/KokomoGreen2/CommDrivers/Pellet Mill PLC/Pellet mill PLC/Tags/Controller Tags/cooler/Cooler_to_bulk_mode"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 138.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 2
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 2
-            - Name: CheckedText
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Bulk Mode On"}
-            - Name: UncheckedText
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Bulk Mode Off"}
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: -8.0
-            - Name: BottomMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
-    - Name: TankStorage1
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#bcbec0"
-      - Name: LevelColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#00aeef"
-      - Name: Level
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MinLevel
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MaxLevel
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 100.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 127.64099884033203
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 240.0
-      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Outline
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Outline.svg"
-      - Name: vessel_fill
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/TankStorage_vessel_fill.svg"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: DynamicColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#bcbec0"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
-      - Name: TankStorage_vessel_level
-        Type: LinearGauge
-        Children:
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 70.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../Level"
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../MinLevel"
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 100.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../MaxLevel"
-        - Name: WarningZones
-          Type: BaseObjectType
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 122.9020004272461
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 235.63400268554688
-        - Name: MajorTickCount
-          Type: BaseDataVariableType
-          DataType: Float
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: Orientation
-          Type: BaseDataVariableType
-          DataType: OrientationEnum
-          ModellingRule: Optional
-          Value: 1
-        - Name: ImagePath
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          ModellingRule: Optional
-          Value: "ns=20;%PROJECTDIR%/res/TankStorage_LinearGauge_vessel_level.svg"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#00aeef"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../LevelColor"
-        - Name: ValueChangeBehaviour
-          Type: BaseDataVariableType
-          DataType: ValueChangeBehaviour
-          ModellingRule: Optional
-          Value: 1
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 2.555999994277954
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 2.1816000938415527
-        - Name: ScalePosition
-          Type: BaseDataVariableType
-          DataType: PositionEnum
-          ModellingRule: Optional
-          Value: 2
-      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Overlay
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Overlay.svg"
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 127.64099884033203
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 240.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 165.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 338.0
-    - Name: TankStorage2
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#bcbec0"
-      - Name: LevelColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#00aeef"
-      - Name: Level
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MinLevel
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MaxLevel
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 100.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 127.64099884033203
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 240.0
-      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Outline
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Outline.svg"
-      - Name: vessel_fill
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/TankStorage_vessel_fill.svg"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: DynamicColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#bcbec0"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
-      - Name: TankStorage_vessel_level
-        Type: LinearGauge
-        Children:
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 70.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../Level"
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../MinLevel"
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 100.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../MaxLevel"
-        - Name: WarningZones
-          Type: BaseObjectType
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 122.9020004272461
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 235.63400268554688
-        - Name: MajorTickCount
-          Type: BaseDataVariableType
-          DataType: Float
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: Orientation
-          Type: BaseDataVariableType
-          DataType: OrientationEnum
-          ModellingRule: Optional
-          Value: 1
-        - Name: ImagePath
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          ModellingRule: Optional
-          Value: "ns=20;%PROJECTDIR%/res/TankStorage_LinearGauge_vessel_level.svg"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#00aeef"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../LevelColor"
-        - Name: ValueChangeBehaviour
-          Type: BaseDataVariableType
-          DataType: ValueChangeBehaviour
-          ModellingRule: Optional
-          Value: 1
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 2.555999994277954
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 2.1816000938415527
-        - Name: ScalePosition
-          Type: BaseDataVariableType
-          DataType: PositionEnum
-          ModellingRule: Optional
-          Value: 2
-      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Overlay
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Overlay.svg"
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 127.64099884033203
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 240.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 351.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 336.0
