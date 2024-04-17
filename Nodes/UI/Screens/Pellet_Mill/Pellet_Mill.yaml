@@ -44,22 +44,6 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-      - Name: Panel3
-        Type: NavigationPanelItem
-        Children:
-        - Name: Title
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Pellet Mill Config"}
-        - Name: Panel
-          Type: NodePointer
-          DataType: NodeId
-          Value: {"IdType":2,"Id":"182c5040465df82928ebfbaa5813edd0","Namespace":20}
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel4
         Type: NavigationPanelItem
         Children:
