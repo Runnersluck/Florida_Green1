@@ -656,7 +656,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"cd286c8cf98df58f16e1b230af193ed8","Namespace":20}
+          Value: "/Objects/Florida_Green1/UI/Screens/Master/Login1"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -853,7 +853,7 @@ Children:
                           Type: BaseDataVariableType
                           DataType: NodeId
                           Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                          Value: {"IdType":2,"Id":"01889904c489a5c0e1422d0477abbb67","Namespace":20}
+                          Value: "/Objects/Florida_Green1/UI/Screens/Master/Side_Nav_master1"
                         - Name: AliasNode
                           Type: BaseDataVariableType
                           DataType: NodeId
