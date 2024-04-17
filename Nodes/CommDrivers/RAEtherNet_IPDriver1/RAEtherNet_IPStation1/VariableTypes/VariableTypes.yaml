@@ -1623,6 +1623,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Mixer_Scale_Weight"
+  - Name: PM_Hopper_Mixer_Level_Sensor
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Hopper_Mixer_Level_Sensor"
   - Name: PM_Level_Mill_Sensor_1
     Type: RAEtherNetIPTag
     DataType: Float
@@ -1650,15 +1659,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Level_Mill_Sensor_3"
-  - Name: Ribbon_Blender_Level_Sensor
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Ribbon_Blender_Level_Sensor"
   - Name: Super_Sac_1_Loss_In_Weight
     Type: RAEtherNetIPTag
     DataType: Float

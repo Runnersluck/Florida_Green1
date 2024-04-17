@@ -719,6 +719,11 @@ Children:
        "Id": 10
       }
      },{
+      "Name": "PM_Hopper_Mixer_Level_Sensor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
       "Name": "PM_Level_Mill_Sensor_1",
       "DataType": {
        "Id": 10
@@ -730,11 +735,6 @@ Children:
       }
      },{
       "Name": "PM_Level_Mill_Sensor_3",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Ribbon_Blender_Level_Sensor",
       "DataType": {
        "Id": 10
       }
