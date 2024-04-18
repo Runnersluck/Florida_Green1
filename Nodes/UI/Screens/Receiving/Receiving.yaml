@@ -357,41 +357,8 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Not Ready"
+                          Value: "E-Stop pressed"
                       - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 5
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler level"
-                      - Name: Pair2
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 6
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to blender not ready"
-                      - Name: Pair3
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 7
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to rotoclone not started"
-                      - Name: Pair4
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -401,19 +368,8 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Paused due to airlock not started"
-                      - Name: Pair5
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 15
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler elevator not started"
-                      - Name: Pair6
+                          Value: "Selected tank full"
+                      - Name: Pair2
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -423,19 +379,8 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Paused due to Pellet mill shaker not running"
-                      - Name: Pair7
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 25
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to pellet mill not running"
-                      - Name: Pair8
+                          Value: "Receiving loop equipment not ready"
+                      - Name: Pair3
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -445,51 +390,73 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Pellet mill system running"
-                      - Name: Pair9
+                          Value: "Receiving loop equipment not all in auto"
+                      - Name: Pair4
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 26
+                          Value: 40
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Pellet mill system running. Pellet Mill #1 only"
+                          Value: "Bin divertor valve not toward selected bin "
+                      - Name: Pair5
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 50
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on drag hopper "
+                      - Name: Pair6
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 60
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on outside elevator"
+                      - Name: Pair7
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 70
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Receiving system running"
+                      - Name: Pair8
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 80
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Outside elevator running"
                       - Name: Pair10
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 27
+                          Value: 45
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Pellet mill system running. Pellet Mill #2 only."
-                      - Name: Pair11
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 1
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Everything Not In Auto"
-                      - Name: Pair12
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 2
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Ready for Auto Start"
+                          Value: "Waiting on start command"
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
