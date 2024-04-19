@@ -424,11 +424,11 @@ Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 41
+                          Value: 5
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: ""
+                          Value: "Batch mode not selected"
                       - Name: Pair6
                         Type: ValueMapPair
                         Children:
@@ -439,7 +439,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: ""
+                          Value: "Waiting on start command"
                       - Name: Pair7
                         Type: ValueMapPair
                         Children:
@@ -450,7 +450,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: ""
+                          Value: "Waiting on batch feed elevator"
                       - Name: Pair8
                         Type: ValueMapPair
                         Children:
@@ -461,47 +461,25 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: ""
+                          Value: "Waiting on main auger"
                       - Name: Pair9
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 0
+                          Value: 80
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: ""
+                          Value: "Batch feed system running"
                       - Name: Pair10
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 0
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: ""
-                      - Name: Pair11
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: ""
-                      - Name: Pair12
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 2
+                          Value: 90
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
