@@ -384,7 +384,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Selected Dutchman empty"
+                          Value: "Batch feed loop equipment not ready"
                       - Name: Pair2
                         Type: ValueMapPair
                         Children:
@@ -395,7 +395,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Bin divertor not in batch"
+                          Value: "Batch feed equipment loop not in all auto"
                       - Name: Pair3
                         Type: ValueMapPair
                         Children:
@@ -406,8 +406,19 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Batch feed loop equipment not ready"
+                          Value: "Selected Dutchman empty"
                       - Name: Pair4
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 35
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Batch Feed elevator has low flow"
+                      - Name: Pair5
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -417,25 +428,14 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Batch feed equipment loop not in all auto"
-                      - Name: Pair5
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 5
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Batch mode not selected"
+                          Value: "Select batch mode"
                       - Name: Pair6
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 50
+                          Value: 45
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
@@ -446,12 +446,23 @@ Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
+                          Value: 50
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting for correct scale weight"
+                      - Name: Pair8
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
                           Value: 60
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Waiting on batch feed elevator"
-                      - Name: Pair8
+                          Value: "Slide gate not closed"
+                      - Name: Pair9
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -461,8 +472,8 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Waiting on main auger"
-                      - Name: Pair9
+                          Value: "Divertor valve not towards batch"
+                      - Name: Pair10
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -472,8 +483,8 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Batch feed system running"
-                      - Name: Pair10
+                          Value: "Waiting for Rotoclone"
+                      - Name: Pair11
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -483,7 +494,73 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: ""
+                          Value: "Waiting for Batch Feed Elevator"
+                      - Name: Pair12
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 100
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting for Main Feed Auger"
+                      - Name: Pair13
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 110
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Select a Dutchman to start batch "
+                      - Name: Pair14
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 120
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Dutchman A is empty"
+                      - Name: Pair15
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 130
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Dutchman B is empty"
+                      - Name: Pair16
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 140
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Dutchman C is empty"
+                      - Name: Pair17
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 150
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Batch mode running"
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
