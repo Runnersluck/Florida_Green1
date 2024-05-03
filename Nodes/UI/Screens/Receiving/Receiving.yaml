@@ -358,17 +358,6 @@ Children:
                           Type: BaseDataVariableType
                           DataType: String
                           Value: "E-Stop pressed"
-                      - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 10
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Selected tank full"
                       - Name: Pair2
                         Type: ValueMapPair
                         Children:
@@ -391,24 +380,13 @@ Children:
                           Type: BaseDataVariableType
                           DataType: String
                           Value: "Receiving loop equipment not all in auto"
-                      - Name: Pair4
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 40
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Bin divertor valve not toward selected bin "
                       - Name: Pair5
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 50
+                          Value: 40
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
@@ -423,7 +401,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Waiting on outside elevator"
+                          Value: "Select correct divertor for selected Dutchman"
                       - Name: Pair7
                         Type: ValueMapPair
                         Children:
@@ -434,7 +412,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Receiving system running"
+                          Value: "Waiting on outside elevator"
                       - Name: Pair8
                         Type: ValueMapPair
                         Children:
@@ -445,18 +423,29 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Outside elevator running"
-                      - Name: Pair10
+                          Value: "Waiting on drag hopper "
+                      - Name: Pair1
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 45
+                          Value: 50
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Waiting on start command"
+                          Value: "Select an empty Dutchman"
+                      - Name: Pair4
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 90
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Receiving loop running"
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
