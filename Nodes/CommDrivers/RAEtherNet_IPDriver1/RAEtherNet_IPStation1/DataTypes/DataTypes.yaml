@@ -845,6 +845,35 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "BATCH_FEED_ELEV_LOW_FLOW_TIMER",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "BATCH_FEED_ELEVATOR_LOW_FLOW",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_SCALE_HOPPER_FULL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_SCALE_HOPPER_FULL_TIMER",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Bin_Divertor_Valve_Incorrect_Pos",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Cooler_Elevator_EXP_1_Tripped",
       "DataType": {
        "Id": 1
@@ -1040,6 +1069,16 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Selected_Dutchman_Hopper_Empty",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Selected_Dutchman_Hopper_Full",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Shaker_Discharge",
       "DataType": {
        "Id": 1
@@ -1086,6 +1125,11 @@ Children:
        "Id": 6
       }
      },{
+      "Name": "Cooler_Elevator_Status",
+      "DataType": {
+       "Id": 6
+      }
+     },{
       "Name": "Cyclone_Airlock_Status",
       "DataType": {
        "Id": 6
@@ -1119,6 +1163,11 @@ Children:
       "Name": "Flying_Dutchman_C_Status",
       "DataType": {
        "Id": 6
+      }
+     },{
+      "Name": "HMI_RESET_PB",
+      "DataType": {
+       "Id": 1
       }
      },{
       "Name": "Hour",
@@ -1350,6 +1399,87 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: MODES
+  Id: g=602652b0719c3fe4cc7fe69602c6dd37
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MODES",
+    "DataType": {
+     "IdType": 2,
+     "Id": "602652b0719c3fe4cc7fe69602c6dd37",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "BATCH_MIXER_FEED_PAUSE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_MIXER_FEED_START",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_MODE_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_MODE_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_MODE_SELECTED_STATUS",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CLEAN_OUT_MODE_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CLEAN_OUT_MODE_SELECT_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NON_BATCH_MODE_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NON_BATCH_MODE_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_MODE_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_MODE_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SYNTHETIC_ADD_SELECTOR_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MODES"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: STATUS
   Id: g=8bd8e1db80b4547d0aee2838e49c6f65
   Supertype: Structure
@@ -1383,6 +1513,11 @@ Children:
       }
      },{
       "Name": "Bin_Divertor_Reject",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Drag_Hopper_Running",
       "DataType": {
        "Id": 1
       }
@@ -1643,6 +1778,21 @@ Children:
        "Id": 6
       }
      },{
+      "Name": "NO_BATCH_ALL_IN_AUTO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NO_BATCH_AUTO_READY",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NO_BATCH_AUTO_STAGE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
       "Name": "PM_all_in_auto",
       "DataType": {
        "Id": 1
@@ -1684,6 +1834,21 @@ Children:
       }
      },{
       "Name": "Receiving_auto_stage",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "REJECT_BATCH_ALL_IN_AUTO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_BATCH_AUTO_READY",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_BATCH_AUTO_STAGE",
       "DataType": {
        "Id": 6
       }
