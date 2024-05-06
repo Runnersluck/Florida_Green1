@@ -9384,7 +9384,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogDescription"}
-              Value: {"IdType":2,"Id":"8afaf600bd612d0ea5dff24c75f40a26","Namespace":20}
+              Value: "/Objects/Florida_Green1/UI/Popups/VALVE_POPUP"
             - Name: AliasNode
               Type: BaseDataVariableType
               DataType: NodeId
