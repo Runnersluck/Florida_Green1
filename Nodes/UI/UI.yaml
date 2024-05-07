@@ -1754,7 +1754,7 @@ Children:
                           Type: BaseDataVariableType
                           DataType: NodeId
                           Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                          Value: {"IdType":2,"Id":"b43801e8245340519f024e8dd3a9db02","Namespace":20}
+                          Value: "/Objects/Florida_Green1/UI/Screens/Odor/Side_Nav_5"
                         - Name: AliasNode
                           Type: BaseDataVariableType
                           DataType: NodeId

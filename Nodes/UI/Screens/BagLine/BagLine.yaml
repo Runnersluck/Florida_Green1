@@ -1586,7 +1586,7 @@ Children:
         ModellingRule: Optional
         Value: 32.0
     - Name: NonVFDmotorstatus1
-      Type: NonVFDmotorstatus1
+      Type: NonVFDmotorstatus
       Children:
       - Name: VerticalLayout1
         Type: ColumnLayout

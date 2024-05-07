@@ -1627,14 +1627,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 115.0
+        Value: 375.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 15.0
+        Value: 41.0
       - Name: Valve_status1
-        Type: Valve_status2
+        Type: Valve_status
         Children:
         - Name: background
           Type: Rectangle
@@ -2045,14 +2045,14 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 994.0
+          Value: 992.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 448.0
+          Value: 456.0
       - Name: Valve_status2
-        Type: Valve_status2
+        Type: Valve_status
         Children:
         - Name: background
           Type: Rectangle
@@ -2463,14 +2463,14 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 990.0
+          Value: 986.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 676.0
     - Name: NonVFDmotorstatus1
-      Type: NonVFDmotorstatus1
+      Type: NonVFDmotorstatus
       Children:
       - Name: VerticalLayout1
         Type: ColumnLayout
@@ -2942,14 +2942,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 660.0
+        Value: 896.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 171.0
+        Value: 111.0
     - Name: NonVFDmotorstatus2
-      Type: NonVFDmotorstatus1
+      Type: NonVFDmotorstatus
       Children:
       - Name: VerticalLayout1
         Type: ColumnLayout
@@ -3421,14 +3421,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1454.0
+        Value: 1512.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 335.0
+        Value: 219.0
     - Name: VFDmotorstatus1
-      Type: VFDmotorstatus1
+      Type: VFDmotorstatus
       Children:
       - Name: VerticalLayout1
         Type: ColumnLayout
@@ -3752,7 +3752,7 @@ Children:
                   ValueRank: ScalarOrOneDimension
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
-                  - Name: DynamicLink1
+                  - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "{Vfdstatusalias}@NodeId"
@@ -3760,6 +3760,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../..@NodeId"
               - Name: OutputArguments
                 Type: BaseObjectType
                 Children:
@@ -3815,14 +3820,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 550.0
+        Value: 756.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 748.0
+        Value: 772.0
     - Name: VFDmotorstatus2
-      Type: VFDmotorstatus1
+      Type: VFDmotorstatus
       Children:
       - Name: VerticalLayout1
         Type: ColumnLayout
@@ -4146,7 +4151,7 @@ Children:
                   ValueRank: ScalarOrOneDimension
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
-                  - Name: DynamicLink1
+                  - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "{Vfdstatusalias}@NodeId"
@@ -4154,6 +4159,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../..@NodeId"
               - Name: OutputArguments
                 Type: BaseObjectType
                 Children:
@@ -4209,14 +4219,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1005.0
+        Value: 1245.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 578.0
+        Value: 600.0
     - Name: VFDmotorstatus3
-      Type: VFDmotorstatus1
+      Type: VFDmotorstatus
       Children:
       - Name: VerticalLayout1
         Type: ColumnLayout
@@ -4540,7 +4550,7 @@ Children:
                   ValueRank: ScalarOrOneDimension
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
-                  - Name: DynamicLink1
+                  - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "{Vfdstatusalias}@NodeId"
@@ -4548,6 +4558,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../..@NodeId"
               - Name: OutputArguments
                 Type: BaseObjectType
                 Children:
@@ -4603,12 +4618,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1007.0
+        Value: 1241.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 985.0
+        Value: 877.0
 - Name: Manual_Batch_feed
   Id: g=f0655d50f850ded4ec0ca87fc6a8b501
   Supertype: Screen
@@ -4656,7 +4671,7 @@ Children:
         ModellingRule: Optional
         Value: 3
       - Name: NonVFDMotorController1
-        Type: NonVFDMotorController1
+        Type: NonVFDMotorController
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -5443,7 +5458,7 @@ Children:
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
       - Name: Valvecont1
-        Type: Valvecont2
+        Type: Valvecont
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -5947,7 +5962,7 @@ Children:
             DataType: NodeId
             Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
       - Name: NonVFDMotorController2
-        Type: NonVFDMotorController1
+        Type: NonVFDMotorController
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -6734,7 +6749,7 @@ Children:
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
       - Name: Valvecont2
-        Type: Valvecont2
+        Type: Valvecont
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -7238,7 +7253,7 @@ Children:
             DataType: NodeId
             Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
       - Name: VFDMotorController1
-        Type: VFDMotorController1
+        Type: VFDMotorController
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -7260,7 +7275,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/HMI_Name"
+                    Value: "{VFDcont}/HMI_Name"
             - Name: Panel2
               Type: Panel
               Children:
@@ -7283,7 +7298,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/ETM/Runtime"
+                        Value: "{VFDcont}/ETM/Runtime"
               - Name: TextBox1
                 Type: TextBox
                 Children:
@@ -7303,7 +7318,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/AMPERAGE"
+                        Value: "{VFDcont}/AMPERAGE"
             - Name: Panel3
               Type: Panel
               Children:
@@ -7321,7 +7336,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{VFDcont_TagAlias}/HMI_START_PB"
+                      Value: "{VFDcont}/HMI_START_PB"
                   - Name: MouseDownEventHandler1
                     Type: EventHandler
                     Children:
@@ -7502,7 +7517,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/Auto_Mode"
+                          Value: "{VFDcont}/Auto_Mode"
                 - Name: stop
                   Type: Button
                   Children:
@@ -7514,7 +7529,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{VFDcont_TagAlias}/HMI_STOP_PB"
+                      Value: "{VFDcont}/HMI_STOP_PB"
                   - Name: MouseDownEventHandler1
                     Type: EventHandler
                     Children:
@@ -7695,7 +7710,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/Auto_Mode"
+                          Value: "{VFDcont}/Auto_Mode"
             - Name: Panel4
               Type: Panel
               Children:
@@ -7710,7 +7725,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/Auto_Mode"
+                    Value: "{VFDcont}/Auto_Mode"
             - Name: Panel5
               Type: Panel
               Children:
@@ -7725,7 +7740,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/Reverse_Mode"
+                    Value: "{VFDcont}/Reverse_Mode"
                 - Name: ModifiedValueHandler1
                   Type: EventHandler
                   Children:
@@ -7763,7 +7778,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "{VFDcont_TagAlias}/FORWARD_HMI_PB@NodeId"
+                            Value: "{VFDcont}/FORWARD_HMI_PB@NodeId"
                         - Name: ArrayIndex
                           Type: BaseDataVariableType
                           DataType: UInt32
@@ -7823,7 +7838,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/Auto_Mode"
+                        Value: "{VFDcont}/Auto_Mode"
             - Name: Panel6
               Type: Panel
               Children:
@@ -7844,7 +7859,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/SPD_CMD"
+                        Value: "{VFDcont}/SPD_CMD"
                   - Name: Label1
                     Type: Label
                     Children:
@@ -7874,7 +7889,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "{VFDcont_TagAlias}/SPD_FDBK"
+                            Value: "{VFDcont}/SPD_FDBK"
                   - Name: Label2
                     Type: Label
                     Children:
@@ -7904,7 +7919,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/HMI_Status"
+                        Value: "{VFDcont}/HMI_Status"
                     - Name: Pairs
                       Type: BaseObjectType
                       Children:
@@ -8001,7 +8016,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/HMI_Status"
+                        Value: "{VFDcont}/HMI_Status"
                     - Name: Pairs
                       Type: BaseObjectType
                       Children:
@@ -8101,7 +8116,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/HMI_Status"
+                          Value: "{VFDcont}/HMI_Status"
                       - Name: Pairs
                         Type: BaseObjectType
                         Children:
@@ -8182,7 +8197,7 @@ Children:
                             Type: BaseDataVariableType
                             DataType: String
                             Value: "Running REV"
-        - Name: VFDcont_TagAlias
+        - Name: VFDcont
           Type: Alias
           DataType: NodeId
           Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Main_Feed_Auger"
@@ -8215,7 +8230,7 @@ Children:
         ModellingRule: Optional
         Value: 3
       - Name: NonVFDMotorController1
-        Type: NonVFDMotorController1
+        Type: NonVFDMotorController
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -9030,7 +9045,7 @@ Children:
           ModellingRule: Optional
           Value: 3
         - Name: NonVFDMotorController1
-          Type: NonVFDMotorController1
+          Type: NonVFDMotorController
           Children:
           - Name: Rectangle1
             Type: Rectangle
@@ -9942,7 +9957,7 @@ Children:
         ModellingRule: Optional
         Value: 3
       - Name: Valvecont1
-        Type: Valvecont2
+        Type: Valvecont
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -10426,7 +10441,7 @@ Children:
             DataType: NodeId
             Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
       - Name: VFDMotorController1
-        Type: VFDMotorController1
+        Type: VFDMotorController
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -10448,7 +10463,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/HMI_Name"
+                    Value: "{VFDcont}/HMI_Name"
             - Name: Panel2
               Type: Panel
               Children:
@@ -10471,7 +10486,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/ETM/Runtime"
+                        Value: "{VFDcont}/ETM/Runtime"
               - Name: TextBox1
                 Type: TextBox
                 Children:
@@ -10491,7 +10506,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/AMPERAGE"
+                        Value: "{VFDcont}/AMPERAGE"
             - Name: Panel3
               Type: Panel
               Children:
@@ -10509,7 +10524,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{VFDcont_TagAlias}/HMI_START_PB"
+                      Value: "{VFDcont}/HMI_START_PB"
                   - Name: MouseDownEventHandler1
                     Type: EventHandler
                     Children:
@@ -10690,7 +10705,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/Auto_Mode"
+                          Value: "{VFDcont}/Auto_Mode"
                 - Name: stop
                   Type: Button
                   Children:
@@ -10702,7 +10717,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{VFDcont_TagAlias}/HMI_STOP_PB"
+                      Value: "{VFDcont}/HMI_STOP_PB"
                   - Name: MouseDownEventHandler1
                     Type: EventHandler
                     Children:
@@ -10883,7 +10898,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/Auto_Mode"
+                          Value: "{VFDcont}/Auto_Mode"
             - Name: Panel4
               Type: Panel
               Children:
@@ -10898,7 +10913,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/Auto_Mode"
+                    Value: "{VFDcont}/Auto_Mode"
             - Name: Panel5
               Type: Panel
               Children:
@@ -10913,7 +10928,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/Reverse_Mode"
+                    Value: "{VFDcont}/Reverse_Mode"
                 - Name: ModifiedValueHandler1
                   Type: EventHandler
                   Children:
@@ -10951,7 +10966,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "{VFDcont_TagAlias}/FORWARD_HMI_PB@NodeId"
+                            Value: "{VFDcont}/FORWARD_HMI_PB@NodeId"
                         - Name: ArrayIndex
                           Type: BaseDataVariableType
                           DataType: UInt32
@@ -11011,7 +11026,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/Auto_Mode"
+                        Value: "{VFDcont}/Auto_Mode"
             - Name: Panel6
               Type: Panel
               Children:
@@ -11032,7 +11047,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/SPD_CMD"
+                        Value: "{VFDcont}/SPD_CMD"
                   - Name: Label1
                     Type: Label
                     Children:
@@ -11062,7 +11077,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "{VFDcont_TagAlias}/SPD_FDBK"
+                            Value: "{VFDcont}/SPD_FDBK"
                   - Name: Label2
                     Type: Label
                     Children:
@@ -11092,7 +11107,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/HMI_Status"
+                        Value: "{VFDcont}/HMI_Status"
                     - Name: Pairs
                       Type: BaseObjectType
                       Children:
@@ -11189,7 +11204,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/HMI_Status"
+                        Value: "{VFDcont}/HMI_Status"
                     - Name: Pairs
                       Type: BaseObjectType
                       Children:
@@ -11289,7 +11304,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/HMI_Status"
+                          Value: "{VFDcont}/HMI_Status"
                       - Name: Pairs
                         Type: BaseObjectType
                         Children:
@@ -11370,7 +11385,7 @@ Children:
                             Type: BaseDataVariableType
                             DataType: String
                             Value: "Running REV"
-        - Name: VFDcont_TagAlias
+        - Name: VFDcont
           Type: Alias
           DataType: NodeId
           Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Mixer"
@@ -11380,7 +11395,7 @@ Children:
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
       - Name: Valvecont2
-        Type: Valvecont2
+        Type: Valvecont
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -11869,7 +11884,7 @@ Children:
             DataType: NodeId
             Value: {"IdType":2,"Id":"a8252f7730cb1dd578d8517d68caf1f6","Namespace":20}
       - Name: VFDMotorController2
-        Type: VFDMotorController1
+        Type: VFDMotorController
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -11891,7 +11906,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/HMI_Name"
+                    Value: "{VFDcont}/HMI_Name"
             - Name: Panel2
               Type: Panel
               Children:
@@ -11914,7 +11929,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/ETM/Runtime"
+                        Value: "{VFDcont}/ETM/Runtime"
               - Name: TextBox1
                 Type: TextBox
                 Children:
@@ -11934,7 +11949,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/AMPERAGE"
+                        Value: "{VFDcont}/AMPERAGE"
             - Name: Panel3
               Type: Panel
               Children:
@@ -11952,7 +11967,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{VFDcont_TagAlias}/HMI_START_PB"
+                      Value: "{VFDcont}/HMI_START_PB"
                   - Name: MouseDownEventHandler1
                     Type: EventHandler
                     Children:
@@ -12133,7 +12148,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/Auto_Mode"
+                          Value: "{VFDcont}/Auto_Mode"
                 - Name: stop
                   Type: Button
                   Children:
@@ -12145,7 +12160,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{VFDcont_TagAlias}/HMI_STOP_PB"
+                      Value: "{VFDcont}/HMI_STOP_PB"
                   - Name: MouseDownEventHandler1
                     Type: EventHandler
                     Children:
@@ -12326,7 +12341,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/Auto_Mode"
+                          Value: "{VFDcont}/Auto_Mode"
             - Name: Panel4
               Type: Panel
               Children:
@@ -12341,7 +12356,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/Auto_Mode"
+                    Value: "{VFDcont}/Auto_Mode"
             - Name: Panel5
               Type: Panel
               Children:
@@ -12356,7 +12371,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{VFDcont_TagAlias}/Reverse_Mode"
+                    Value: "{VFDcont}/Reverse_Mode"
                 - Name: ModifiedValueHandler1
                   Type: EventHandler
                   Children:
@@ -12394,7 +12409,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "{VFDcont_TagAlias}/FORWARD_HMI_PB@NodeId"
+                            Value: "{VFDcont}/FORWARD_HMI_PB@NodeId"
                         - Name: ArrayIndex
                           Type: BaseDataVariableType
                           DataType: UInt32
@@ -12454,7 +12469,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/Auto_Mode"
+                        Value: "{VFDcont}/Auto_Mode"
             - Name: Panel6
               Type: Panel
               Children:
@@ -12475,7 +12490,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/SPD_CMD"
+                        Value: "{VFDcont}/SPD_CMD"
                   - Name: Label1
                     Type: Label
                     Children:
@@ -12505,7 +12520,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "{VFDcont_TagAlias}/SPD_FDBK"
+                            Value: "{VFDcont}/SPD_FDBK"
                   - Name: Label2
                     Type: Label
                     Children:
@@ -12535,7 +12550,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/HMI_Status"
+                        Value: "{VFDcont}/HMI_Status"
                     - Name: Pairs
                       Type: BaseObjectType
                       Children:
@@ -12632,7 +12647,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{VFDcont_TagAlias}/HMI_Status"
+                        Value: "{VFDcont}/HMI_Status"
                     - Name: Pairs
                       Type: BaseObjectType
                       Children:
@@ -12732,7 +12747,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{VFDcont_TagAlias}/HMI_Status"
+                          Value: "{VFDcont}/HMI_Status"
                       - Name: Pairs
                         Type: BaseObjectType
                         Children:
@@ -12813,7 +12828,7 @@ Children:
                             Type: BaseDataVariableType
                             DataType: String
                             Value: "Running REV"
-        - Name: VFDcont_TagAlias
+        - Name: VFDcont
           Type: Alias
           DataType: NodeId
           Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Surge_Auger"
@@ -12823,7 +12838,7 @@ Children:
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
       - Name: NonVFDMotorController1
-        Type: NonVFDMotorController1
+        Type: NonVFDMotorController
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -13878,7 +13893,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: OOCnonvfd1
-            Type: OOCnonvfd1
+            Type: OOCnonvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -13958,7 +13973,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: DRY_OOCValve1
-            Type: DRY_OOCValve2
+            Type: DRY_OOCValve
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -14038,7 +14053,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: OOCnonvfd1
-            Type: OOCnonvfd1
+            Type: OOCnonvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -14138,7 +14153,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: DRY_OOCValve1
-            Type: DRY_OOCValve2
+            Type: DRY_OOCValve
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -14238,7 +14253,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: OOCvfd1
-            Type: OOCvfd1
+            Type: OOCvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -14318,7 +14333,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: OOCnonvfd1
-            Type: OOCnonvfd1
+            Type: OOCnonvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -14467,7 +14482,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: OOCvfd1
-            Type: OOCvfd1
+            Type: OOCvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -14570,7 +14585,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: OOCvfd1
-            Type: OOCvfd1
+            Type: OOCvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -14670,7 +14685,7 @@ Children:
             ModellingRule: Optional
             Value: 3
           - Name: OOCnonvfd1
-            Type: OOCnonvfd1
+            Type: OOCnonvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -14747,7 +14762,7 @@ Children:
               ModellingRule: Optional
               Value: 0.0
           - Name: OOCnonvfd2
-            Type: OOCnonvfd1
+            Type: OOCnonvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
