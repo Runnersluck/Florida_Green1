@@ -1336,6 +1336,8 @@ Children:
     - Name: VFDmotorstatus2
       Type: VFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -1735,6 +1737,8 @@ Children:
     - Name: VFDmotorstatus3
       Type: VFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -2134,6 +2138,8 @@ Children:
     - Name: VFDmotorstatus4
       Type: VFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -2533,6 +2539,8 @@ Children:
     - Name: NonVFDmotorstatus1
       Type: NonVFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -3012,6 +3020,8 @@ Children:
     - Name: NonVFDmotorstatus2
       Type: NonVFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -3491,6 +3501,8 @@ Children:
     - Name: NonVFDmotorstatus3
       Type: NonVFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -3970,6 +3982,8 @@ Children:
     - Name: NonVFDmotorstatus4
       Type: NonVFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -4449,6 +4463,8 @@ Children:
     - Name: NonVFDmotorstatus5
       Type: NonVFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -4928,6 +4944,8 @@ Children:
     - Name: NonVFDmotorstatus6
       Type: NonVFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -5407,6 +5425,8 @@ Children:
     - Name: NonVFDmotorstatus7
       Type: NonVFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:

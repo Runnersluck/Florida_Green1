@@ -13719,3 +13719,160 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "BATCH_MIXER_DUMP_VLV.Valve_position"
+- Name: Receiving
+  Type: RECEIVING
+  DataType: RECEIVING
+  Children:
+  - Name: Bin_diverter_valve_status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Bin_diverter_valve_status"
+  - Name: Bin_diverter_valve_toward_A
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Bin_diverter_valve_toward_A"
+  - Name: Bin_diverter_valve_towards_B
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Bin_diverter_valve_towards_B"
+  - Name: Bin_diverter_valve_towards_c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Bin_diverter_valve_towards_c"
+  - Name: Dump_Station_Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dump_Station_Start"
+  - Name: Dutchman_A_Full
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_A_Full"
+  - Name: Dutchman_A_Low
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_A_Low"
+  - Name: Dutchman_A_Mid
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_A_Mid"
+  - Name: Dutchman_B_Full
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_B_Full"
+  - Name: Dutchman_B_Low
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_B_Low"
+  - Name: Dutchman_B_Mid
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_B_Mid"
+  - Name: Dutchman_C_Full
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_C_Full"
+  - Name: Dutchman_C_Low
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_C_Low"
+  - Name: Dutchman_C_Mid
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Dutchman_C_Mid"
+  - Name: Fill_Dutch_A_Selected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Fill_Dutch_A_Selected"
+  - Name: Fill_Dutch_B_Selected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Fill_Dutch_B_Selected"
+  - Name: Fill_Dutch_C_Selected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving.Fill_Dutch_C_Selected"

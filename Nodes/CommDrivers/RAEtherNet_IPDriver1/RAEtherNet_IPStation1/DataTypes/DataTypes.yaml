@@ -2,6 +2,112 @@ Name: DataTypes
 Type: FolderType
 Children:
 - Class: DataType
+  Name: RECEIVING
+  Id: g=387e787d0e5d45565e20d653dd6425f3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "RECEIVING",
+    "DataType": {
+     "IdType": 2,
+     "Id": "387e787d0e5d45565e20d653dd6425f3",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Bin_diverter_valve_status",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Bin_diverter_valve_toward_A",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bin_diverter_valve_towards_B",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bin_diverter_valve_towards_c",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dump_Station_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_A_Full",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_A_Low",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_A_Mid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_B_Full",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_B_Low",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_B_Mid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_C_Full",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_C_Low",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_C_Mid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Fill_Dutch_A_Selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Fill_Dutch_B_Selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Fill_Dutch_C_Selected",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"RECEIVING"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: VALVES
   Id: g=6d636c0fb4bec5f5e73253c8fb9fc1da
   Supertype: Structure

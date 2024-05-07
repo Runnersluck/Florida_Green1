@@ -6849,6 +6849,8 @@ Children:
     - Name: VFDmotorstatus1
       Type: VFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -7248,6 +7250,8 @@ Children:
     - Name: NonVFDmotorstatus1
       Type: NonVFDmotorstatus
       Children:
+      - Name: background
+        Type: Rectangle
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
