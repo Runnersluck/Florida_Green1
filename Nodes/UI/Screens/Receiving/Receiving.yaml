@@ -153,6 +153,33 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+    - Name: Image5
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=20;%PROJECTDIR%/OUTSIDE ELEVATORflipped.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 508.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 796.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 486.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 66.0
     - Name: PipeStraight5
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -593,17 +620,6 @@ Children:
                           Type: BaseDataVariableType
                           DataType: String
                           Value: "E-Stop pressed"
-                      - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 10
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Selected tank full"
                       - Name: Pair2
                         Type: ValueMapPair
                         Children:
@@ -614,7 +630,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Receiving loop equipment not ready"
+                          Value: " Equipment not ready"
                       - Name: Pair3
                         Type: ValueMapPair
                         Children:
@@ -625,7 +641,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Receiving loop equipment not all in auto"
+                          Value: "Not all in auto"
                       - Name: Pair4
                         Type: ValueMapPair
                         Children:
@@ -636,7 +652,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Bin divertor valve not toward selected bin "
+                          Value: "Waiting for Unloader Start Command"
                       - Name: Pair5
                         Type: ValueMapPair
                         Children:
@@ -647,7 +663,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Waiting on drag hopper "
+                          Value: "Selected Bin Full"
                       - Name: Pair6
                         Type: ValueMapPair
                         Children:
@@ -658,7 +674,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Waiting on outside elevator"
+                          Value: "Diverter Valve not towards Selected Bin"
                       - Name: Pair7
                         Type: ValueMapPair
                         Children:
@@ -669,7 +685,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Receiving system running"
+                          Value: "Waiting on Outside Elevator"
                       - Name: Pair8
                         Type: ValueMapPair
                         Children:
@@ -680,18 +696,18 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Outside elevator running"
+                          Value: "Waiting on Drag hopper"
                       - Name: Pair10
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 45
+                          Value: 90
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Waiting on start command"
+                          Value: "Filling Selected Bin"
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
@@ -762,6 +778,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 0.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
     - Name: TankStorage1
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -773,11 +794,22 @@ Children:
       - Name: LevelColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00aeef"
+        Value: "#e06801fc"
       - Name: Level
         Type: BaseDataVariableType
         DataType: Double
         Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_C_Level"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: MinLevel
         Type: BaseDataVariableType
         DataType: Double
@@ -973,11 +1005,22 @@ Children:
       - Name: LevelColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00aeef"
+        Value: "#e06801fc"
       - Name: Level
         Type: BaseDataVariableType
         DataType: Double
         Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_B_Level"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: MinLevel
         Type: BaseDataVariableType
         DataType: Double
@@ -1247,11 +1290,22 @@ Children:
       - Name: LevelColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00aeef"
+        Value: "#e06801fc"
       - Name: Level
         Type: BaseDataVariableType
         DataType: Double
         Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_A_Level"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: MinLevel
         Type: BaseDataVariableType
         DataType: Double
@@ -1473,70 +1527,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
-    - Name: ThreeWayValve1
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#010101"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 90.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 72.0
-      - Name: electricalSymbol_border
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/FP_ThreeWayValve_electricalSymbol_border.svg"
-        - Name: DynamicColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#010101"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../BorderColor"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 55.922000885009766
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 42.46099853515625
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 55.922000885009766
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 42.46099853515625
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1138.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 304.0
     - Name: Pipe90Degree1
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -2903,39 +2893,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 90.0
+        Value: 85.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 528.0
-    - Name: Image5
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=20;%PROJECTDIR%/OUTSIDE ELEVATORflipped.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 508.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 796.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 486.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 66.0
+        Value: 526.0
     - Name: Pipe90Degree3
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -6394,6 +6357,1095 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Boolean
                 Value: false
+    - Name: Status Bar1
+      Type: Panel
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 602.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Panel1
+          Type: Panel
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: HorizontalLayout1
+            Type: RowLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Panel1
+              Type: Panel
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: Pm Status
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Unloader Selected Fill Bin"}
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: -2.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#fdfdfd"
+                - Name: WordWrap
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ModellingRule: Optional
+                  Value: true
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 66.0
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 18.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 2
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: TextVerticalAlignment
+                  Type: BaseVariableType
+                  DataType: TextVerticalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: BottomMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 0.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 59.0
+            - Name: Panel2
+              Type: Panel
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: PM status box
+                Type: TextBox
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: KeyValueConverter1
+                    Type: ValueMapConverter
+                    Children:
+                    - Name: Source
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Receiving/Selected_Dutch_Bin"
+                    - Name: Pairs
+                      Type: BaseObjectType
+                      Children:
+                      - Name: Pair2
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 20
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Fill Dutch Bin B Selected"
+                      - Name: Pair3
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 30
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Fill Dutch Bin C Selected"
+                      - Name: Pair1
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 10
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Fill Dutch Bin A Selected"
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 268.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 5.0
+                - Name: ContentType
+                  Type: BaseVariableType
+                  DataType: InputTypeEnum
+                  ModellingRule: Optional
+                  Value: 0
+                - Name: Visible
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ModellingRule: Optional
+                  Value: true
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: BottomMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 5.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -59.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 72.0
+    - Name: VFD_Motor_visual_status1
+      Type: VFD_Motor_visual_status
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{VFD_mtr_visual_status}/HMI_Status"
+            - Name: Pairs
+              Type: BaseObjectType
+              Children:
+              - Name: Pair
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 0
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#c8c8c864"
+              - Name: Pair1
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 1
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ff0303"
+              - Name: Pair2
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 2
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f00101"
+              - Name: Pair3
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 3
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#c101f0fa"
+              - Name: Pair4
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 4
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#5353fe"
+              - Name: Pair5
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 5
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#7afe0afc"
+              - Name: Pair6
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 6
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f9ff74"
+        - Name: Blink
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{VFD_mtr_visual_status}/HMI_Status"
+      - Name: VFD_mtr_visual_status
+        Type: Alias
+        DataType: NodeId
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Drag_Hopper"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 155.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 800.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 57.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 380.0
+    - Name: nonVFD_Motor_visual_status1
+      Type: nonVFD_Motor_visual_status
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{nonVFD_mtr_visual_status}/HMI_status"
+            - Name: Pairs
+              Type: BaseObjectType
+              Children:
+              - Name: Pair
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 0
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#c8c8c864"
+              - Name: Pair2
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 2
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f00303"
+              - Name: Pair3
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 3
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#c101f0fa"
+              - Name: Pair4
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 4
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#5353fe"
+              - Name: Pair5
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 5
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#7afe0afc"
+        - Name: Blink
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{nonVFD_mtr_visual_status}/HMI_status"
+      - Name: nonVFD_mtr_visual_status
+        Type: Alias
+        DataType: NodeId
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Outside_Elevator"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 706.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 152.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 61.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 650.0
+    - Name: Valve_visual_status1
+      Type: Valve_visual_status1
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve_visual_status}/Status"
+            - Name: Pairs
+              Type: BaseObjectType
+              Children:
+              - Name: Pair
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 0
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#c8c8c864"
+              - Name: Pair2
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 1
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f00101"
+              - Name: Pair3
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 2
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f00101"
+              - Name: Pair4
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 4
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#45ff45"
+              - Name: Pair5
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 5
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#fe7a0afc"
+        - Name: Blink
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve_visual_status}/Status"
+      - Name: Valve_visual_status
+        Type: Alias
+        DataType: NodeId
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Dutch_C_VLV"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 830.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 673.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 13.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 152.0
+    - Name: Valve_visual_status2
+      Type: Valve_visual_status1
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve_visual_status}/Status"
+            - Name: Pairs
+              Type: BaseObjectType
+              Children:
+              - Name: Pair
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 0
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#c8c8c864"
+              - Name: Pair2
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 1
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f00101"
+              - Name: Pair3
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 2
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f00101"
+              - Name: Pair4
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 4
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#45ff45"
+              - Name: Pair5
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 5
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#fe7a0afc"
+        - Name: Blink
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve_visual_status}/Status"
+      - Name: Valve_visual_status
+        Type: Alias
+        DataType: NodeId
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Dutch_B_VLV"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1156.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 673.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 13.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 152.0
+    - Name: Valve_visual_status3
+      Type: Valve_visual_status1
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve_visual_status}/Status"
+            - Name: Pairs
+              Type: BaseObjectType
+              Children:
+              - Name: Pair
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 0
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#c8c8c864"
+              - Name: Pair2
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 1
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f00101"
+              - Name: Pair3
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 2
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#f00101"
+              - Name: Pair4
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 4
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#45ff45"
+              - Name: Pair5
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 5
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#fe7a0afc"
+        - Name: Blink
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve_visual_status}/Status"
+      - Name: Valve_visual_status
+        Type: Alias
+        DataType: NodeId
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Dutch_A_VLV"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1468.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 673.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 13.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 152.0
+    - Name: Rectangle1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 91.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 74.0
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1137.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 299.0
+      - Name: MultistateImage1
+        Type: MultiStateImage
+        Children:
+        - Name: StateValue
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Receiving/Bin_diverter_valve_status"
+        - Name: States
+          Type: BaseObjectType
+          Children:
+          - Name: State1
+            Type: MultiStateImageState
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 10
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=20;%PROJECTDIR%/res/RightArrow_shape.svg"
+            - Name: Opacity
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 100.0
+          - Name: State2
+            Type: MultiStateImageState
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 20
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "file:///C:/Users/chris.schoff/OneDrive - Merrell Bros. Inc/Desktop/optix/Florida_Green1/ProjectFiles/res/Shape_DownArrow_shape.svg"
+          - Name: State3
+            Type: MultiStateImageState
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Int32
+              Value: 30
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=20;%PROJECTDIR%/res/LeftArrow_shape.svg"
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: ""
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 91.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 71.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#cfcfcf"
 - Name: Manual_Batch_feed1
   Id: g=84e8d0346b6e4b9fafd3698870fd4a7b
   Supertype: Screen

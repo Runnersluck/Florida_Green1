@@ -98,9 +98,143 @@ Children:
       "DataType": {
        "Id": 1
       }
+     },{
+      "Name": "Selected_Dutch_Bin",
+      "DataType": {
+       "Id": 6
+      }
      }]
    }
   DisplayName: {"LocaleId":"","Text":"RECEIVING"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Bagline
+  Id: g=ef6c0cfd87f97de1f9e2f31ef9792c0a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Bagline",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ef6c0cfd87f97de1f9e2f31ef9792c0a",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "BULK_BYPASS_SELECTED",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BULK_LOW_FLOW_TIMER",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "BULK_LOW_FLOW_TIMER_SP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BULK_MODE_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Discharge_mode_selected",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DIVERTER_VALVE_POSITION",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DIVERTER_VALVE_TOWARDS_BAGLINE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DIVERTER_VALVE_TOWARDS_BULK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DIVERTER_VALVE_TOWARDS_SACK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Feed_Bagline_HMI_toggle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Feed_Hopper_selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HOPPER_FEED_LOW_FLOW_TIMER",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "HOPPER_FEED_LOW_FLOW_TIMER_HMI_SP",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "HOPPER_FULL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HOPPER_FULL_HMI_SP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "HOPPER_LEVEL",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SUPER_SACK_BYPASS_SELECTED",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SUPER_SACK_LOW_FLOW_TIMER",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "SUPER_SACK_LOW_FLOW_TIMER_SP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SUPER_SACK_MODE_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Bagline"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -625,7 +759,17 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Empty_time_accumulated_seconds",
+      "DataType": {
+       "Id": 4
+      }
+     },{
       "Name": "Empty_time_elapsed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Empty_time_remaining",
       "DataType": {
        "Id": 4
       }
@@ -652,7 +796,17 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Gate_time_accumulated_seconds",
+      "DataType": {
+       "Id": 4
+      }
+     },{
       "Name": "Gate_time_elapsed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Gate_time_remaining",
       "DataType": {
        "Id": 4
       }

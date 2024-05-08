@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="109.12172mm"
+   height="87.199104mm"
+   viewBox="0 0 109.12172 87.199104"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="valve towards a.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1">
+    <symbol
+       id="LeftAndDownArrow">
+      <title
+         id="title282">Left and Down Arrow</title>
+      <path
+         d="m 16.125,55.875 v -32 l 11,-11 v 24 l 23,-23 8,8 -23,23 h 24 l -11,11 z"
+         style="stroke:none"
+         id="path282" />
+    </symbol>
+    <symbol
+       id="LeftAndDownArrow_Inv">
+      <title
+         id="title283">Left and Down Arrow</title>
+      <rect
+         x="0.5"
+         y="0.5"
+         width="71"
+         height="71"
+         ry="6"
+         style="stroke:#ffffff"
+         id="rect283" />
+      <path
+         d="m 16.125,55.875 v -32 l 11,-11 v 24 l 23,-23 8,8 -23,23 h 24 l -11,11 z"
+         style="fill:#ffffff;stroke:none"
+         id="path283" />
+    </symbol>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.3"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="211.42857"
+     inkscape:cy="270"
+     inkscape:document-units="mm"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="opacity:0.75;fill:#4d4d4d;stroke:#000000;stroke-width:0.264583"
+     id="rect1"
+     width="108.85714"
+     height="86.934525"
+     x="0.1322915"
+     y="0.1322915" />
+  <use
+     xlink:href="#LeftAndDownArrow_Inv"
+     style="fill:#000000;stroke:#000000"
+     id="use1"
+     transform="matrix(1.2866391,0,0,0.81816161,7.1646249,14.844995)" />
+</svg>

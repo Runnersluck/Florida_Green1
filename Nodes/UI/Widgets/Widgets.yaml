@@ -3316,6 +3316,284 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+- Name: VFD_Motor_visual_status
+  Id: g=9092d8a1c3ed47f87ebe9915b5728ce0
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{VFD_mtr_visual_status}/HMI_Status"
+        - Name: Pairs
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#c8c8c864"
+          - Name: Pair1
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 1
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0303"
+          - Name: Pair2
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 2
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#f00101"
+          - Name: Pair3
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 3
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#c101f0fa"
+          - Name: Pair4
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 4
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#5353fe"
+          - Name: Pair5
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 5
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#7afe0afc"
+          - Name: Pair6
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 6
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#f9ff74"
+    - Name: Blink
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{VFD_mtr_visual_status}/HMI_Status"
+        - Name: Pairs
+          Type: BaseObjectType
+          ModellingRule: None
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair1
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 1
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: true
+          - Name: Pair2
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 2
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: true
+          - Name: Pair3
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 3
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: true
+          - Name: Pair4
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 4
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair5
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 5
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair6
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 6
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+  - Name: VFD_mtr_visual_status
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Feed_Auger_1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+  - Name: Opacity
+    Type: BaseVariableType
+    DataType: Float
+    ModellingRule: Optional
+    Value: 50.0
 - Name: NonVFDMotorController
   Id: g=7a1909f9399694b64428d1f1fdfa7221
   Supertype: Panel
@@ -6051,6 +6329,248 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+- Name: nonVFD_Motor_visual_status
+  Id: g=05e31f60cc3e0e7feabbc8d08cc8e84c
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{nonVFD_mtr_visual_status}/HMI_status"
+        - Name: Pairs
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#c8c8c864"
+          - Name: Pair2
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 2
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#f00303"
+          - Name: Pair3
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 3
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#c101f0fa"
+          - Name: Pair4
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 4
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#5353fe"
+          - Name: Pair5
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 5
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#7afe0afc"
+    - Name: Blink
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{nonVFD_mtr_visual_status}/HMI_status"
+        - Name: Pairs
+          Type: BaseObjectType
+          ModellingRule: None
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair2
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 2
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: true
+          - Name: Pair3
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 3
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: true
+          - Name: Pair4
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 4
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair5
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 5
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair6
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 6
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+  - Name: nonVFD_mtr_visual_status
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Pellet_mill_2"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+  - Name: Opacity
+    Type: BaseVariableType
+    DataType: Float
+    ModellingRule: Optional
+    Value: 50.0
 - Name: MomentaryPB
   Id: g=777899e77744f66a7639fc92f94abbbf
   Supertype: Panel
@@ -6942,284 +7462,6 @@ Children:
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 3
-- Name: VFD_Motor_visual_status
-  Id: g=9092d8a1c3ed47f87ebe9915b5728ce0
-  Supertype: Panel
-  ReferenceType: HasComponent
-  Children:
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 300.0
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 300.0
-  - Name: Rectangle1
-    Type: Rectangle
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#ffffff"
-      Children:
-      - Name: KeyValueConverter1
-        Type: ValueMapConverter
-        Children:
-        - Name: Source
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{VFD_mtr_visual_status}/HMI_status"
-        - Name: Pairs
-          Type: BaseObjectType
-          Children:
-          - Name: Pair
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 0
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#c8c8c864"
-          - Name: Pair1
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 1
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#ff0303"
-          - Name: Pair2
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 2
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#f00101"
-          - Name: Pair3
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 3
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#c101f0fa"
-          - Name: Pair4
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 4
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#b7b7de"
-          - Name: Pair5
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 5
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#7afe0afc"
-          - Name: Pair6
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 6
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#f9ff74"
-    - Name: Blink
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: KeyValueConverter1
-        Type: ValueMapConverter
-        Children:
-        - Name: Source
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{VFD_mtr_visual_status}/HMI_status"
-        - Name: Pairs
-          Type: BaseObjectType
-          ModellingRule: None
-          Children:
-          - Name: Pair
-            Type: ValueMapPair
-            ModellingRule: None
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ModellingRule: None
-              Value: 0
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: None
-              Value: false
-          - Name: Pair1
-            Type: ValueMapPair
-            ModellingRule: None
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ModellingRule: None
-              Value: 1
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: None
-              Value: true
-          - Name: Pair2
-            Type: ValueMapPair
-            ModellingRule: None
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ModellingRule: None
-              Value: 2
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: None
-              Value: true
-          - Name: Pair3
-            Type: ValueMapPair
-            ModellingRule: None
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ModellingRule: None
-              Value: 3
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: None
-              Value: true
-          - Name: Pair4
-            Type: ValueMapPair
-            ModellingRule: None
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ModellingRule: None
-              Value: 4
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: None
-              Value: false
-          - Name: Pair5
-            Type: ValueMapPair
-            ModellingRule: None
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ModellingRule: None
-              Value: 5
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: None
-              Value: false
-          - Name: Pair6
-            Type: ValueMapPair
-            ModellingRule: None
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ModellingRule: None
-              Value: 6
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ModellingRule: None
-              Value: false
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 200.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 200.0
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
-  - Name: VFD_mtr_visual_status
-    Type: Alias
-    DataType: NodeId
-    Value: {"IdType":2,"Id":"3e454698a401cbd442be7b451a192e74","Namespace":20}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"IdType":2,"Id":"5430721ff7c2c2bc842c58cf501c639d","Namespace":20}
-  - Name: Opacity
-    Type: BaseVariableType
-    DataType: Float
-    ModellingRule: Optional
-    Value: 50.0
 - Name: Valvecont
   Id: g=6ae919e967ff0830345746d4552f31f6
   Supertype: Panel
@@ -9541,3 +9783,231 @@ Children:
       DataType: Boolean
       ModellingRule: Optional
       Value: true
+- Name: Valve_visual_status1
+  Id: g=f5515c35fa2953b7e56ea3225cd05e70
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Valve_visual_status}/Status"
+        - Name: Pairs
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#c8c8c864"
+          - Name: Pair2
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 1
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#f00101"
+          - Name: Pair3
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 2
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#f00101"
+          - Name: Pair4
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 4
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#45ff45"
+          - Name: Pair5
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 5
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#fe7a0afc"
+    - Name: Blink
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Valve_visual_status}/Status"
+        - Name: Pairs
+          Type: BaseObjectType
+          ModellingRule: None
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair2
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 2
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: true
+          - Name: Pair4
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 4
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair5
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 5
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: false
+          - Name: Pair1
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 1
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: true
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+  - Name: Valve_visual_status
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Dutch_A_VLV"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+  - Name: Opacity
+    Type: BaseVariableType
+    DataType: Float
+    ModellingRule: Optional
+    Value: 50.0
