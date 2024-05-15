@@ -12508,7 +12508,6 @@ Children:
       DataType: String
       Value: "Dutch_B_VLV.Valve_position"
 - Name: Dutch_C_VLV
-  Id: g=e208d6514c69b88560c78fe4f0bed7cc
   Type: VALVES
   DataType: VALVES
   Children:
