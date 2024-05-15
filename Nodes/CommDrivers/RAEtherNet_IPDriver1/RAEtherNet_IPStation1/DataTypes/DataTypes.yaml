@@ -1792,7 +1792,7 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "Dutchman_A_Feed",
+      "Name": "Dutchman_A_Feed_photo_eye_tripped",
       "DataType": {
        "Id": 1
       }
@@ -1822,7 +1822,7 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "Dutchman_B_Feed",
+      "Name": "Dutchman_B_Feed_photo_eye_tripped",
       "DataType": {
        "Id": 1
       }
@@ -2053,6 +2053,26 @@ Children:
        "Id": 6
       }
      },{
+      "Name": "Odor_all_in_auto",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Odor_auto_ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Odor_auto_stage",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Odor_system_no_fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "PM_all_in_auto",
       "DataType": {
        "Id": 1
@@ -2226,6 +2246,123 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"OUTPUTS_TO_CLICK_PLC"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: EXPLOSION_VALVE
+  Id: g=45abc0ff46efbe751134b546250b6ea8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "EXPLOSION_VALVE",
+    "DataType": {
+     "IdType": 2,
+     "Id": "45abc0ff46efbe751134b546250b6ea8",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Flap_tripped_delay_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Flap_tripped_fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Flapper_trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "High_dust_delay_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "High_dust_delay_timer_hmi_sp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "High_dust_Kill_all_fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "High_Dust_kill_all_time_remaining_hours",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "High_dust_kill_all_time_remaining_Minute",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "High_dust_Kill_all_time_remaining_ms",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "High_dust_level_trigger",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "High_dust_lvl_fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "High_dust_maintenance_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Hign_dust_delay_timer_sp_in_ms",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Hmi_name",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Maintenance_complete_hmi_button",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_of_service",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"EXPLOSION_VALVE"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
