@@ -137,11 +137,6 @@ Children:
        "Namespace": 20
       }
      },{
-      "Name": "BULK_LOW_FLOW_TIMER_SP",
-      "DataType": {
-       "Id": 10
-      }
-     },{
       "Name": "BULK_MODE_HMI_TOGGLE",
       "DataType": {
        "Id": 1
@@ -189,23 +184,6 @@ Children:
        "Namespace": 20
       }
      },{
-      "Name": "HOPPER_FEED_LOW_FLOW_TIMER_HMI_SP",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "HOPPER_FULL",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "HOPPER_FULL_HMI_SP",
-      "DataType": {
-       "Id": 10
-      }
-     },{
       "Name": "HOPPER_LEVEL",
       "DataType": {
        "Id": 10
@@ -221,11 +199,6 @@ Children:
        "IdType": 2,
        "Id": "30101fcb1bd79a88a0013de9f19fdad0",
        "Namespace": 20
-      }
-     },{
-      "Name": "SUPER_SACK_LOW_FLOW_TIMER_SP",
-      "DataType": {
-       "Id": 10
       }
      },{
       "Name": "SUPER_SACK_MODE_HMI_TOGGLE",
@@ -1065,6 +1038,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "BAGGER_HOPPER_FULL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Batch_Elevator_Alarm",
       "DataType": {
        "Id": 1
@@ -1105,13 +1083,6 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "BATCH_FEED_ELEV_LOW_FLOW_TIMER",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
       "Name": "BATCH_FEED_ELEVATOR_LOW_FLOW",
       "DataType": {
        "Id": 1
@@ -1120,13 +1091,6 @@ Children:
       "Name": "BATCH_SCALE_HOPPER_FULL",
       "DataType": {
        "Id": 1
-      }
-     },{
-      "Name": "BATCH_SCALE_HOPPER_FULL_TIMER",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
       }
      },{
       "Name": "Bin_Divertor_Valve_Incorrect_Pos",
@@ -1319,6 +1283,16 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "PM_Feed_Elevator_Low_Flow",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Hopper_Full",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Replace_UPS_Battery",
       "DataType": {
        "Id": 1
@@ -1363,6 +1337,131 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: BATCH
+  Id: g=964bdb389aad7163c3d58fba77a8f0fe
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "BATCH",
+    "DataType": {
+     "IdType": 2,
+     "Id": "964bdb389aad7163c3d58fba77a8f0fe",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "FEED_AUTO_START",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FEED_AUTO_START_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FEED_ELEV_LOW_FLOW_TIMER",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "FEED_ELEVATOR_FLOW",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "FEED_PAUSE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NO_BATCH_AUTO_PAUSE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NO_BATCH_AUTO_START",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NO_BATCH_AUTO_START_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_AUTO_START",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_AUTO_START_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_PAUSE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SCALE_HOPPER_FULL_TIMER",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Surge_Tank_Start_Level",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SYNTHETIC_PAUSE_CMD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SYNTHETIC_SAC_A_WEIGHT",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SYNTHETIC_SAC_B_WEIGHT",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SYNTHETIC_START_CMD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VALVE_TORWARDS_BATCH",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VALVE_TORWARDS_REJECT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "WEIGHT_REMAINING",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"BATCH"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: SYSTEM
   Id: g=bcd107f6afeb4922003bb872d8828b3a
   Supertype: Structure
@@ -1380,47 +1479,7 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "Cooler_discharge_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Cooler_Elevator_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Cyclone_Airlock_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
       "Name": "Date",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Discharge_Auger_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Elevator_1_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Flying_Dutchman_A_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Flying_Dutchman_B_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Flying_Dutchman_C_Status",
       "DataType": {
        "Id": 6
       }
@@ -1446,26 +1505,6 @@ Children:
       }
      },{
       "Name": "Month",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Outside_Elevator_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Pellet_mill_status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "PM_Feed_ELEVATOR_Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "PM_Hopper_Mixer_Status",
       "DataType": {
        "Id": 6
       }
@@ -1554,6 +1593,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
       "Name": "Flow_Trip",
       "DataType": {
        "Id": 1
@@ -1564,6 +1608,11 @@ Children:
        "IdType": 2,
        "Id": "30101fcb1bd79a88a0013de9f19fdad0",
        "Namespace": 20
+      }
+     },{
+      "Name": "Low_flow_HMI_setpoint",
+      "DataType": {
+       "Id": 10
       }
      },{
       "Name": "Low_Speed_Timer",
@@ -1659,80 +1708,75 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: MODES
-  Id: g=602652b0719c3fe4cc7fe69602c6dd37
+  Name: HMI_setpoints
+  Id: g=1ae3c1e6ccc997f6f073e847931542ee
   Supertype: Structure
   StructDefinition: 
    {
-    "Name": "MODES",
+    "Name": "HMI_setpoints",
     "DataType": {
      "IdType": 2,
-     "Id": "602652b0719c3fe4cc7fe69602c6dd37",
+     "Id": "1ae3c1e6ccc997f6f073e847931542ee",
      "Namespace": 20
     },
     "Fields": [{
-      "Name": "BATCH_MIXER_FEED_PAUSE",
+      "Name": "Bag_HOPPER_FEED_LOW_FLOW",
       "DataType": {
-       "Id": 1
+       "Id": 10
       }
      },{
-      "Name": "BATCH_MIXER_FEED_START",
+      "Name": "Bagger_HOPPER_FULL_Level",
       "DataType": {
-       "Id": 1
+       "Id": 10
       }
      },{
-      "Name": "BATCH_MODE_HMI_TOGGLE",
+      "Name": "Batch_FEED_ELEVATOR_LOW_FLOW",
       "DataType": {
-       "Id": 1
+       "Id": 10
       }
      },{
-      "Name": "BATCH_MODE_ON",
+      "Name": "BATCH_SCALE_MIXER_HIGH_Level",
       "DataType": {
-       "Id": 1
+       "Id": 10
       }
      },{
-      "Name": "BATCH_MODE_SELECTED_STATUS",
+      "Name": "Batch_WEIGHT_SETPOINT",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BULK_LOW_FLOW_TIME",
       "DataType": {
        "Id": 6
       }
      },{
-      "Name": "CLEAN_OUT_MODE_ON",
+      "Name": "PM_Feed_Elevator_Low_Flow",
       "DataType": {
-       "Id": 1
+       "Id": 10
       }
      },{
-      "Name": "CLEAN_OUT_MODE_SELECT_TOGGLE",
+      "Name": "PM_Hopper_high",
       "DataType": {
-       "Id": 1
+       "Id": 10
       }
      },{
-      "Name": "NON_BATCH_MODE_HMI_TOGGLE",
+      "Name": "SUPER_SACK_LOW_FLOW_TIME",
       "DataType": {
-       "Id": 1
+       "Id": 6
       }
      },{
-      "Name": "NON_BATCH_MODE_ON",
+      "Name": "SYNTHETIC_SAC_A_LOSS_IN_WEIGHT",
       "DataType": {
-       "Id": 1
+       "Id": 10
       }
      },{
-      "Name": "REJECT_MODE_HMI_TOGGLE",
+      "Name": "SYNTHETIC_SAC_B_LOSS_IN_WEIGHT",
       "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "REJECT_MODE_ON",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "SYNTHETIC_ADD_SELECTOR_TOGGLE",
-      "DataType": {
-       "Id": 1
+       "Id": 10
       }
      }]
    }
-  DisplayName: {"LocaleId":"","Text":"MODES"}
+  DisplayName: {"LocaleId":"","Text":"HMI_setpoints"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -2078,6 +2122,21 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "PM_Auto_Feed_Pause_Hmi_Toggle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Auto_Feed_start_hmi_toggle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Auto_pause",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "PM_auto_ready",
       "DataType": {
        "Id": 1
@@ -2088,17 +2147,42 @@ Children:
        "Id": 6
       }
      },{
-      "Name": "PM_Hopper_all_in_auto",
+      "Name": "PM_Auto_start",
       "DataType": {
        "Id": 1
       }
      },{
-      "Name": "PM_Hopper_auto_ready",
+      "Name": "PM_Auto_Start_HMI_toggle",
       "DataType": {
        "Id": 1
       }
      },{
-      "Name": "PM_Hopper_auto_stage",
+      "Name": "PM_Auto_Stop_HMI_Toggle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Feed_all_in_auto",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Feed_Auto_Feed_start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Feed_Auto_Pause",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Feed_auto_ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Feed_auto_stage",
       "DataType": {
        "Id": 6
       }
@@ -2165,6 +2249,87 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"AUTO_SEQUENCE"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: MODES
+  Id: g=602652b0719c3fe4cc7fe69602c6dd37
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MODES",
+    "DataType": {
+     "IdType": 2,
+     "Id": "602652b0719c3fe4cc7fe69602c6dd37",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "BATCH_MIXER_FEED_PAUSE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_MIXER_FEED_START",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_MODE_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_MODE_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BATCH_MODE_SELECTED_STATUS",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CLEAN_OUT_MODE_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CLEAN_OUT_MODE_SELECT_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NON_BATCH_MODE_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NON_BATCH_MODE_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_MODE_HMI_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "REJECT_MODE_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SYNTHETIC_ADD_SELECTOR_TOGGLE",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MODES"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType

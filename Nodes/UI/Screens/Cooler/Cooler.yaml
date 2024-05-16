@@ -932,7 +932,7 @@ Children:
         - Name: NonVFDcont
           Type: Alias
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Elevator"
+          Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -5313,7 +5313,7 @@ Children:
             - Name: OOCalias
               Type: Alias
               DataType: NodeId
-              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Elevator"
+              Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -8869,7 +8869,7 @@ Children:
       - Name: NonVFDstatusAlias
         Type: Alias
         DataType: NodeId
-        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Elevator"
+        Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -10987,7 +10987,7 @@ Children:
       - Name: nonVFD_mtr_visual_status
         Type: Alias
         DataType: NodeId
-        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Elevator"
+        Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
         Children:
         - Name: Kind
           Type: PropertyType
