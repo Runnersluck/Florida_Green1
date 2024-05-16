@@ -1079,40 +1079,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Not Ready"
-                      - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 5
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler level"
-                      - Name: Pair2
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 6
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to blender not ready"
-                      - Name: Pair3
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 7
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to rotoclone not started"
+                          Value: "Estop Active"
                       - Name: Pair4
                         Type: ValueMapPair
                         Children:
@@ -1123,18 +1090,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Paused due to airlock not started"
-                      - Name: Pair5
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 15
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler elevator not started"
+                          Value: "System Not Ready"
                       - Name: Pair6
                         Type: ValueMapPair
                         Children:
@@ -1145,18 +1101,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Paused due to Pellet mill shaker not running"
-                      - Name: Pair7
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 25
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to pellet mill not running"
+                          Value: "System Not All in Auto"
                       - Name: Pair8
                         Type: ValueMapPair
                         Children:
@@ -1167,51 +1112,216 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Pellet mill system running"
+                          Value: "Cooler Feed Elevator Low Flow"
+                      - Name: Pair1
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 40
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Cooler Hopper High"
+                      - Name: Pair2
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 50
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused"
+                      - Name: Pair3
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 60
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Low PM Hopper Level"
+                      - Name: Pair5
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 70
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on Cooler Hopper Level"
+                      - Name: Pair7
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 80
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Odor Control Not Started"
                       - Name: Pair9
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 26
+                          Value: 90
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Pellet mill system running. Pellet Mill #1 only"
+                          Value: "Waiting on PM Hopper Mixer Start"
                       - Name: Pair10
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 27
+                          Value: 100
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Pellet mill system running. Pellet Mill #2 only."
+                          Value: "Waiting on Cooler Airlock Start"
                       - Name: Pair11
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 1
+                          Value: 110
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Everything Not In Auto"
+                          Value: "Wating on Cooler Feed Elevator Start"
                       - Name: Pair12
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 2
+                          Value: 120
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Ready for Auto Start"
+                          Value: "Waiting on Pellet Mill Shaker Start"
+                      - Name: Pair13
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 130
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on Pellet Mill 1 Start"
+                      - Name: Pair14
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 140
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on PM 1 Feed Auger Start"
+                      - Name: Pair15
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 150
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on Pellet Mill 2 Start"
+                      - Name: Pair16
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 160
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on PM 2 Feed Auger Start"
+                      - Name: Pair17
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 170
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on Pellet Mill 3 Start"
+                      - Name: Pair18
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 180
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on PM 3 Feed Auger Start"
+                      - Name: Pair20
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 200
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Feeding All Pellet Mills"
+                      - Name: Pair21
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 210
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Feeding Only Pellet Mills 2 & 3"
+                      - Name: Pair19
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 220
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Feeding Only Pellet Mills 1 & 3"
+                      - Name: Pair22
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 230
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Feeding Only Pellet Mills 1 & 2"
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
@@ -4251,7 +4361,7 @@ Children:
       - Name: NonVFDstatusAlias
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
         Children:
         - Name: Kind
           Type: PropertyType
@@ -4732,7 +4842,7 @@ Children:
       - Name: NonVFDstatusAlias
         Type: Alias
         DataType: NodeId
-        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Pellet_mill_1"
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Pellet_mill_3"
         Children:
         - Name: Kind
           Type: PropertyType
@@ -5694,7 +5804,7 @@ Children:
       - Name: NonVFDstatusAlias
         Type: Alias
         DataType: NodeId
-        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Pellet_mill_3"
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Pellet_mill_1"
         Children:
         - Name: Kind
           Type: PropertyType
