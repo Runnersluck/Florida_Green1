@@ -3161,15 +3161,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Bagger_Elevator_EXP_1_Tripped"
-  - Name: Bagger_Elevator_Low_Flow
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Bagger_Elevator_Low_Flow"
   - Name: Bagger_Elevator_Low_Speed
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3215,6 +3206,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Bagger_Elevator_Upper_Right_Rub_Trip"
+  - Name: Bagger_Feed_Low_Flow_trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bagger_Feed_Low_Flow_trip"
   - Name: BAGGER_HOPPER_FULL
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3323,6 +3323,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Bin_Divertor_Valve_Incorrect_Pos"
+  - Name: Bulk_Feed_Low_Flow_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bulk_Feed_Low_Flow_Trip"
   - Name: Cooler_Elevator_EXP_1_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3422,15 +3431,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Explosion_Valve_7_Tripped"
-  - Name: Hopper_Explosion_Valve_Tripped
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Hopper_Explosion_Valve_Tripped"
   - Name: ON_UPS_Power_Alarm
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3665,6 +3665,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Feed_Elevator_Low_Flow"
+  - Name: PM_Hopper_Explosion_Valve_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Hopper_Explosion_Valve_Tripped"
   - Name: PM_Hopper_Full
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3674,6 +3683,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Hopper_Full"
+  - Name: PM_Shaker_Discharge
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Shaker_Discharge"
   - Name: Replace_UPS_Battery
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3692,6 +3710,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Rotoclone_Low_Water"
+  - Name: Sack_Low_Flow_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Sack_Low_Flow_Trip"
   - Name: Selected_Dutchman_Hopper_Empty
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3710,15 +3737,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Selected_Dutchman_Hopper_Full"
-  - Name: Shaker_Discharge
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Shaker_Discharge"
   - Name: Surge_Hopper_Explosion_Valve_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3728,15 +3746,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Surge_Hopper_Explosion_Valve_Tripped"
-  - Name: Surge_Tank_Low_Level
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Surge_Tank_Low_Level"
 - Name: Drag_Hopper
   Id: g=ccf44fdb177e71f24c7ee3b61cab12ed
   Type: VFD_CONTROLS
@@ -6907,33 +6916,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Status.E_Stop_OK_Receiving"
-  - Name: Empty_Dutch_A_Selected
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Status.Empty_Dutch_A_Selected"
-  - Name: Empty_Dutch_B_Selected
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Status.Empty_Dutch_B_Selected"
-  - Name: Empty_Dutch_C_Selected
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Status.Empty_Dutch_C_Selected"
   - Name: Fill_Dutch_A_Selected
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -9413,51 +9395,6 @@ Children:
   Type: AUTO_SEQUENCE
   DataType: AUTO_SEQUENCE
   Children:
-  - Name: Bagging_Hopper_all_in_auto
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Auto_Seq.Bagging_Hopper_all_in_auto"
-  - Name: Bagging_Hopper_auto_ready
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Auto_Seq.Bagging_Hopper_auto_ready"
-  - Name: Bagging_Hopper_auto_stage
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Auto_Seq.Bagging_Hopper_auto_stage"
-  - Name: Batch_Feed_all_in_auto
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Auto_Seq.Batch_Feed_all_in_auto"
-  - Name: Batch_Feed_auto_ready
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Auto_Seq.Batch_Feed_auto_ready"
   - Name: Batch_Feed_auto_stage
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -9467,7 +9404,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Auto_Seq.Batch_Feed_auto_stage"
-  - Name: Batch_Loop_all_in_auto
+  - Name: Batch_Feed_Auto_Start
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -9475,8 +9412,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Auto_Seq.Batch_Loop_all_in_auto"
-  - Name: Batch_Loop_auto_ready
+      Value: "Auto_Seq.Batch_Feed_Auto_Start"
+  - Name: Batch_Feed_Auto_Start_HMI_Pb
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -9484,7 +9421,16 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Auto_Seq.Batch_Loop_auto_ready"
+      Value: "Auto_Seq.Batch_Feed_Auto_Start_HMI_Pb"
+  - Name: Batch_Feed_Pause_HMI_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Batch_Feed_Pause_HMI_PB"
   - Name: Batch_Loop_auto_stage
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -9494,15 +9440,33 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Auto_Seq.Batch_Loop_auto_stage"
-  - Name: Batch_Mixer_auto_stage
+  - Name: Batch_Loop_Auto_Start
     Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
+    DataType: Boolean
+    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Auto_Seq.Batch_Mixer_auto_stage"
+      Value: "Auto_Seq.Batch_Loop_Auto_Start"
+  - Name: Batch_Loop_Auto_Start_HMI_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Batch_Loop_Auto_Start_HMI_PB"
+  - Name: Batch_Loop_Pause_HMI_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Batch_Loop_Pause_HMI_PB"
   - Name: Cooler_auto_stage
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -9512,6 +9476,33 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Auto_Seq.Cooler_auto_stage"
+  - Name: Cooler_Auto_Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Cooler_Auto_Start"
+  - Name: Cooler_Pause_HMi_Pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Cooler_Pause_HMi_Pb"
+  - Name: Cooler_Start_HMI_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Cooler_Start_HMI_PB"
   - Name: NO_BATCH_AUTO_STAGE
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -9557,15 +9548,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Auto_Seq.PM_auto_stage"
-  - Name: PM_Auto_start
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Auto_Seq.PM_Auto_start"
   - Name: PM_Auto_Start_HMI_toggle
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -11691,6 +11673,42 @@ Children:
   Type: BATCH
   DataType: BATCH
   Children:
+  - Name: Batch_mode_selected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch.Batch_mode_selected"
+  - Name: Batch_mode_type_HMI_select
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch.Batch_mode_type_HMI_select"
+  - Name: Dwell_Time_Remaining
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch.Dwell_Time_Remaining"
+  - Name: Empy_Dutch_Bin_HMI_Selection
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch.Empy_Dutch_Bin_HMI_Selection"
   - Name: FEED_AUTO_START
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -11727,6 +11745,113 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch.FEED_PAUSE"
+  - Name: Mixer_dwell_timer
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_dwell_timer.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_dwell_timer.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_dwell_timer.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_dwell_timer.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_dwell_timer.TT"
+  - Name: Mixer_empty_time_remaining
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch.Mixer_empty_time_remaining"
+  - Name: Mixer_empty_timer
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_empty_timer.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_empty_timer.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_empty_timer.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_empty_timer.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Batch.Mixer_empty_timer.TT"
   - Name: NO_BATCH_AUTO_PAUSE
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -11781,6 +11906,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch.REJECT_PAUSE"
+  - Name: SCALE_WEIGHT_REMAINING
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch.SCALE_WEIGHT_REMAINING"
   - Name: Surge_Tank_Start_Level
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -11844,15 +11978,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch.VALVE_TORWARDS_REJECT"
-  - Name: WEIGHT_REMAINING
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Batch.WEIGHT_REMAINING"
 - Name: Dutch_A_VLV
   Id: g=b5547f9852df98e9df60b5804b8ee530
   Type: VALVES
@@ -14130,16 +14255,6 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "BAGGER.BULK_LOW_FLOW_TIMER.TT"
-  - Name: BULK_MODE_HMI_TOGGLE
-    Id: g=79cd1b66f27c2ec067ce0c4409d5013f
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BAGGER.BULK_MODE_HMI_TOGGLE"
   - Name: Discharge_mode_selected
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -14185,16 +14300,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "BAGGER.DIVERTER_VALVE_TOWARDS_SACK"
-  - Name: Feed_Bagline_HMI_toggle
-    Id: g=3a683647a836344512c3b4b660c5380d
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BAGGER.Feed_Bagline_HMI_toggle"
   - Name: Feed_Hopper_selected
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -14320,16 +14425,6 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "BAGGER.SUPER_SACK_LOW_FLOW_TIMER.TT"
-  - Name: SUPER_SACK_MODE_HMI_TOGGLE
-    Id: g=650a94da6733e0e6f0a8569aefde1e79
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BAGGER.SUPER_SACK_MODE_HMI_TOGGLE"
 - Name: Batch_Isolation_exp_valve
   Id: g=acdc43ff06b078ba90c765bfc76f1ebb
   Type: EXPLOSION_VALVE
@@ -15796,6 +15891,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "HMI_setpoints.Batch_FEED_ELEVATOR_LOW_FLOW"
+  - Name: Batch_mixer_dwell_time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.Batch_mixer_dwell_time"
   - Name: BATCH_SCALE_MIXER_HIGH_Level
     Type: RAEtherNetIPTag
     DataType: Float

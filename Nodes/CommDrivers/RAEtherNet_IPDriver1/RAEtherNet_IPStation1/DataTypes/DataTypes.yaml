@@ -137,11 +137,6 @@ Children:
        "Namespace": 20
       }
      },{
-      "Name": "BULK_MODE_HMI_TOGGLE",
-      "DataType": {
-       "Id": 1
-      }
-     },{
       "Name": "Discharge_mode_selected",
       "DataType": {
        "Id": 6
@@ -163,11 +158,6 @@ Children:
       }
      },{
       "Name": "DIVERTER_VALVE_TOWARDS_SACK",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Feed_Bagline_HMI_toggle",
       "DataType": {
        "Id": 1
       }
@@ -199,11 +189,6 @@ Children:
        "IdType": 2,
        "Id": "30101fcb1bd79a88a0013de9f19fdad0",
        "Namespace": 20
-      }
-     },{
-      "Name": "SUPER_SACK_MODE_HMI_TOGGLE",
-      "DataType": {
-       "Id": 1
       }
      }]
    }
@@ -1008,11 +993,6 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "Bagger_Elevator_Low_Flow",
-      "DataType": {
-       "Id": 1
-      }
-     },{
       "Name": "Bagger_Elevator_Low_Speed",
       "DataType": {
        "Id": 1
@@ -1034,6 +1014,11 @@ Children:
       }
      },{
       "Name": "Bagger_Elevator_Upper_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Feed_Low_Flow_trip",
       "DataType": {
        "Id": 1
       }
@@ -1098,6 +1083,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Bulk_Feed_Low_Flow_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Cooler_Elevator_EXP_1_Tripped",
       "DataType": {
        "Id": 1
@@ -1149,11 +1139,6 @@ Children:
       }
      },{
       "Name": "Explosion_Valve_7_Tripped",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Hopper_Explosion_Valve_Tripped",
       "DataType": {
        "Id": 1
       }
@@ -1288,7 +1273,17 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "PM_Hopper_Explosion_Valve_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "PM_Hopper_Full",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Shaker_Discharge",
       "DataType": {
        "Id": 1
       }
@@ -1303,6 +1298,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Sack_Low_Flow_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Selected_Dutchman_Hopper_Empty",
       "DataType": {
        "Id": 1
@@ -1313,17 +1313,7 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "Shaker_Discharge",
-      "DataType": {
-       "Id": 1
-      }
-     },{
       "Name": "Surge_Hopper_Explosion_Valve_Tripped",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Surge_Tank_Low_Level",
       "DataType": {
        "Id": 1
       }
@@ -1349,6 +1339,46 @@ Children:
      "Namespace": 20
     },
     "Fields": [{
+      "Name": "Batch_mode_selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_mode_type_HMI_select",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Dwell_time_remain_milsec",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Dwell_Time_Remaining",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Empty_Dutch_Bin_A_Selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Empty_Dutch_Bin_B_Selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Empty_Dutch_Bin_C_Selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Empy_Dutch_Bin_HMI_Selection",
+      "DataType": {
+       "Id": 6
+      }
+     },{
       "Name": "FEED_AUTO_START",
       "DataType": {
        "Id": 1
@@ -1376,6 +1406,30 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Mixer_dwell_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Mixer_empty_time_remain_milsec",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Mixer_empty_time_remaining",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Mixer_empty_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
       "Name": "NO_BATCH_AUTO_PAUSE",
       "DataType": {
        "Id": 1
@@ -1391,6 +1445,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Non_Batch_mode_selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "REJECT_AUTO_START",
       "DataType": {
        "Id": 1
@@ -1401,9 +1460,21 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Reject_mode_selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "REJECT_PAUSE",
       "DataType": {
        "Id": 1
+      }
+     },{
+      "Name": "Scale_empty_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
       }
      },{
       "Name": "SCALE_HOPPER_FULL_TIMER",
@@ -1411,6 +1482,26 @@ Children:
        "IdType": 2,
        "Id": "30101fcb1bd79a88a0013de9f19fdad0",
        "Namespace": 20
+      }
+     },{
+      "Name": "Scale_mixer_done",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Scale_Weight_met",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SCALE_WEIGHT_REMAINING",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Scale_weight_reset",
+      "DataType": {
+       "Id": 1
       }
      },{
       "Name": "Surge_Tank_Start_Level",
@@ -1438,6 +1529,21 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Synthetic_weight_A_met",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Synthetic_weight_B_met",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Synthetic_weights_both_met",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "VALVE_TORWARDS_BATCH",
       "DataType": {
        "Id": 1
@@ -1446,11 +1552,6 @@ Children:
       "Name": "VALVE_TORWARDS_REJECT",
       "DataType": {
        "Id": 1
-      }
-     },{
-      "Name": "WEIGHT_REMAINING",
-      "DataType": {
-       "Id": 10
       }
      }]
    }
@@ -1735,6 +1836,16 @@ Children:
        "Id": 10
       }
      },{
+      "Name": "Batch_mixer_dwell_time",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Batch_mixer_dwell_time_in_millisecs",
+      "DataType": {
+       "Id": 6
+      }
+     },{
       "Name": "BATCH_SCALE_MIXER_HIGH_Level",
       "DataType": {
        "Id": 10
@@ -1936,21 +2047,6 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "Empty_Dutch_A_Selected",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Empty_Dutch_B_Selected",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Empty_Dutch_C_Selected",
-      "DataType": {
-       "Id": 1
-      }
-     },{
       "Name": "Fill_Dutch_A_Selected",
       "DataType": {
        "Id": 1
@@ -2007,21 +2103,6 @@ Children:
      "Namespace": 20
     },
     "Fields": [{
-      "Name": "Bagging_Hopper_all_in_auto",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Bagging_Hopper_auto_ready",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Bagging_Hopper_auto_stage",
-      "DataType": {
-       "Id": 6
-      }
-     },{
       "Name": "Batch_Feed_all_in_auto",
       "DataType": {
        "Id": 1
@@ -2035,6 +2116,21 @@ Children:
       "Name": "Batch_Feed_auto_stage",
       "DataType": {
        "Id": 6
+      }
+     },{
+      "Name": "Batch_Feed_Auto_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Feed_Auto_Start_HMI_Pb",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Feed_Pause_HMI_PB",
+      "DataType": {
+       "Id": 1
       }
      },{
       "Name": "Batch_Loop_all_in_auto",
@@ -2052,19 +2148,19 @@ Children:
        "Id": 6
       }
      },{
-      "Name": "Batch_Mixer_all_in_auto",
+      "Name": "Batch_Loop_Auto_Start",
       "DataType": {
        "Id": 1
       }
      },{
-      "Name": "Batch_Mixer_auto_ready",
+      "Name": "Batch_Loop_Auto_Start_HMI_PB",
       "DataType": {
        "Id": 1
       }
      },{
-      "Name": "Batch_Mixer_auto_stage",
+      "Name": "Batch_Loop_Pause_HMI_PB",
       "DataType": {
-       "Id": 6
+       "Id": 1
       }
      },{
       "Name": "Cooler_all_in_auto",
@@ -2080,6 +2176,21 @@ Children:
       "Name": "Cooler_auto_stage",
       "DataType": {
        "Id": 6
+      }
+     },{
+      "Name": "Cooler_Auto_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Pause_HMi_Pb",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Start_HMI_PB",
+      "DataType": {
+       "Id": 1
       }
      },{
       "Name": "NO_BATCH_ALL_IN_AUTO",
