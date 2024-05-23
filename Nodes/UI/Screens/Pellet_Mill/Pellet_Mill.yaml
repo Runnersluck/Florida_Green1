@@ -7906,7 +7906,7 @@ Children:
             - Name: OOCnovfdalias
               Type: Alias
               DataType: NodeId
-              Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
+              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -15755,7 +15755,7 @@ Children:
         - Name: NonVFDcont
           Type: Alias
           DataType: NodeId
-          Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
           Children:
           - Name: Kind
             Type: PropertyType

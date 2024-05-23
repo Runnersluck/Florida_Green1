@@ -932,7 +932,7 @@ Children:
         - Name: NonVFDcont
           Type: Alias
           DataType: NodeId
-          Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -5272,8 +5272,8 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: OOCvfd1
-            Type: OOCvfd
+          - Name: OOCnonvfd1
+            Type: OOCnonvfd
             Children:
             - Name: Rectangle1
               Type: Rectangle
@@ -5294,7 +5294,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{OOCalias}/HMI_Name"
+                      Value: "{OOCnovfdalias}/HMI_name"
               - Name: Panel2
                 Type: Panel
                 Children:
@@ -5309,16 +5309,16 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{OOCalias}/Out_of_Service"
-            - Name: OOCalias
+                      Value: "{OOCnovfdalias}/Out_of_service"
+            - Name: OOCnovfdalias
               Type: Alias
               DataType: NodeId
-              Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
+              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8869,7 +8869,7 @@ Children:
       - Name: NonVFDstatusAlias
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
         Children:
         - Name: Kind
           Type: PropertyType
