@@ -9512,6 +9512,33 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Auto_Seq.NO_BATCH_AUTO_STAGE"
+  - Name: No_Batch_Auto_Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.No_Batch_Auto_Start"
+  - Name: No_Batch_Auto_Start_HMI_Pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.No_Batch_Auto_Start_HMI_Pb"
+  - Name: No_Batch_pause_HMI_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.No_Batch_pause_HMI_PB"
   - Name: Odor_auto_stage
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -9602,6 +9629,33 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Auto_Seq.REJECT_BATCH_AUTO_STAGE"
+  - Name: Reject_Batch_Auto_Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Reject_Batch_Auto_Start"
+  - Name: Reject_batch_Auto_start_HMI_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Reject_batch_Auto_start_HMI_pb"
+  - Name: Reject_Batch_Pause_Hmi_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Reject_Batch_Pause_Hmi_pb"
   - Name: Sealer_Stacker_auto_stage
     Type: RAEtherNetIPTag
     DataType: Int32

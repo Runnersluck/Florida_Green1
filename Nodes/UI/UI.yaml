@@ -593,7 +593,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/KokomoGreen2/NetLogic/ClockLogic/Time"
+                    Value: "/Objects/Florida_Green1/NetLogic/ClockLogic/Time"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType

@@ -2208,6 +2208,21 @@ Children:
        "Id": 6
       }
      },{
+      "Name": "No_Batch_Auto_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "No_Batch_Auto_Start_HMI_Pb",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "No_Batch_pause_HMI_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Odor_all_in_auto",
       "DataType": {
        "Id": 1
@@ -2326,6 +2341,21 @@ Children:
       "Name": "REJECT_BATCH_AUTO_STAGE",
       "DataType": {
        "Id": 6
+      }
+     },{
+      "Name": "Reject_Batch_Auto_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Reject_batch_Auto_start_HMI_pb",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Reject_Batch_Pause_Hmi_pb",
+      "DataType": {
+       "Id": 1
       }
      },{
       "Name": "Sealer_Stacker_all_in_auto",
