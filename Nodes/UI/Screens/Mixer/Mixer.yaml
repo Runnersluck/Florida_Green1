@@ -904,6 +904,59 @@ Children:
                   DataType: Color
                   ModellingRule: Optional
                   Value: "#f00101"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch/Batch_mode_type_HMI_select"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
         - Name: Panel2
           Type: Panel
           Children:
@@ -1936,41 +1989,8 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Not Ready"
+                          Value: "Estop Pressed"
                       - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 5
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Waiting on Cooler Dwell Timer"
-                      - Name: Pair2
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 6
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to Bagging hopper level"
-                      - Name: Pair3
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 7
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to Low Cooler Level"
-                      - Name: Pair4
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -1980,19 +2000,8 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Paused due to cooler discharge elevator not started"
-                      - Name: Pair5
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 15
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Paused due to cooler shaker not started"
-                      - Name: Pair6
+                          Value: "System Not Ready"
+                      - Name: Pair2
                         Type: ValueMapPair
                         Children:
                         - Name: Key
@@ -2002,40 +2011,139 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Paused due to cooler bottom screws not started"
+                          Value: "System Not All In Auto"
+                      - Name: Pair3
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 30
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Selected Dutch Bin Level Low"
+                      - Name: Pair4
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 40
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Elevator Low Flow"
+                      - Name: Pair5
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 45
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Paused"
+                      - Name: Pair6
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 50
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting for Batch Scale Level to Drop"
                       - Name: Pair7
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 25
+                          Value: 60
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Cooler system running"
+                          Value: "Waiting for Mixer Slide Gate Open"
                       - Name: Pair8
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 1
+                          Value: 70
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Everything Not in Auto"
+                          Value: "Waiting for Scale Slide Gate Open"
                       - Name: Pair9
                         Type: ValueMapPair
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 2
+                          Value: 80
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
-                          Value: "Ready for Auto Start"
+                          Value: "Batch Diverter Valve Not Towards Batch"
+                      - Name: Pair10
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 90
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on Odor System Start"
+                      - Name: Pair11
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 100
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on Batch Feed Elevator Start"
+                      - Name: Pair12
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 110
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on Main Feed Auger Start"
+                      - Name: Pair13
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 120
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Waiting on Selected Bin Valve Open"
+                      - Name: Pair14
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 130
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Running"
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
@@ -3979,12 +4087,17 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 560.0
+          Value: 1074.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 476.0
+          Value: 456.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 100.0
       - Name: Valve_status2
         Type: Valve_status
         Children:
@@ -4397,12 +4510,17 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 560.0
+          Value: 1072.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 668.0
+          Value: 673.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 100.0
     - Name: NonVFDmotorstatus1
       Type: NonVFDmotorstatus
       Children:
@@ -6310,12 +6428,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1267.0
+        Value: 1262.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 656.0
+        Value: 573.0
     - Name: VFDmotorstatus3
       Type: VFDmotorstatus
       Children:
@@ -6711,12 +6829,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1267.0
+        Value: 1268.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 765.0
+        Value: 965.0
     - Name: TankStorage2
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -6922,7 +7040,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 364.0
+        Value: 391.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -6932,7 +7050,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 96.0
+        Value: 394.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -6959,7 +7077,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 389.0
+        Value: 416.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -6969,7 +7087,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 372.0
+        Value: 670.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -7180,7 +7298,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 676.0
+        Value: 703.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -7190,7 +7308,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 96.0
+        Value: 394.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -7217,7 +7335,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 701.0
+        Value: 728.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -7227,7 +7345,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 372.0
+        Value: 670.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -7645,12 +7763,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 460.0
+        Value: 531.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 754.0
+        Value: 705.0
     - Name: Rectangle1
       Type: Rectangle
       Children:
@@ -7859,12 +7977,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 402.0
+        Value: 429.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 719.0
+        Value: 868.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -7986,12 +8104,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 714.0
+        Value: 741.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 721.0
+        Value: 870.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -8414,12 +8532,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 774.0
+        Value: 857.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 752.0
+        Value: 708.0
     - Name: VFD_Motor_visual_status1
       Type: VFD_Motor_visual_status
       Children:
@@ -9452,12 +9570,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 359.0
+        Value: 532.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 355.0
+        Value: 587.0
     - Name: NonVFDmotorstatus5
       Type: NonVFDmotorstatus
       Children:
@@ -9933,12 +10051,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 673.0
+        Value: 853.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 357.0
+        Value: 579.0
     - Name: Panel1
       Type: Panel
       Children:
@@ -10995,12 +11113,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1293.0
+        Value: 1247.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 120.0
+        Value: 366.0
       - Name: Rectangle1
         Type: Rectangle
         Children:

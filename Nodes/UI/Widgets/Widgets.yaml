@@ -9534,7 +9534,7 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: UInt32
+                    DataType: Int32
                     ModellingRule: None
                     Value: 0
                   - Name: Value
@@ -9548,7 +9548,7 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: UInt32
+                    DataType: Int32
                     ModellingRule: None
                     Value: 1
                   - Name: Value
@@ -9562,7 +9562,7 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: UInt32
+                    DataType: Int32
                     ModellingRule: None
                     Value: 2
                   - Name: Value
@@ -9576,7 +9576,7 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: UInt32
+                    DataType: Int32
                     ModellingRule: None
                     Value: 3
                   - Name: Value
@@ -9590,7 +9590,7 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: UInt32
+                    DataType: Int32
                     ModellingRule: None
                     Value: 4
                   - Name: Value
@@ -9604,7 +9604,7 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: UInt32
+                    DataType: Int32
                     ModellingRule: None
                     Value: 5
                   - Name: Value
@@ -9618,7 +9618,7 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: UInt32
+                    DataType: Int32
                     ModellingRule: None
                     Value: 6
                   - Name: Value
