@@ -2118,12 +2118,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 86.0
+          Value: 215.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 820.0
+          Value: 708.0
       - Name: LinearGauge1
         Type: LinearGauge
         Children:
@@ -2212,6 +2212,722 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 0
+      - Name: LinearGauge2
+        Type: LinearGauge
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/PM_Level_Mill_Sensor_3"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 100.0
+        - Name: WarningZones
+          Type: BaseObjectType
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 24.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 107.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 920.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 161.0
+        - Name: Orientation
+          Type: BaseDataVariableType
+          DataType: OrientationEnum
+          ModellingRule: Optional
+          Value: 1
+        - Name: ScalePosition
+          Type: BaseDataVariableType
+          DataType: PositionEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: Editable
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: LabelVisible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: ScalePadding
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#e06801fc"
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 0
+      - Name: LinearGauge3
+        Type: LinearGauge
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/PM_Level_Mill_Sensor_2"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 100.0
+        - Name: WarningZones
+          Type: BaseObjectType
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 24.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 107.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 917.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 530.0
+        - Name: Orientation
+          Type: BaseDataVariableType
+          DataType: OrientationEnum
+          ModellingRule: Optional
+          Value: 1
+        - Name: ScalePosition
+          Type: BaseDataVariableType
+          DataType: PositionEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: Editable
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: LabelVisible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: ScalePadding
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#e06801fc"
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 0
+      - Name: LinearGauge4
+        Type: LinearGauge
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/PM_Level_Mill_Sensor_1"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 100.0
+        - Name: WarningZones
+          Type: BaseObjectType
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 24.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 107.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 791.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 749.0
+        - Name: Orientation
+          Type: BaseDataVariableType
+          DataType: OrientationEnum
+          ModellingRule: Optional
+          Value: 1
+        - Name: ScalePosition
+          Type: BaseDataVariableType
+          DataType: PositionEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: Editable
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: LabelVisible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: ScalePadding
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#e06801fc"
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 0
+      - Name: Panel1
+        Type: Panel
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 75.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -45.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 153.0
+        - Name: Rectangle1
+          Type: Rectangle
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: BorderThickness
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 3.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#000afb"
+          - Name: CornerRadius
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 3.0
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 300.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 300.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Auger Mode"}
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: TextHorizontalAlignment
+                Type: BaseVariableType
+                DataType: TextHorizontalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: TextVerticalAlignment
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: TextColor
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#ffffff"
+          - Name: LinearGauge1
+            Type: LinearGauge
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 0.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch/Empy_Dutch_Bin_HMI_Selection"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: MinValue
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 0.0
+            - Name: MaxValue
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 2.0
+            - Name: WarningZones
+              Type: BaseObjectType
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 328.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 10.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 5.0
+            - Name: MajorTickCount
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 3.0
+            - Name: MinorTickCount
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 0.0
+            - Name: LabelVisible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+              Value: false
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 10.0
+            - Name: BottomMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 5.0
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 300.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 300.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"Level PID"}
+                  - Name: TextColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#ffffff"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 0
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 7.0
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"Amperage PID"}
+                  - Name: TextColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#ffffff"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+              - Name: Panel3
+                Type: Panel
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"Manual"}
+                  - Name: TextColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#ffffff"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 2
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 7.0
     - Name: VFDmotorstatus2
       Type: VFDmotorstatus
       Children:
@@ -3890,12 +4606,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 209.0
+        Value: 572.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 257.0
+        Value: 216.0
     - Name: NonVFDmotorstatus2
       Type: NonVFDmotorstatus
       Children:
@@ -7076,12 +7792,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 141.0
+        Value: 270.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 724.0
+        Value: 609.0
 - Name: MotorOOC1
   Id: g=6ddf97574d2117c69c04ad272f560858
   Supertype: Screen
