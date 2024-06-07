@@ -5212,7 +5212,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+      Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
 - Name: NonVFDmotorstatus
   Id: g=5415d8249a0c0cef0ecc0984df544026
   Supertype: Panel
@@ -6112,7 +6112,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+      Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
 - Name: OOCnonvfd
   Id: g=49e51b70064ee4200f43e695163ce966
   Supertype: Panel
@@ -6328,7 +6328,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+      Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
 - Name: nonVFD_Motor_visual_status
   Id: g=05e31f60cc3e0e7feabbc8d08cc8e84c
   Supertype: Panel
@@ -6565,7 +6565,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+      Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
   - Name: Opacity
     Type: BaseVariableType
     DataType: Float
@@ -9634,7 +9634,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+      Value: {"IdType":2,"Id":"1fec974a9c1fb8c5f97608d022110fb3","Namespace":20}
   - Name: Rectangle1
     Type: Rectangle
     Children:
@@ -10005,7 +10005,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+      Value: {"IdType":2,"Id":"1fec974a9c1fb8c5f97608d022110fb3","Namespace":20}
   - Name: Opacity
     Type: BaseVariableType
     DataType: Float

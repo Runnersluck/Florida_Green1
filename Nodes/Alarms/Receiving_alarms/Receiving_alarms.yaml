@@ -1,0 +1,50 @@
+Name: Receiving_alarms
+Id: g=8ec7c2d5711af7d5023ca898393b4c95
+Type: FolderType
+Children:
+- Name: Drag_Hopper_FTS_ALARM
+  Id: g=ed1b22d3ee7b937c273afeb33131794c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b15ac4b42aff7ffce1a87e3ec582b399
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0ae4f0428346554b7f983a1b7e76dc1f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=3d8f2ec41c324311c67d58ea05b5b383
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Drag_Hopper_FTS"
+      Children:
+      - Name: Mode
+        Id: g=df2228478ca88a203a4dd0b73602c8b9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e51448f0effc5fd7b9ea66a7f4dd8293
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7dd5319e00b819dc62a6f7af0f6c179a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Failed to Start"}

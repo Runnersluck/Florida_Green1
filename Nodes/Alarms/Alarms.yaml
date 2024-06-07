@@ -1,3 +1,8 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- File: Receiving_alarms/Receiving_alarms.yaml
+- File: Batch_alarms/Batch_alarms.yaml
+- File: Pellet_Mill_alarms/Pellet_Mill_alarms.yaml
+- File: Cooler_alarms/Cooler_alarms.yaml

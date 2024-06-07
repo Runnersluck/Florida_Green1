@@ -3328,7 +3328,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+            Value: {"IdType":2,"Id":"1fec974a9c1fb8c5f97608d022110fb3","Namespace":20}
         - Name: Rectangle1
           Type: Rectangle
           Children:
@@ -3751,7 +3751,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+            Value: {"IdType":2,"Id":"1fec974a9c1fb8c5f97608d022110fb3","Namespace":20}
         - Name: Rectangle1
           Type: Rectangle
           Children:
@@ -4735,7 +4735,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+          Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -5216,7 +5216,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+          Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -7405,7 +7405,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+          Value: {"IdType":2,"Id":"1fec974a9c1fb8c5f97608d022110fb3","Namespace":20}
       - Name: Rectangle1
         Type: Rectangle
         Children:
@@ -7716,7 +7716,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+          Value: {"IdType":2,"Id":"1fec974a9c1fb8c5f97608d022110fb3","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -7843,7 +7843,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+          Value: {"IdType":2,"Id":"1fec974a9c1fb8c5f97608d022110fb3","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -8174,7 +8174,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VALVES"
+          Value: {"IdType":2,"Id":"1fec974a9c1fb8c5f97608d022110fb3","Namespace":20}
       - Name: Rectangle1
         Type: Rectangle
         Children:
@@ -8542,7 +8542,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+          Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -8818,7 +8818,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+          Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -9309,7 +9309,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+          Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -9790,7 +9790,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+          Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -12470,7 +12470,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+          Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -13313,7 +13313,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+            Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: Valvecont1
         Type: Valvecont
         Children:
@@ -14604,7 +14604,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+            Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: Valvecont2
         Type: Valvecont
         Children:
@@ -16872,7 +16872,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+            Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -17687,7 +17687,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+              Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
       - Name: Panel3
         Type: Panel
         Children:
@@ -21480,7 +21480,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+            Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
     - Name: HorizontalLayout2
       Type: RowLayout
       Children:
@@ -21795,7 +21795,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+                Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -21955,7 +21955,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+                Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -22235,7 +22235,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+                Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -22587,7 +22587,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+                Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -22664,7 +22664,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
+                Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
