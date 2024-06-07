@@ -10204,3 +10204,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+- Name: Odor_Bearings
+  Id: g=6358f6d898f96f444a2967d77dcb8c88
+  Supertype: Screen
+  ReferenceType: HasComponent

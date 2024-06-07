@@ -16510,3 +16510,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+- Name: Pellet_Mill_Bearings
+  Id: g=1ff8c5286a2813e022bcf625c4c41570
+  Supertype: Screen
+  ReferenceType: HasComponent

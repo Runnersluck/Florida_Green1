@@ -3148,6 +3148,1915 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Analog.Super_Sac_2_Loss_In_Weight"
+- Name: BEARING
+  Type: BEARINGS
+  DataType: BEARINGS
+  Children:
+  - Name: Bagger_Elevator
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Bagger_Elevator.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Bagger_Elevator.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bagger_Elevator.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bagger_Elevator.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bagger_Elevator.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bagger_Elevator.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bagger_Elevator.Overtemp_Timer.TT"
+  - Name: Bagger_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Bagger_Elevator_Gear_End_1"
+  - Name: Bagger_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Bagger_Elevator_Gear_End_2"
+  - Name: Bagger_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Bagger_Elevator_Motor_End_1"
+  - Name: Bagger_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Bagger_Elevator_Motor_End_2"
+  - Name: Bagger_Elevator_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Bagger_Elevator_Temp"
+  - Name: Batch_Auger_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Batch_Auger_Temp"
+  - Name: Batch_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Batch_Elevator_Gear_End_1"
+  - Name: Batch_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Batch_Elevator_Gear_End_2"
+  - Name: Batch_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Batch_Elevator_Motor_End_1"
+  - Name: Batch_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Batch_Elevator_Motor_End_2"
+  - Name: Batch_Feed_Elevator
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Batch_Feed_Elevator.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Batch_Feed_Elevator.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Feed_Elevator.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Feed_Elevator.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Feed_Elevator.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Feed_Elevator.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Feed_Elevator.Overtemp_Timer.TT"
+  - Name: Batch_Mixer
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Batch_Mixer.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Batch_Mixer.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Mixer.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Mixer.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Mixer.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Mixer.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Mixer.Overtemp_Timer.TT"
+  - Name: Batch_Mixer_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Batch_Mixer_Temp"
+  - Name: Batch_Surge_Auger
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Batch_Surge_Auger.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Batch_Surge_Auger.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Surge_Auger.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Surge_Auger.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Surge_Auger.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Surge_Auger.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Batch_Surge_Auger.Overtemp_Timer.TT"
+  - Name: Bulk_Auger
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Bulk_Auger.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Bulk_Auger.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bulk_Auger.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bulk_Auger.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bulk_Auger.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bulk_Auger.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Bulk_Auger.Overtemp_Timer.TT"
+  - Name: Bulk_Auger_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Bulk_Auger_Temp"
+  - Name: Cooler_Elevator
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Cooler_Elevator.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Cooler_Elevator.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cooler_Elevator.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cooler_Elevator.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cooler_Elevator.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cooler_Elevator.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cooler_Elevator.Overtemp_Timer.TT"
+  - Name: Cooler_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Cooler_Elevator_Gear_End_1"
+  - Name: Cooler_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Cooler_Elevator_Gear_End_2"
+  - Name: Cooler_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Cooler_Elevator_Motor_End_1"
+  - Name: Cooler_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Cooler_Elevator_Motor_End_2"
+  - Name: Cooler_Elevator_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Cooler_Elevator_Temp"
+  - Name: Cyclone_Airlock
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Cyclone_Airlock.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Cyclone_Airlock.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cyclone_Airlock.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cyclone_Airlock.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cyclone_Airlock.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cyclone_Airlock.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Cyclone_Airlock.Overtemp_Timer.TT"
+  - Name: Cyclone_Airlock_Gear_End
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Cyclone_Airlock_Gear_End"
+  - Name: Cyclone_Airlock_Motor_End
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Cyclone_Airlock_Motor_End"
+  - Name: Discharge_Auger
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Discharge_Auger.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Discharge_Auger.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Discharge_Auger.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Discharge_Auger.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Discharge_Auger.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Discharge_Auger.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Discharge_Auger.Overtemp_Timer.TT"
+  - Name: Discharge_Conv_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Discharge_Conv_Temp"
+  - Name: Drag_Hopper
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Drag_Hopper.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Drag_Hopper.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Drag_Hopper.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Drag_Hopper.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Drag_Hopper.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Drag_Hopper.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Drag_Hopper.Overtemp_Timer.TT"
+  - Name: Drag_Hopper_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Drag_Hopper_Gear_End_1"
+  - Name: Drag_Hopper_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Drag_Hopper_Gear_End_2"
+  - Name: Drag_Hopper_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Drag_Hopper_Motor_End_1"
+  - Name: Drag_Hopper_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Drag_Hopper_Motor_End_2"
+  - Name: Feed_Auger_1
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Feed_Auger_1.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Feed_Auger_1.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_1.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_1.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_1.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_1.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_1.Overtemp_Timer.TT"
+  - Name: Feed_Auger_1_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Feed_Auger_1_Temp"
+  - Name: Feed_Auger_2
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Feed_Auger_2.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Feed_Auger_2.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_2.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_2.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_2.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_2.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_2.Overtemp_Timer.TT"
+  - Name: Feed_Auger_2_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Feed_Auger_2_Temp"
+  - Name: Feed_Auger_3
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Feed_Auger_3.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Feed_Auger_3.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_3.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_3.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_3.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_3.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Feed_Auger_3.Overtemp_Timer.TT"
+  - Name: Feed_Auger_3_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Feed_Auger_3_Temp"
+  - Name: Main_Auger
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Main_Auger.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Main_Auger.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Main_Auger.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Main_Auger.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Main_Auger.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Main_Auger.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Main_Auger.Overtemp_Timer.TT"
+  - Name: Main_Feed_Conv_Gear_End
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Main_Feed_Conv_Gear_End"
+  - Name: Main_Feed_Conv_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Main_Feed_Conv_Temp"
+  - Name: Mixer_Gear_End
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Mixer_Gear_End"
+  - Name: Mixer_Mtr_End
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Mixer_Mtr_End"
+  - Name: Outside_Elevator
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Outside_Elevator.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Outside_Elevator.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Outside_Elevator.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Outside_Elevator.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Outside_Elevator.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Outside_Elevator.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Outside_Elevator.Overtemp_Timer.TT"
+  - Name: Outside_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Outside_Elevator_Gear_End_1"
+  - Name: Outside_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Outside_Elevator_Gear_End_2"
+  - Name: Outside_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Outside_Elevator_Motor_End_1"
+  - Name: Outside_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Outside_Elevator_Motor_End_2"
+  - Name: PM_1
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_1.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_1.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_1.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_1.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_1.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_1.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_1.Overtemp_Timer.TT"
+  - Name: PM_2
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_2.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_2.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_2.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_2.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_2.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_2.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_2.Overtemp_Timer.TT"
+  - Name: PM_3
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_3.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_3.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_3.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_3.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_3.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_3.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_3.Overtemp_Timer.TT"
+  - Name: PM_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.PM_Elevator_Gear_End_1"
+  - Name: PM_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.PM_Elevator_Gear_End_2"
+  - Name: PM_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.PM_Elevator_Motor_End_1"
+  - Name: PM_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.PM_Elevator_Motor_End_2"
+  - Name: PM_Feed_Elevator
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_Feed_Elevator.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_Feed_Elevator.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Feed_Elevator.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Feed_Elevator.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Feed_Elevator.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Feed_Elevator.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Feed_Elevator.Overtemp_Timer.TT"
+  - Name: PM_Hopper
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_Hopper.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.PM_Hopper.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Hopper.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Hopper.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Hopper.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Hopper.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.PM_Hopper.Overtemp_Timer.TT"
+  - Name: PM_Hopper_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.PM_Hopper_Temp"
+  - Name: PM_Sensor_1_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.PM_Sensor_1_Temp"
+  - Name: PM_Sensor_2_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.PM_Sensor_2_Temp"
+  - Name: PM_Sensor_3_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.PM_Sensor_3_Temp"
+  - Name: Reject_Auger
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Reject_Auger.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Reject_Auger.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Reject_Auger.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Reject_Auger.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Reject_Auger.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Reject_Auger.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Reject_Auger.Overtemp_Timer.TT"
+  - Name: Reject_Conv_Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Reject_Conv_Temp"
+  - Name: Rotoclone
+    Type: BEARING_OVERTEMP
+    DataType: BEARING_OVERTEMP
+    Children:
+    - Name: Overtemp_Alarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Rotoclone.Overtemp_Alarm"
+    - Name: Overtemp_Setpoint
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BEARING.Rotoclone.Overtemp_Setpoint"
+    - Name: Overtemp_Timer
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Rotoclone.Overtemp_Timer.ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Rotoclone.Overtemp_Timer.DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Rotoclone.Overtemp_Timer.EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Rotoclone.Overtemp_Timer.PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "BEARING.Rotoclone.Overtemp_Timer.TT"
+  - Name: Rotoclone_Gear_End
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Rotoclone_Gear_End"
+  - Name: Rotoclone_Motor_End
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BEARING.Rotoclone_Motor_End"
 - Name: Alarms
   Type: HMI_ALARMS
   DataType: HMI_ALARMS
@@ -3242,6 +5151,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Bagger_Elevator_Upper_Right_Rub_Trip"
+  - Name: Bagger_Feed_Low_Flow_trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bagger_Feed_Low_Flow_trip"
   - Name: BAGGER_HOPPER_FULL
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3539,6 +5457,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Bulk_Auger_FTS"
+  - Name: Bulk_Feed_Low_Flow_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bulk_Feed_Low_Flow_Trip"
   - Name: Cooler_Elevator_EXP_1_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4259,6 +6186,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Feed_Elevator_Overload"
+  - Name: PM_Hopper_Explosion_Valve_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Hopper_Explosion_Valve_Tripped"
   - Name: PM_Hopper_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4277,6 +6213,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Hopper_Full"
+  - Name: PM_Shaker_Discharge
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Shaker_Discharge"
   - Name: PM_Shaker_FTM
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4367,6 +6312,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Rotoclone_Overload"
+  - Name: Sack_Low_Flow_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Sack_Low_Flow_Trip"
   - Name: Selected_Dutchman_Hopper_Empty
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4385,15 +6339,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Selected_Dutchman_Hopper_Full"
-  - Name: Shaker_Discharge
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Shaker_Discharge"
   - Name: Surge_Hopper_Explosion_Valve_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -16620,6 +18565,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "HMI_setpoints.Batch_mixer_dwell_time"
+  - Name: BATCH_MIXER_HIGH_LEVEL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.BATCH_MIXER_HIGH_LEVEL"
   - Name: BATCH_SCALE_MIXER_HIGH_Level
     Type: RAEtherNetIPTag
     DataType: Float
@@ -16647,6 +18601,87 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "HMI_setpoints.BULK_LOW_FLOW_TIME"
+  - Name: DUTCH_A_HIGH_LEVEL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.DUTCH_A_HIGH_LEVEL"
+  - Name: DUTCH_B_HIGH_LEVEL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.DUTCH_B_HIGH_LEVEL"
+  - Name: PM1_HIGH_LEVEL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.PM1_HIGH_LEVEL"
+  - Name: PM2_HIGH_LEVEL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.PM2_HIGH_LEVEL"
+  - Name: PM3_HIGH_LEVEL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.PM3_HIGH_LEVEL"
+  - Name: PM_1_2_3_PID_Level_SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.PM_1_2_3_PID_Level_SP"
+  - Name: PM_1_PID_amps_SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.PM_1_PID_amps_SP"
+  - Name: PM_2_PID_amps_SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.PM_2_PID_amps_SP"
+  - Name: PM_3_PID_amps_SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_setpoints.PM_3_PID_amps_SP"
   - Name: PM_Feed_Elevator_Low_Flow
     Type: RAEtherNetIPTag
     DataType: Float

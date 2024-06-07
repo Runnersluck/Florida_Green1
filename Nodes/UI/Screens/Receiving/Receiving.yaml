@@ -8561,3 +8561,86 @@ Children:
     DataType: Color
     ModellingRule: Optional
     Value: "#002559"
+- Name: Receiving_Bearings
+  Id: g=68fe07dc95b2c6a2d2c31a4fb4543ebe
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScaleLayout1
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Panel1
+      Type: Panel
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Panel1
+          Type: Panel
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: VerticalLayout1
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+        - Name: Panel2
+          Type: Panel
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
