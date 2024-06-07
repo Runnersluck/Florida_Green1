@@ -22815,3 +22815,7 @@ Children:
     DataType: Color
     ModellingRule: Optional
     Value: "#002559"
+- Name: Mixer_Bearings
+  Id: g=bfab713bf560f987048c74bfeb30295e
+  Supertype: Screen
+  ReferenceType: HasComponent
