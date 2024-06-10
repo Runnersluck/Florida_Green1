@@ -452,6 +452,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "COMM_NOT_OK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "COMM_OK",
       "DataType": {
        "Id": 1
@@ -957,6 +962,16 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Bagger_Elevator_Gear_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Gear_End_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Bagger_Elevator_High_Amps",
       "DataType": {
        "Id": 1
@@ -978,6 +993,16 @@ Children:
       }
      },{
       "Name": "Bagger_Elevator_Lower_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_Elevator_Motor_End_2",
       "DataType": {
        "Id": 1
       }
@@ -1042,7 +1067,27 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Batch_Elevator_Gear_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Gear_End_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Batch_Elevator_Low_Speed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Elevator_Motor_End_2",
       "DataType": {
        "Id": 1
       }
@@ -1083,6 +1128,11 @@ Children:
       }
      },{
       "Name": "Batch_Mixer_High_Amps",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_Mixer_Motor_End_1",
       "DataType": {
        "Id": 1
       }
@@ -1132,6 +1182,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Batch_Surge_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Batch_VLV_No_Feedback",
       "DataType": {
        "Id": 1
@@ -1167,6 +1222,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Bulk_Auger_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Bulk_Feed_Low_Flow_Trip",
       "DataType": {
        "Id": 1
@@ -1178,6 +1238,16 @@ Children:
       }
      },{
       "Name": "Cooler_Elevator_FTS",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Gear_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Gear_End_2",
       "DataType": {
        "Id": 1
       }
@@ -1207,6 +1277,16 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Cooler_Elevator_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Elevator_Motor_End_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Cooler_Elevator_Overload",
       "DataType": {
        "Id": 1
@@ -1227,7 +1307,17 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Cyclone_Airlock_Gear_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Cyclone_Airlock_High_Amps",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cyclone_Airlock_Motor_End_1",
       "DataType": {
        "Id": 1
       }
@@ -1237,12 +1327,37 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Discharge_Auger_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Drag_Hopper_FTS",
       "DataType": {
        "Id": 1
       }
      },{
+      "Name": "Drag_Hopper_Gear_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Drag_Hopper_Gear_End_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Drag_Hopper_High_Amps",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Drag_Hopper_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Drag_Hopper_Motor_End_2",
       "DataType": {
        "Id": 1
       }
@@ -1347,12 +1462,27 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Feed_Auger_1_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Feed_Auger_2_FTS",
       "DataType": {
        "Id": 1
       }
      },{
+      "Name": "Feed_Auger_2_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Feed_Auger_3_FTS",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Feed_Auger_3_Motor_End_1",
       "DataType": {
        "Id": 1
       }
@@ -1363,6 +1493,11 @@ Children:
       }
      },{
       "Name": "Main_Feed_Auger_FTS",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Main_Feed_Auger_Motor_End_1",
       "DataType": {
        "Id": 1
       }
@@ -1407,6 +1542,16 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Outside_Elevator_Gear_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Gear_End_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Outside_Elevator_High_Amps",
       "DataType": {
        "Id": 1
@@ -1428,6 +1573,16 @@ Children:
       }
      },{
       "Name": "Outside_Elevator_Lower_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Outside_Elevator_Motor_End_2",
       "DataType": {
        "Id": 1
       }
@@ -1492,6 +1647,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "PM_1_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "PM_2_FTS",
       "DataType": {
        "Id": 1
@@ -1502,12 +1662,22 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "PM_2_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "PM_3_FTS",
       "DataType": {
        "Id": 1
       }
      },{
       "Name": "PM_3_HIGH_AMPS",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_3_Motor_End_1",
       "DataType": {
        "Id": 1
       }
@@ -1547,7 +1717,27 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "PM_Elevator_Gear_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Gear_End_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "PM_Elevator_Low_Speed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Motor_End_2",
       "DataType": {
        "Id": 1
       }
@@ -1572,6 +1762,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "PM_Hopper_Explosion_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "PM_Hopper_Explosion_Valve_Tripped",
       "DataType": {
        "Id": 1
@@ -1583,6 +1778,11 @@ Children:
       }
      },{
       "Name": "PM_Hopper_Full",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Hopper_Motor_End_1",
       "DataType": {
        "Id": 1
       }
@@ -1607,6 +1807,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Reject_Auger_Motor_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Reject_Low_Flow",
       "DataType": {
        "Id": 1
@@ -1627,12 +1832,22 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Rotoclone_Fan_End_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Rotoclone_FTS",
       "DataType": {
        "Id": 1
       }
      },{
       "Name": "Rotoclone_Low_Water",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Rotoclone_Motor_End_1",
       "DataType": {
        "Id": 1
       }
