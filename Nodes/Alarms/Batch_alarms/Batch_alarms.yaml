@@ -3,3 +3,7 @@ Id: g=8ca85651cde81ed3d424d046aa2cdf7f
 Type: FolderType
 Children:
 - File: Batch_Feed_Elevator_Alarms/Batch_Feed_Elevator_Alarms.yaml
+- File: Batch_Valve_Alarms/Batch_Valve_Alarms.yaml
+- File: Batch_Scale_Alarms/Batch_Scale_Alarms.yaml
+- File: Batch_Mixer_Alarms/Batch_Mixer_Alarms.yaml
+- File: Batch_Surge_Auger_Alarms/Batch_Surge_Auger_Alarms.yaml

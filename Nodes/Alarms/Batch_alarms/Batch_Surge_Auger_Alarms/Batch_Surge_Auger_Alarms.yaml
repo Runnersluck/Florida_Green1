@@ -1,0 +1,142 @@
+Name: Batch_Surge_Auger_Alarms
+Id: g=908db277022495a482e3a8c9119a432e
+Type: FolderType
+Children:
+- Name: Batch_Surge_Auger_FTS_Alarm
+  Id: g=9d2a311dee161995948e4296c8d8633a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=80a99317f3994c1a2414593d3cf12f34
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=2f1375136739cde978978238349d5bc0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=00cf8b5c4873256791663d6857843785
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Surge_FTS"
+      Children:
+      - Name: Mode
+        Id: g=eb7dd3b3a31aeac93b70717b82bfc249
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d2810e8427693ab2d423cb4afb4a2bf4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=ec6396b2b9a349946c0951a265fccead
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Surge Auger Failed to Start"}
+- Name: Batch_Surge_Auger_VFD_Fault_Alarm
+  Id: g=da968412f219d6455279bef10cc368ce
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ea97119412bb67c627dd8a67d24de0b6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=cba368eaf269f9947275d60f64144049
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d0b483b17909aeb478a1e6a61832ad05
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Surge_Auger/FAULT"
+      Children:
+      - Name: Mode
+        Id: g=52ac41ea6cfffbc5a7b99d2c09c883a1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=40f39712c17a0374bb8785a871a519a1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7ff36b790ebbb3a0c8ef1fbecebb11da
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Surge Auger VFD Error"}
+- Name: Batch_Surge_Auger_Bearing_Overtemp_Alarm_1
+  Id: g=83ee76bdde2e556060a7410de73df1da
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4b052bc19089985d1517749f9edaf42a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=9ea8ae95b3f6b755749ca5b16561ff2a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d31ee587fb2f088becb0e25adb1665bf
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Surge_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=be265612d2d9321ee093ecc4ceab8483
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5e21b87b1f1c83533a60537252f7105c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=27db06be3827e90da10b455207e0097e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Surge Auger Bearing Motor End 1 Overheated"}

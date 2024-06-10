@@ -1,0 +1,193 @@
+Name: Batch_Scale_Alarms
+Id: g=4a7a8e2c4b544df771a379633da335c3
+Type: FolderType
+Children:
+- Name: Batch_Scale_High_Level_Alarm
+  Id: g=7d5a26daf33a33d46dd9f95c6a0e3181
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4a65033fe8db8e31bb8cdadf1758edcf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=7b172b33b3bdbb5b8c62816fec8e268c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=e97e455479c6150984e37251af367c88
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/BATCH_SCALE_HOPPER_FULL"
+      Children:
+      - Name: Mode
+        Id: g=01a4267fcd41417dca34e6c1b4674aae
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=bb15996c0ac6b996c2bb397de59cf98b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=0b8efb34a6c76983e5029f1daaed2bf9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Scale Hopper Full"}
+  - Name: Severity
+    Id: g=259eda3e977fbbf9aca121ebef403bac
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+- Name: Batch_Scale_Failed_To_Open_Alarm
+  Id: g=688329227714d969076494aa6d31a2d0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=766703b8fc5fb962aceae1c99b530234
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0a4420649b1366016eab0ab41264a3b8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=eb5fa6b02cecc5121b972b3678a6ad7f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Scale_VLV_Failed_To_Open"
+      Children:
+      - Name: Mode
+        Id: g=becbb433cbfb9766a454101a4176d423
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f14cc864962fc479fcf52b333c16c16f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1b7b75b9cbcd15d064d77b264db02035
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Scale Valve Failed to Open"}
+- Name: Batch_Scale_Failed_To_Close_Alarm
+  Id: g=812e99a6efbfbbaa68e9da3721c8c5c0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=17bb5fc1ae53eebfd91032a680fbec97
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=d17281f5dbc3b41b2bfc15cb3095c336
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c9448478f8e7ea15e8ba7e84e696afc1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Scale_VLV_Failed_To_Close"
+      Children:
+      - Name: Mode
+        Id: g=376be2698227d198ae295fe094736cde
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=42a30dc7e966717399182e80a298299b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=4be119920d3da96ff6895750af6fe741
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Scale Valve Failed to Close"}
+- Name: Batch_Scale_Valve_No_Feedback_Alarm
+  Id: g=2e23d46c46c8e18fa85989e5eba2172f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a89da49d7f15aea2578e0a39c05cd5ba
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=442240b6a153fc10214a46884cdebb0f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=13d4a6698baf6f2e1ffb9bc4f7254b66
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Scale_VLV_No_Feedback"
+      Children:
+      - Name: Mode
+        Id: g=7f13979c719b85b67186753ad23865ae
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c69e09d4506b1dc4e359328d39683dbc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=a7992405168aff287dadc642cc2ab848
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Scale Valve Position Error"}

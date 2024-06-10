@@ -1,0 +1,326 @@
+Name: Batch_Mixer_Alarms
+Id: g=22c367024262c7d17c6883f33e881a87
+Type: FolderType
+Children:
+- Name: Batch_Mixer_FTS_Alarm
+  Id: g=941604a76b6e7411a351ca66ede76d84
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3e2830ac849bb76add5420695d63c230
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=6ef8a95738c89cd6becb5826d5578b92
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=49418d20256ccadd073bc63f72eb219f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Mixer_FTS"
+      Children:
+      - Name: Mode
+        Id: g=6d204a52acdd45dcd0f2e96d4e6febb8
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=67c893dd2c4f79e1213bfda265b58a58
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9a5f54aff9e80c6d7540d9b544059420
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Mixer Failed to Start"}
+- Name: Batch_Mixer_VFD_Fault_Alarm
+  Id: g=371551d24d2edf03f4a0b5f21ca86f79
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f18e434c33f1d9ed185e7a32c685a72d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=eb8395efb27c4678e864bdcfb8471c25
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=0137d7a89d0068d3c3522ddf89870d8f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Mixer/FAULT"
+      Children:
+      - Name: Mode
+        Id: g=7586060899677be9d6022763b2f57ffd
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6ac5dcf58049d6e17faf591e2c941774
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1b66602642fdfce5e8ad863cf57e1300
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Mixer VFD Faulted"}
+- Name: Batch_Mixer_Bearing_Overtemp_Alarm_1
+  Id: g=4b4fed1a1ac09bfdb917586b831e8c39
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bce86e608d48f06e8cc92c9c81ec3e77
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=85d1d85f9726951ac0ac2874ab92e889
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=11f36a7dd6ac26e2283f11a8f56fbfcf
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Mixer_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=f6d4b1bfcdf10859d57fbd61f00c6ade
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e61f5934ee49fab71c8820572fc3c975
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=bbf6a40f1d1430fec9770a9ab5353fc7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Mixer Bearing Motor End 1 Overheated"}
+- Name: Batch_Mixer_Full_Alarm
+  Id: g=de2656fe3c75489ddb52e1bc6139b4ce
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=60fbfacadcd014e06ac5b738f53e7e1a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f2fa79a16ae424a5ff1e3d7a1eda3321
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6e4a6518918a2afce02e8fe927beab7e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/BATCH_MIXER_FULL"
+      Children:
+      - Name: Mode
+        Id: g=42dbe931236003d09bc300ccdbbfabbc
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=fa1c97d20a11dfc7102c5026fdf35197
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=4817ef29ed6caa513af3f381d67ddc83
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Mixer Full"}
+- Name: Batch_Mixer_Valve_Failed_To_Open_Alarm
+  Id: g=dd0ddee1e43f567868b15844e764dffe
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=54c32479cddf60ca7686b090064d3c44
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=34992b300b20f3f3f4135f29eac4f3d8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=9152fdb423a9f57b112943e77cce95d0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Mixer_VLV_Failed_To_Open"
+      Children:
+      - Name: Mode
+        Id: g=ce5fad2c6ddc14ec19386f684af3bd14
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5c7aa8cf910d8e18d2124c8a08f91ebf
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1a32f9d81044baaacba2751c1793746e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Mixer Valve Failed to Open"}
+- Name: Batch_Mixer_Valve_Failed_To_Close_Alarm
+  Id: g=a2bbdceeab1b8b380cc344a8f2f7dd2c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b57fc2947de22fe4de279b74f49a4d86
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=cc824f1e2fb356b4ac56bee2e697c629
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8306c772221248ac93922d923a926ed5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Mixer_VLV_Failed_To_Close"
+      Children:
+      - Name: Mode
+        Id: g=525e0cd80be474dc55ab9d4511beb5d6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e7627c42cfe047f163f5a22d4e848107
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=68a31bd4d7921aab08f0afa37273ee64
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Mixer Valve Failed to Close"}
+- Name: Batch_Mixer_Valve_No_Feedback_Alarm
+  Id: g=f56197664a89cdd74ba7bb6817ec0659
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a97be79f730fb26b4af1f1a4b24af4ae
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b7e88760db5be77b048c09da9921152c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1eec294377d4eae79612efa048db3a58
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Mixer_VLV_No_Feedback"
+      Children:
+      - Name: Mode
+        Id: g=de4a8fb444d38caf2ef15ed3df2558e6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=17ab906a23a2eda5f778565ff9484ed2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=12d78f749cd47fd54d2fd7726045fb7c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Mixer Valve Position Error"}

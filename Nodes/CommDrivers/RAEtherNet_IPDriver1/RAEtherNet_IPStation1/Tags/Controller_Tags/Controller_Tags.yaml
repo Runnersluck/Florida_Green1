@@ -6582,6 +6582,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Elevator_Gear_End_2"
+  - Name: Batch_Mixer_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Mixer_Motor_End_1"
+  - Name: Batch_Surge_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Surge_Motor_End_1"
 - Name: Drag_Hopper
   Id: g=ccf44fdb177e71f24c7ee3b61cab12ed
   Type: VFD_CONTROLS
@@ -10678,6 +10696,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Mixer.TRIPPED"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "COMM_NOT_OK"
 - Name: Pellet_mill_1
   Id: g=f19aeeaab08860e363a700625b98183d
   Type: MTR_STARTER_CONTROLS

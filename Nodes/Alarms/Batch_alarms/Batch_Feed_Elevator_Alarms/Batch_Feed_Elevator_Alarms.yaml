@@ -520,3 +520,141 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         Value: true
+- Name: Batch_Feed_Elevator_EXP_Panel_Alarm
+  Id: g=bcdfad1177e36b91680d11891bfca7d7
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b81a6b52e81c975d20a5580a0b64c1e5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=9adaf13583d324a6364fc72e39904b5f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=4159a401ba4399e5d3ad87578ada4381
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Explosion_Panel_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=fcccef6d9849c9a15716f7f93bf4d0f6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f0ff050ba4d73b697f425f479dcc5475
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7aad8276d8f01b4294351c5b68b4b31a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Elevetor Explosion Panel Tripped"}
+- Name: Batch_Feed_Elevator EXP_Valve_Alarm
+  Id: g=54984d3c92712ba7febf0736d5455e97
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ecc2352681a51612c849c678a4b8aaa3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b5651ffe459d42d203356d6daef4abac
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6af2e9577245562c24816d6b52f332c7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Explosion_Valve_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=9abcf7820e462d8b97b1dd0da7d6ef8d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1e540b04a4f3ca85d171dbfecb6e574a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=32b68e9f26bb4c899e4f3787ddd5abf9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Elevator Explosion Valve Tripped"}
+- Name: Batch_Feed_Elevator_Low_Speed_Alarm
+  Id: g=8e020b6ab629d16546c75b2e98f46e86
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f6debf71545e049b54e16ab5c6aa64f1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=3817370479b08ecd241ed8564b85c64b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1b2dbe126f604c81e341c54e967d2087
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Low_Speed"
+      Children:
+      - Name: Mode
+        Id: g=ce6f69e0f0bea4db53fcc8845a3d5fc3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=74017b95f1588a2e34ac036e3acea004
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=2e9651660a34445953aae6152524dd5c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Jammed or Running Too Slow"}
