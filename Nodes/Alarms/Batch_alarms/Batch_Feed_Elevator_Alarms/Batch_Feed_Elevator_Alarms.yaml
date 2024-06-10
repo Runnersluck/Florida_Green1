@@ -1,0 +1,522 @@
+Name: Batch_Feed_Elevator_Alarms
+Id: g=51768dcbee92ed96a7dd6d5fbdbf879d
+Type: FolderType
+Children:
+- Name: Batch_Feed_Elevator_FTS_Alarm
+  Id: g=fc082ddebb120d94e3327066ebfaad70
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=80321cd1d4a1e10cfca75c357d8525f9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=20f922e15f4a78dcadd9e059e6d9a577
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ac2ca865440e3b700eb029e442e94298
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Feed_Elevator_FTS"
+      Children:
+      - Name: Mode
+        Id: g=48c617ccddcd94bb68a95b687574ff06
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4c88ce29eee93fde407e364774e9f776
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=f46761297158baa2e95715edf39aea5a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Failed to Start"}
+- Name: Batch_Feed_Elevator_Overload_Tripped_Alarm
+  Id: g=6a1c927637b48125c0b28f5e12829479
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3d3ec902d7a5d33f31f59b2f535754a5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=973978e7af98abcf3717c333621ed93e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=cd2669476b5018e93021d6cca16ca37f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Feed_Elevator_Overload"
+      Children:
+      - Name: Mode
+        Id: g=dce1cbe55c1edb8e4408f9435921e5bb
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=925ac0767b2e32abd906ff882f7620dd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7eb22dc388f83509e53f2a69c6795d0e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Motor Overload Tripped"}
+- Name: Batch_Feed_Elevator_High_Amps_Alarm
+  Id: g=ef82f3f053b9f88fe7a3c52c9b9c8e6f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0dc1d2e78f40e8ae22222ec8a7547f8b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=6b8ef7f6d91cda3a68e1d2ea861b9ff3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=7a27764ae05d7cc1ca7e59562c0281bb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Feed_Elevator_High_Amps"
+      Children:
+      - Name: Mode
+        Id: g=20b4e4d935e8861c4a280d9a1f8c27d8
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=245df68eac0b9cf65eba61f8126b9904
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=0c7310e3b2694a4446186b901549eded
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Overcurrent"}
+- Name: Batch_Feed_Elevator_BR_Rub_Alarm
+  Id: g=095f064f08b5dae973369eeb874385fd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5c7c7f5e0109b33c0a2c4ed8f9b4bb25
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=7395bb046de489a0380608d8b87ed5ba
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=2284818f9ad97fdcdee306d505ef9fa9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Lower_Right_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=f273de8e2867edcb4ed83ba9d5d97d43
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=688d0e82f2d580a2043c32e9e0648e44
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9e2b92768b9fb80ffb7527c38dfb9676
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Bottom Right Rub Sensor Tripped"}
+- Name: Batch_Feed_Elevator_BL_Rub_Alarm
+  Id: g=b80153cd11db18336ca4eb1e2863dd4a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bbf73797482dc2e843406c276c295fef
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=d4dd2861bcf8c6dbe5546c3c733f8401
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=b24c41a6e9d24e4363f3a963e8ccbdfa
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Lower_Left_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=7b2626a966effb416be90a2f588b473a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1b472f841f287434ac3caf2a0f1ee9c2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1386700d411bef04f4ad75a6687cc0be
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Bottom Left Rub Sensor Tripped"}
+- Name: Batch_Feed_Elevator_TR_Rub_Alarm
+  Id: g=d7c819cb6bca77b4657a2851a1f26bd4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9b62f530432f38e9bc95fcead0f49fbb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f3a93d5e5e816a958589269d16340c27
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=b9d4c5e1f96dbddf3d0f6ea8fd592058
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Upper_Right_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=48528cdc51937ad486109992603070a3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=290a3ce3aa8f21698778c39a3306a4b3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=90e389dcd69c4dfdfc41a072ea1a0d53
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Top Right Rub Sensor Tripped"}
+- Name: Batch_Feed_Elevator_TL_Rub_Alarm
+  Id: g=94821a691dea1ab2bce551631fa349ae
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ae5c386a0009717d17652dc554f0d402
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=4f782926f1981faeaf0f2520e1079e84
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c8319fd523e3bd131befee6aac735e28
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Upper_Left_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=62bb7294d05f3c9f66fc447f4fe90ca8
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4266007928e7dddfa33d25112e3d05bb
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=5eb0d2446425c36d4d95cbde78a41bdb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Top Left Rub Sensor Tripped"}
+- Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_1
+  Id: g=c6a674ade103f4f7db097f54789174bd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b3fd22151bbc9ee32a84cb52841722b6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=75970f35e26c45adcb9ba4602461b426
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a141826ffdae4b4d51d0aca43cc960c8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Elevator_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=31cc13a0cd3d29a5d7ca7aefc816e264
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e80a968f3a9382a9740b32fe08093199
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=528805c2658bada54b562f9fb9d5c828
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Elevator Bearing Motor End 1 Overheated"}
+- Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_2
+  Id: g=2256ddcb17ad8676afc72e955cba3ee7
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=60a73dcf0904daa45232b12a8fdfb4f2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=4b92709c981de0ae8780dda5802fd104
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=20710a9f640c3f8c3c888124825cfc96
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Motor_End_2"
+      Children:
+      - Name: Mode
+        Id: g=026140b19a9ed28e278cc20c98ff5f41
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=34c59f6d9780ba117ab22bb26f465eb4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=260d07779edf8aa45849401d60b07265
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Elevator Bearing Motor End 2 Overheated"}
+- Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_3
+  Id: g=e7cafcf75e05373f5749f7613c72accf
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e7c2fefc1740e888b9cf52ca5f335e34
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=5acb510e00ad0cda32e0509c7ff7d9df
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a1a1bd3e284815b6e70ecbda811c7c2b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Gear_End_1"
+      Children:
+      - Name: Mode
+        Id: g=e93ad22a6fb25e34b6ad327a72a7851a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c7d9ad3e354a279cf59ca2c2293667d3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1f045154657e30a55002feaac13d458c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Elevator Bearing Gear End 1 Overheated"}
+- Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_4
+  Id: g=f1301d683c509d04c8e7ac143fbc093e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6285927d9ad03d08639eab1d05db690d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=d3f8b6bdc244f413e2dc4ef2e1ecefe9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=be0e63bf6f84969ddffcbaf2e301e912
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Gear_End_2"
+      Children:
+      - Name: Mode
+        Id: g=b61b71cd52b7210c84ec29d4601cc527
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b29d170c01ece1d952fb08b19e9a6b09
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b3f55dd03e2aa8af1ea51ab968ed605f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Gear End 2 Overheated"}
+    Children:
+    - Name: DynamicLink
+      Id: g=0506cb7e9dfa65af0c8534106cccde19
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "Batch Elevator Gear End 2 Overheated"
+      Children:
+      - Name: IsPull
+        Id: g=ee025107b92345e8756e2ed1077e4bd3
+        Type: BaseVariableType
+        DataType: Boolean
+        Value: true

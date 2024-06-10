@@ -2423,42 +2423,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Elevator_Alarm"
-  - Name: Batch_Elevator_Alarm_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Batch_Elevator_Alarm_1"
-  - Name: Batch_Elevator_Alarm_2
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Batch_Elevator_Alarm_2"
-  - Name: Batch_Elevator_Alarm_3
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Batch_Elevator_Alarm_3"
-  - Name: Batch_Elevator_Alarm_4
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Batch_Elevator_Alarm_4"
   - Name: Batch_Elevator_Explosion_Panel_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -2504,6 +2468,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Elevator_Low_Speed"
+  - Name: Batch_Elevator_Lower_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Lower_Left_Rub_Trip"
+  - Name: Batch_Elevator_Lower_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Lower_Right_Rub_Trip"
   - Name: Batch_Elevator_Motor_End_1
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -2522,6 +2504,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Elevator_Motor_End_2"
+  - Name: Batch_Elevator_Upper_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Upper_Left_Rub_Trip"
+  - Name: Batch_Elevator_Upper_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Elevator_Upper_Right_Rub_Trip"
   - Name: Batch_Feed_Elevator_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean

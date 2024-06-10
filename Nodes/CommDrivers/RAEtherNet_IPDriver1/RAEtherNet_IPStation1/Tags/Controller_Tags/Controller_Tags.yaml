@@ -5340,6 +5340,42 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Batch_Elevator_Low_Speed"
+  - Name: Batch_Elevator_Lower_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Batch_Elevator_Lower_Left_Rub_Trip"
+  - Name: Batch_Elevator_Lower_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Batch_Elevator_Lower_Right_Rub_Trip"
+  - Name: Batch_Elevator_Upper_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Batch_Elevator_Upper_Left_Rub_Trip"
+  - Name: Batch_Elevator_Upper_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Batch_Elevator_Upper_Right_Rub_Trip"
   - Name: Batch_Feed_Elevator_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5943,6 +5979,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Main_Feed_Auger_FTS"
+  - Name: Main_Feed_Auger_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Main_Feed_Auger_Motor_End_1"
   - Name: ON_UPS_Power_Alarm
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6015,6 +6060,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Outside_Elevator_FTS"
+  - Name: Outside_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Outside_Elevator_Gear_End_1"
+  - Name: Outside_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Outside_Elevator_Gear_End_2"
   - Name: Outside_Elevator_High_Amps
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6060,6 +6123,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Outside_Elevator_Lower_Right_Rub_Trip"
+  - Name: Outside_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Outside_Elevator_Motor_End_2"
   - Name: Outside_Elevator_Overload
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6483,7 +6555,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Surge_Tank_Low_Level"
-  - Name: Outside_Elevator_Motor_End_2
+  - Name: Batch_Elevator_Motor_End_2
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -6491,8 +6563,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Outside_Elevator_Motor_End_2"
-  - Name: Outside_Elevator_Gear_End_1
+      Value: "Batch_Elevator_Motor_End_2"
+  - Name: Batch_Elevator_Gear_End_1
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -6500,8 +6572,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Outside_Elevator_Gear_End_1"
-  - Name: Outside_Elevator_Gear_End_2
+      Value: "Batch_Elevator_Gear_End_1"
+  - Name: Batch_Elevator_Gear_End_2
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -6509,7 +6581,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Outside_Elevator_Gear_End_2"
+      Value: "Batch_Elevator_Gear_End_2"
 - Name: Drag_Hopper
   Id: g=ccf44fdb177e71f24c7ee3b61cab12ed
   Type: VFD_CONTROLS
@@ -6551,6 +6623,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Drag_Hopper.Auto_Start"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Drag_Hopper.COMM_NOT_OK"
   - Name: COMM_OK
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6865,15 +6946,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Drag_Hopper.TRIPPED"
-  - Name: COMM_NOT_OK
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "COMM_NOT_OK"
 - Name: Rotoclone
   Id: g=348dac333402b5aa23c6e283087d8c76
   Type: VFD_CONTROLS

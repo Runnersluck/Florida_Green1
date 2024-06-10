@@ -323,7 +323,7 @@ Children:
     Id: g=696fb434d040298cd9bcfd34c7d1445d
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Drag Hopper Communication Loss "}
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper VFD Communication Loss "}
 - Name: Drag_Hopper_VFD_Fault_Alarm
   Id: g=82017031b69e95b447509dccbe2b6f48
   Type: OffNormalAlarmController
