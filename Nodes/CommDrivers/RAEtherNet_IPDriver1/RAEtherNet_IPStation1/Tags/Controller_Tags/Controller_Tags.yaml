@@ -6771,6 +6771,78 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_3_Motor_End_1"
+  - Name: Cooler_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Motor_End_2"
+  - Name: Cooler_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Gear_End_1"
+  - Name: Cooler_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Elevator_Gear_End_2"
+  - Name: Bagger_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_Motor_End_2"
+  - Name: Bagger_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Elevator_Gear_End_1"
+  - Name: Bulk_Auger_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bulk_Auger_Motor_End_1"
+  - Name: Rotoclone_Fan_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Rotoclone_Fan_End_1"
+  - Name: Cyclone_Airlock_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cyclone_Airlock_Gear_End_1"
 - Name: Drag_Hopper
   Id: g=ccf44fdb177e71f24c7ee3b61cab12ed
   Type: VFD_CONTROLS
@@ -7490,6 +7562,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Rotoclone.TRIPPED"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "COMM_NOT_OK"
 - Name: Main_Feed_Auger
   Id: g=de4471b4c312f4988ea5ca3b75942e99
   Type: VFD_CONTROLS

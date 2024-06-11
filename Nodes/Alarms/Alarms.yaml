@@ -5,4 +5,5 @@ Children:
 - File: Receiving_Loop_Alarms/Receiving_Loop_Alarms.yaml
 - File: Batch_Loop_Alarms/Batch_Loop_Alarms.yaml
 - File: Pellet_Mill_Feed_Loop_Alarms/Pellet_Mill_Feed_Loop_Alarms.yaml
-- File: Cooler_alarms/Cooler_alarms.yaml
+- File: Cooler_Loop_Alarms/Cooler_Loop_Alarms.yaml
+- File: Odor_Control_Exhaust_Loop_Alarms/Odor_Control_Exhaust_Loop_Alarms.yaml

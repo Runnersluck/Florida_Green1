@@ -1,0 +1,96 @@
+Name: Reject_Auger_Alarms
+Id: g=d9b84a31651d4d74fb317b046fe8ab02
+Type: FolderType
+Children:
+- Name: Reject_Auger_FTS_Alarm
+  Id: g=99d4a131f0184693b11258ae460c8559
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2ad53e343ff3c4c61a6d1c8216f523bc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0eb947288d43a481f8b80f7fa6b89f7f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=2794cec6cd59e4659ce0072e55c036fe
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Reject_Auger_FTS"
+      Children:
+      - Name: Mode
+        Id: g=601b0bfc921649d13aa1e055f702544e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2b8a3cad9a25da173e2aef078f1c0ea1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=8c518c4b0bcede82e204c9588bf1acaf
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Auger Failed to Start"}
+- Name: Reject_Auger_Bearing_Overtemp_Alarm
+  Id: g=5f1386cebb1542371475e03567a77e7d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e32f882048019e0bb1af2c6ebf116c5a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=758822111b7c8f7540af9e4a9bcca0ec
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=609ca2730c8781912b62adeef784bb4e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Reject_Auger_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=3db31e418711da0fa468344506bd2584
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0b83808f974554aa4212e4bb4a41fc30
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=0f38db362cb5cdae992359c3d92c243d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Auger Bearing Motor End 1 Overheated"}

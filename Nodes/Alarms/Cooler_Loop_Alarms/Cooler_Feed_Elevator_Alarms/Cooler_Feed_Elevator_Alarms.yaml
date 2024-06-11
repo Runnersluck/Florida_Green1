@@ -1,0 +1,660 @@
+Name: Cooler_Feed_Elevator_Alarms
+Id: g=9cb6b5cdd64860d263c0dc81733d1dd4
+Type: FolderType
+Children:
+- Name: Cooler_Feed_Elevator_FTS_Alarm
+  Id: g=7cb52909dc4f5e9bc3556bda3f33f704
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3e4d8e907ceb5015224d85b3e6e2f5b7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=bebdc1192342e93236d7e6c8bd0c1480
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=45bef680ca2f9132d3f11a8d5a29974f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_FTS"
+      Children:
+      - Name: Mode
+        Id: g=7be6b60ed9e54f87744390977570fd4b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=37c9d6df22c4a03ac664c331ebdf1982
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=17bcda2f780a5bad6780b4ffc90ec587
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Failed to Start"}
+- Name: Cooler_Feed_Elevator_High_Amp_Alarm
+  Id: g=13f3f6dc69df0acc7ac7e622d488f6e8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6cad7777e353805532faaf7fb03517f8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=dd8db4a25149ae705a8ed6042b59ddfc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=26bb24405d1efc5b73dd7ba6e6c07854
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_High_Amps"
+      Children:
+      - Name: Mode
+        Id: g=c81b31a3cd7fc4d967a366a2582c1c5f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6956d3aa847d9744c6f41e73b2a245b0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=8e834bfdf1e1c6d908bc8ae30942b57f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Overcurrent"}
+- Name: Cooler_Feed_Elevator_Overload_Tripped_Alarm
+  Id: g=43a66374d17fdddf0bb4779ee6d6cf8f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=be93a08794b2d33beefff4f1afeca243
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=383502c1e73d94e4faca7812d6b8af59
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=cc49182c10aa0533bb68d9e462ba2de9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Overload"
+      Children:
+      - Name: Mode
+        Id: g=834bd990bf2e5d443f64ae5443b29b1e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=df9f39becd5d89d12d5c37376be7a4a1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=697eb7e47be2c539745e5b5f6459eb4f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Motor Overload Tripped"}
+- Name: Cooler_Feed_Elevator_Bearing_Overtemp_Alarm_1
+  Id: g=af7cd11ad4281f5185a11119a2f5d499
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b285cb73d35e7a21ffbba99c08a28cb6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=e86c7111fa42225597ed4ee4e913c1e7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=f559ece939bdeed092005761303fb1c7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Cooler_Elevator_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=a3c6e24d6708d08607f734a09934840b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=eff0846d5d800b462e9e2831250b5871
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=6f8d0446b30142a0c9128b24f202b3a5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bearing Motor End 1 Overheated"}
+- Name: Cooler_Feed_Elevator_Bearing_Overtemp_Alarm_2
+  Id: g=a0c7731f1e20f5e5c48ac130f000160d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=994f449d6ce151532f1fe80560c2a7cd
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=622d40ab9541dd1a6c5c684360e8f85d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1f78ad19d1179c575eed8d04479edd91
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Motor_End_2"
+      Children:
+      - Name: Mode
+        Id: g=2a0a9900bab9d2776fd539aec05ac47e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=bb83b07e97c60cce1311edb093a32569
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=ff94e59758c0b9a2064b401ac22d36f9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bearing Motor End 2 Overheated"}
+- Name: Cooler_Feed_Elevator_Bearing_Overtemp_Alarm_3
+  Id: g=7d19c79847b400c9e5f7b876eb46fb7d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e23a84baafcee97123eeedde5b3ce465
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0b881c5ff11662219e97cf9e86f13b12
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1105ac4e7d5d60068f57043e7c47fca3
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Gear_End_1"
+      Children:
+      - Name: Mode
+        Id: g=a4f71b835489f62af8b21c27a95da5a4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c2f3f2fe261bf87d21f765ac08cc9956
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=999948a043a20be4ed04cdf156e411e1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bearing Gear End 1 Overheated"}
+- Name: Cooler_Feed_Elevator_Bearing_Overtemp_Alarm_4
+  Id: g=da05aad54df8319d77e1192a6e0b2dfd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=95b59b2575872c5e7559ee89ebc9af3f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=11b5446d0624dcd133a4a14b4eb9cf70
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=2352d3670f16b0cbf7a7e2dc515da9c3
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Gear_End_2"
+      Children:
+      - Name: Mode
+        Id: g=cfbaf7d7f8a331ff2def291b8b9150fd
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=654f0c7c3dc3fdb6009ad3ba836cc6f1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=0eaa2be806f0a9e9ad2f6cebf482a631
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Gear End 2 Overheated"}
+    Children:
+    - Name: DynamicLink
+      Id: g=072ce8639f6d3c957ac5b1f2e2c6647b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "Cooler Feed Elevator Gear End 2 Overheated"
+      Children:
+      - Name: IsPull
+        Id: g=e28fdb3d3093e0f248646fb455c4a164
+        Type: BaseVariableType
+        DataType: Boolean
+        Value: true
+- Name: Cooler_Feed_Elevator_BR_Rub_Alarm
+  Id: g=568341dc3871c5d31ce4b68a55dfb722
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7d8a991710e56af47dd8665e52694411
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=293a3a7ea476f296f40e624ac2c40c9a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c92033edd58fba9b6795fb68f4e17646
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Lower_Right_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=de3f8ba5097a6b42d85a666b4d9bb0bc
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6fd69f31032fd0a08677f9b354d0972d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=8ffecd40611c739dcc1c53ef5ace2ac7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bottom Right Rub Sensor Tripped"}
+- Name: Cooler_Feed_Elevator_BL_Rub_Alarm
+  Id: g=815975a0fa7b566949ad29c0511d2e58
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0d6304547132646b8598c48d4c71eb8f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b4f77c744c5c63a404f76e5514bc0de0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1660626ffa19475cbb4177b11e72591e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Lower_Left_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=75a483bb32910ac15f229ab6f33b6a87
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6729a08eb3452b1f353dba3b43d3fead
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=99124d77edaa842629b725c34f60b038
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bottom Left Rub Sensor Tripped"}
+- Name: Cooler_Feed_Elevator_TR_Rub_Alarm
+  Id: g=b5020f8448df61ae4e1f213dff765403
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ad8bed799926c311d3fd656377468dd4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=26da8b201589af85ee7972d530033fd3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=5a9af81801a5bc4823458db87d045408
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Upper_Right_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=076ee796eca604d37aa5cc80c187be31
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=061db80415465d915f0ffd2d85300d2d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9974939d91d6c816b317a6548b0f79c5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Top Right Rub Sensor Tripped"}
+- Name: Cooler_Feed_Elevator_TL_Rub_Alarm
+  Id: g=698a7d1788b8e5e664cfe26e08019944
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=37ea71f90237cd47d96edfa921b00966
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b9e5bbf054ee1f7fa6ce785af66d5a3a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c35d7b689689efd1a17ef24569704318
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Upper_Left_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=9589de29481a014a2cc4a19c276f4ac8
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=334959b91550988910d1e3854b88bf8a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=c19275c4a36e50506ee77d72a9691f5e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Top Left Rub Sensor Tripped"}
+- Name: Cooler_Feed_Elevator_EXP1_Alarm
+  Id: g=e3e95d5dbc6cff31d26a58014255732b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0ca0cc87a5744ddad3c50626c97c6062
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=bad8986fb22353d4b96275c09a8e32f5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=15b755d5f2f4d52e0198f3aeb3ef1505
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_EXP_1_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=3d781b6a7dafe3fcfb943dc7180468bd
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5310342ac660a78652de71430f8f245b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9c8f1fd53265641760345538c323c6ce
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Explosion Panel Tripped"}
+- Name: Cooler_Feed_Elevator_Low_Flow_Alarm
+  Id: g=7aef822acb1982b83b663b8cb76d8cac
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f50f09222818616161336952d0e9c50f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=45f6a6b33d5ac765e6ffc29371b2345a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=7685fa60ba381258707b57df0086ceed
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Low_Flow"
+      Children:
+      - Name: Mode
+        Id: g=98c9b04fad1de3cd517ff30311f6055f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ceecb6789ebc637d89ea687bc9c8ae89
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=40530dd5bd56bdcb0cec2e485cd0c5c0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Clogged or has Low Flow"}
+- Name: Cooler_Feed_Elevator_Low_Speed_Alarm
+  Id: g=4ec6536433a8a0f4bf0a0f64fe55b18c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=33defe4dc8e827f7382644bf0cf7dc89
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b636db00cf930dfb3bd258fc169e4c46
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=2194c1f4bf9d6a30bdbcdaa3f527115d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Low_Speed"
+      Children:
+      - Name: Mode
+        Id: g=74230719205798c8709d77e9ee5207ec
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=32e2e285f35978d26de321d9914e558b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9ffd769c2e78506d200489782de6d21b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Jammed or Running Too Slow"}

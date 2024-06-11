@@ -1,0 +1,280 @@
+Name: Rotoclone_Alarms
+Id: g=391465c3f6604f1046746cef52584faf
+Type: FolderType
+Children:
+- Name: Rotoclone_FTS_Alarm
+  Id: g=ec1356987627ac7ce89f33ff3253ad19
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=eec95fc7b51f3410978a6bbf8968342b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=49a8cf26259ed69f67f04203bb27caf6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=3cf040b57fa37a75842f1f1d1e4774de
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Rotoclone_FTS"
+      Children:
+      - Name: Mode
+        Id: g=cb2281e907c48c4bb9b5ee7c49eef071
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=13d790e465ac4bd68f677b6123e757b5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=20a926e5057af31add90f248801f0a67
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Rotoclone Failed to Start"}
+- Name: Rotoclone_Low_Water_Pressure_Alarm
+  Id: g=42104e8aa7f680ed11e8a510cff86e8a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1fcf4ad172045f09c3fe7785cce38266
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0e06bb084aced31c4481df7018a9c798
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6c81cadb49d967c2a77069f7b39ec2ea
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Rotoclone_Low_Water"
+      Children:
+      - Name: Mode
+        Id: g=949af10ea6e54d4f0f7a5542a777417e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2b666780cf26d838b7d6f4048804c352
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9bb345cb342e7683fb4a6d53a79364ac
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Rotoclone Low Water Pressure"}
+- Name: Rotoclone_Bearing_Overtemp_Alarm_1
+  Id: g=599d28e73e6619c799f0314c6fb99777
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0126dc945574deb62f064e7500202768
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=ed9c755ec4f7379249661ffb45fd9b97
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6920807d2c839cd6f7db00581f123ddc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Rotoclone_Motor_End"
+      Children:
+      - Name: Mode
+        Id: g=eb374e7aa08aa52b07864a4f9454dc7a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=bdc7b05b41091d64cd848f865eabdae1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=729eb1af06ecd8c7273a0a9c18477ece
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Rotoclone Bearing Motor End 1 Overheated"}
+- Name: Rotoclone_Bearing_Overtemp_Alarm_2
+  Id: g=a2dea4183300a5c41fdd907593eebce8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9ec57934d22b56d0ed559d4ade2fb675
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=33548a3f1227550184bb03df4a8a7e5a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a897a2d0e036c1b95d54b0b0068b354f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Rotoclone_Fan_End_1"
+      Children:
+      - Name: Mode
+        Id: g=85514a0bfa64136e62ba526256f81c2e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4a76f1cff38768188c31af9591b85b1a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=c3ca51cb13717af306fa97eca8949526
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Rotoclone Bearing Fan End 1 Overheated"}
+- Name: Rotoclone_Comm_Loss_Alarm
+  Id: g=881a9c74aa2002c1d26616a66e6b4bc8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=16ae3f4629c011b7b628ba9d165891cf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=d607ce5666e78e229be5cc5fadd56cda
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=e0f62f2ab29f346e1164bca8b725e80b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Rotoclone/COMM_NOT_OK"
+      Children:
+      - Name: Mode
+        Id: g=94e078808eeb1c2029b58da67a284c24
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d8ddf24817b68bc5ece7f92a2d3c81f5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=fef67b4dbf55065e0272a3ec2113c4cc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Rotoclone VFD Communication Loss "}
+- Name: Rotoclone_VFD_Fault_Alarm
+  Id: g=f799e8de48670b04dbd830451cc59f19
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e54c23b99105e2f41c7d2183590f0042
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=94ead9906cbac7ba47c6e5ca42cc1cbf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=84240c5629f4449320312ed90c09a3cb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Rotoclone/FAULT"
+      Children:
+      - Name: Mode
+        Id: g=f799b764e7fbb65d1a1b10b5379368e1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1e56e58b00e758e3f103b40b58173b77
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=241d2888296b75052f82059a5733ce2a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Rotoclone VFD Faulted"}
