@@ -1,0 +1,648 @@
+Name: PM_Feed_Elevator_Alarms
+Id: g=61beafff73c586ea7b15fe21ec89a207
+Type: FolderType
+Children:
+- Name: PM_Feed_Elevator_FTS_Alarm
+  Id: g=774c3b7a269e489b24565a2504e9129b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=10c6b5531a6b71345e66f7680541a49c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=ab8460eba8c7f2576fcf3faa4ea6d043
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=f9667a7af3db56a355b3799eb18c941d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Feed_Elevator_FTS"
+      Children:
+      - Name: Mode
+        Id: g=6aa25bfd51b54a6beed549e5b6cd9447
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e8b1623c296052c5d3ff7d6101750980
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=a7ad2702b0a06b494552c283313db0d3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Failed to Start"}
+- Name: PM_Feed_Elevator_Overload_Tripped_Alarm
+  Id: g=17a58ee79a468a4c5e6e081872378255
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ee472cb6854afacf80104db659b38309
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=efa12414efd9a53d5897d614912a704f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=110c04772bd8d08f085b7678362dec08
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Feed_Elevator_Overload"
+      Children:
+      - Name: Mode
+        Id: g=5d3b4e6d9880bc49b730ce1459191322
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=57a50a0363086b0fae488df595b0f5a7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=13c9a591ab3ff750dee1549e73dd2a64
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Motor Overload Tripped"}
+- Name: PM_Feed_Elevator_High_Amps_Alarm
+  Id: g=8baf2a6bd94ed41a8bf605d3b2b0a64e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=13972ec7ccbde517f93bf94e67bed34a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=c8a2fe45a6103041c8b917c37dc893c3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=0794ac04208d14217853517dd8376ce2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Feed_Elevator_High_Amps"
+      Children:
+      - Name: Mode
+        Id: g=946495f0bef728625e07d96a56d5e827
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=56c13fb6b08af5f5edf9306238e7038c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b6476123ba60924c79f27bd8ef17cddf
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Elevator Motor Overcurrent"}
+- Name: PM_Feed_Elevator_Bearing_Overtemp_Alarm_1
+  Id: g=a036bb6f81c72fc90ada9e4894bd3704
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=71ff58916ed74786ae3c2bf4f8393a92
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=3132a335ebca054de5d44e0afbddc71f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=5190ac982a675de2d29cf958e46cbb47
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=e9a682ff7ec2d7a278b01ed555212f83
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7b772b8229ca9476a31416f1ed5d0baf
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=69a2d2665ae7bb78d8939bc517ac06d2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bearing Motor End 1 Overheated"}
+- Name: PM_Feed_Elevator_Bearing_Overtemp_Alarm_2
+  Id: g=94559d7f71d9faa5b79c58e2cfde9843
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b91a7c959867f6a50bae081dca61e059
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=e5315e64d1299fa469dc2acd1f45c639
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=02fbb0d050c5c83e1b878868783faa03
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Motor_End_2"
+      Children:
+      - Name: Mode
+        Id: g=922255f062cac914961daa3bb5614094
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=06080e0542b98977642189f4a5bfafe3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=5a3693af27d0b2d2632aaeec2876141e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bearing Motor End 2 Overheated"}
+- Name: PM_Feed_Elevator_Bearing_Overtemp_Alarm_3
+  Id: g=e4f9b90aa6670ccb95357fc1f3186917
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=fa97f934f32509262d900de274c9fe69
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=667bb1cb760899959ff06bf446c7c897
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c973835fc5acd20be6867d8571e7e0fe
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Gear_End_1"
+      Children:
+      - Name: Mode
+        Id: g=ac90c1330079d81893f3628b64db9914
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dbe60de2c4db3dbc06a1983a2a114e3d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=69f1898295ef3bfb78d6a06d91169cba
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bearing Gear End 1 Overheated"}
+- Name: PM_Feed_Elevator_Bearing_Overtemp_Alarm_4
+  Id: g=3774d1240d6f0000e63175353e746503
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4b2c50b5a479df3524d7c020f94007f5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=1096da31aa05f766aed3d3c12f9ea6fe
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=f22274a8e529d322fdec86f404771483
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Gear_End_2"
+      Children:
+      - Name: Mode
+        Id: g=fa6746d577564dfa28a0169a2b92bc45
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ec0a67b07b09047dbc77b967a4b24617
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b91779681d0e37f7c2aa854655d9065c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bearing Gear End 2 Overheated"}
+- Name: PM_Feed_Elevator_BR_Rub_Alarm
+  Id: g=5b9201265bc87109feaca7914009acee
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e6326ddb4d1f00a37f034f2393a432e4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=7e4f4d3b35023fddc6de2dbf3410e783
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=99584f6a684baa4d80e7150bb35f6af1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Lower_Right_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=df176a351af5ffb708c12596fbddb787
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=32a5839bded9d7b7ef9afdb542295f74
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=403aa54573b9ab8cb088937d7031ddb3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bottom Right Rub Sensor Tripped"}
+- Name: PM_Feed_Elevator_BL_Rub_Alarm
+  Id: g=955dea748dc9fc693dacfe75ef6d76e6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=286ddce7644ec511f02e6909879dea02
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f22e24bd61e7ab022a7588ed326c4442
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=810d44dbc4ddd2209d842820fa15c919
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Lower_Left_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=ac375cb7c7b284cc2abf62bab165fa09
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=bcf6ac9831fe71fa796edf7d71613773
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=156b1bc6bda4f566bf294f007f2c0ee7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bottom Left Rub Sensor Tripped"}
+- Name: PM_Feed_Elevator_TR_Rub_Alarm
+  Id: g=48fcbf06c170b33ddb50c2babd7570d9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=59c33e91e83593b16b2e094253aefa1c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=204cc1c01b54b0d41609bc2171246397
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6943f9de85fd8f4cf34b8b3f2b047262
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Upper_Right_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=144dce964923f558f6c41bdaf0f6d845
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=048a403252525e92d5aceada5874fc38
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=48197bf6f584fb4793b1f20ad1ef2a59
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Top Right Rub Sensor Tripped"}
+- Name: PM_Feed_Elevator_TL_Rub_Alarm
+  Id: g=ac1003aee5006dcd194472f8caa8f1ae
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2cca5215f130acad328a067ccb5a5d2b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=219b7c9107d5ccafd54959e2a201717d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=198ae4bddbc60d18b7e61ae2018162b2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Upper_Left_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=8caaef9d32c1621bc6b97005bc1f5916
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2caab938eef3a88fbd43db73a380ac1a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7c2fc1e6c6b1c4be306c0eb44cfe0221
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Top Left Rub Sensor Tripped"}
+- Name: PM_Feed_Elevator_EXP_Valve_Tripped_Alarm
+  Id: g=da0d92adf8d5fdc6642140d0d5cba34b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6a19ebd5a01083be47b3a9d320d9fc31
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=06274cb3b20e5697ffb67a537f76fcc4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=46a3314cbff559304b121baa4fd92c10
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Hopper_Explosion_Valve_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=3020f0ff2c6d9e5b896fb6a027938097
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1c98b4fa9cca30426fba35b9ce5532d4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=ed901fc8bf9815bc0c1f3bf8e7a2dfd6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Explosion Valve Tripped"}
+- Name: PM_Feed_Elevator_EXP_Panel_Tripped_Alarm
+  Id: g=e45498441bf43a33da77200d0399a3b6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=82011127f69066b870929455e56761fb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=c7c376d7d3cd00cadfbf3c4644fed327
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=62481c6e7480b70bb8ad53ab1b1ea2b5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Explosion_Panel_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=d0ce065abce345da60c4e697b69fb040
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1d1e705df0431fd57933a930542a8a48
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=f4b51b7730cfb05367fdc11e2ad98421
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Explosion Panel Tripped"}
+- Name: PM_Feed_Elevator_Low_Speed_Trip_Alarm
+  Id: g=69a56407fbbf218172bf42125c922002
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cb6b95910b264106a09345d15b639961
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=e47d22f31ee33b66aa20b1ef758a1c77
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8a3675f4889d0b9c24d0525f2a82c2e8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Elevator_Low_Speed"
+      Children:
+      - Name: Mode
+        Id: g=0907e172ff55a8a97c214c239d98440f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a68c56811469d2e4de8446fb651ba07e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=d4b7325ac3b4d06978e0c45579541b0f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Jammed or Running Too Slow"}

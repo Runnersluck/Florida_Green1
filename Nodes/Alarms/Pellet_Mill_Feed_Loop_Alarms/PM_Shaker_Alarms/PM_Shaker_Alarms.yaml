@@ -1,0 +1,96 @@
+Name: PM_Shaker_Alarms
+Id: g=67ea14849af4b30db0dea36261c08108
+Type: FolderType
+Children:
+- Name: PM_Shaker_FTS_Alarm
+  Id: g=02a8071f062c7a0db0bac8ee85d41014
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=47c499948c70a823d5c6f2b228c11962
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f79ab9964c4ac3fb2fb249fe444c2521
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=559f650751bc461ebcba5ed1dad31b62
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Shaker_FTS"
+      Children:
+      - Name: Mode
+        Id: g=a9df1c95658b25e6230c0aed44c8a474
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3a8bcc458bbeb043911e6efbdf3e5a59
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1ef17e4c3abf30b7a55fec2022685e75
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Shaker Failed to Start"}
+- Name: PM_Shaker_FTM_Alarm
+  Id: g=9108a4b8fcead14e4433eb5aab6faecc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=da6d2287ed97d940b47283f7761f9156
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=bee6f9c3c3b39727705d5fb6b1a2a31c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=80ee8cd385aed3dcac7de42eb8eac69e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Shaker_FTM"
+      Children:
+      - Name: Mode
+        Id: g=0c1f1bd3aa31c3a058f1cd3c36a0a6e1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9a71cb821a37e1f927f6ba5440c78f88
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1357a88f53f49c69bef42cf96542f1b1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Shaker Failed to Move"}

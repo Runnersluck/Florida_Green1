@@ -1687,26 +1687,6 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "PM_Elevator_Alarm_1",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PM_Elevator_Alarm_2",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PM_Elevator_Alarm_3",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PM_Elevator_Alarm_4",
-      "DataType": {
-       "Id": 1
-      }
-     },{
       "Name": "PM_Elevator_Explosion_Panel_Tripped",
       "DataType": {
        "Id": 1
@@ -1732,12 +1712,32 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "PM_Elevator_Lower_Left_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Lower_Right_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "PM_Elevator_Motor_End_1",
       "DataType": {
        "Id": 1
       }
      },{
       "Name": "PM_Elevator_Motor_End_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Upper_Left_Rub_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PM_Elevator_Upper_Right_Rub_Trip",
       "DataType": {
        "Id": 1
       }

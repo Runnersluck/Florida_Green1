@@ -1,0 +1,326 @@
+Name: PM_3_Alarms
+Id: g=e1a7bcd764869d2021dacf6266299ea8
+Type: FolderType
+Children:
+- Name: PM_3_Feed_Auger_FTS_Alarm
+  Id: g=3420bb1e816f9f2b212f33d7d61dce9d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=26e4f972c0b9be3b74a57156aedc1677
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=41a5ab43597a4d3e03ef4e9f74822dba
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=11024c52aaee33d055fb468ce1b82fec
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Feed_Auger_3_FTS"
+      Children:
+      - Name: Mode
+        Id: g=ebddc4b7da04974116614fd19346c227
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=151866c4cb0c363a3b607d54661f5a1e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e36e08568b1d97c837b54fe4f68a70e1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Auger 3 Failed to Start"}
+- Name: PM_3_Feed_Auger_VFD_Comm_Loss_Alarm
+  Id: g=fdf6a851787c35ee1128978e098509bf
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f40173e1c9d27c619941952908ce2938
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f4911c5299fe3cd88642fad2b4d731a0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=cb2800aa21ea7abf7b25c984cc36eabe
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Feed_Auger_3/COMM_NOT_OK"
+      Children:
+      - Name: Mode
+        Id: g=916940b5a5a739ca2fe31f34751a6206
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d237b40d96ec625226b1bda799ab8229
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=c460240da57120e0e3c65bd4dd674ad6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill 3 Feed Auger VFD Communication Loss "}
+- Name: PM_3_Feed_Auger_Bearing_Overtemp_Alarm
+  Id: g=2591872ebd68717b1b42642d27d9b4da
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=586de38d6161f372354c6e045e6b2bfc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=d6738b073b71d3ff936e9775c9b1b58b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=67f126cd811af1b6e70c636f2bd221bb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Feed_Auger_3_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=8d6fc20e0bc2e6cc6bb2fec1363d892e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=da7b4546925054f8847cf56a6808f0af
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=04d8cd51566db52c623964dc7f610ca9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill 3 Feed Auger Bearing Motor End 1 Overheated"}
+- Name: PM_3_FTS_Alarm
+  Id: g=abd7ca920caebd9fb569253145786ffc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bccbcb31b2cca215d525a89e17eb458f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=26f94699f12c2d6b563dbfb790af0fb6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6fa378d0ee03f46594904d85d600b912
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_3_FTS"
+      Children:
+      - Name: Mode
+        Id: g=a2de44bcf58ae4605ea0819cf1944dae
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c229a5b4902949f72346bad935d2a4f2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=04455002b1ab47a3f032e63d4c336170
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill 3 Failed to Start"}
+- Name: PM_3_High_Amps_Alarm
+  Id: g=2aca491c639344c82f5fb01077277383
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7155fc61790ffa9f0cd7f36371df71d5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=ac25b1caed9f4782c552533a5b8b43e3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=580360295ddf3333c3501e6624f003be
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_3_HIGH_AMPS"
+      Children:
+      - Name: Mode
+        Id: g=f4b4745d227a80c522930a3b8b136cc3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=759f301879b68ad8874e91aaf1dac772
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=32effbe69ad7b9d1acdcf4b3b3cafc32
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill 3 Motor Overcurrent"}
+- Name: PM_3_Full_Alarm
+  Id: g=11ff5e819e921e708f059e92a36098e1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d927d5350faa2e3d907f04221e9b24e4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f9ddd42b25cf76088024c4fe96d94091
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=4888c3241ef0f1e5efab678ff1b4b7ba
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM3_FULL"
+      Children:
+      - Name: Mode
+        Id: g=da4395db84db0c6da1521ce440e8d87d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=fdb70af3831c9e743b0f648cf8f5c307
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=cb38731d7cdb5ff138249c00fa5ab5b9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill 3 Full"}
+- Name: PM_3_Bearing_Overtemp_Alarm
+  Id: g=4c286080e401f24dff027700bb704ff7
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5c77f17c5c51045d881131cbb7b16dac
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=72aaba809b20f7ed92726b4097a0ecc9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1349d6b405b68035aa1e7dce64955dbc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_3_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=9fa4f88f9a773161645de1f0845f16d2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3bde53601ad2914b23dce60aa052fb79
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=27fdb73df4d46ac6e9fc6b78e94a529a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill 3 Bearing Motor End 1 Overheated"}

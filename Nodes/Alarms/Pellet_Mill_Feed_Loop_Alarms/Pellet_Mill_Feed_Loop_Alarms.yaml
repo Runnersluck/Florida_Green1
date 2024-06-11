@@ -1,0 +1,11 @@
+Name: Pellet_Mill_Feed_Loop_Alarms
+Id: g=d5d2851b6ed5fe072b3b06c2f7c493cb
+Type: FolderType
+Children:
+- File: PM_Feed_Elevator_Alarms/PM_Feed_Elevator_Alarms.yaml
+- File: PM_Hopper_Mixer_Alarms/PM_Hopper_Mixer_Alarms.yaml
+- File: Reject_Auger_Alarms/Reject_Auger_Alarms.yaml
+- File: PM_1_Alarms/PM_1_Alarms.yaml
+- File: PM_2_Alarms/PM_2_Alarms.yaml
+- File: PM_3_Alarms/PM_3_Alarms.yaml
+- File: PM_Shaker_Alarms/PM_Shaker_Alarms.yaml

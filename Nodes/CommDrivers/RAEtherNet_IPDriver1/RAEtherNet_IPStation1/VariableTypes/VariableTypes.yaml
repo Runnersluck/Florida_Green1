@@ -3593,42 +3593,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Elevator_Alarm"
-  - Name: PM_Elevator_Alarm_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Alarm_1"
-  - Name: PM_Elevator_Alarm_2
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Alarm_2"
-  - Name: PM_Elevator_Alarm_3
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Alarm_3"
-  - Name: PM_Elevator_Alarm_4
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Alarm_4"
   - Name: PM_Elevator_Explosion_Panel_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3674,6 +3638,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Elevator_Low_Speed"
+  - Name: PM_Elevator_Lower_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Lower_Left_Rub_Trip"
+  - Name: PM_Elevator_Lower_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Lower_Right_Rub_Trip"
   - Name: PM_Elevator_Motor_End_1
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3692,6 +3674,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Elevator_Motor_End_2"
+  - Name: PM_Elevator_Upper_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Upper_Left_Rub_Trip"
+  - Name: PM_Elevator_Upper_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Elevator_Upper_Right_Rub_Trip"
   - Name: PM_Feed_Elevator_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
