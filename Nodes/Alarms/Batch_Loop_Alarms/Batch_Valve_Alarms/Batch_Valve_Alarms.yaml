@@ -1,0 +1,188 @@
+Name: Batch_Valve_Alarms
+Id: g=e2762d339dc63c127316ec5b77208f75
+Type: FolderType
+Children:
+- Name: Batch_Low_Flow_Alarm
+  Id: g=10e99cda89084661d3268fc8d4491fdc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=67a43f1a956973c1a400b473eeb9f14e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=263b02498f7b7a49ba88655b0ab9e0ec
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=5c307caddb5ec4063feca1917c797efc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Low_Flow"
+      Children:
+      - Name: Mode
+        Id: g=a0141859bf527e54dd5b78868c0a2a68
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=37f5e6221ae91f51c5b5a6d158b338f3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=93768c591f72175e06535edf7d6db7a1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch Valve Jammed or Has Low Flow"}
+- Name: Reject_Low_Flow_Alarm
+  Id: g=27a006b8158b4354617943c0bf9bea5e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=62f3bb36506086090a6cdb00db22a20c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=def6322dd6808cb1b221d1e14a323174
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=288920647440bfd6e4613625e5cfb2ca
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Reject_Low_Flow"
+      Children:
+      - Name: Mode
+        Id: g=e9279c846c41e284b556257b42739d72
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7a20b20b3bcc0a12e2127a0bab92c4f2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=4fae8aa0f0300ad495c9cf79ef25cab3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Valve Jammed or Has Low Flow"}
+- Name: Reject_Valve_No_Feedback_Alarm
+  Id: g=6da586969440120c6a2ba1e2b288d07c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=598e55803c14e9314d5dd916096d38df
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=28d7113ba948802e53757dd0b3835f76
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c013a2389cf3d90b6080f740b7979315
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Reject_VLV_No_Feedback"
+      Children:
+      - Name: Mode
+        Id: g=bcf411f0ad61f4d38bc512264a657f52
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ca2ea8e7d8d0e8e8f8ce504bd301fed0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7b3c7dc328fd207891a90d09c67c4b7b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Valve Position Error"}
+- Name: Reject_Valve_Not_Aligned_Alarm
+  Id: g=d2e51400a1ab9a2c613675533cecb87b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=dc6ec1b36b81122306db0fee37d2fd71
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=6e8506b0d26ab54b559bdde343e61edd
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=56c4a42dadaed8b5bea7aa0634435558
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Reject_VLV_Not_Aligned"
+      Children:
+      - Name: Mode
+        Id: g=4082c5ce2138fa408c01e0a3304bdcf2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=755491c32f57ab1d013e71475d0e627a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=6ac5e334f28a303129dda29b5f841290
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Valve Not Aligned With Selected System"}

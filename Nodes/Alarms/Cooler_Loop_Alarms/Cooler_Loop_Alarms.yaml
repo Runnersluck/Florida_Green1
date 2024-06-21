@@ -1,0 +1,8 @@
+Name: Cooler_Loop_Alarms
+Id: g=b3d9442448ca6bbc22a2d29d04238371
+Type: FolderType
+Children:
+- File: Cooler_Feed_Elevator_Alarms/Cooler_Feed_Elevator_Alarms.yaml
+- File: Bagger_Feed_Elevator_Alarms/Bagger_Feed_Elevator_Alarms.yaml
+- File: Bulk_Pellet_Auger_Alarms/Bulk_Pellet_Auger_Alarms.yaml
+- File: Reject_Auger_Alarms/Reject_Auger_Alarms.yaml

@@ -1,0 +1,648 @@
+Name: Dutchman_Alarms
+Id: g=a914395c99b1b7d45477bae49a2cfde9
+Type: FolderType
+Children:
+- Name: Dutchman_A_Full_Alarm
+  Id: g=1a0d23b334c329c2636e6a681b92f1c9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=446953b54a7ae980e27cb8de166db454
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=6f0bdb9ec47bd6969162d5311e235e68
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=66ed7db0625f76601e3adc2f7d7d8e2c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/DUTCH_A_FULL"
+      Children:
+      - Name: Mode
+        Id: g=8fd340ad548ed8916cd28b09dd4df71d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7b915017198f3d1c8b5dbe7d24492206
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=0303d58d2bfa91e094e0b7af9f603b9d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Flying Dutchman A is Full"}
+- Name: Dutchman_B_Full_Alarm
+  Id: g=02cf7cfb3c1ba2f9924a69258d09195a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4bbfcbf745c9412c985d53de21eb67af
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=419c4823f09fa484c217088e93e5abb0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=9d206911ffc3dacb02083f30952a477a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/DUTCH_B_FULL"
+      Children:
+      - Name: Mode
+        Id: g=8b834701a6c2eb9109ecc837abcd0879
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=cb0f91d9d820245dc372fce360b706d3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=0846039f3583a6f3e15d650be7be41ff
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Flying Dutchman B is Full"}
+- Name: Dutchman_A_Failed_To_Open_Alarm
+  Id: g=5e824967e9b639ab2899a18a9281ebcf
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=dd498e12c231839197f06a8834d939ab
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=15c5d0ef8236f749c9f01f8f7e23708b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d9ccf5dce523fe078dc100e312cffb8a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_A_VLV_Failed_To_Open"
+      Children:
+      - Name: Mode
+        Id: g=8a4eab6a6d033a04df54e5054fd58fa7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=78c3a314466adff3e336e437c7a3217d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=c2085a2fdc646de3a2bb4559df6150ab
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman A Valve Failed to Open"}
+- Name: Dutchman_A_Failed_To_Close_Alarm
+  Id: g=18aaefc9d3c5d42f292e1e4cac392258
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=81098ea26f2c898273d846a8bd5717fa
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=2245b2ea964554adef077927059c0500
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=eac097b9915a7da39af386c6360dba79
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_A_VLV_Failed_To_Close"
+      Children:
+      - Name: Mode
+        Id: g=c25f7769bc8db22dc842ff2606d5f460
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c22209930d67130ec3a893dbd6cbfec7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=0f4e7182a25ed4bce182f331d1d54f12
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman A Valved Failed to Close"}
+- Name: Dutchman_A_Valve_No_FeedBack_Alarm
+  Id: g=bc8ab996d5f9acd325358adda2d31d41
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b6789f7043d4a864f5089f9ffa242b92
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=63660264bb166de30819c0a0e5168aa9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=b96c0d59d5a316858e0ba22903f3c536
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_A_VLV_No_Feedback"
+      Children:
+      - Name: Mode
+        Id: g=939d88f0075f040e1958b1b75dcc28d5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f0a391e1c02fad409714daea7e67218f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=79bd463d7e1108e34985c0c147f68ec3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"No Feedback from Dutchman A Valve"}
+- Name: Dutchman_B_Failed_To_Open_Alarm
+  Id: g=5a6609d92bcffa396a74ae9d9de86f4b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3bba6ab1c0eaaa53a44d51280e7e8326
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=5a1001e51b52f7fa13952ad32cc1fa8b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c2bf83c54e3c1ae8eaacad84486b13b5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_B_VLV_Failed_To_Open"
+      Children:
+      - Name: Mode
+        Id: g=4bfcc8e76e8cf48babef3fd16e9e4508
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2ad3fcc765709ff90a626e0730dc1c59
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=f032e913047948cfb91f3a83cede3ed4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman B Valve Failed to Open"}
+- Name: Dutchman_B_Failed_To_Close_Alarm
+  Id: g=dab0faa72e4fad7d5931cb3ec8132e5e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d53a563be4a6e21c5ab4226d8b58848a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=e7c1520ede8e1e1654a30d238fbb8b44
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ab6fa7ea7275b53a826715b2f09ca3e7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_B_VLV_Failed_To_Close"
+      Children:
+      - Name: Mode
+        Id: g=5ee68434b8909d9b971a7a1221e2bc36
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1dbfd734c47a4ef27a0c7a38aabe920d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=f445160517de3f596a9fd0ebb84222bb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman B Valved Failed to Close"}
+- Name: Dutchman_B_Valve_No_FeedBack_Alarm
+  Id: g=e47c509a4c83b4b34e0377b2069e6394
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=60fbbd8b68069a87d8e90f0b4245daf9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b7df5db1daf1811535d9090fb7705412
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a45d44eab0d0dbf2c94db468de017b96
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_B_VLV_No_Feedback"
+      Children:
+      - Name: Mode
+        Id: g=bc9c82353d6d19c5581897992fc65067
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=aa883e248ac355a5fe9651a8d3c673fa
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e46cd730dd4fb3ad12ea7a59ae482045
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"No Feedback from Dutchman B Valve"}
+- Name: Dutchman_A_Failed_To_Start_Alarm
+  Id: g=f13fde5fa3c7ae6e7c3c3b571f846126
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=910ee7d740e14010da1821c00727274e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=351b15f977db2b694fcd190fbff3e27a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6f5898429afce92ca388c1ff5c31bd5c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_A_FTS"
+      Children:
+      - Name: Mode
+        Id: g=8df3969b376fc990cfdba0443878b2cf
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=809c6f900631d1f2e55637423c052828
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=0dac0700802ec3964dc7d8e479b9bf59
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman A Failed to Start"}
+- Name: Dutchman_A_High_Amp_Alarm
+  Id: g=dd77abb465fa69755510d49c989e462a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=19cf5fec72d71147673b826ea6871fcf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=4b22ef3c8e02e469c78abd56720c97db
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8074f5e65a117c401c54a2e556e0ed1d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_A_High_Amps"
+      Children:
+      - Name: Mode
+        Id: g=ebb188beb7a5e35b3e7c4b524c8f1081
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0e117db1a6103b6712a6cc354fafb8d2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=48d7cf1274dc8b52203f21fc37e986b4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman A Overcurrent"}
+- Name: Dutchman_A_Overload_Tripped_Alarm
+  Id: g=b7b531fdfc5fa99fd05e968500178e37
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b5b21ac0bdfd4f3c7dd89b2d15713d68
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=ef06f7cf377627e5b4b2a52b0d954c70
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=febc1b15eed4f9e0be8bcfc8ecd1c59c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_A_Overload"
+      Children:
+      - Name: Mode
+        Id: g=b7191702a9d779a0e9613687c0ce4ce5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=12e05714250e37fcac10945bf0a96aec
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=a5ae113a790e478e801720fb0294df70
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman A Motor Overload Tripped"}
+- Name: Dutchman_B_Failed_To_Start_Alarm
+  Id: g=f3303e2ae4dabed7a5ce91128940a35a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=727644ba7dc5f5dd7aa99a48993d26c5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0335ea8492a2c50a702cbc8957046818
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=39ffcf6694b797a4bc87b1b23e3bf10b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_B_FTS"
+      Children:
+      - Name: Mode
+        Id: g=7b04def493a1681b5e45ccf9cd668d9d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9bbcb6abb5e73cea109c5b6814bf37ff
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=5a431d1f357b77f61fa3899fabe28a25
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman A Failed to Start"}
+- Name: Dutchman_B_High_Amp_Alarm
+  Id: g=650da2de54f3acbde623eb5bf391aa46
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e27510bf10294f1110d38875922c43be
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=498b98ccc00f715dd815a35846cd8837
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=5486b2540d75a0dc5d822dc7cb22b648
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_B_High_Amps"
+      Children:
+      - Name: Mode
+        Id: g=4a804fcfad27381310d1ef555e837b1b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=387dee0b6e98395f2e1a48853dc9579d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=35ff309262384818d61c61b04952ecc9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman A Overcurrent"}
+- Name: Dutchman_B_Overload_Tripped_Alarm
+  Id: g=03bb3c66de7aee11cec9f1badb125202
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=34c01ad81b5dce15d1bcd20d76e8c4dc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=a93b92667052950e496c4172626e187e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ffe8457189e384fda2470125f5f5b21e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutch_B_Overload"
+      Children:
+      - Name: Mode
+        Id: g=c18385985d33c1999da4f476b94bbbc7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ef5a856d14bafefbfe22d2e3e738042a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=8f8632a111332f514c5a684ca97a17b2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman A Motor Overload Tripped"}

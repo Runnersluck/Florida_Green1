@@ -1,0 +1,188 @@
+Name: PM_Hopper_Mixer_Alarms
+Id: g=c31327a7bdf86aac580947e539ce2364
+Type: FolderType
+Children:
+- Name: PM_Hopper_Mixer_FTS_Alarm
+  Id: g=452c62e9443916db89699c43e1b857c9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c42b13911228fa80ba30082742e4929e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=2d23f7ceb0dbd3e5347410e6bb1d2c23
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6311f772d21efb061a47b2d676f2508d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Hopper_FTS"
+      Children:
+      - Name: Mode
+        Id: g=3a941b4d711a1e0b26b261ad5b9778d6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dab73b7d7bd9c307e135f2ca73763f89
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b2fba9e170d28ba36aab310abb5571c1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Hopper Mixer Failed to Start"}
+- Name: PM_Hopper_Mixer_Bearing_Overtemp_Alarm
+  Id: g=155e56b32218b231dcbd8e73c9e12cb1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6282bb1dd39b33574495528a994a8a79
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=a6ade3d1ec8d634dd3024d239f1eab81
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=0bf49f768d78291d78237466a5500403
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Hopper_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=c6c63f98b6f778414c9b4d3f6f48d579
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4f43fed6d8e6c9b87d6a69ec61e9f6c0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=6058d0a76e309cb93c67a9dad7292fec
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Hopper Mixer Bearing Motor End 1 Overheated"}
+- Name: PM_Hopper_Mixer_Full_Alarm
+  Id: g=0b5826db30a158cb9b02552de403793f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f45421a719da435dff5347418f5460b2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=96f944dceccf73e7deaaf691896ddb0f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=4e2451f759b5c53b469cbc7d13b42f81
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Hopper_Full"
+      Children:
+      - Name: Mode
+        Id: g=45d81e31b9be7d2545d45552b4f0e20e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=836d970f09a03c4658adcc03f3c56758
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=284413c8b4e8e820677e0d818e71e6d4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Hopper Mixer Full"}
+- Name: PM_Hopper_Mixer_EXP_Panel_Tripped_Alarm
+  Id: g=bb57623f31f5425e4ac329f27d4fe1b3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=255c3bb11723620fb5cda6817cf72373
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0ba0b1eab0429cf76c12e45c0ab92a51
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=aca4d58d593342d6e55bbf84740b5705
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/PM_Hopper_Explosion_Trip"
+      Children:
+      - Name: Mode
+        Id: g=6014017d592ce24a65294ce9dd3654f5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ac433b64decb8091a3835308866c00d2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=596880bb4178187270c387f72d49dea7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Hopper Mixer Explosion Panel Tripped"}

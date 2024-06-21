@@ -1,0 +1,372 @@
+Name: Drag_Hopper_Alarms
+Id: g=6d7ad73a9f82c9c8bb8edee1e93ec639
+Type: FolderType
+Children:
+- Name: Drag_Hopper_FTS_Alarm
+  Id: g=ed1b22d3ee7b937c273afeb33131794c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b15ac4b42aff7ffce1a87e3ec582b399
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0ae4f0428346554b7f983a1b7e76dc1f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=3d8f2ec41c324311c67d58ea05b5b383
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Drag_Hopper_FTS"
+      Children:
+      - Name: Mode
+        Id: g=df2228478ca88a203a4dd0b73602c8b9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e51448f0effc5fd7b9ea66a7f4dd8293
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7dd5319e00b819dc62a6f7af0f6c179a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Failed to Start"}
+- Name: Drag_Hopper_Bearing_Overtemp_Alarm_1
+  Id: g=af0a48a272bfb43028a25678e727588f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=959eb12231432bcbe6843ae4a2ee8661
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f912640b7eed53de00b9c2efab41bf72
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=753cb2168df3c0d30b15a8890804a729
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=5c04306edc465daf92c35c768b71fa5d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=32e146c64e9878921a3d55b2384b4e1e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=48406d7d0b94abf114e543e2ec805a00
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Motor End 1 Overheated"}
+- Name: Drag_Hopper_Bearing_Overtemp_Alarm_2
+  Id: g=18fe51f68374a6f616c3eb2360300e3f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a088700eec743b87fff09dc0bebf3eb8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=7823c5c6abe66ae5dc6bc05e173f0221
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6e831a3752ec8331fddb6861c31a8fb7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Drag_Hopper_Motor_End_2"
+      Children:
+      - Name: Mode
+        Id: g=8d96ead9272eb05291bc79a8df4039ad
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c7f38deb5e3806beb88f9a5ceb7d3d73
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=79931e5b09c35c7206abc86fcdc098e8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Motor End 2 Overheated"}
+- Name: Drag_Hopper_Bearing_Overtemp_Alarm_3
+  Id: g=a51da8515378ca39f13e79e25138c636
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4117bc4e8c4b382c3a2f532015af1984
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=e87ca0fc639b9d2811d3310b7832a792
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=7e3c8e2ca19eead97af5658701a50b53
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Drag_Hopper_Gear_End_1"
+      Children:
+      - Name: Mode
+        Id: g=54ba6e1301b6859a7675e00b186d6ad2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dc28c7eae5eea47e3eec851af17b60d7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=502fdfb56f735184e43ffff61efc5750
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Gear End 1 Overheated"}
+- Name: Drag_Hopper_Bearing_Overtemp_Alarm_4
+  Id: g=656151d761eb395774fdf2aaac8424c8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=fbffaf27a5f9d2782a67e44bb5bfa4d4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=53d7035b8afc83db8dc4cb4e75ea1953
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8ae88f549e53f3d9e6ea62ccdec0ce4f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Drag_Hopper_Gear_End_2"
+      Children:
+      - Name: Mode
+        Id: g=acd488884c6473f16613c30e106ca523
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2c2765cd2fb1b9db79c20ab5ee5334dc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=c5cb3b2680ea846d87da1b01a9010e2d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Gear End 2 Overheated"}
+- Name: Drag_Hopper_High_Amp_Alarm
+  Id: g=fbb47f87bafc5c93b8974f9d5e8ec749
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c5431d8ad2b6f28c71da6770f68332fb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=df1a62311ac44c93f9c80fc163dd4f32
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=caf1b54724ebba0e7cf2dee23a1ccfbd
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Drag_Hopper_High_Amps"
+      Children:
+      - Name: Mode
+        Id: g=e45fa958afc525cbdaee1624a96cb1f5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3d3684b080439592b7a59e1998a609ed
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=188388551fe4cd6e3a91f6af930a2d59
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Overcurrent"}
+- Name: Drag_Hopper_Comm_Loss_Alarm
+  Id: g=101629304be9baf7fe89d7ad8ac755a3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=dfed33edd516d5dce7f45cee5c9b539a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=387cdf2e478cfe97c3378e0937b5faa7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=91a8973382a88f88156b34ac230631bc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Drag_Hopper/COMM_NOT_OK"
+      Children:
+      - Name: Mode
+        Id: g=30c63c17825df423fb929cb8aefb3ac7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0cf99176cd215102f2301c979344f4c0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=696fb434d040298cd9bcfd34c7d1445d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper VFD Communication Loss "}
+- Name: Drag_Hopper_VFD_Fault_Alarm
+  Id: g=82017031b69e95b447509dccbe2b6f48
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6e67efbbf9fb4093c6d2422e0a9c8474
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=138f0d0bd95b966a21878e9800c64ee8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=194722190f6f5514684cd5f8cf274a9e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Drag_Hopper/FAULT"
+      Children:
+      - Name: Mode
+        Id: g=25355ec6750138942a841cfa44c5bd72
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d587197cf94fa99f69e7083ff9bcb32b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=8765182256405c4bccbe972325758ac2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper VFD Faulted"}

@@ -1,0 +1,96 @@
+Name: Bulk_Pellet_Auger_Alarms
+Id: g=f43814f4301ccdecfb60cf04fe6177c4
+Type: FolderType
+Children:
+- Name: Bulk_Pellet_Auger_FTS_Alarm
+  Id: g=28931e99a19d4c681da6676d67d2bc40
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=241b22ae7cb0dd1fd7a387162e4d8525
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=8a196f9a6b9753894dde018052a68b16
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=afe87d83f610b35933491473f12447ae
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bulk_Auger_FTS"
+      Children:
+      - Name: Mode
+        Id: g=59db31e2c73deed4b8195de9a1fe11db
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e4a0c94a05e84dc28777bd4d16a4bee8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e6e29246744a0d2281ae39a889e23741
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Bulk Pellet Auger Failed to Start"}
+- Name: Bulk_Pellet_Auger_Bearing_Overtemp_Alarm
+  Id: g=4481b6dab0bcb198ad037c8f15334915
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a8f5fcb2d3cdd588848137548d944dce
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b040514da16ffda2c7447f5fface1591
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d6bd73d213c49cff119af9092b26b73f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bulk_Auger_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=a5fcee59f5b8f3f3de1bc881183c96ac
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a03bf45586b1389c2288676386df4a79
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=00846d01dc2dbad2b16914bbc6878499
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Bulk Pellet Auger Bearing Motor End 1 Overheated"}

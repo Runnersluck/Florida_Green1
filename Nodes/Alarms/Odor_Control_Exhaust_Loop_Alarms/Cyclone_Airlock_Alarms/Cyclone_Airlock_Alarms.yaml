@@ -1,0 +1,234 @@
+Name: Cyclone_Airlock_Alarms
+Id: g=bc03ff366cacd8a7c47407411aa2cac6
+Type: FolderType
+Children:
+- Name: Cyclone_Airlock_FTS_Alarm
+  Id: g=50ec1cacbe36cb406bb56b19f118b33f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1054af28ae908b8143ba83ecae4ae33a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=13a146dc793b408e6c63c3ad5d36091a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=78f3c87428b632e1125f0c119dff49b6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cyclone_Airlock_FTS"
+      Children:
+      - Name: Mode
+        Id: g=b6e0080cb4d6ddddb9548ac36b9e78d6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1191dfe938b3a984fd08f95378156cb4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=86084861e7bb5f723a931514b039c97e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Failed to Start"}
+- Name: Cyclone_Airlock_High_Amp_Alarm
+  Id: g=358efe5b2418d3f347795311be54adf9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5e0af99b2d644d411f45ea674836627f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f8380ccc82768cc745433276f5b69c83
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c620293acc4a8b2ab023083fd7a3f624
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cyclone_Airlock_High_Amps"
+      Children:
+      - Name: Mode
+        Id: g=ea3fbe02d959bc0d83346a759db4e4ea
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=95f6fe0257bf262ad3160a13eb5f1ddd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=3f7d7c9f40b30f49e954ad7141e9ffd0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Overcurrent"}
+- Name: Cyclone_Airlock_Overload_Tripped_Alarm
+  Id: g=42205fd42a45da57f4d4f180bc72e722
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9ad2429fff7500b219c04e7f52a1940b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=25a7be56ee533bf39e54909309d400b3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=67974e3e3b56be26c45262dc55742b48
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cyclone_Airlock_Overload"
+      Children:
+      - Name: Mode
+        Id: g=7d6b76af7c62384e2427a5cd1cc5aab1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9716bb7b4a88240a5869ab1ae9bcc451
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=f48bdc4d9b9327d7f32892184e1ac28c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Motor Overload Tripped"}
+- Name: Cyclone_Airlock_Bearing_Overtemp_Alarm_1
+  Id: g=4eac9e25184d1d369b2dfb16d5b9dbe6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=154d53395f7eaf539dc3b17ebc6a5150
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=718dbd201bd166c6bda0d4f6a8f948d3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8ae554b5346599b3543aa6d38fd916f7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Cyclone_Airlock_Motor_End"
+      Children:
+      - Name: Mode
+        Id: g=bf2592caa4fe2f4375abf5955340e2d6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dfd97ebf82b10e96d536de55044b883e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=669ecf54d0cc340f4e2f5f15abe15330
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Bearing Motor End 1 Overheated"}
+- Name: Cyclone_Airlock_Bearing_Overtemp_Alarm_2
+  Id: g=16b915c12674f94ea1b92fe86bd6a782
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b5c28d211cd20d5c57cbc335c0c0ceae
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=c205cb74688cf822f5f5d798d1637240
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=f4a3154f0c3415199c040116f50c6589
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cyclone_Airlock_Gear_End_1"
+      Children:
+      - Name: Mode
+        Id: g=443060e9d3c7a15bc69cd1643799c115
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0c03323abaf4271afafdcc735db47e6f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=bab070575a924f0714e33cc1c1ff1fda
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Bearing Gear End 1 Overheated"}

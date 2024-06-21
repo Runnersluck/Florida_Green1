@@ -1,0 +1,6 @@
+Name: Odor_Control_Exhaust_Loop_Alarms
+Id: g=7c434b91c7a0170bfbadc67aa5fe50d3
+Type: FolderType
+Children:
+- File: Rotoclone_Alarms/Rotoclone_Alarms.yaml
+- File: Cyclone_Airlock_Alarms/Cyclone_Airlock_Alarms.yaml

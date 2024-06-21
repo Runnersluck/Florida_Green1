@@ -1,0 +1,798 @@
+Name: Outside_Elevator_Alarms
+Id: g=52d6714945492ced3ffe5dde38eca627
+Type: FolderType
+Children:
+- Name: Outside_Elevator_FTS_Alarm
+  Id: g=0e4900ebeddde44062ca36d307c8d0c7
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5c8bfe5e3be4385fce74b97e969e3f42
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=936431ea48e0d74872bdfc65deef43a6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ffea38edfd5869c107ed344bf9665601
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_FTS"
+      Children:
+      - Name: Mode
+        Id: g=f25aa3ef1ca5c5251f0a704548ad5adc
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2e69ce6f0345843a301d8ea0f3edeae8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=f4d6e5d9320f771af58895b2cfbf8b59
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Failed to Start"}
+- Name: Outside_Elevator_High_Amp_Alarm
+  Id: g=f7a6b1d54ecdd39218111941ec8b0e05
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=557941d8c6a4666953c0c29c4c2ba54e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=2b65523bb9a00f3c1b1f0afd54a18279
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8c41558fdf35985abeef687330af22a7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_High_Amps"
+      Children:
+      - Name: Mode
+        Id: g=884a03756fbd9c7b58ab7d63a0ae94af
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=76bafc383dce5f5ed9200062b15d7ec9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1a984167768d01f4684edb7ed611cd5e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Overcurrent"}
+- Name: Outside_Elevator_Overload_Tripped_Alarm
+  Id: g=680bb0b6b48657f516439384487ea0a8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f46c07b823b10028e91e66f19c53a929
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=f942669f332ff3eea3abbc68653f1fa1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a0e05dc6fba96a0dbd7fa971c475dae9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Overload"
+      Children:
+      - Name: Mode
+        Id: g=6ed0bdc6fa68457dc1183cf606bd6eb2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d34a91ba0b1c375d52a900ba6bd0c674
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=73b5f5853d8a1fdf455ac8e801d8e09f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Motor Overload Tripped"}
+- Name: Outside_Elevator_Bearing_Overtemp_Alarm_1
+  Id: g=74102732ff795d32e0ee1c8d9fdb0264
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d0c19a690a3a2ea5c60ecbf0f4ce1f0b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=fb5f9bca6121d1725a82620ae6def385
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a2ee3ff75b6773cc2a74f72ecfd4a3b9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Outside_Elevator_Motor_End_1"
+      Children:
+      - Name: Mode
+        Id: g=702cd81b23216e84226b1fee7c4b1dfe
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=194873df876fe07d4e27e8dbf870c1a7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b58049b5770b6acdbf01295c2ddfc8fb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Bearing Motor End 1 Overheated"}
+- Name: Outside_Elevator_Bearing_Overtemp_Alarm_2
+  Id: g=9b5577dba295ef80e0ce82ca94354c88
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=fe8e4169c9716700555b21cf03ffcdd9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b701ccf9038ff636626aea3bee8360ee
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=56650c3e9f1ab4c98b04e65e00fab7b4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Motor_End_2"
+      Children:
+      - Name: Mode
+        Id: g=b3c7cb2789c3712f9b8e4bfcd63d776c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2ec26d8bfa0bc22de41844bcc5d8392a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=6c5fd6aaa73fb83241c728814c27c96b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Bearing Motor End 2 Overheated"}
+- Name: Outside_Elevator_Bearing_Overtemp_Alarm_3
+  Id: g=ba9bdaf960895ca4c8c28a98499d0b46
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d7cb3f1d98bb67156350d6a416ca68fe
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=9af037936dbfd69d866ac57b5921c32a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=20cf21b13064b5d9e7fb3fa8cf98cc85
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Gear_End_1"
+      Children:
+      - Name: Mode
+        Id: g=4aa273b6590e6eaf07b97a47c2e09a46
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ebdd524c69ca37f9f9eaf9922dfee8b6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=125db9d8599218843c44cb5ec75593f4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Bearing Gear End 1 Overheated"}
+- Name: Outside_Elevator_Bearing_Overtemp_Alarm_4
+  Id: g=55e8ac9440dc15ee13e1e5666ca30543
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cc792462e0e381ecf7166eb0346d5b2f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=a4aae5cd9f28639b487396d5451bdc62
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=f5d9d6de1218bd50b00c130e0979fdab
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Gear_End_2"
+      Children:
+      - Name: Mode
+        Id: g=e3feb0ebdc75ad713d28eff9ccafa97f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1da5378d5ada770c337f0240a1d16de2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=78941405e8c7fed4aa68407ef19e0c42
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Gear End 2 Overheated"}
+    Children:
+    - Name: DynamicLink
+      Id: g=816f3d0de83d56d4cd1aa6cab37edb88
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "Outside Elevator Gear End 2 Overheated"
+      Children:
+      - Name: IsPull
+        Id: g=c697d51a3932d3361920dc7bd408fa67
+        Type: BaseVariableType
+        DataType: Boolean
+        Value: true
+- Name: Outside_Elevator_BR_Rub_Alarm
+  Id: g=68f167e1d4388de9c845c9414e47e11d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cc55fe2538af8c690d28e8af82b3b08f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=126d2480cc87dc9eac495cf08d569ed2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=e37720501d798ca239c8ca4a991a573b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Lower_Right_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=10812c5867c10ebff7032c7a9fa3b3b4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9be6a37bb73ecb82f19127507285cc86
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=c2e169d0b628fff6aec8239cf988dda9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Bottom Right Rub Sensor Tripped"}
+- Name: Outside_Elevator_BL_Rub_Alarm
+  Id: g=4a3aa06ad4f3b086509146464fc7fd80
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=03ff90976fcdfb1a487edad01ecfb906
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=725979fbe701775556d5c9b38926a87e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=f06f28c078568da2d719673c644fd69e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Lower_Left_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=2ed12ef0745c64178d6e11f2f229b2b2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=464cfc59ffb201623f41972a7b60c10c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=5d4d80ed4876dc03b761cf94366ad0da
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Bottom Left Rub Sensor Tripped"}
+- Name: Outside_Elevator_TR_Rub_Alarm
+  Id: g=f62edc9f9e8830653d7694825476e860
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ab48f90ad40cec65b73dca5e47e1088f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0cc055b39d95d57d44c1575ada6cddb9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=cd23b38b83496c95d1d9238dbc66906e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Upper_Right_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=26a8780fbb176ebed1b80a27bc07ddea
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=84369a0f384fe7345b465aaf7d337ca9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=04f4f938e0fd593b42777e6c4037bdc4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Top Right Rub Sensor Tripped"}
+- Name: Outside_Elevator_TL_Rub_Alarm
+  Id: g=220a6bd3a8799421a6d09062565e07a1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a4f3632a56c5745bbaef1a373a7f89c9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=770f447e2549de237f9db7341964ca8f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=24555c86d894669eac2460aee7288fd4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Upper_Left_Rub_Trip"
+      Children:
+      - Name: Mode
+        Id: g=972d6d95385ce7a9beaf6cfdaaf2132c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6e6b07843a5d70d14594a777922cdb9c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b71a42e08d1d94dc78e795eadaf09ae1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Top Left Rub Sensor Tripped"}
+- Name: Outside_Elevator_EXP1_Alarm
+  Id: g=68cdd33f2eae5b31c78255af35ceac4e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ac439cc6186da7fc0675af759d49508a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=51af4db80981f990b51868a1cb7d05be
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=5dbeeee17f0135140bc3f2237b7a968a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_EXP_1_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=a8f69584dc8a90efa118479f739f2eea
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=8c46b1b49949802e9f2cbc453a4acfaa
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=c7176b6d43ef583596c9d51f5385681c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Explosion Panel 1 Tripped"}
+- Name: Outside_Elevator_EXP2_Alarm
+  Id: g=1f3016f02a9f2aaa2aef08ae2fb2d071
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5004a098406112937aa3abeda1470f80
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=035860f6c746baa812c16b886a73a8ef
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=cff6037b202108f8d94f9d54c5e6c102
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_EXP_2_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=29939645ab8ad2fbf54f2267a6a6fe29
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4fd39d8f99f84679e690aa663be87c09
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1627a76907e7b491d005e825caa5c747
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Explosion Panel 2 Tripped"}
+- Name: Outside_Elevator_EXP3_Alarm
+  Id: g=0285a96538bc5aa808295400877e2cb9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ef15753e30ef24fce8a1946b8bb3988b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=13c83c5d9c83fbeb545e0a19906237aa
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=eb5c6b27dcd348b9bd8f13c53c6e8770
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_EXP_3_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=f915b10a48ec02a97148f9ff857c8498
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=21b9eb268c91776c1fd7efef816c52a6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=4862be7d741b77d3a791f163742e3e84
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Explosion Panel 3 Tripped"}
+- Name: Outside_Elevator_EXP4_Alarm
+  Id: g=68db17c19a5cadb1440ac08e42c3bd90
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e63368fb051899df9150165e2425a5a0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=1e5f6c28020b1a93377e73b307c1a9cd
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d89797eb39ecc3b7d00588da508f9489
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_EXP_4_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=637ff056c83ed1606149e4d78983a940
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c953ee9c7156b8b0ae50e729147e1a08
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1520a809750f0d43a12ee2e97fb3e5d0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Explosion Panel 4 Tripped"}
+- Name: Outside_Elevator_Low_Flow_Alarm
+  Id: g=93dfc4f66b8033afdd9df2454434399b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6e2d4d46871603a7a7148608408c454d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=5521f1dcb7c5175c6b6c237020d6301e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ad8c4247fdf65b7f3d2f142828269cfd
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Low_Flow_Trip"
+      Children:
+      - Name: Mode
+        Id: g=de7154166c108cb6ec68db56c7e8d40b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2f9023ea4c51d1e9e71addcc7fef7fff
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1068b609e3eb0a3897586d0fac84c19e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Clogged or has Low Flow"}
+- Name: Outside_Elevator_Low_Speed_Alarm
+  Id: g=dd8b1227a2f3837e8a78f5f67cfa92df
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=edc1c56297c4bb1887a19af56bbf91a6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=459b7ab498c7e00f66208c1beec45d91
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=af6d9f00c2e0f1a8fb782fe650d89848
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Outside_Elevator_Low_Speed_Trip"
+      Children:
+      - Name: Mode
+        Id: g=6c4647373ef808f88e017aa9881b48aa
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7751ad51b174c19cb7fe76dafa56394f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=d695fc21a615b42fa34954b7065625b0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Outside Elevator Jammed or Running Too Slow"}

@@ -1,0 +1,9 @@
+Name: Receiving_Loop_Alarms
+Id: g=8ec7c2d5711af7d5023ca898393b4c95
+Type: FolderType
+Children:
+- File: Drag_Hopper_Alarms/Drag_Hopper_Alarms.yaml
+- File: Outside_Elevator_Alarms/Outside_Elevator_Alarms.yaml
+- File: Divertor_Alarms/Divertor_Alarms.yaml
+- File: Dutchman_Alarms/Dutchman_Alarms.yaml
+- File: Main_Feed_Auger_Alarms/Main_Feed_Auger_Alarms.yaml

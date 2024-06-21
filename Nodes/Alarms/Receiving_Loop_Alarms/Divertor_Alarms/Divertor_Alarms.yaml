@@ -1,0 +1,188 @@
+Name: Divertor_Alarms
+Id: g=3f9fa4337696e3d85397861c4511347c
+Type: FolderType
+Children:
+- Name: Low_Flow_Towards_A_Alarm
+  Id: g=dd4dabd6da539255fb7c26529017cfa4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=314823f94f1a26a1fc84440068d7d9e5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=601962d73c37cc003f0ea955650f97a5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a51c16e2060d949a2bc558de1e324ddb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bin_A_Low_Flow_Trip"
+      Children:
+      - Name: Mode
+        Id: g=205271154f1c8e195b790e956a219318
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=73e95549e35875b19c51b8797bba46e6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=71c4d6022eb471f9f39ad1362dbdcc51
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Low Flow on Divertor Going into Dutchman A"}
+- Name: Low_Flow_Towards_B_Alarm
+  Id: g=8493c2eeef4fc1382a76d070f9879674
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b31d74c565827625c554e60d25c8b736
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b3ac4c8aa1feb00fb64d17ab95d8b36e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=f8c07fedded6c9e47dce1aca356bf37b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bin_B_Low_Flow_Trip"
+      Children:
+      - Name: Mode
+        Id: g=d212e7ae010dc0c41a40cbd3b473a02b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=61be90f877240beda70f6b16b132a143
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7b17f4623499f265d24a0fbaf9723206
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Low Flow on Divertor Going into Dutchman B"}
+- Name: Bin_Divertor_Not_Aligned_To_Any_Alarm
+  Id: g=d20fdc7aa8f98337e433088432507c23
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=71d29a986f616f0ed65e0e3ff19f4032
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=e3e582cac3c3367d62d6be59182b12e7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=7782a5c1ec8fc4af38ccbcaa197c8059
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bin_Divertor_Not_Aligned"
+      Children:
+      - Name: Mode
+        Id: g=88e5e9acbe122efc000e4cb31b3c908e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=914b35f8fed62c237d7c7f99d5f3583a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=cd96514a859ae57d89d4c265a1a339af
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Receiving Bin Divertor Valve not Aligned to Any Dutchman"}
+- Name: Bin_Divertor_Not_On_Selected_Bin_Alarm
+  Id: g=946559e2851e3af11acf045c23900aa0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b5888f41c99cfe7c85986087297fd40c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=4e1ccb593c256a89e09f4cf0acf9b42b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=52b36df99859b173d4ba789f4552b556
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bin_Divertor_Valve_Incorrect_Pos"
+      Children:
+      - Name: Mode
+        Id: g=eaa9895b46a8fbe374e3172fb94b8d41
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4154fc2bbeacf09d6f4ac9538a9411a0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=08ee07a2a2168be3b469225acc1a2fed
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Receiving Bin Divertor Valve Not Aligned with Selected Dutchman"}
