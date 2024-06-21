@@ -113,6 +113,77 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: SYSTEM
+  Id: g=bcd107f6afeb4922003bb872d8828b3a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SYSTEM",
+    "DataType": {
+     "IdType": 2,
+     "Id": "bcd107f6afeb4922003bb872d8828b3a",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Auto_mode_ON",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Date",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "HMI_RESET_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Hour",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Master_Auto_HMI_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Minute",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Month",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Second",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Start_bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Year",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SYSTEM"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: Bagline
   Id: g=ef6c0cfd87f97de1f9e2f31ef9792c0a
   Supertype: Structure
@@ -193,226 +264,6 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"Bagline"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: VALVES
-  Id: g=6d636c0fb4bec5f5e73253c8fb9fc1da
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "VALVES",
-    "DataType": {
-     "IdType": 2,
-     "Id": "6d636c0fb4bec5f5e73253c8fb9fc1da",
-     "Namespace": 20
-    },
-    "Fields": [{
-      "Name": "Auto_mode",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Bin_A_Flow_Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Bin_A_Flow_Trip_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Bin_B_Flow_Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Bin_B_Flow_Trip_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Close_cmd",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Close_cmd_hmi_pb",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "closed_fdbk",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cycle_counter",
-      "DataType": {
-       "IdType": 2,
-       "Id": "f97d4bd8d7e1a38bb448a38a56477e0f",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Cycle_one_shot",
-      "DataType": {
-       "Id": 1
-      },
-      "ValueRank": "OneDimension",
-      "ArrayDimensions": [32]
-     },{
-      "Name": "Divertor_Not_Aligned_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Dutch_Or_Bin_Incorrect_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Failed_to_change_to_mid_position",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Failed_to_close",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Failed_to_close_timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Failed_to_goto_mid_position_timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Failed_to_open",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Failed_to_Open_timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Hmi_name",
-      "DataType": {
-       "Id": 12
-      }
-     },{
-      "Name": "Manual_mode",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Mid_cmd_hmi_pb",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "mid_position_cmd",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "mid_position_fdbk",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "No_Feedback_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Not_Aligned_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Number_of_cycles",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Open_cmd",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Open_cmd_hmi_pb",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Open_fdbk",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Out_of_service",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ready",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Rotoclone_Low_Water",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Rotoclone_Low_Water_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Status",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Valve_position",
-      "DataType": {
-       "Id": 6
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"VALVES"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -806,6 +657,203 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"INPUTS_FROM_CLICK_PLC"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: super_sac
+  Id: g=331b9ff445c29262164cdc8448a7f4e4
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "super_sac",
+    "DataType": {
+     "IdType": 2,
+     "Id": "331b9ff445c29262164cdc8448a7f4e4",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Both_Super_Sacs_Selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DintToMicro800",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "Feed_screw_1_Auto_ready_at_pnl",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Feed_screw_2_Auto_ready_at_pnl",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Gyrator_1_Auto_ready_at_pnl",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Gyrator_2_Auto_ready_at_pnl",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Heart_beat_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "HeartBeat_Counter",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f97d4bd8d7e1a38bb448a38a56477e0f",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Heatbeat_count",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Micro800data_read",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Sac_A_weight_met",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sac_B_weight_met",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "sample_rate_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "SintToMicro800",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [20]
+     },{
+      "Name": "Super_Sac_A_Selected_hmi",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_Sac_auto_mode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_Sac_B_selected_hmi",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_sac_fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_sac_PLC_comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_Sac_PLC_comm_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Super_sac_plc_heartbeat",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_sac_zero_Data",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "Synthetic_auger_Auto_ready_at_pnl",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Synthetic_hmi_pause_cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SYNTHETIC_PAUSE_CMD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SYNTHETIC_SAC_A_LOSS_IN_WEIGHT_HMI_SP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SYNTHETIC_SAC_A_WEIGHT",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Synthetic_sac_a_weight_stop_point",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SYNTHETIC_SAC_B_LOSS_IN_WEIGHT_HMI_SP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SYNTHETIC_SAC_B_WEIGHT",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Synthetic_sac_b_weight_stop_point",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SYNTHETIC_START_CMD",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"super_sac"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -2162,77 +2210,6 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: SYSTEM
-  Id: g=bcd107f6afeb4922003bb872d8828b3a
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "SYSTEM",
-    "DataType": {
-     "IdType": 2,
-     "Id": "bcd107f6afeb4922003bb872d8828b3a",
-     "Namespace": 20
-    },
-    "Fields": [{
-      "Name": "Auto_mode_ON",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Date",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "HMI_RESET_PB",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Hour",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Master_Auto_HMI_PB",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Minute",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Month",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Second",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Start_bit",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Year",
-      "DataType": {
-       "Id": 6
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"SYSTEM"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
   Name: ELEVATOR_IO
   Id: g=67a5f4e5f45695f288061ccb7053bee7
   Supertype: Structure
@@ -2834,6 +2811,226 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: VALVES
+  Id: g=6d636c0fb4bec5f5e73253c8fb9fc1da
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "VALVES",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6d636c0fb4bec5f5e73253c8fb9fc1da",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Auto_mode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bin_A_Flow_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bin_A_Flow_Trip_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Bin_B_Flow_Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bin_B_Flow_Trip_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Close_cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Close_cmd_hmi_pb",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "closed_fdbk",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cycle_counter",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f97d4bd8d7e1a38bb448a38a56477e0f",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Cycle_one_shot",
+      "DataType": {
+       "Id": 1
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [32]
+     },{
+      "Name": "Divertor_Not_Aligned_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Dutch_Or_Bin_Incorrect_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Failed_to_change_to_mid_position",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Failed_to_close",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Failed_to_close_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Failed_to_goto_mid_position_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Failed_to_open",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Failed_to_Open_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Hmi_name",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Manual_mode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Mid_cmd_hmi_pb",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "mid_position_cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "mid_position_fdbk",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "No_Feedback_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Not_Aligned_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Number_of_cycles",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Open_cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Open_cmd_hmi_pb",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Open_fdbk",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_of_service",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Rotoclone_Low_Water",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Rotoclone_Low_Water_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Valve_position",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"VALVES"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: AUTO_SEQUENCE
   Id: g=542b29b79fb47515d93251cf6311bbed
   Supertype: Structure
@@ -3116,19 +3313,34 @@ Children:
        "Id": 6
       }
      },{
-      "Name": "Super_Sac_all_in_auto",
+      "Name": "Super_Sac_A_all_in_auto",
       "DataType": {
        "Id": 1
       }
      },{
-      "Name": "Super_Sac_auto_ready",
+      "Name": "Super_Sac_A_Auto_ready",
       "DataType": {
        "Id": 1
       }
      },{
-      "Name": "Super_Sac_auto_stage",
+      "Name": "Super_sac_Auto_Feed_Pause_Hmi_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_Sac_Auto_Stage",
       "DataType": {
        "Id": 6
+      }
+     },{
+      "Name": "Super_Sac_B_all_in_auto",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_Sac_B_Auto_ready",
+      "DataType": {
+       "Id": 1
       }
      }]
    }

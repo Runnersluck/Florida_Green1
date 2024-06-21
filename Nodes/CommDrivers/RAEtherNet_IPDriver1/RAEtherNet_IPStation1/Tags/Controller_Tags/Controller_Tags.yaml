@@ -42,6 +42,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Feed_Auger_1.Auto_Start"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Feed_Auger_1.COMM_NOT_OK"
   - Name: COMM_OK
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -356,15 +365,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Feed_Auger_1.TRIPPED"
-  - Name: COMM_NOT_OK
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "COMM_NOT_OK"
 - Name: SYS
   Type: SYSTEM
   DataType: SYSTEM
@@ -500,6 +500,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Feed_Auger_2.Auto_Start"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Feed_Auger_2.COMM_NOT_OK"
   - Name: COMM_OK
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -814,15 +823,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Feed_Auger_2.TRIPPED"
-  - Name: COMM_NOT_OK
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "COMM_NOT_OK"
 - Name: PM_Feed_Auger_3
   Id: g=3ca9a2138d3bdf0245008cba4d6a15e9
   Type: VFD_CONTROLS
@@ -864,6 +864,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Feed_Auger_3.Auto_Start"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Feed_Auger_3.COMM_NOT_OK"
   - Name: COMM_OK
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1178,15 +1187,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Feed_Auger_3.TRIPPED"
-  - Name: COMM_NOT_OK
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "COMM_NOT_OK"
 - Name: Pellet_mill_2
   Id: g=7ff6afb40b05860c519eb85fa2b1abeb
   Type: MTR_STARTER_CONTROLS
@@ -5205,6 +5205,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Bagger_Elevator_FTS"
+  - Name: Bagger_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bagger_Elevator_Gear_End_1"
+  - Name: Bagger_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bagger_Elevator_Gear_End_2"
   - Name: Bagger_Elevator_High_Amps
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5250,6 +5268,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Bagger_Elevator_Lower_Right_Rub_Trip"
+  - Name: Bagger_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bagger_Elevator_Motor_End_1"
+  - Name: Bagger_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bagger_Elevator_Motor_End_2"
   - Name: Bagger_Elevator_Overload
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5304,42 +5340,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Batch_Elevator_Alarm"
-  - Name: Batch_Elevator_Alarm_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Batch_Elevator_Alarm_1"
-  - Name: Batch_Elevator_Alarm_2
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Batch_Elevator_Alarm_2"
-  - Name: Batch_Elevator_Alarm_3
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Batch_Elevator_Alarm_3"
-  - Name: Batch_Elevator_Alarm_4
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.Batch_Elevator_Alarm_4"
   - Name: Batch_Elevator_Explosion_Panel_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5403,6 +5403,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Batch_Elevator_Lower_Right_Rub_Trip"
+  - Name: Batch_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Batch_Elevator_Motor_End_1"
   - Name: Batch_Elevator_Motor_End_2
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5664,6 +5673,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Bulk_Auger_FTS"
+  - Name: Bulk_Auger_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Bulk_Auger_Motor_End_1"
   - Name: Bulk_Feed_Low_Flow_Trip
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5691,6 +5709,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Cooler_Elevator_FTS"
+  - Name: Cooler_Elevator_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Cooler_Elevator_Gear_End_1"
+  - Name: Cooler_Elevator_Gear_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Cooler_Elevator_Gear_End_2"
   - Name: Cooler_Elevator_High_Amps
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5736,6 +5772,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Cooler_Elevator_Lower_Right_Rub_Trip"
+  - Name: Cooler_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Cooler_Elevator_Motor_End_1"
+  - Name: Cooler_Elevator_Motor_End_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Cooler_Elevator_Motor_End_2"
   - Name: Cooler_Elevator_Overload
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5772,6 +5826,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Cyclone_Airlock_FTS"
+  - Name: Cyclone_Airlock_Gear_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Cyclone_Airlock_Gear_End_1"
   - Name: Cyclone_Airlock_High_Amps
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5781,6 +5844,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Cyclone_Airlock_High_Amps"
+  - Name: Cyclone_Airlock_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Cyclone_Airlock_Motor_End_1"
   - Name: Cyclone_Airlock_Overload
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5790,6 +5862,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Cyclone_Airlock_Overload"
+  - Name: Discharge_Auger_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Discharge_Auger_Motor_End_1"
   - Name: Drag_Hopper_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5826,6 +5907,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Drag_Hopper_High_Amps"
+  - Name: Drag_Hopper_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Drag_Hopper_Motor_End_1"
   - Name: Drag_Hopper_Motor_End_2
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6014,7 +6104,16 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Alarms.Feed_Auger_2_FTS"
+      Value: "Alarms.Feed_Auger_1_FTS"
+  - Name: Feed_Auger_1_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Feed_Auger_1_Motor_End_1"
   - Name: Feed_Auger_2_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6024,6 +6123,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Feed_Auger_2_FTS"
+  - Name: Feed_Auger_2_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Feed_Auger_2_Motor_End_1"
   - Name: Feed_Auger_3_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6033,6 +6141,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Feed_Auger_3_FTS"
+  - Name: Feed_Auger_3_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Feed_Auger_3_Motor_End_1"
   - Name: Hopper_Explosion_Valve_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6195,6 +6312,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Outside_Elevator_Lower_Right_Rub_Trip"
+  - Name: Outside_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Outside_Elevator_Motor_End_1"
   - Name: Outside_Elevator_Motor_End_2
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6312,6 +6438,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_1_HIGH_AMPS"
+  - Name: PM_1_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_1_Motor_End_1"
   - Name: PM_2_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6330,6 +6465,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_2_HIGH_AMPS"
+  - Name: PM_2_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_2_Motor_End_1"
   - Name: PM_3_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6348,6 +6492,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_3_HIGH_AMPS"
+  - Name: PM_3_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_3_Motor_End_1"
   - Name: PM_Elevator_Alarm
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6357,42 +6510,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Elevator_Alarm"
-  - Name: PM_Elevator_Alarm_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.PM_Elevator_Alarm_1"
-  - Name: PM_Elevator_Alarm_2
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.PM_Elevator_Alarm_2"
-  - Name: PM_Elevator_Alarm_3
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.PM_Elevator_Alarm_3"
-  - Name: PM_Elevator_Alarm_4
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alarms.PM_Elevator_Alarm_4"
   - Name: PM_Elevator_Explosion_Panel_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6438,6 +6555,33 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Elevator_Low_Speed"
+  - Name: PM_Elevator_Lower_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Elevator_Lower_Left_Rub_Trip"
+  - Name: PM_Elevator_Lower_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Elevator_Lower_Right_Rub_Trip"
+  - Name: PM_Elevator_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Elevator_Motor_End_1"
   - Name: PM_Elevator_Motor_End_2
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6447,6 +6591,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Elevator_Motor_End_2"
+  - Name: PM_Elevator_Upper_Left_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Elevator_Upper_Left_Rub_Trip"
+  - Name: PM_Elevator_Upper_Right_Rub_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Elevator_Upper_Right_Rub_Trip"
   - Name: PM_Feed_Elevator_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6483,6 +6645,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Feed_Elevator_Overload"
+  - Name: PM_Hopper_Explosion_Trip
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Hopper_Explosion_Trip"
   - Name: PM_Hopper_Explosion_Valve_Tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6510,6 +6681,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.PM_Hopper_Full"
+  - Name: PM_Hopper_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.PM_Hopper_Motor_End_1"
   - Name: PM_Shaker_Discharge
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6546,6 +6726,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Reject_Auger_FTS"
+  - Name: Reject_Auger_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Reject_Auger_Motor_End_1"
   - Name: Reject_Low_Flow
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6582,6 +6771,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Replace_UPS_Battery"
+  - Name: Rotoclone_Fan_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Rotoclone_Fan_End_1"
   - Name: Rotoclone_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6600,6 +6798,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Rotoclone_Low_Water"
+  - Name: Rotoclone_Motor_End_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Rotoclone_Motor_End_1"
   - Name: Rotoclone_Overload
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6654,285 +6861,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Surge_Tank_Low_Level"
-  - Name: PM_Elevator_Lower_Right_Rub_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Lower_Right_Rub_Trip"
-  - Name: PM_Elevator_Lower_Left_Rub_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Lower_Left_Rub_Trip"
-  - Name: PM_Elevator_Upper_Right_Rub_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Upper_Right_Rub_Trip"
-  - Name: PM_Elevator_Upper_Left_Rub_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Upper_Left_Rub_Trip"
-  - Name: PM_Hopper_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Hopper_Motor_End_1"
-  - Name: PM_Hopper_Explosion_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Hopper_Explosion_Trip"
-  - Name: Reject_Auger_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Reject_Auger_Motor_End_1"
-  - Name: Feed_Auger_1_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Feed_Auger_1_Motor_End_1"
-  - Name: PM_1_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_1_Motor_End_1"
-  - Name: Feed_Auger_2_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Feed_Auger_2_Motor_End_1"
-  - Name: PM_2_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_2_Motor_End_1"
-  - Name: Feed_Auger_3_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Feed_Auger_3_Motor_End_1"
-  - Name: PM_3_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_3_Motor_End_1"
-  - Name: Cooler_Elevator_Motor_End_2
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cooler_Elevator_Motor_End_2"
-  - Name: Cooler_Elevator_Gear_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cooler_Elevator_Gear_End_1"
-  - Name: Cooler_Elevator_Gear_End_2
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cooler_Elevator_Gear_End_2"
-  - Name: Bagger_Elevator_Motor_End_2
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Bagger_Elevator_Motor_End_2"
-  - Name: Bagger_Elevator_Gear_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Bagger_Elevator_Gear_End_1"
-  - Name: Bulk_Auger_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Bulk_Auger_Motor_End_1"
-  - Name: Rotoclone_Fan_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Rotoclone_Fan_End_1"
-  - Name: Cyclone_Airlock_Gear_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cyclone_Airlock_Gear_End_1"
-  - Name: Bagger_Elevator_Gear_End_2
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Bagger_Elevator_Gear_End_2"
-  - Name: Bagger_Elevator_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Bagger_Elevator_Motor_End_1"
-  - Name: Batch_Elevator_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Batch_Elevator_Motor_End_1"
-  - Name: Cooler_Elevator_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cooler_Elevator_Motor_End_1"
-  - Name: Cyclone_Airlock_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cyclone_Airlock_Motor_End_1"
-  - Name: Discharge_Auger_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Discharge_Auger_Motor_End_1"
-  - Name: Drag_Hopper_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Drag_Hopper_Motor_End_1"
-  - Name: Outside_Elevator_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Outside_Elevator_Motor_End_1"
-  - Name: PM_Elevator_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PM_Elevator_Motor_End_1"
-  - Name: Rotoclone_Motor_End_1
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Rotoclone_Motor_End_1"
 - Name: Drag_Hopper
   Id: g=ccf44fdb177e71f24c7ee3b61cab12ed
   Type: VFD_CONTROLS
@@ -7338,6 +7266,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Rotoclone.Auto_Start"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Rotoclone.COMM_NOT_OK"
   - Name: COMM_OK
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -7652,15 +7589,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Rotoclone.TRIPPED"
-  - Name: COMM_NOT_OK
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "COMM_NOT_OK"
 - Name: Main_Feed_Auger
   Id: g=de4471b4c312f4988ea5ca3b75942e99
   Type: VFD_CONTROLS
@@ -10369,6 +10297,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Surge_Auger.Auto_Start"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Surge_Auger.COMM_NOT_OK"
   - Name: COMM_OK
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -10683,15 +10620,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Surge_Auger.TRIPPED"
-  - Name: COMM_NOT_OK
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "COMM_NOT_OK"
 - Name: Batch_Mixer
   Id: g=a2814e8a436a03c603b63936cfe7dd62
   Type: VFD_CONTROLS
@@ -12498,6 +12426,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Bulk_Auger.Auto_Start"
+  - Name: COMM_NOT_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bulk_Auger.COMM_NOT_OK"
   - Name: COMM_OK
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -12812,15 +12749,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Bulk_Auger.TRIPPED"
-  - Name: COMM_NOT_OK
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "COMM_NOT_OK"
 - Name: Auto_Seq
   Type: AUTO_SEQUENCE
   DataType: AUTO_SEQUENCE
@@ -13311,25 +13239,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Auto_Seq.Sealer_Stacker_auto_stage"
-  - Name: Super_Sac_all_in_auto
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Auto_Seq.Super_Sac_all_in_auto"
-  - Name: Super_Sac_auto_ready
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Auto_Seq.Super_Sac_auto_ready"
-  - Name: Super_Sac_auto_stage
+  - Name: Super_Sac_Auto_Stage
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
@@ -13337,7 +13247,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Auto_Seq.Super_Sac_auto_stage"
+      Value: "Super_Sac_Auto_Stage"
 - Name: CurrentTime
   Type: RAEtherNetIPTag
   DataType: Int32
@@ -13813,55 +13723,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Outside_Elevator_IO.Explosion_4_Trip"
-  - Name: Vale_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Outside_Elevator_IO.Vale_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Outside_Elevator_IO.Vale_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Outside_Elevator_IO.Vale_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Outside_Elevator_IO.Vale_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Outside_Elevator_IO.Vale_Trip_Timer.TT"
   - Name: Flow
     Type: RAEtherNetIPTag
     DataType: Float
@@ -14995,55 +14856,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Feed_Elevator_IO.Explosion_4_Trip"
-  - Name: Vale_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Batch_Feed_Elevator_IO.Vale_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Batch_Feed_Elevator_IO.Vale_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Batch_Feed_Elevator_IO.Vale_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Batch_Feed_Elevator_IO.Vale_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Batch_Feed_Elevator_IO.Vale_Trip_Timer.TT"
   - Name: Flow
     Type: RAEtherNetIPTag
     DataType: Float
@@ -16177,55 +15989,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Feed_Elevator_IO.Explosion_4_Trip"
-  - Name: Vale_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PM_Feed_Elevator_IO.Vale_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PM_Feed_Elevator_IO.Vale_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PM_Feed_Elevator_IO.Vale_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PM_Feed_Elevator_IO.Vale_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PM_Feed_Elevator_IO.Vale_Trip_Timer.TT"
   - Name: Flow
     Type: RAEtherNetIPTag
     DataType: Float
@@ -22122,6 +21885,73 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "BAGGER.SUPER_SACK_LOW_FLOW_TIMER.TT"
+- Name: Super_sac_unloader
+  Type: super_sac
+  DataType: super_sac
+  Children:
+  - Name: Super_Sac_A_Selected_hmi
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_sac_unloader.Super_Sac_A_Selected_hmi"
+  - Name: Super_Sac_B_selected_hmi
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_sac_unloader.Super_Sac_B_selected_hmi"
+  - Name: Synthetic_hmi_pause_cmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_sac_unloader.Synthetic_hmi_pause_cmd"
+  - Name: SYNTHETIC_SAC_A_LOSS_IN_WEIGHT_HMI_SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_sac_unloader.SYNTHETIC_SAC_A_LOSS_IN_WEIGHT_HMI_SP"
+  - Name: SYNTHETIC_SAC_A_WEIGHT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_sac_unloader.SYNTHETIC_SAC_A_WEIGHT"
+  - Name: SYNTHETIC_SAC_B_LOSS_IN_WEIGHT_HMI_SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_sac_unloader.SYNTHETIC_SAC_B_LOSS_IN_WEIGHT_HMI_SP"
+  - Name: SYNTHETIC_SAC_B_WEIGHT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_sac_unloader.SYNTHETIC_SAC_B_WEIGHT"
 - Name: Batch_Isolation_exp_valve
   Id: g=acdc43ff06b078ba90c765bfc76f1ebb
   Type: EXPLOSION_VALVE
@@ -23768,3 +23598,1238 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "HMI_setpoints.SYNTHETIC_SAC_B_LOSS_IN_WEIGHT"
+- Name: Super_Sac_Gyrator_1
+  Id: g=48bbb057dbb75cef2ef94dff796ff8ab
+  Type: MTR_STARTER_CONTROLS
+  DataType: MTR_STARTER_CONTROLS
+  Children:
+  - Name: AMPERAGE
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.AMPERAGE"
+  - Name: Auto_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.Auto_mode"
+  - Name: Auto_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.Auto_mode_pb"
+  - Name: Auto_start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.Auto_start"
+  - Name: ETM
+    Type: ETM
+    DataType: ETM
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.ETM.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.ETM.EnableOut"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.ETM.Reset"
+    - Name: Run
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.ETM.Run"
+    - Name: Runtime
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.ETM.Runtime"
+  - Name: FAULT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.FAULT"
+  - Name: fts_alarm
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.fts_alarm.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.fts_alarm.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.fts_alarm.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.fts_alarm.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_1.fts_alarm.TT"
+  - Name: HMI_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.HMI_name"
+  - Name: HMI_START_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.HMI_START_PB"
+  - Name: HMI_status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.HMI_status"
+  - Name: HMI_STOP_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.HMI_STOP_PB"
+  - Name: Manual_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.Manual_mode"
+  - Name: Manual_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.Manual_mode_pb"
+  - Name: Out_of_service
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.Out_of_service"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.Ready"
+  - Name: RUNNING
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.RUNNING"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.Start"
+  - Name: TRIPPED
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_1.TRIPPED"
+- Name: Super_Sac_Gyrator_2
+  Id: g=dc39d3d284b4e628c9167bd7db030da9
+  Type: MTR_STARTER_CONTROLS
+  DataType: MTR_STARTER_CONTROLS
+  Children:
+  - Name: AMPERAGE
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.AMPERAGE"
+  - Name: Auto_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.Auto_mode"
+  - Name: Auto_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.Auto_mode_pb"
+  - Name: Auto_start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.Auto_start"
+  - Name: ETM
+    Type: ETM
+    DataType: ETM
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.ETM.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.ETM.EnableOut"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.ETM.Reset"
+    - Name: Run
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.ETM.Run"
+    - Name: Runtime
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.ETM.Runtime"
+  - Name: FAULT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.FAULT"
+  - Name: fts_alarm
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.fts_alarm.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.fts_alarm.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.fts_alarm.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.fts_alarm.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Gyrator_2.fts_alarm.TT"
+  - Name: HMI_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.HMI_name"
+  - Name: HMI_START_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.HMI_START_PB"
+  - Name: HMI_status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.HMI_status"
+  - Name: HMI_STOP_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.HMI_STOP_PB"
+  - Name: Manual_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.Manual_mode"
+  - Name: Manual_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.Manual_mode_pb"
+  - Name: Out_of_service
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.Out_of_service"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.Ready"
+  - Name: RUNNING
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.RUNNING"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.Start"
+  - Name: TRIPPED
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Gyrator_2.TRIPPED"
+- Name: Super_Sac_FEED_SCREW_1
+  Id: g=5156e89758bc0fc3e650215cf0b4ba94
+  Type: MTR_STARTER_CONTROLS
+  DataType: MTR_STARTER_CONTROLS
+  Children:
+  - Name: AMPERAGE
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.AMPERAGE"
+  - Name: Auto_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.Auto_mode"
+  - Name: Auto_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.Auto_mode_pb"
+  - Name: Auto_start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.Auto_start"
+  - Name: ETM
+    Type: ETM
+    DataType: ETM
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.ETM.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.ETM.EnableOut"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.ETM.Reset"
+    - Name: Run
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.ETM.Run"
+    - Name: Runtime
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.ETM.Runtime"
+  - Name: FAULT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.FAULT"
+  - Name: fts_alarm
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.fts_alarm.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.fts_alarm.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.fts_alarm.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.fts_alarm.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_1.fts_alarm.TT"
+  - Name: HMI_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.HMI_name"
+  - Name: HMI_START_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.HMI_START_PB"
+  - Name: HMI_status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.HMI_status"
+  - Name: HMI_STOP_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.HMI_STOP_PB"
+  - Name: Manual_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.Manual_mode"
+  - Name: Manual_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.Manual_mode_pb"
+  - Name: Out_of_service
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.Out_of_service"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.Ready"
+  - Name: RUNNING
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.RUNNING"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.Start"
+  - Name: TRIPPED
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_1.TRIPPED"
+- Name: Super_Sac_FEED_SCREW_2
+  Id: g=dfbbfa6820a389dfafed384555d7a7b5
+  Type: MTR_STARTER_CONTROLS
+  DataType: MTR_STARTER_CONTROLS
+  Children:
+  - Name: AMPERAGE
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.AMPERAGE"
+  - Name: Auto_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.Auto_mode"
+  - Name: Auto_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.Auto_mode_pb"
+  - Name: Auto_start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.Auto_start"
+  - Name: ETM
+    Type: ETM
+    DataType: ETM
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.ETM.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.ETM.EnableOut"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.ETM.Reset"
+    - Name: Run
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.ETM.Run"
+    - Name: Runtime
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.ETM.Runtime"
+  - Name: FAULT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.FAULT"
+  - Name: fts_alarm
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.fts_alarm.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.fts_alarm.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.fts_alarm.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.fts_alarm.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_FEED_SCREW_2.fts_alarm.TT"
+  - Name: HMI_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.HMI_name"
+  - Name: HMI_START_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.HMI_START_PB"
+  - Name: HMI_status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.HMI_status"
+  - Name: HMI_STOP_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.HMI_STOP_PB"
+  - Name: Manual_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.Manual_mode"
+  - Name: Manual_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.Manual_mode_pb"
+  - Name: Out_of_service
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.Out_of_service"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.Ready"
+  - Name: RUNNING
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.RUNNING"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.Start"
+  - Name: TRIPPED
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_FEED_SCREW_2.TRIPPED"
+- Name: Super_Sac_Synthetic_auger
+  Id: g=cf552d3ea5271c3415ef9f64ca62486e
+  Type: MTR_STARTER_CONTROLS
+  DataType: MTR_STARTER_CONTROLS
+  Children:
+  - Name: AMPERAGE
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.AMPERAGE"
+  - Name: Auto_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.Auto_mode"
+  - Name: Auto_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.Auto_mode_pb"
+  - Name: Auto_start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.Auto_start"
+  - Name: ETM
+    Type: ETM
+    DataType: ETM
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.ETM.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.ETM.EnableOut"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.ETM.Reset"
+    - Name: Run
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.ETM.Run"
+    - Name: Runtime
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.ETM.Runtime"
+  - Name: FAULT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.FAULT"
+  - Name: fts_alarm
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.fts_alarm.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.fts_alarm.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.fts_alarm.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.fts_alarm.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Super_Sac_Synthetic_auger.fts_alarm.TT"
+  - Name: HMI_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.HMI_name"
+  - Name: HMI_START_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.HMI_START_PB"
+  - Name: HMI_status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.HMI_status"
+  - Name: HMI_STOP_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.HMI_STOP_PB"
+  - Name: Manual_mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.Manual_mode"
+  - Name: Manual_mode_pb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.Manual_mode_pb"
+  - Name: Out_of_service
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.Out_of_service"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.Ready"
+  - Name: RUNNING
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.RUNNING"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.Start"
+  - Name: TRIPPED
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Super_Sac_Synthetic_auger.TRIPPED"
