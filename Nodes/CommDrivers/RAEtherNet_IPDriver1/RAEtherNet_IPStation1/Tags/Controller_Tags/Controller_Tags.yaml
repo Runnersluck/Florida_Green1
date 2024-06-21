@@ -13247,7 +13247,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Super_Sac_Auto_Stage"
+      Value: "Auto_Seq.Super_Sac_Auto_Stage"
 - Name: CurrentTime
   Type: RAEtherNetIPTag
   DataType: Int32
