@@ -734,9 +734,19 @@ Children:
       "ValueRank": "OneDimension",
       "ArrayDimensions": [10]
      },{
+      "Name": "Sac_A_loss_in_weight_remaining",
+      "DataType": {
+       "Id": 10
+      }
+     },{
       "Name": "Sac_A_weight_met",
       "DataType": {
        "Id": 1
+      }
+     },{
+      "Name": "Sac_B_loss_in_weight_remaining",
+      "DataType": {
+       "Id": 10
       }
      },{
       "Name": "Sac_B_weight_met",
