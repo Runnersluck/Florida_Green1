@@ -4242,7 +4242,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 17.0
-    - Name: Panel1
+    - Name: Super_Sac_controls
       Type: Panel
       Children:
       - Name: Width

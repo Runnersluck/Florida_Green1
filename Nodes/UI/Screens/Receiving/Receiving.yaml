@@ -8850,6 +8850,63 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_Temp1
+                Type: Bearing_Temp
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: Rectangle1
+                        Type: Rectangle
+                        Children:
+                        - Name: BorderColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#000000"
+                        - Name: FillColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#ffffff"
+                        - Name: Blink
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                        - Name: Label1
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                          - Name: Blink
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: false
+                      - Name: Label1
+                        Type: Label
             - Name: Panel4
               Type: Panel
               Children:
@@ -8873,6 +8930,63 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_Temp1
+                Type: Bearing_Temp
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: Rectangle1
+                        Type: Rectangle
+                        Children:
+                        - Name: BorderColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#000000"
+                        - Name: FillColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#ffffff"
+                        - Name: Blink
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                        - Name: Label1
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                          - Name: Blink
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: false
+                      - Name: Label1
+                        Type: Label
             - Name: Panel5
               Type: Panel
               Children:
@@ -8896,6 +9010,63 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_Temp1
+                Type: Bearing_Temp
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: Rectangle1
+                        Type: Rectangle
+                        Children:
+                        - Name: BorderColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#000000"
+                        - Name: FillColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#ffffff"
+                        - Name: Blink
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                        - Name: Label1
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                          - Name: Blink
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: false
+                      - Name: Label1
+                        Type: Label
             - Name: Panel6
               Type: Panel
               Children:
@@ -8919,6 +9090,63 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_Temp1
+                Type: Bearing_Temp
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: Rectangle1
+                        Type: Rectangle
+                        Children:
+                        - Name: BorderColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#000000"
+                        - Name: FillColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#ffffff"
+                        - Name: Blink
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                        - Name: Label1
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                          - Name: Blink
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: false
+                      - Name: Label1
+                        Type: Label
             - Name: Panel7
               Type: Panel
               Children:
@@ -8942,6 +9170,63 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_Temp1
+                Type: Bearing_Temp
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: Rectangle1
+                        Type: Rectangle
+                        Children:
+                        - Name: BorderColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#000000"
+                        - Name: FillColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#ffffff"
+                        - Name: Blink
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                        - Name: Label1
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                          - Name: Blink
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: false
+                      - Name: Label1
+                        Type: Label
             - Name: Panel8
               Type: Panel
               Children:
@@ -8965,6 +9250,63 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_Temp1
+                Type: Bearing_Temp
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: Rectangle1
+                        Type: Rectangle
+                        Children:
+                        - Name: BorderColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#000000"
+                        - Name: FillColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#ffffff"
+                        - Name: Blink
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                        - Name: Label1
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                          - Name: Blink
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: false
+                      - Name: Label1
+                        Type: Label
             - Name: Panel9
               Type: Panel
               Children:
@@ -9517,6 +9859,42 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_temp_setpoint1
+                Type: Bearing_temp_setpoint
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: SpinBox1
+                        Type: SpinBox
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          Value: 0.0
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel3
               Type: Panel
               Children:
@@ -9540,6 +9918,42 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_temp_setpoint1
+                Type: Bearing_temp_setpoint
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: SpinBox1
+                        Type: SpinBox
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          Value: 0.0
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel4
               Type: Panel
               Children:
@@ -9563,6 +9977,42 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_temp_setpoint1
+                Type: Bearing_temp_setpoint
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: SpinBox1
+                        Type: SpinBox
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          Value: 0.0
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel5
               Type: Panel
               Children:
@@ -9586,6 +10036,42 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_temp_setpoint1
+                Type: Bearing_temp_setpoint
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: SpinBox1
+                        Type: SpinBox
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          Value: 0.0
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel6
               Type: Panel
               Children:
@@ -9609,6 +10095,42 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_temp_setpoint1
+                Type: Bearing_temp_setpoint
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: SpinBox1
+                        Type: SpinBox
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          Value: 0.0
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel7
               Type: Panel
               Children:
@@ -9632,6 +10154,42 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_temp_setpoint1
+                Type: Bearing_temp_setpoint
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: SpinBox1
+                        Type: SpinBox
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          Value: 0.0
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel8
               Type: Panel
               Children:
@@ -9655,6 +10213,42 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
+              - Name: Bearing_temp_setpoint1
+                Type: Bearing_temp_setpoint
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: SpinBox1
+                        Type: SpinBox
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Double
+                          Value: 0.0
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel9
               Type: Panel
               Children:
