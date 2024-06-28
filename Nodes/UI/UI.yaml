@@ -233,7 +233,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1080.0
+    Value: 1200.0
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
@@ -2143,6 +2143,11 @@ Children:
       DataType: FillModeEnum
       ModellingRule: Optional
       Value: 1
+  - Name: FullScreen
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: false
 - File: Screens/Screens.yaml
 - File: Widgets/Widgets.yaml
 - File: Popups/Popups.yaml
