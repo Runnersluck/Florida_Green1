@@ -66,7 +66,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -80,7 +79,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -89,7 +87,6 @@ Children:
     - Name: CurrentTabIndex
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Class: Reference
       Target: ns=5;i=1181
       Direction: Forward
@@ -215,7 +212,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -249,7 +245,6 @@ Children:
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00000000"
         - Name: BorderThickness
           Type: BaseDataVariableType
           DataType: Size
@@ -259,7 +254,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -309,7 +303,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -340,7 +333,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -425,7 +417,6 @@ Children:
         Type: BaseDataVariableType
         DataType: FillModeEnum
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -566,12 +557,10 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
                 - Name: TextColor
                   Type: BaseDataVariableType
                   DataType: Color
@@ -616,7 +605,6 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 0.0
               - Name: BottomMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -661,7 +649,6 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                   Children:
                   - Name: KeyValueConverter1
                     Type: ValueMapConverter
@@ -675,7 +662,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Auto_Seq/Receiving_auto_stage"
-                    - Name: Pairs
+                    - Name: ns=3;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair
@@ -684,7 +671,6 @@ Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 0
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: String
@@ -786,7 +772,6 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -796,7 +781,6 @@ Children:
                   Type: BaseVariableType
                   DataType: InputTypeEnum
                   ModellingRule: Optional
-                  Value: 0
                 - Name: Visible
                   Type: BaseDataVariableType
                   DataType: Boolean
@@ -861,12 +845,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: TankStorage1
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -882,7 +864,6 @@ Children:
       - Name: Level
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -897,7 +878,6 @@ Children:
       - Name: MinLevel
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
       - Name: MaxLevel
         Type: BaseDataVariableType
         DataType: Double
@@ -970,7 +950,6 @@ Children:
         - Name: MinValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -1001,7 +980,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Float
           ModellingRule: Optional
-          Value: 0.0
         - Name: Orientation
           Type: BaseDataVariableType
           DataType: OrientationEnum
@@ -1087,7 +1065,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: TankStorage2
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1103,7 +1080,6 @@ Children:
       - Name: Level
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -1118,7 +1094,6 @@ Children:
       - Name: MinLevel
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
       - Name: MaxLevel
         Type: BaseDataVariableType
         DataType: Double
@@ -1191,7 +1166,6 @@ Children:
         - Name: MinValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -1222,7 +1196,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Float
           ModellingRule: Optional
-          Value: 0.0
         - Name: Orientation
           Type: BaseDataVariableType
           DataType: OrientationEnum
@@ -1308,7 +1281,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: TankStorage3
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1324,7 +1296,6 @@ Children:
       - Name: Level
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -1339,7 +1310,6 @@ Children:
       - Name: MinLevel
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
       - Name: MaxLevel
         Type: BaseDataVariableType
         DataType: Double
@@ -1412,7 +1382,6 @@ Children:
         - Name: MinValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -1443,7 +1412,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Float
           ModellingRule: Optional
-          Value: 0.0
         - Name: Orientation
           Type: BaseDataVariableType
           DataType: OrientationEnum
@@ -1529,7 +1497,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: Pipe90Degree1
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1549,7 +1516,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -1628,7 +1594,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -1659,7 +1624,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -1759,7 +1723,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -1793,7 +1756,6 @@ Children:
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00000000"
         - Name: BorderThickness
           Type: BaseDataVariableType
           DataType: Size
@@ -1803,7 +1765,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -1853,7 +1814,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -1884,7 +1844,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -1969,7 +1928,6 @@ Children:
         Type: BaseDataVariableType
         DataType: FillModeEnum
         ModellingRule: Optional
-        Value: 0
     - Name: PipeStraight2
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1989,7 +1947,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -2023,7 +1980,6 @@ Children:
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00000000"
         - Name: BorderThickness
           Type: BaseDataVariableType
           DataType: Size
@@ -2033,7 +1989,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -2083,7 +2038,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -2114,7 +2068,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -2199,7 +2152,6 @@ Children:
         Type: BaseDataVariableType
         DataType: FillModeEnum
         ModellingRule: Optional
-        Value: 0
     - Name: Pipe90Degree2
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -2219,7 +2171,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -2298,7 +2249,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -2329,7 +2279,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -2434,7 +2383,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -2468,7 +2416,6 @@ Children:
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00000000"
         - Name: BorderThickness
           Type: BaseDataVariableType
           DataType: Size
@@ -2478,7 +2425,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -2528,7 +2474,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -2559,7 +2504,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -2644,7 +2588,6 @@ Children:
         Type: BaseDataVariableType
         DataType: FillModeEnum
         ModellingRule: Optional
-        Value: 0
     - Name: PipeStraight4
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -2664,7 +2607,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -2698,7 +2640,6 @@ Children:
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00000000"
         - Name: BorderThickness
           Type: BaseDataVariableType
           DataType: Size
@@ -2708,7 +2649,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -2758,7 +2698,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -2789,7 +2728,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -2874,7 +2812,6 @@ Children:
         Type: BaseDataVariableType
         DataType: FillModeEnum
         ModellingRule: Optional
-        Value: 0
     - Name: Image4
       Type: Image
       Children:
@@ -2921,7 +2858,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3000,7 +2936,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -3031,7 +2966,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -3131,7 +3065,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3165,7 +3098,6 @@ Children:
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00000000"
         - Name: BorderThickness
           Type: BaseDataVariableType
           DataType: Size
@@ -3175,7 +3107,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -3225,7 +3156,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -3256,7 +3186,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -3341,7 +3270,6 @@ Children:
         Type: BaseDataVariableType
         DataType: FillModeEnum
         ModellingRule: Optional
-        Value: 0
     - Name: PipeStraight7
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -3361,7 +3289,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3395,7 +3322,6 @@ Children:
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00000000"
         - Name: BorderThickness
           Type: BaseDataVariableType
           DataType: Size
@@ -3405,7 +3331,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -3455,7 +3380,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -3486,7 +3410,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -3571,7 +3494,6 @@ Children:
         Type: BaseDataVariableType
         DataType: FillModeEnum
         ModellingRule: Optional
-        Value: 0
     - Name: PipeStraight8
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -3591,7 +3513,6 @@ Children:
       - Name: ShowFlow
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3625,7 +3546,6 @@ Children:
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00000000"
         - Name: BorderThickness
           Type: BaseDataVariableType
           DataType: Size
@@ -3635,7 +3555,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -3685,7 +3604,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -3716,7 +3634,6 @@ Children:
               DataType: Float
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: 0.0
         - Name: FlowColorPE
           Type: Image
           Children:
@@ -3801,7 +3718,6 @@ Children:
         Type: BaseDataVariableType
         DataType: FillModeEnum
         ModellingRule: Optional
-        Value: 0
     - Name: NonVFDmotorstatus1
       Type: NonVFDmotorstatus
       Children:
@@ -3819,7 +3735,6 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -3857,7 +3772,6 @@ Children:
                     - Name: Key
                       Type: BaseDataVariableType
                       DataType: Boolean
-                      Value: false
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Color
@@ -3899,7 +3813,6 @@ Children:
                     - Name: Key
                       Type: BaseDataVariableType
                       DataType: UInt32
-                      Value: 0
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Color
@@ -3973,7 +3886,6 @@ Children:
             - Name: Blink
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
               Children:
               - Name: KeyValueConverter1
                 Type: ValueMapConverter
@@ -3996,11 +3908,9 @@ Children:
                     - Name: Key
                       Type: BaseDataVariableType
                       DataType: UInt32
-                      Value: 0
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Boolean
-                      Value: false
                   - Name: Pair1
                     Type: ValueMapPair
                     Children:
@@ -4044,7 +3954,6 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Boolean
-                      Value: false
                   - Name: Pair5
                     Type: ValueMapPair
                     Children:
@@ -4055,7 +3964,6 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Boolean
-                      Value: false
                   - Name: Pair6
                     Type: ValueMapPair
                     Children:
@@ -4096,7 +4004,6 @@ Children:
                       - Name: Key
                         Type: BaseDataVariableType
                         DataType: UInt32
-                        Value: 0
                       - Name: Value
                         Type: BaseDataVariableType
                         DataType: String
@@ -4207,7 +4114,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   ValueRank: ScalarOrOneDimension
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -4216,7 +4122,6 @@ Children:
                 - Name: ParentItem
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -4228,42 +4133,33 @@ Children:
                 - Name: DialogNodeId
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: EventArguments
             Type: MouseDownEvent
             Children:
             - Name: EventId
               Type: PropertyType
               DataType: ByteString
-              Value: ""
             - Name: EventType
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceNode
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceName
               Type: PropertyType
               DataType: String
-              Value: ""
             - Name: Time
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: ReceiveTime
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: Message
               Type: PropertyType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Severity
               Type: PropertyType
               DataType: UInt16
-              Value: 0
       - Name: NonVFDstatusAlias
         Type: Alias
         DataType: NodeId
@@ -4300,7 +4196,6 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -4338,7 +4233,6 @@ Children:
                     - Name: Key
                       Type: BaseDataVariableType
                       DataType: Boolean
-                      Value: false
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Color
@@ -4380,7 +4274,6 @@ Children:
                     - Name: Key
                       Type: BaseDataVariableType
                       DataType: UInt32
-                      Value: 0
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Color
@@ -4454,7 +4347,6 @@ Children:
             - Name: Blink
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
               Children:
               - Name: KeyValueConverter1
                 Type: ValueMapConverter
@@ -4497,7 +4389,6 @@ Children:
                       - Name: Key
                         Type: BaseDataVariableType
                         DataType: UInt32
-                        Value: 0
                       - Name: Value
                         Type: BaseDataVariableType
                         DataType: String
@@ -4608,7 +4499,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   ValueRank: ScalarOrOneDimension
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -4617,7 +4507,6 @@ Children:
                 - Name: ParentItem
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -4629,42 +4518,33 @@ Children:
                 - Name: DialogNodeId
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: EventArguments
             Type: MouseDownEvent
             Children:
             - Name: EventId
               Type: PropertyType
               DataType: ByteString
-              Value: ""
             - Name: EventType
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceNode
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceName
               Type: PropertyType
               DataType: String
-              Value: ""
             - Name: Time
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: ReceiveTime
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: Message
               Type: PropertyType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Severity
               Type: PropertyType
               DataType: UInt16
-              Value: 0
       - Name: Vfdstatusalias
         Type: Alias
         DataType: NodeId
@@ -4802,12 +4682,10 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
@@ -4901,16 +4779,13 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ModellingRule: Optional
-              Value: false
             - Name: Blink
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
             - Name: MoveTarget
               Type: NodePointer
               DataType: NodeId
               ModellingRule: Optional
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -4940,22 +4815,18 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
             - Name: BottomMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -4980,14 +4851,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
             - Name: Label1
               Type: Label
               Children:
               - Name: Text
                 Type: BaseDataVariableType
                 DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: KeyValueConverter1
                   Type: ValueMapConverter
@@ -5001,7 +4870,7 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Receiving/Bin_diverter_valve_status"
-                  - Name: Pairs
+                  - Name: ns=3;Pairs
                     Type: BaseObjectType
                     ModellingRule: None
                     Children:
@@ -5051,12 +4920,10 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 0.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 0.0
               - Name: HorizontalAlignment
                 Type: BaseVariableType
                 DataType: HorizontalAlignment
@@ -5071,17 +4938,14 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 0.0
               - Name: BottomMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 0.0
               - Name: Elide
                 Type: BaseDataVariableType
                 DataType: ElideEnum
                 ModellingRule: Optional
-                Value: 0
               - Name: WordWrap
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -5105,7 +4969,6 @@ Children:
               - Name: Blink
                 Type: BaseDataVariableType
                 DataType: Boolean
-                Value: false
     - Name: Status Bar1
       Type: Panel
       Children:
@@ -5241,7 +5104,6 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -5291,12 +5153,10 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
               - Name: RightMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 0.0
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -5341,7 +5201,6 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                   Children:
                   - Name: KeyValueConverter1
                     Type: ValueMapConverter
@@ -5355,7 +5214,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Receiving/Selected_Dutch_Bin"
-                    - Name: Pairs
+                    - Name: ns=3;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair2
@@ -5400,7 +5259,6 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -5410,7 +5268,6 @@ Children:
                   Type: BaseVariableType
                   DataType: InputTypeEnum
                   ModellingRule: Optional
-                  Value: 0
                 - Name: Visible
                   Type: BaseDataVariableType
                   DataType: Boolean
@@ -5475,12 +5332,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -5518,7 +5373,6 @@ Children:
                 - Name: Key
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  Value: 0
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -5592,7 +5446,6 @@ Children:
         - Name: Blink
           Type: BaseDataVariableType
           DataType: Boolean
-          Value: false
           Children:
           - Name: KeyValueConverter1
             Type: ValueMapConverter
@@ -5667,7 +5520,6 @@ Children:
                 - Name: Key
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  Value: 0
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -5719,7 +5571,6 @@ Children:
         - Name: Blink
           Type: BaseDataVariableType
           DataType: Boolean
-          Value: false
           Children:
           - Name: KeyValueConverter1
             Type: ValueMapConverter
@@ -5796,7 +5647,6 @@ Children:
         - Name: StateValue
           Type: BaseDataVariableType
           DataType: Int32
-          Value: 0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -5846,7 +5696,6 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: ""
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5861,12 +5710,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -6030,7 +5877,6 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -6045,7 +5891,6 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                   Children:
                   - Name: StringFormatter1
                     Type: StringFormatter
@@ -6065,7 +5910,6 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                   Children:
                   - Name: StringFormatter1
                     Type: StringFormatter
@@ -6091,7 +5935,6 @@ Children:
                   - Name: Variable1
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    Value: false
                     Children:
                     - Name: DynamicLink
                       Type: DynamicLink
@@ -6129,7 +5972,6 @@ Children:
                           - Name: VariableToModify
                             Type: BaseDataVariableType
                             DataType: VariablePointer
-                            Value: {"IdType":0,"Id":0,"Namespace":-1}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -6143,42 +5985,33 @@ Children:
                             Type: BaseDataVariableType
                             DataType: UInt32
                             ValueRank: ScalarOrOneDimension
-                            Value: 0
                     - Name: EventArguments
                       Type: MouseDownEvent
                       Children:
                       - Name: EventId
                         Type: PropertyType
                         DataType: ByteString
-                        Value: ""
                       - Name: EventType
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceNode
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceName
                         Type: PropertyType
                         DataType: String
-                        Value: ""
                       - Name: Time
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: ReceiveTime
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: Message
                         Type: PropertyType
                         DataType: LocalizedText
-                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       - Name: Severity
                         Type: PropertyType
                         DataType: UInt16
-                        Value: 0
                   - Name: MouseUpEventHandler1
                     Type: EventHandler
                     Children:
@@ -6211,7 +6044,6 @@ Children:
                           - Name: VariableToModify
                             Type: BaseDataVariableType
                             DataType: VariablePointer
-                            Value: {"IdType":0,"Id":0,"Namespace":-1}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -6220,47 +6052,37 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                           - Name: ArrayIndex
                             Type: BaseDataVariableType
                             DataType: UInt32
                             ValueRank: ScalarOrOneDimension
-                            Value: 0
                     - Name: EventArguments
                       Type: MouseUpEvent
                       Children:
                       - Name: EventId
                         Type: PropertyType
                         DataType: ByteString
-                        Value: ""
                       - Name: EventType
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceNode
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceName
                         Type: PropertyType
                         DataType: String
-                        Value: ""
                       - Name: Time
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: ReceiveTime
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: Message
                         Type: PropertyType
                         DataType: LocalizedText
-                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       - Name: Severity
                         Type: PropertyType
                         DataType: UInt16
-                        Value: 0
                   - Name: Visible
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -6284,7 +6106,6 @@ Children:
                   - Name: Variable1
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    Value: false
                     Children:
                     - Name: DynamicLink
                       Type: DynamicLink
@@ -6322,7 +6143,6 @@ Children:
                           - Name: VariableToModify
                             Type: BaseDataVariableType
                             DataType: VariablePointer
-                            Value: {"IdType":0,"Id":0,"Namespace":-1}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -6336,42 +6156,33 @@ Children:
                             Type: BaseDataVariableType
                             DataType: UInt32
                             ValueRank: ScalarOrOneDimension
-                            Value: 0
                     - Name: EventArguments
                       Type: MouseDownEvent
                       Children:
                       - Name: EventId
                         Type: PropertyType
                         DataType: ByteString
-                        Value: ""
                       - Name: EventType
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceNode
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceName
                         Type: PropertyType
                         DataType: String
-                        Value: ""
                       - Name: Time
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: ReceiveTime
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: Message
                         Type: PropertyType
                         DataType: LocalizedText
-                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       - Name: Severity
                         Type: PropertyType
                         DataType: UInt16
-                        Value: 0
                   - Name: MouseUpEventHandler1
                     Type: EventHandler
                     Children:
@@ -6404,7 +6215,6 @@ Children:
                           - Name: VariableToModify
                             Type: BaseDataVariableType
                             DataType: VariablePointer
-                            Value: {"IdType":0,"Id":0,"Namespace":-1}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -6413,47 +6223,37 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                           - Name: ArrayIndex
                             Type: BaseDataVariableType
                             DataType: UInt32
                             ValueRank: ScalarOrOneDimension
-                            Value: 0
                     - Name: EventArguments
                       Type: MouseUpEvent
                       Children:
                       - Name: EventId
                         Type: PropertyType
                         DataType: ByteString
-                        Value: ""
                       - Name: EventType
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceNode
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceName
                         Type: PropertyType
                         DataType: String
-                        Value: ""
                       - Name: Time
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: ReceiveTime
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: Message
                         Type: PropertyType
                         DataType: LocalizedText
-                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       - Name: Severity
                         Type: PropertyType
                         DataType: UInt16
-                        Value: 0
                   - Name: Visible
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -6480,7 +6280,6 @@ Children:
                 - Name: Checked
                   Type: BaseDataVariableType
                   DataType: Boolean
-                  Value: false
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -6495,7 +6294,6 @@ Children:
                 - Name: Checked
                   Type: BaseDataVariableType
                   DataType: Boolean
-                  Value: false
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -6533,7 +6331,6 @@ Children:
                         - Name: VariableToModify
                           Type: BaseDataVariableType
                           DataType: VariablePointer
-                          Value: {"IdType":0,"Id":0,"Namespace":-1}
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -6543,7 +6340,6 @@ Children:
                           Type: BaseDataVariableType
                           DataType: UInt32
                           ValueRank: ScalarOrOneDimension
-                          Value: 0
                   - Name: EventArguments
                     Type: UserValueChanged
                     Children:
@@ -6553,35 +6349,27 @@ Children:
                     - Name: EventId
                       Type: PropertyType
                       DataType: ByteString
-                      Value: ""
                     - Name: EventType
                       Type: PropertyType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: SourceNode
                       Type: PropertyType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: SourceName
                       Type: PropertyType
                       DataType: String
-                      Value: ""
                     - Name: Time
                       Type: PropertyType
                       DataType: UtcTime
-                      Value: "1601-01-01T00:00:00.0000000"
                     - Name: ReceiveTime
                       Type: PropertyType
                       DataType: UtcTime
-                      Value: "1601-01-01T00:00:00.0000000"
                     - Name: Message
                       Type: PropertyType
                       DataType: LocalizedText
-                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                     - Name: Severity
                       Type: PropertyType
                       DataType: UInt16
-                      Value: 0
                 - Name: Enabled
                   Type: BaseDataVariableType
                   DataType: Boolean
@@ -6614,7 +6402,6 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
-                      Value: 0.0
                       Children:
                       - Name: DynamicLink
                         Type: DynamicLink
@@ -6636,7 +6423,6 @@ Children:
                     - Name: Text
                       Type: BaseDataVariableType
                       DataType: LocalizedText
-                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       Children:
                       - Name: StringFormatter1
                         Type: StringFormatter
@@ -6689,7 +6475,6 @@ Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 0
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -6763,7 +6548,6 @@ Children:
                 - Name: Blink
                   Type: BaseDataVariableType
                   DataType: Boolean
-                  Value: false
                   Children:
                   - Name: KeyValueConverter1
                     Type: ValueMapConverter
@@ -6786,11 +6570,9 @@ Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 0
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                       - Name: Pair1
                         Type: ValueMapPair
                         Children:
@@ -6834,7 +6616,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                       - Name: Pair5
                         Type: ValueMapPair
                         Children:
@@ -6845,7 +6626,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                       - Name: Pair6
                         Type: ValueMapPair
                         Children:
@@ -6856,7 +6636,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                 - Name: Label1
                   Type: Label
                   Children:
@@ -6886,7 +6665,6 @@ Children:
                           - Name: Key
                             Type: BaseDataVariableType
                             DataType: UInt32
-                            Value: 0
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: String
@@ -6984,7 +6762,6 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -6999,7 +6776,6 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                   Children:
                   - Name: StringFormatter1
                     Type: StringFormatter
@@ -7019,7 +6795,6 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                   Children:
                   - Name: StringFormatter1
                     Type: StringFormatter
@@ -7074,7 +6849,6 @@ Children:
                           - Name: VariableToModify
                             Type: BaseDataVariableType
                             DataType: VariablePointer
-                            Value: {"IdType":0,"Id":0,"Namespace":-1}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -7088,42 +6862,33 @@ Children:
                             Type: BaseDataVariableType
                             DataType: UInt32
                             ValueRank: ScalarOrOneDimension
-                            Value: 0
                     - Name: EventArguments
                       Type: MouseDownEvent
                       Children:
                       - Name: EventId
                         Type: PropertyType
                         DataType: ByteString
-                        Value: ""
                       - Name: EventType
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceNode
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceName
                         Type: PropertyType
                         DataType: String
-                        Value: ""
                       - Name: Time
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: ReceiveTime
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: Message
                         Type: PropertyType
                         DataType: LocalizedText
-                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       - Name: Severity
                         Type: PropertyType
                         DataType: UInt16
-                        Value: 0
                   - Name: Visible
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -7144,7 +6909,6 @@ Children:
                   - Name: Variable1
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    Value: false
                     Children:
                     - Name: DynamicLink
                       Type: DynamicLink
@@ -7182,7 +6946,6 @@ Children:
                           - Name: VariableToModify
                             Type: BaseDataVariableType
                             DataType: VariablePointer
-                            Value: {"IdType":0,"Id":0,"Namespace":-1}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -7191,47 +6954,37 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                           - Name: ArrayIndex
                             Type: BaseDataVariableType
                             DataType: UInt32
                             ValueRank: ScalarOrOneDimension
-                            Value: 0
                     - Name: EventArguments
                       Type: MouseUpEvent
                       Children:
                       - Name: EventId
                         Type: PropertyType
                         DataType: ByteString
-                        Value: ""
                       - Name: EventType
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceNode
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceName
                         Type: PropertyType
                         DataType: String
-                        Value: ""
                       - Name: Time
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: ReceiveTime
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: Message
                         Type: PropertyType
                         DataType: LocalizedText
-                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       - Name: Severity
                         Type: PropertyType
                         DataType: UInt16
-                        Value: 0
                 - Name: stop
                   Type: Button
                   Children:
@@ -7267,7 +7020,6 @@ Children:
                           - Name: VariableToModify
                             Type: BaseDataVariableType
                             DataType: VariablePointer
-                            Value: {"IdType":0,"Id":0,"Namespace":-1}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -7281,42 +7033,33 @@ Children:
                             Type: BaseDataVariableType
                             DataType: UInt32
                             ValueRank: ScalarOrOneDimension
-                            Value: 0
                     - Name: EventArguments
                       Type: MouseDownEvent
                       Children:
                       - Name: EventId
                         Type: PropertyType
                         DataType: ByteString
-                        Value: ""
                       - Name: EventType
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceNode
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceName
                         Type: PropertyType
                         DataType: String
-                        Value: ""
                       - Name: Time
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: ReceiveTime
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: Message
                         Type: PropertyType
                         DataType: LocalizedText
-                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       - Name: Severity
                         Type: PropertyType
                         DataType: UInt16
-                        Value: 0
                   - Name: MouseUpEventHandler1
                     Type: EventHandler
                     Children:
@@ -7349,7 +7092,6 @@ Children:
                           - Name: VariableToModify
                             Type: BaseDataVariableType
                             DataType: VariablePointer
-                            Value: {"IdType":0,"Id":0,"Namespace":-1}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -7358,47 +7100,37 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                           - Name: ArrayIndex
                             Type: BaseDataVariableType
                             DataType: UInt32
                             ValueRank: ScalarOrOneDimension
-                            Value: 0
                     - Name: EventArguments
                       Type: MouseUpEvent
                       Children:
                       - Name: EventId
                         Type: PropertyType
                         DataType: ByteString
-                        Value: ""
                       - Name: EventType
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceNode
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                       - Name: SourceName
                         Type: PropertyType
                         DataType: String
-                        Value: ""
                       - Name: Time
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: ReceiveTime
                         Type: PropertyType
                         DataType: UtcTime
-                        Value: "1601-01-01T00:00:00.0000000"
                       - Name: Message
                         Type: PropertyType
                         DataType: LocalizedText
-                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                       - Name: Severity
                         Type: PropertyType
                         DataType: UInt16
-                        Value: 0
                   - Name: Visible
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -7419,7 +7151,6 @@ Children:
                   - Name: Variable1
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    Value: false
                     Children:
                     - Name: DynamicLink
                       Type: DynamicLink
@@ -7434,7 +7165,6 @@ Children:
                 - Name: Checked
                   Type: BaseDataVariableType
                   DataType: Boolean
-                  Value: false
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -7476,7 +7206,6 @@ Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 0
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -7550,7 +7279,6 @@ Children:
                 - Name: Blink
                   Type: BaseDataVariableType
                   DataType: Boolean
-                  Value: false
                   Children:
                   - Name: KeyValueConverter1
                     Type: ValueMapConverter
@@ -7573,11 +7301,9 @@ Children:
                         - Name: Key
                           Type: BaseDataVariableType
                           DataType: UInt32
-                          Value: 0
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                       - Name: Pair1
                         Type: ValueMapPair
                         Children:
@@ -7621,7 +7347,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                       - Name: Pair5
                         Type: ValueMapPair
                         Children:
@@ -7632,7 +7357,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                       - Name: Pair6
                         Type: ValueMapPair
                         Children:
@@ -7643,7 +7367,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                 - Name: Label1
                   Type: Label
                   Children:
@@ -7673,7 +7396,6 @@ Children:
                           - Name: Key
                             Type: BaseDataVariableType
                             DataType: UInt32
-                            Value: 0
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: String
@@ -8084,7 +7806,6 @@ Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
-                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                     Children:
                     - Name: DynamicLink
                       Type: DynamicLink
@@ -8099,7 +7820,6 @@ Children:
                   - Name: Checked
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    Value: false
                     Children:
                     - Name: DynamicLink
                       Type: DynamicLink
@@ -8164,7 +7884,6 @@ Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
-                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                     Children:
                     - Name: DynamicLink
                       Type: DynamicLink
@@ -8179,7 +7898,6 @@ Children:
                   - Name: Checked
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    Value: false
                     Children:
                     - Name: DynamicLink
                       Type: DynamicLink
@@ -8728,14 +8446,12 @@ Children:
                         - Name: Blink
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                         - Name: Label1
                           Type: Label
                           Children:
                           - Name: Text
                             Type: BaseDataVariableType
                             DataType: LocalizedText
-                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -8744,7 +8460,6 @@ Children:
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                       - Name: Label1
                         Type: Label
             - Name: Panel2
@@ -8808,14 +8523,12 @@ Children:
                         - Name: Blink
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                         - Name: Label1
                           Type: Label
                           Children:
                           - Name: Text
                             Type: BaseDataVariableType
                             DataType: LocalizedText
-                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -8824,7 +8537,6 @@ Children:
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                       - Name: Label1
                         Type: Label
             - Name: Panel3
@@ -8888,14 +8600,12 @@ Children:
                         - Name: Blink
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                         - Name: Label1
                           Type: Label
                           Children:
                           - Name: Text
                             Type: BaseDataVariableType
                             DataType: LocalizedText
-                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -8904,7 +8614,6 @@ Children:
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                       - Name: Label1
                         Type: Label
             - Name: Panel4
@@ -8968,14 +8677,12 @@ Children:
                         - Name: Blink
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                         - Name: Label1
                           Type: Label
                           Children:
                           - Name: Text
                             Type: BaseDataVariableType
                             DataType: LocalizedText
-                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -8984,7 +8691,6 @@ Children:
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                       - Name: Label1
                         Type: Label
             - Name: Panel5
@@ -9048,14 +8754,12 @@ Children:
                         - Name: Blink
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                         - Name: Label1
                           Type: Label
                           Children:
                           - Name: Text
                             Type: BaseDataVariableType
                             DataType: LocalizedText
-                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -9064,7 +8768,6 @@ Children:
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                       - Name: Label1
                         Type: Label
             - Name: Panel6
@@ -9128,14 +8831,12 @@ Children:
                         - Name: Blink
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                         - Name: Label1
                           Type: Label
                           Children:
                           - Name: Text
                             Type: BaseDataVariableType
                             DataType: LocalizedText
-                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -9144,7 +8845,6 @@ Children:
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                       - Name: Label1
                         Type: Label
             - Name: Panel7
@@ -9208,14 +8908,12 @@ Children:
                         - Name: Blink
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                         - Name: Label1
                           Type: Label
                           Children:
                           - Name: Text
                             Type: BaseDataVariableType
                             DataType: LocalizedText
-                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -9224,7 +8922,6 @@ Children:
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                       - Name: Label1
                         Type: Label
             - Name: Panel8
@@ -9288,14 +8985,12 @@ Children:
                         - Name: Blink
                           Type: BaseDataVariableType
                           DataType: Boolean
-                          Value: false
                         - Name: Label1
                           Type: Label
                           Children:
                           - Name: Text
                             Type: BaseDataVariableType
                             DataType: LocalizedText
-                            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                             Children:
                             - Name: DynamicLink
                               Type: DynamicLink
@@ -9304,7 +8999,6 @@ Children:
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
-                            Value: false
                       - Name: Label1
                         Type: Label
             - Name: Panel9
@@ -9830,7 +9524,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Double
-                          Value: 0.0
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -9889,7 +9582,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Double
-                          Value: 0.0
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -9948,7 +9640,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Double
-                          Value: 0.0
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -10007,7 +9698,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Double
-                          Value: 0.0
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -10066,7 +9756,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Double
-                          Value: 0.0
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -10125,7 +9814,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Double
-                          Value: 0.0
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -10184,7 +9872,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Double
-                          Value: 0.0
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink
@@ -10243,7 +9930,6 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Double
-                          Value: 0.0
                           Children:
                           - Name: DynamicLink
                             Type: DynamicLink

@@ -13,112 +13,90 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: ActivityCounter
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: CatalogNumber
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: ControllerName
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: FailedDataItems
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MajorRev
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MinorRev
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: Mode
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: OptimizedBlocks
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: Path
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: Present
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: ProductCode
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: ProductType
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: RecoverableMajorFaults
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: RecoverableMinorFaults
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: RunMode
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: Synchronized
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: SyncState
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: UnrecoverableMajorFaults
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: UnrecoverableMinorFaults
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: Vendor
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
 - Name: OperationCode
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
-  Value: 0
 - Class: Reference
   Target: ns=9;i=29
   Direction: Forward

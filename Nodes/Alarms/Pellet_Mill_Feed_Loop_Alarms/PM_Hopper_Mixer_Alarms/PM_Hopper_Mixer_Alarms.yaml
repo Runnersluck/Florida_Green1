@@ -10,12 +10,10 @@ Children:
     Id: g=c42b13911228fa80ba30082742e4929e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=2d23f7ceb0dbd3e5347410e6bb1d2c23
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6311f772d21efb061a47b2d676f2508d
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Hopper Mixer Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Hopper_Mixer_Bearing_Overtemp_Alarm
   Id: g=155e56b32218b231dcbd8e73c9e12cb1
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=6282bb1dd39b33574495528a994a8a79
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=a6ade3d1ec8d634dd3024d239f1eab81
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=0bf49f768d78291d78237466a5500403
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Hopper Mixer Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Hopper_Mixer_Full_Alarm
   Id: g=0b5826db30a158cb9b02552de403793f
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=f45421a719da435dff5347418f5460b2
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=96f944dceccf73e7deaaf691896ddb0f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=4e2451f759b5c53b469cbc7d13b42f81
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Hopper Mixer Full"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Hopper_Mixer_EXP_Panel_Tripped_Alarm
   Id: g=bb57623f31f5425e4ac329f27d4fe1b3
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=255c3bb11723620fb5cda6817cf72373
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=0ba0b1eab0429cf76c12e45c0ab92a51
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=aca4d58d593342d6e55bbf84740b5705
@@ -186,3 +205,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Hopper Mixer Explosion Panel Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

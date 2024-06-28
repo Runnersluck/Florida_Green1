@@ -10,12 +10,10 @@ Children:
     Id: g=eec95fc7b51f3410978a6bbf8968342b
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=49a8cf26259ed69f67f04203bb27caf6
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=3cf040b57fa37a75842f1f1d1e4774de
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Rotoclone Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Rotoclone_Low_Water_Pressure_Alarm
   Id: g=42104e8aa7f680ed11e8a510cff86e8a
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=1fcf4ad172045f09c3fe7785cce38266
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=0e06bb084aced31c4481df7018a9c798
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6c81cadb49d967c2a77069f7b39ec2ea
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Rotoclone Low Water Pressure"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Rotoclone_Bearing_Overtemp_Alarm_1
   Id: g=599d28e73e6619c799f0314c6fb99777
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=0126dc945574deb62f064e7500202768
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=ed9c755ec4f7379249661ffb45fd9b97
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6920807d2c839cd6f7db00581f123ddc
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Rotoclone Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Rotoclone_Bearing_Overtemp_Alarm_2
   Id: g=a2dea4183300a5c41fdd907593eebce8
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=9ec57934d22b56d0ed559d4ade2fb675
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=33548a3f1227550184bb03df4a8a7e5a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=a897a2d0e036c1b95d54b0b0068b354f
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Rotoclone Bearing Fan End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Rotoclone_Comm_Loss_Alarm
   Id: g=881a9c74aa2002c1d26616a66e6b4bc8
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=16ae3f4629c011b7b628ba9d165891cf
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=d607ce5666e78e229be5cc5fadd56cda
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=e0f62f2ab29f346e1164bca8b725e80b
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Rotoclone VFD Communication Loss "}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Rotoclone_VFD_Fault_Alarm
   Id: g=f799e8de48670b04dbd830451cc59f19
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=e54c23b99105e2f41c7d2183590f0042
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=94ead9906cbac7ba47c6e5ca42cc1cbf
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=84240c5629f4449320312ed90c09a3cb
@@ -278,3 +311,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Rotoclone VFD Faulted"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

@@ -10,12 +10,10 @@ Children:
     Id: g=314823f94f1a26a1fc84440068d7d9e5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=601962d73c37cc003f0ea955650f97a5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=a51c16e2060d949a2bc558de1e324ddb
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Low Flow on Divertor Going into Dutchman A"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Low_Flow_Towards_B_Alarm
   Id: g=8493c2eeef4fc1382a76d070f9879674
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=b31d74c565827625c554e60d25c8b736
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b3ac4c8aa1feb00fb64d17ab95d8b36e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=f8c07fedded6c9e47dce1aca356bf37b
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Low Flow on Divertor Going into Dutchman B"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bin_Divertor_Not_Aligned_To_Any_Alarm
   Id: g=d20fdc7aa8f98337e433088432507c23
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=71d29a986f616f0ed65e0e3ff19f4032
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=e3e582cac3c3367d62d6be59182b12e7
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=7782a5c1ec8fc4af38ccbcaa197c8059
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Receiving Bin Divertor Valve not Aligned to Any Dutchman"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bin_Divertor_Not_On_Selected_Bin_Alarm
   Id: g=946559e2851e3af11acf045c23900aa0
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=b5888f41c99cfe7c85986087297fd40c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=4e1ccb593c256a89e09f4cf0acf9b42b
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=52b36df99859b173d4ba789f4552b556
@@ -186,3 +205,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Receiving Bin Divertor Valve Not Aligned with Selected Dutchman"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

@@ -10,12 +10,10 @@ Children:
     Id: g=67a43f1a956973c1a400b473eeb9f14e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=263b02498f7b7a49ba88655b0ab9e0ec
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=5c307caddb5ec4063feca1917c797efc
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Valve Jammed or Has Low Flow"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Reject_Low_Flow_Alarm
   Id: g=27a006b8158b4354617943c0bf9bea5e
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=62f3bb36506086090a6cdb00db22a20c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=def6322dd6808cb1b221d1e14a323174
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=288920647440bfd6e4613625e5cfb2ca
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Reject Valve Jammed or Has Low Flow"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Reject_Valve_No_Feedback_Alarm
   Id: g=6da586969440120c6a2ba1e2b288d07c
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=598e55803c14e9314d5dd916096d38df
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=28d7113ba948802e53757dd0b3835f76
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c013a2389cf3d90b6080f740b7979315
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Reject Valve Position Error"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Reject_Valve_Not_Aligned_Alarm
   Id: g=d2e51400a1ab9a2c613675533cecb87b
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=dc6ec1b36b81122306db0fee37d2fd71
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=6e8506b0d26ab54b559bdde343e61edd
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=56c4a42dadaed8b5bea7aa0634435558
@@ -186,3 +205,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Reject Valve Not Aligned With Selected System"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

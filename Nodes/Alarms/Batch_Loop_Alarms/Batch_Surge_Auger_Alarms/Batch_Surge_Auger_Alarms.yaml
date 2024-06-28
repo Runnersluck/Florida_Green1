@@ -10,12 +10,10 @@ Children:
     Id: g=80a99317f3994c1a2414593d3cf12f34
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=2f1375136739cde978978238349d5bc0
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=00cf8b5c4873256791663d6857843785
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Surge Auger Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Surge_Auger_VFD_Fault_Alarm
   Id: g=da968412f219d6455279bef10cc368ce
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=ea97119412bb67c627dd8a67d24de0b6
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=cba368eaf269f9947275d60f64144049
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=d0b483b17909aeb478a1e6a61832ad05
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Surge Auger VFD Error"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Surge_Auger_Bearing_Overtemp_Alarm_1
   Id: g=83ee76bdde2e556060a7410de73df1da
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=4b052bc19089985d1517749f9edaf42a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=9ea8ae95b3f6b755749ca5b16561ff2a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=d31ee587fb2f088becb0e25adb1665bf
@@ -140,3 +152,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Surge Auger Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

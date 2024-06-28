@@ -10,12 +10,10 @@ Children:
     Id: g=3e4d8e907ceb5015224d85b3e6e2f5b7
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=bebdc1192342e93236d7e6c8bd0c1480
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=45bef680ca2f9132d3f11a8d5a29974f
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_High_Amp_Alarm
   Id: g=13f3f6dc69df0acc7ac7e622d488f6e8
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=6cad7777e353805532faaf7fb03517f8
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=dd8db4a25149ae705a8ed6042b59ddfc
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=26bb24405d1efc5b73dd7ba6e6c07854
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_Overload_Tripped_Alarm
   Id: g=43a66374d17fdddf0bb4779ee6d6cf8f
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=be93a08794b2d33beefff4f1afeca243
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=383502c1e73d94e4faca7812d6b8af59
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=cc49182c10aa0533bb68d9e462ba2de9
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Motor Overload Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_Bearing_Overtemp_Alarm_1
   Id: g=af7cd11ad4281f5185a11119a2f5d499
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=b285cb73d35e7a21ffbba99c08a28cb6
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=e86c7111fa42225597ed4ee4e913c1e7
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=f559ece939bdeed092005761303fb1c7
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_Bearing_Overtemp_Alarm_2
   Id: g=a0c7731f1e20f5e5c48ac130f000160d
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=994f449d6ce151532f1fe80560c2a7cd
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=622d40ab9541dd1a6c5c684360e8f85d
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=1f78ad19d1179c575eed8d04479edd91
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bearing Motor End 2 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_Bearing_Overtemp_Alarm_3
   Id: g=7d19c79847b400c9e5f7b876eb46fb7d
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=e23a84baafcee97123eeedde5b3ce465
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=0b881c5ff11662219e97cf9e86f13b12
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=1105ac4e7d5d60068f57043e7c47fca3
@@ -278,6 +311,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bearing Gear End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_Bearing_Overtemp_Alarm_4
   Id: g=da05aad54df8319d77e1192a6e0b2dfd
   Type: OffNormalAlarmController
@@ -286,12 +328,10 @@ Children:
     Id: g=95b59b2575872c5e7559ee89ebc9af3f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=11b5446d0624dcd133a4a14b4eb9cf70
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=2352d3670f16b0cbf7a7e2dc515da9c3
@@ -336,6 +376,15 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         Value: true
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_BR_Rub_Alarm
   Id: g=568341dc3871c5d31ce4b68a55dfb722
   Type: OffNormalAlarmController
@@ -344,12 +393,10 @@ Children:
     Id: g=7d8a991710e56af47dd8665e52694411
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=293a3a7ea476f296f40e624ac2c40c9a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c92033edd58fba9b6795fb68f4e17646
@@ -382,6 +429,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bottom Right Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_BL_Rub_Alarm
   Id: g=815975a0fa7b566949ad29c0511d2e58
   Type: OffNormalAlarmController
@@ -390,12 +446,10 @@ Children:
     Id: g=0d6304547132646b8598c48d4c71eb8f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b4f77c744c5c63a404f76e5514bc0de0
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=1660626ffa19475cbb4177b11e72591e
@@ -428,6 +482,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Bottom Left Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_TR_Rub_Alarm
   Id: g=b5020f8448df61ae4e1f213dff765403
   Type: OffNormalAlarmController
@@ -436,12 +499,10 @@ Children:
     Id: g=ad8bed799926c311d3fd656377468dd4
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=26da8b201589af85ee7972d530033fd3
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=5a9af81801a5bc4823458db87d045408
@@ -474,6 +535,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Top Right Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_TL_Rub_Alarm
   Id: g=698a7d1788b8e5e664cfe26e08019944
   Type: OffNormalAlarmController
@@ -482,12 +552,10 @@ Children:
     Id: g=37ea71f90237cd47d96edfa921b00966
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b9e5bbf054ee1f7fa6ce785af66d5a3a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c35d7b689689efd1a17ef24569704318
@@ -520,6 +588,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Top Left Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_EXP1_Alarm
   Id: g=e3e95d5dbc6cff31d26a58014255732b
   Type: OffNormalAlarmController
@@ -528,12 +605,10 @@ Children:
     Id: g=0ca0cc87a5744ddad3c50626c97c6062
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=bad8986fb22353d4b96275c09a8e32f5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=15b755d5f2f4d52e0198f3aeb3ef1505
@@ -566,6 +641,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Explosion Panel Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_Low_Flow_Alarm
   Id: g=7aef822acb1982b83b663b8cb76d8cac
   Type: OffNormalAlarmController
@@ -574,12 +658,10 @@ Children:
     Id: g=f50f09222818616161336952d0e9c50f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=45f6a6b33d5ac765e6ffc29371b2345a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=7685fa60ba381258707b57df0086ceed
@@ -612,6 +694,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Clogged or has Low Flow"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cooler_Feed_Elevator_Low_Speed_Alarm
   Id: g=4ec6536433a8a0f4bf0a0f64fe55b18c
   Type: OffNormalAlarmController
@@ -620,12 +711,10 @@ Children:
     Id: g=33defe4dc8e827f7382644bf0cf7dc89
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b636db00cf930dfb3bd258fc169e4c46
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=2194c1f4bf9d6a30bdbcdaa3f527115d
@@ -658,3 +747,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cooler Feed Elevator Jammed or Running Too Slow"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

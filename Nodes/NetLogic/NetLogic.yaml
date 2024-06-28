@@ -8,12 +8,10 @@ Children:
   - Name: Time
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
     Children:
     - Name: Year
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -27,7 +25,6 @@ Children:
     - Name: Month
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -41,7 +38,6 @@ Children:
     - Name: Day
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -55,7 +51,6 @@ Children:
     - Name: Hour
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -69,7 +64,6 @@ Children:
     - Name: Minute
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -83,33 +77,25 @@ Children:
     - Name: Second
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
   - Name: UTCTime
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
     Children:
     - Name: Year
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Month
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Day
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Hour
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Minute
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Second
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0

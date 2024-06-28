@@ -10,12 +10,10 @@ Children:
     Id: g=2ad53e343ff3c4c61a6d1c8216f523bc
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=0eb947288d43a481f8b80f7fa6b89f7f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=2794cec6cd59e4659ce0072e55c036fe
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Reject Auger Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Reject_Auger_Bearing_Overtemp_Alarm
   Id: g=5f1386cebb1542371475e03567a77e7d
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=e32f882048019e0bb1af2c6ebf116c5a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=758822111b7c8f7540af9e4a9bcca0ec
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=609ca2730c8781912b62adeef784bb4e
@@ -94,3 +99,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Reject Auger Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

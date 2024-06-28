@@ -10,12 +10,10 @@ Children:
     Id: g=b7b6d8eba6f63128b8fb3aaaffbb7914
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b8eb703c0d99aecf08f03b3fdc28763e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=1f657061cc0799db4a82d486f85a64a6
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Main Feed Auger Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Main_Feed_Auger_VFD_Comm_Loss_Alarm
   Id: g=25e6f03ecbfaa7c0cd5a7eaebcfd95c6
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=7e36162a466d7d759d42ea00907ef47c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=f48cfde3c91cda0a65200564e8099893
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=0371a2a7ed1d9f67dc02140d959a155c
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Main Feed Auger VFD Communication Loss "}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Main_Feed_Auger_Bearing_Overtemp_Alarm
   Id: g=0f88d2babf9a54ca6a6b1a928959fd62
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=5a463946e4b7c256f77ba2bd0f8fcbbf
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=71ac0b6b1d3bb0a2fe17a7fb518fe010
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=9bc2ce542fc760878d0fa71c1793b611
@@ -140,3 +152,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Main Feed Auger Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

@@ -10,12 +10,10 @@ Children:
     Id: g=47c499948c70a823d5c6f2b228c11962
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=f79ab9964c4ac3fb2fb249fe444c2521
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=559f650751bc461ebcba5ed1dad31b62
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Shaker Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Shaker_FTM_Alarm
   Id: g=9108a4b8fcead14e4433eb5aab6faecc
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=da6d2287ed97d940b47283f7761f9156
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=bee6f9c3c3b39727705d5fb6b1a2a31c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=80ee8cd385aed3dcac7de42eb8eac69e
@@ -94,3 +99,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Shaker Failed to Move"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

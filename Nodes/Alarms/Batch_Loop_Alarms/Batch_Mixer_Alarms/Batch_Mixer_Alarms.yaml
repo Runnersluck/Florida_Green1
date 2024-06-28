@@ -10,12 +10,10 @@ Children:
     Id: g=3e2830ac849bb76add5420695d63c230
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=6ef8a95738c89cd6becb5826d5578b92
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=49418d20256ccadd073bc63f72eb219f
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Mixer Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Mixer_VFD_Fault_Alarm
   Id: g=371551d24d2edf03f4a0b5f21ca86f79
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=f18e434c33f1d9ed185e7a32c685a72d
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=eb8395efb27c4678e864bdcfb8471c25
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=0137d7a89d0068d3c3522ddf89870d8f
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Mixer VFD Faulted"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Mixer_Bearing_Overtemp_Alarm_1
   Id: g=4b4fed1a1ac09bfdb917586b831e8c39
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=bce86e608d48f06e8cc92c9c81ec3e77
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=85d1d85f9726951ac0ac2874ab92e889
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=11f36a7dd6ac26e2283f11a8f56fbfcf
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Mixer Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Mixer_Full_Alarm
   Id: g=de2656fe3c75489ddb52e1bc6139b4ce
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=60fbfacadcd014e06ac5b738f53e7e1a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=f2fa79a16ae424a5ff1e3d7a1eda3321
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6e4a6518918a2afce02e8fe927beab7e
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Mixer Full"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Mixer_Valve_Failed_To_Open_Alarm
   Id: g=dd0ddee1e43f567868b15844e764dffe
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=54c32479cddf60ca7686b090064d3c44
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=34992b300b20f3f3f4135f29eac4f3d8
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=9152fdb423a9f57b112943e77cce95d0
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Mixer Valve Failed to Open"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Mixer_Valve_Failed_To_Close_Alarm
   Id: g=a2bbdceeab1b8b380cc344a8f2f7dd2c
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=b57fc2947de22fe4de279b74f49a4d86
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=cc824f1e2fb356b4ac56bee2e697c629
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=8306c772221248ac93922d923a926ed5
@@ -278,6 +311,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Mixer Valve Failed to Close"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Mixer_Valve_No_Feedback_Alarm
   Id: g=f56197664a89cdd74ba7bb6817ec0659
   Type: OffNormalAlarmController
@@ -286,12 +328,10 @@ Children:
     Id: g=a97be79f730fb26b4af1f1a4b24af4ae
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b7e88760db5be77b048c09da9921152c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=1eec294377d4eae79612efa048db3a58
@@ -324,3 +364,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Mixer Valve Position Error"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

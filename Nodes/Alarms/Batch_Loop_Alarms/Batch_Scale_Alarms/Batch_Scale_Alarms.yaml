@@ -10,12 +10,10 @@ Children:
     Id: g=4a65033fe8db8e31bb8cdadf1758edcf
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=7b172b33b3bdbb5b8c62816fec8e268c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=e97e455479c6150984e37251af367c88
@@ -53,6 +51,15 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 1
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Scale_Failed_To_Open_Alarm
   Id: g=688329227714d969076494aa6d31a2d0
   Type: OffNormalAlarmController
@@ -61,12 +68,10 @@ Children:
     Id: g=766703b8fc5fb962aceae1c99b530234
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=0a4420649b1366016eab0ab41264a3b8
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=eb5fa6b02cecc5121b972b3678a6ad7f
@@ -99,6 +104,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Scale Valve Failed to Open"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Scale_Failed_To_Close_Alarm
   Id: g=812e99a6efbfbbaa68e9da3721c8c5c0
   Type: OffNormalAlarmController
@@ -107,12 +121,10 @@ Children:
     Id: g=17bb5fc1ae53eebfd91032a680fbec97
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=d17281f5dbc3b41b2bfc15cb3095c336
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c9448478f8e7ea15e8ba7e84e696afc1
@@ -145,6 +157,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Scale Valve Failed to Close"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Scale_Valve_No_Feedback_Alarm
   Id: g=2e23d46c46c8e18fa85989e5eba2172f
   Type: OffNormalAlarmController
@@ -153,12 +174,10 @@ Children:
     Id: g=a89da49d7f15aea2578e0a39c05cd5ba
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=442240b6a153fc10214a46884cdebb0f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=13d4a6698baf6f2e1ffb9bc4f7254b66
@@ -191,3 +210,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Scale Valve Position Error"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

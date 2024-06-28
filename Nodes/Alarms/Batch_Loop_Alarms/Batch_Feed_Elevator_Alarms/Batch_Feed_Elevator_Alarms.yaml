@@ -10,12 +10,10 @@ Children:
     Id: g=80321cd1d4a1e10cfca75c357d8525f9
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=20f922e15f4a78dcadd9e059e6d9a577
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=ac2ca865440e3b700eb029e442e94298
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Overload_Tripped_Alarm
   Id: g=6a1c927637b48125c0b28f5e12829479
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=3d3ec902d7a5d33f31f59b2f535754a5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=973978e7af98abcf3717c333621ed93e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=cd2669476b5018e93021d6cca16ca37f
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Motor Overload Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_High_Amps_Alarm
   Id: g=ef82f3f053b9f88fe7a3c52c9b9c8e6f
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=0dc1d2e78f40e8ae22222ec8a7547f8b
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=6b8ef7f6d91cda3a68e1d2ea861b9ff3
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=7a27764ae05d7cc1ca7e59562c0281bb
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_BR_Rub_Alarm
   Id: g=095f064f08b5dae973369eeb874385fd
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=5c7c7f5e0109b33c0a2c4ed8f9b4bb25
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=7395bb046de489a0380608d8b87ed5ba
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=2284818f9ad97fdcdee306d505ef9fa9
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Bottom Right Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_BL_Rub_Alarm
   Id: g=b80153cd11db18336ca4eb1e2863dd4a
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=bbf73797482dc2e843406c276c295fef
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=d4dd2861bcf8c6dbe5546c3c733f8401
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=b24c41a6e9d24e4363f3a963e8ccbdfa
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Bottom Left Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_TR_Rub_Alarm
   Id: g=d7c819cb6bca77b4657a2851a1f26bd4
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=9b62f530432f38e9bc95fcead0f49fbb
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=f3a93d5e5e816a958589269d16340c27
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=b9d4c5e1f96dbddf3d0f6ea8fd592058
@@ -278,6 +311,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Top Right Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_TL_Rub_Alarm
   Id: g=94821a691dea1ab2bce551631fa349ae
   Type: OffNormalAlarmController
@@ -286,12 +328,10 @@ Children:
     Id: g=ae5c386a0009717d17652dc554f0d402
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=4f782926f1981faeaf0f2520e1079e84
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c8319fd523e3bd131befee6aac735e28
@@ -324,6 +364,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Top Left Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_1
   Id: g=c6a674ade103f4f7db097f54789174bd
   Type: OffNormalAlarmController
@@ -332,12 +381,10 @@ Children:
     Id: g=b3fd22151bbc9ee32a84cb52841722b6
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=75970f35e26c45adcb9ba4602461b426
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=a141826ffdae4b4d51d0aca43cc960c8
@@ -370,6 +417,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Elevator Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_2
   Id: g=2256ddcb17ad8676afc72e955cba3ee7
   Type: OffNormalAlarmController
@@ -378,12 +434,10 @@ Children:
     Id: g=60a73dcf0904daa45232b12a8fdfb4f2
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=4b92709c981de0ae8780dda5802fd104
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=20710a9f640c3f8c3c888124825cfc96
@@ -416,6 +470,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Elevator Bearing Motor End 2 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_3
   Id: g=e7cafcf75e05373f5749f7613c72accf
   Type: OffNormalAlarmController
@@ -424,12 +487,10 @@ Children:
     Id: g=e7c2fefc1740e888b9cf52ca5f335e34
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=5acb510e00ad0cda32e0509c7ff7d9df
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=a1a1bd3e284815b6e70ecbda811c7c2b
@@ -462,6 +523,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Elevator Bearing Gear End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_4
   Id: g=f1301d683c509d04c8e7ac143fbc093e
   Type: OffNormalAlarmController
@@ -470,12 +540,10 @@ Children:
     Id: g=6285927d9ad03d08639eab1d05db690d
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=d3f8b6bdc244f413e2dc4ef2e1ecefe9
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=be0e63bf6f84969ddffcbaf2e301e912
@@ -520,6 +588,15 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         Value: true
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_EXP_Panel_Alarm
   Id: g=bcdfad1177e36b91680d11891bfca7d7
   Type: OffNormalAlarmController
@@ -528,12 +605,10 @@ Children:
     Id: g=b81a6b52e81c975d20a5580a0b64c1e5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=9adaf13583d324a6364fc72e39904b5f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=4159a401ba4399e5d3ad87578ada4381
@@ -566,6 +641,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Elevetor Explosion Panel Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator EXP_Valve_Alarm
   Id: g=54984d3c92712ba7febf0736d5455e97
   Type: OffNormalAlarmController
@@ -574,12 +658,10 @@ Children:
     Id: g=ecc2352681a51612c849c678a4b8aaa3
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b5651ffe459d42d203356d6daef4abac
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6af2e9577245562c24816d6b52f332c7
@@ -612,6 +694,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Elevator Explosion Valve Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Low_Speed_Alarm
   Id: g=8e020b6ab629d16546c75b2e98f46e86
   Type: OffNormalAlarmController
@@ -620,12 +711,10 @@ Children:
     Id: g=f6debf71545e049b54e16ab5c6aa64f1
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=3817370479b08ecd241ed8564b85c64b
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=1b2dbe126f604c81e341c54e967d2087
@@ -658,3 +747,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Jammed or Running Too Slow"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

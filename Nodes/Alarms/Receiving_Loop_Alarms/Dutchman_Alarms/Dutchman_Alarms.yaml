@@ -10,12 +10,10 @@ Children:
     Id: g=446953b54a7ae980e27cb8de166db454
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=6f0bdb9ec47bd6969162d5311e235e68
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=66ed7db0625f76601e3adc2f7d7d8e2c
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Flying Dutchman A is Full"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_B_Full_Alarm
   Id: g=02cf7cfb3c1ba2f9924a69258d09195a
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=4bbfcbf745c9412c985d53de21eb67af
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=419c4823f09fa484c217088e93e5abb0
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=9d206911ffc3dacb02083f30952a477a
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Flying Dutchman B is Full"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_A_Failed_To_Open_Alarm
   Id: g=5e824967e9b639ab2899a18a9281ebcf
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=dd498e12c231839197f06a8834d939ab
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=15c5d0ef8236f749c9f01f8f7e23708b
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=d9ccf5dce523fe078dc100e312cffb8a
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman A Valve Failed to Open"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_A_Failed_To_Close_Alarm
   Id: g=18aaefc9d3c5d42f292e1e4cac392258
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=81098ea26f2c898273d846a8bd5717fa
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=2245b2ea964554adef077927059c0500
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=eac097b9915a7da39af386c6360dba79
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman A Valved Failed to Close"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_A_Valve_No_FeedBack_Alarm
   Id: g=bc8ab996d5f9acd325358adda2d31d41
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=b6789f7043d4a864f5089f9ffa242b92
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=63660264bb166de30819c0a0e5168aa9
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=b96c0d59d5a316858e0ba22903f3c536
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"No Feedback from Dutchman A Valve"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_B_Failed_To_Open_Alarm
   Id: g=5a6609d92bcffa396a74ae9d9de86f4b
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=3bba6ab1c0eaaa53a44d51280e7e8326
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=5a1001e51b52f7fa13952ad32cc1fa8b
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c2bf83c54e3c1ae8eaacad84486b13b5
@@ -278,6 +311,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman B Valve Failed to Open"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_B_Failed_To_Close_Alarm
   Id: g=dab0faa72e4fad7d5931cb3ec8132e5e
   Type: OffNormalAlarmController
@@ -286,12 +328,10 @@ Children:
     Id: g=d53a563be4a6e21c5ab4226d8b58848a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=e7c1520ede8e1e1654a30d238fbb8b44
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=ab6fa7ea7275b53a826715b2f09ca3e7
@@ -324,6 +364,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman B Valved Failed to Close"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_B_Valve_No_FeedBack_Alarm
   Id: g=e47c509a4c83b4b34e0377b2069e6394
   Type: OffNormalAlarmController
@@ -332,12 +381,10 @@ Children:
     Id: g=60fbbd8b68069a87d8e90f0b4245daf9
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b7df5db1daf1811535d9090fb7705412
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=a45d44eab0d0dbf2c94db468de017b96
@@ -370,6 +417,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"No Feedback from Dutchman B Valve"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_A_Failed_To_Start_Alarm
   Id: g=f13fde5fa3c7ae6e7c3c3b571f846126
   Type: OffNormalAlarmController
@@ -378,12 +434,10 @@ Children:
     Id: g=910ee7d740e14010da1821c00727274e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=351b15f977db2b694fcd190fbff3e27a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6f5898429afce92ca388c1ff5c31bd5c
@@ -416,6 +470,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman A Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_A_High_Amp_Alarm
   Id: g=dd77abb465fa69755510d49c989e462a
   Type: OffNormalAlarmController
@@ -424,12 +487,10 @@ Children:
     Id: g=19cf5fec72d71147673b826ea6871fcf
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=4b22ef3c8e02e469c78abd56720c97db
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=8074f5e65a117c401c54a2e556e0ed1d
@@ -462,6 +523,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman A Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_A_Overload_Tripped_Alarm
   Id: g=b7b531fdfc5fa99fd05e968500178e37
   Type: OffNormalAlarmController
@@ -470,12 +540,10 @@ Children:
     Id: g=b5b21ac0bdfd4f3c7dd89b2d15713d68
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=ef06f7cf377627e5b4b2a52b0d954c70
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=febc1b15eed4f9e0be8bcfc8ecd1c59c
@@ -508,6 +576,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman A Motor Overload Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_B_Failed_To_Start_Alarm
   Id: g=f3303e2ae4dabed7a5ce91128940a35a
   Type: OffNormalAlarmController
@@ -516,12 +593,10 @@ Children:
     Id: g=727644ba7dc5f5dd7aa99a48993d26c5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=0335ea8492a2c50a702cbc8957046818
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=39ffcf6694b797a4bc87b1b23e3bf10b
@@ -554,6 +629,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman A Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_B_High_Amp_Alarm
   Id: g=650da2de54f3acbde623eb5bf391aa46
   Type: OffNormalAlarmController
@@ -562,12 +646,10 @@ Children:
     Id: g=e27510bf10294f1110d38875922c43be
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=498b98ccc00f715dd815a35846cd8837
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=5486b2540d75a0dc5d822dc7cb22b648
@@ -600,6 +682,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman A Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Dutchman_B_Overload_Tripped_Alarm
   Id: g=03bb3c66de7aee11cec9f1badb125202
   Type: OffNormalAlarmController
@@ -608,12 +699,10 @@ Children:
     Id: g=34c01ad81b5dce15d1bcd20d76e8c4dc
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=a93b92667052950e496c4172626e187e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=ffe8457189e384fda2470125f5f5b21e
@@ -646,3 +735,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman A Motor Overload Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

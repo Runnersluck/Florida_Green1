@@ -10,12 +10,10 @@ Children:
     Id: g=e0f3a661ace0560391e9c57370b2426c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=62b622f953c037a44da382d3985c50b9
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=8c5d4e1f5555f9fcf339db9774382340
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_High_Amp_Alarm
   Id: g=1af263ec1fa3e8275a569fd9015dcc23
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=8269bb65b82bc026a64f2ae7941c9a4f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=0a8ad8052549cbc048907c94c39a8e9c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=2a72f450cad03c7e56168573ff8129c9
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_Overload_Tripped_Alarm
   Id: g=183c8a9fcd6945c19ea4eeef51f4fa65
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=0ba3450a08da00d6df00f98c63113bcc
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=b71f5ac6afe089952a279ed99349368a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=cbe0f01a845a6b7ae1acac4058f23faf
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Motor Overload Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_Bearing_Overtemp_Alarm_1
   Id: g=d15e4aa42d02bc10a0acfbe4fc430197
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=88623778b060bc9a87d79a22076863fa
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=6b32b1a8938dc4bd47f014e59db23633
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=48a6f41745c42875c4b81d93de996890
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_Bearing_Overtemp_Alarm_2
   Id: g=3843830933a4ef5d0f7fa17c1b2973ed
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=4e816992f5e0f4008a4b3fba445c523e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=64847af7454d975f4a22ff9bbb53a3ee
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=e2db2b44546ed13d7d3a7f4a0f1cde13
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bearing Motor End 2 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_Bearing_Overtemp_Alarm_3
   Id: g=5090e2e55ffcb2b4fac80c0674ee5403
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=a219d88bddcda4b1d94c2a93935a264a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=ce6f0373f9cec89ebc5746a7cf064474
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=5a509d968e8102ee656d35b1cb593b7c
@@ -278,6 +311,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bearing Gear End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_Bearing_Overtemp_Alarm_4
   Id: g=9c8a97ba32630c5c56653b75a4ed6056
   Type: OffNormalAlarmController
@@ -286,12 +328,10 @@ Children:
     Id: g=0ac5bf0675bb42903225efc9cfb0fc16
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=733d75812c1e229cb672b64ca8247235
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=2951653ab930a9296fbc88696699ae2f
@@ -336,6 +376,15 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         Value: true
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_BR_Rub_Alarm
   Id: g=7097f14de76fe60fab707e5a3bc48316
   Type: OffNormalAlarmController
@@ -344,12 +393,10 @@ Children:
     Id: g=5989eb9847da613305d5d83fee66be66
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=c08785bdfdb3b2a5f3d159c03a9a52ef
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=d1a171e07970b333d5779b5d1bb3165b
@@ -382,6 +429,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bottom Right Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_BL_Rub_Alarm
   Id: g=f523f86c64dcefa345a85b841d6d5870
   Type: OffNormalAlarmController
@@ -390,12 +446,10 @@ Children:
     Id: g=6c1d51d999215a346fe302faad2c889f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=646da789dbac7e1c254f5ad6bec422f8
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=3c49753f86acb75d1ea6154a749f4cb6
@@ -428,6 +482,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bottom Left Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_TR_Rub_Alarm
   Id: g=0a4292618d7420877a79a8f52fa3cae2
   Type: OffNormalAlarmController
@@ -436,12 +499,10 @@ Children:
     Id: g=d9b3f85c6d69e8ea2fcfc38c0b36369d
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=83c688239570cd6555cd3e30e4376520
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=a8a9d854d389aa2c9bd272f20d449596
@@ -474,6 +535,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Top Right Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_TL_Rub_Alarm
   Id: g=ca8c78ef1eeeace5ad87d8e65760b821
   Type: OffNormalAlarmController
@@ -482,12 +552,10 @@ Children:
     Id: g=ef259623879edf58683525424b7e2008
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=9becc5973769be4f82af8a9559600545
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=61fa666b9a2e291392129d968073f8b1
@@ -520,6 +588,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Top Left Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_EXP1_Alarm
   Id: g=04e3d9627a9c948b0d48e1235788c186
   Type: OffNormalAlarmController
@@ -528,12 +605,10 @@ Children:
     Id: g=feb17ebd73ed929b5d4d086f18a819a3
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=73c894f46f8c91815fd894f609c28d2a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=a581db45aa931ffc4c665d61b35ef7d1
@@ -566,6 +641,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Explosion Panel Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_Low_Flow_Alarm
   Id: g=364c348ee5129db4a43e798ab935cdbe
   Type: OffNormalAlarmController
@@ -574,12 +658,10 @@ Children:
     Id: g=730f4a75bbc4fa2a99b261c37818339e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=50e6116198b7799dc31bd16e16993256
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=7dcce71f02ad847c51b57c42a4650220
@@ -612,6 +694,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Clogged or has Low Flow"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Bagger_Feed_Elevator_Low_Speed_Alarm
   Id: g=3b51774207141fb16b72929fdf17eeb9
   Type: OffNormalAlarmController
@@ -620,12 +711,10 @@ Children:
     Id: g=12639a8efb19cc1a65cffaa35c7cdbec
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=25747f349d8e09343d48402f43ba2a20
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=459e7ae8c4fb0fc370ed45003e7069a4
@@ -658,3 +747,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Jammed or Running Too Slow"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

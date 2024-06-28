@@ -10,12 +10,10 @@ Children:
     Id: g=edf2710c3196e542ed9e09acc802ef49
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=e9c5732adbe8dc8b8f0329f6f779df81
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=40185ff560205dce0a2932c0455b08f7
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Auger 1 Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_1_Feed_Auger_VFD_Comm_Loss_Alarm
   Id: g=e6232524986037c3456694af00a3f825
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=254b4820bc17948d7b1608b37b9263f0
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=5dc25cb2cd2d3a4d49df4fcd3e6f7fde
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=721e9107879d511aaa6140b6e72a368a
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill 1 Feed Auger VFD Communication Loss "}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_1_Feed_Auger_Bearing_Overtemp_Alarm
   Id: g=70b7fac73192cc855f95d699d9796353
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=c7c5d7d2a88eabc983adf5c5b53ed924
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=00252d05ad763843696721c3859a8ae6
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=d6be0ceefafe039af464a4f79a6e0055
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill 1 Feed Auger Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_1_FTS_Alarm
   Id: g=c44906fda29816c98ca17130a1f2df70
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=888a7793cdab46d565202b24807c0776
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=09767033bb9c4e0499b71560069dcfcb
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=a3b9270a61e60dea367d1be09154c7b1
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill 1 Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_1_High_Amps_Alarm
   Id: g=bcb1e4d39154ac260389cedd14058400
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=6f56802cad30692d31ef4fe989f016f6
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=22e0681407df60b66b40224f47b79563
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=380f26b06cdc55f757ea117066719247
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill 1 Motor Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_1_Full_Alarm
   Id: g=a225664c9f9fecfad41a247d509cb2b9
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=5767de08b569aa011143939ae553a9db
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=dfd3f09963cc102923041539f7fcb6df
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=b4b291725ae755ae7da0cced9c32eb66
@@ -278,6 +311,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill 1 Full"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_1_Bearing_Overtemp_Alarm
   Id: g=26e6620698caa6dc6524a253d7852bce
   Type: OffNormalAlarmController
@@ -286,12 +328,10 @@ Children:
     Id: g=4c6e448c316716296a5e18ceaa556b18
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=7e02329c48a8a1c14ab899c906e539fd
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=7e131ca239e67cc7ee686df641ae222e
@@ -324,3 +364,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill 1 Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

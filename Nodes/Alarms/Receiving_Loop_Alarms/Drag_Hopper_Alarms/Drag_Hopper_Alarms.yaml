@@ -10,12 +10,10 @@ Children:
     Id: g=b15ac4b42aff7ffce1a87e3ec582b399
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=0ae4f0428346554b7f983a1b7e76dc1f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=3d8f2ec41c324311c67d58ea05b5b383
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drag Hopper Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Drag_Hopper_Bearing_Overtemp_Alarm_1
   Id: g=af0a48a272bfb43028a25678e727588f
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=959eb12231432bcbe6843ae4a2ee8661
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=f912640b7eed53de00b9c2efab41bf72
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=753cb2168df3c0d30b15a8890804a729
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Drag_Hopper_Bearing_Overtemp_Alarm_2
   Id: g=18fe51f68374a6f616c3eb2360300e3f
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=a088700eec743b87fff09dc0bebf3eb8
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=7823c5c6abe66ae5dc6bc05e173f0221
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6e831a3752ec8331fddb6861c31a8fb7
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Motor End 2 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Drag_Hopper_Bearing_Overtemp_Alarm_3
   Id: g=a51da8515378ca39f13e79e25138c636
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=4117bc4e8c4b382c3a2f532015af1984
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=e87ca0fc639b9d2811d3310b7832a792
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=7e3c8e2ca19eead97af5658701a50b53
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Gear End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Drag_Hopper_Bearing_Overtemp_Alarm_4
   Id: g=656151d761eb395774fdf2aaac8424c8
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=fbffaf27a5f9d2782a67e44bb5bfa4d4
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=53d7035b8afc83db8dc4cb4e75ea1953
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=8ae88f549e53f3d9e6ea62ccdec0ce4f
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Gear End 2 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Drag_Hopper_High_Amp_Alarm
   Id: g=fbb47f87bafc5c93b8974f9d5e8ec749
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=c5431d8ad2b6f28c71da6770f68332fb
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=df1a62311ac44c93f9c80fc163dd4f32
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=caf1b54724ebba0e7cf2dee23a1ccfbd
@@ -278,6 +311,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drag Hopper Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Drag_Hopper_Comm_Loss_Alarm
   Id: g=101629304be9baf7fe89d7ad8ac755a3
   Type: OffNormalAlarmController
@@ -286,12 +328,10 @@ Children:
     Id: g=dfed33edd516d5dce7f45cee5c9b539a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=387cdf2e478cfe97c3378e0937b5faa7
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=91a8973382a88f88156b34ac230631bc
@@ -324,6 +364,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drag Hopper VFD Communication Loss "}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Drag_Hopper_VFD_Fault_Alarm
   Id: g=82017031b69e95b447509dccbe2b6f48
   Type: OffNormalAlarmController
@@ -332,12 +381,10 @@ Children:
     Id: g=6e67efbbf9fb4093c6d2422e0a9c8474
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=138f0d0bd95b966a21878e9800c64ee8
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=194722190f6f5514684cd5f8cf274a9e
@@ -370,3 +417,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drag Hopper VFD Faulted"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

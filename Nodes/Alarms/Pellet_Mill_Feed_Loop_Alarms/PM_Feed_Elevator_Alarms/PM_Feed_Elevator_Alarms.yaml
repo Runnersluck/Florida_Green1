@@ -10,12 +10,10 @@ Children:
     Id: g=10c6b5531a6b71345e66f7680541a49c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=ab8460eba8c7f2576fcf3faa4ea6d043
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=f9667a7af3db56a355b3799eb18c941d
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_Overload_Tripped_Alarm
   Id: g=17a58ee79a468a4c5e6e081872378255
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=ee472cb6854afacf80104db659b38309
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=efa12414efd9a53d5897d614912a704f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=110c04772bd8d08f085b7678362dec08
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Motor Overload Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_High_Amps_Alarm
   Id: g=8baf2a6bd94ed41a8bf605d3b2b0a64e
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=13972ec7ccbde517f93bf94e67bed34a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=c8a2fe45a6103041c8b917c37dc893c3
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=0794ac04208d14217853517dd8376ce2
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Elevator Motor Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_Bearing_Overtemp_Alarm_1
   Id: g=a036bb6f81c72fc90ada9e4894bd3704
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=71ff58916ed74786ae3c2bf4f8393a92
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=3132a335ebca054de5d44e0afbddc71f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=5190ac982a675de2d29cf958e46cbb47
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_Bearing_Overtemp_Alarm_2
   Id: g=94559d7f71d9faa5b79c58e2cfde9843
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=b91a7c959867f6a50bae081dca61e059
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=e5315e64d1299fa469dc2acd1f45c639
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=02fbb0d050c5c83e1b878868783faa03
@@ -232,6 +258,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bearing Motor End 2 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_Bearing_Overtemp_Alarm_3
   Id: g=e4f9b90aa6670ccb95357fc1f3186917
   Type: OffNormalAlarmController
@@ -240,12 +275,10 @@ Children:
     Id: g=fa97f934f32509262d900de274c9fe69
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=667bb1cb760899959ff06bf446c7c897
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c973835fc5acd20be6867d8571e7e0fe
@@ -278,6 +311,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bearing Gear End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_Bearing_Overtemp_Alarm_4
   Id: g=3774d1240d6f0000e63175353e746503
   Type: OffNormalAlarmController
@@ -286,12 +328,10 @@ Children:
     Id: g=4b2c50b5a479df3524d7c020f94007f5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=1096da31aa05f766aed3d3c12f9ea6fe
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=f22274a8e529d322fdec86f404771483
@@ -324,6 +364,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bearing Gear End 2 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_BR_Rub_Alarm
   Id: g=5b9201265bc87109feaca7914009acee
   Type: OffNormalAlarmController
@@ -332,12 +381,10 @@ Children:
     Id: g=e6326ddb4d1f00a37f034f2393a432e4
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=7e4f4d3b35023fddc6de2dbf3410e783
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=99584f6a684baa4d80e7150bb35f6af1
@@ -370,6 +417,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bottom Right Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_BL_Rub_Alarm
   Id: g=955dea748dc9fc693dacfe75ef6d76e6
   Type: OffNormalAlarmController
@@ -378,12 +434,10 @@ Children:
     Id: g=286ddce7644ec511f02e6909879dea02
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=f22e24bd61e7ab022a7588ed326c4442
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=810d44dbc4ddd2209d842820fa15c919
@@ -416,6 +470,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Bottom Left Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_TR_Rub_Alarm
   Id: g=48fcbf06c170b33ddb50c2babd7570d9
   Type: OffNormalAlarmController
@@ -424,12 +487,10 @@ Children:
     Id: g=59c33e91e83593b16b2e094253aefa1c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=204cc1c01b54b0d41609bc2171246397
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6943f9de85fd8f4cf34b8b3f2b047262
@@ -462,6 +523,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Top Right Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_TL_Rub_Alarm
   Id: g=ac1003aee5006dcd194472f8caa8f1ae
   Type: OffNormalAlarmController
@@ -470,12 +540,10 @@ Children:
     Id: g=2cca5215f130acad328a067ccb5a5d2b
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=219b7c9107d5ccafd54959e2a201717d
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=198ae4bddbc60d18b7e61ae2018162b2
@@ -508,6 +576,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Top Left Rub Sensor Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_EXP_Valve_Tripped_Alarm
   Id: g=da0d92adf8d5fdc6642140d0d5cba34b
   Type: OffNormalAlarmController
@@ -516,12 +593,10 @@ Children:
     Id: g=6a19ebd5a01083be47b3a9d320d9fc31
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=06274cb3b20e5697ffb67a537f76fcc4
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=46a3314cbff559304b121baa4fd92c10
@@ -554,6 +629,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Explosion Valve Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_EXP_Panel_Tripped_Alarm
   Id: g=e45498441bf43a33da77200d0399a3b6
   Type: OffNormalAlarmController
@@ -562,12 +646,10 @@ Children:
     Id: g=82011127f69066b870929455e56761fb
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=c7c376d7d3cd00cadfbf3c4644fed327
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=62481c6e7480b70bb8ad53ab1b1ea2b5
@@ -600,6 +682,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Explosion Panel Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: PM_Feed_Elevator_Low_Speed_Trip_Alarm
   Id: g=69a56407fbbf218172bf42125c922002
   Type: OffNormalAlarmController
@@ -608,12 +699,10 @@ Children:
     Id: g=cb6b95910b264106a09345d15b639961
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=e47d22f31ee33b66aa20b1ef758a1c77
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=8a3675f4889d0b9c24d0525f2a82c2e8
@@ -646,3 +735,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet Mill Feed Elevator Jammed or Running Too Slow"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

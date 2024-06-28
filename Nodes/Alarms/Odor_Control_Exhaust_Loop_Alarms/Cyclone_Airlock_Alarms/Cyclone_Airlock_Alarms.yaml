@@ -10,12 +10,10 @@ Children:
     Id: g=1054af28ae908b8143ba83ecae4ae33a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=13a146dc793b408e6c63c3ad5d36091a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=78f3c87428b632e1125f0c119dff49b6
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Failed to Start"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cyclone_Airlock_High_Amp_Alarm
   Id: g=358efe5b2418d3f347795311be54adf9
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=5e0af99b2d644d411f45ea674836627f
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=f8380ccc82768cc745433276f5b69c83
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c620293acc4a8b2ab023083fd7a3f624
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Overcurrent"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cyclone_Airlock_Overload_Tripped_Alarm
   Id: g=42205fd42a45da57f4d4f180bc72e722
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=9ad2429fff7500b219c04e7f52a1940b
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=25a7be56ee533bf39e54909309d400b3
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=67974e3e3b56be26c45262dc55742b48
@@ -140,6 +152,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Motor Overload Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cyclone_Airlock_Bearing_Overtemp_Alarm_1
   Id: g=4eac9e25184d1d369b2dfb16d5b9dbe6
   Type: OffNormalAlarmController
@@ -148,12 +169,10 @@ Children:
     Id: g=154d53395f7eaf539dc3b17ebc6a5150
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=718dbd201bd166c6bda0d4f6a8f948d3
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=8ae554b5346599b3543aa6d38fd916f7
@@ -186,6 +205,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Bearing Motor End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
 - Name: Cyclone_Airlock_Bearing_Overtemp_Alarm_2
   Id: g=16b915c12674f94ea1b92fe86bd6a782
   Type: OffNormalAlarmController
@@ -194,12 +222,10 @@ Children:
     Id: g=b5c28d211cd20d5c57cbc335c0c0ceae
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=c205cb74688cf822f5f5d798d1637240
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=f4a3154f0c3415199c040116f50c6589
@@ -232,3 +258,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Cyclone Airlock Bearing Gear End 1 Overheated"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
