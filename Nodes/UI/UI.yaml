@@ -1937,7 +1937,7 @@ Children:
                           Type: BaseDataVariableType
                           DataType: NodeId
                           Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                          Value: {"IdType":2,"Id":"675b8d04abe765ae2f48d07ab04c0473","Namespace":20}
+                          Value: "/Objects/Florida_Green1/UI/Screens/Master/Alarms5"
                         - Name: AliasNode
                           Type: BaseDataVariableType
                           DataType: NodeId
