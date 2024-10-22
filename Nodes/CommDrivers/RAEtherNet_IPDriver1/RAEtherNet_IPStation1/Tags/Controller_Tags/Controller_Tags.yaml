@@ -2879,6 +2879,38 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Analog.Mixer_Scale_Weight"
+  - Name: PM_1_Discharge_flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog.PM_1_Discharge_flow"
+  - Name: PM_2_Discharge_flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog.PM_2_Discharge_flow"
+  - Name: PM_3_Discharge_flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog.PM_3_Discharge_flow"
+  - Name: PM_Elevator_Flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog.PM_Elevator_Flow"
   - Name: PM_Hopper_Mixer_Level_Sensor
     Type: RAEtherNetIPTag
     DataType: Float
@@ -9041,14 +9073,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Status.Dutchman_B_Valve_Open"
-  - Name: Dutchman_C_Feed
+  - Name: Dutchman_C_Feed_phot_eye_tripped
     Type: RAEtherNetIPTag
     DataType: Boolean
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Status.Dutchman_C_Feed"
+      Value: "Status.Dutchman_C_Feed_phot_eye_tripped"
   - Name: Dutchman_C_Full
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -11833,6 +11865,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Auto_Seq.Sealer_Stacker_auto_stage"
+  - Name: Super_sac_Auto_Feed_Pause_Hmi_PB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Seq.Super_sac_Auto_Feed_Pause_Hmi_PB"
   - Name: Super_Sac_Auto_Stage
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -15003,6 +15043,14 @@ Children:
   Type: BATCH
   DataType: BATCH
   Children:
+  - Name: Batch_Feed_Flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch.Batch_Feed_Flow"
   - Name: Batch_mode_selected
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -15515,6 +15563,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch.REJECT_AUTO_START_HMI_TOGGLE"
+  - Name: Reject_Feed_Flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch.Reject_Feed_Flow"
   - Name: Reject_mode_selected
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -15744,110 +15800,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Dutch_A_VLV.Auto_mode"
-  - Name: Bin_A_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_A_VLV.Bin_A_Flow_Trip"
-  - Name: Bin_A_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_A_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_A_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_A_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_A_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_A_Flow_Trip_Timer.TT"
-  - Name: Bin_B_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_A_VLV.Bin_B_Flow_Trip"
-  - Name: Bin_B_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_B_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_B_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_B_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_B_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Bin_B_Flow_Trip_Timer.TT"
   - Name: Close_cmd
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -16362,58 +16314,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Dutch_A_VLV.ready"
-  - Name: Rotoclone_Low_Water
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_A_VLV.Rotoclone_Low_Water"
-  - Name: Rotoclone_Low_Water_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Rotoclone_Low_Water_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Rotoclone_Low_Water_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Rotoclone_Low_Water_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Rotoclone_Low_Water_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_A_VLV.Rotoclone_Low_Water_Timer.TT"
   - Name: Status
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -16443,110 +16343,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Dutch_B_VLV.Auto_mode"
-  - Name: Bin_A_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_B_VLV.Bin_A_Flow_Trip"
-  - Name: Bin_A_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_A_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_A_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_A_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_A_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_A_Flow_Trip_Timer.TT"
-  - Name: Bin_B_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_B_VLV.Bin_B_Flow_Trip"
-  - Name: Bin_B_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_B_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_B_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_B_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_B_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Bin_B_Flow_Trip_Timer.TT"
   - Name: Close_cmd
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -17061,58 +16857,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Dutch_B_VLV.ready"
-  - Name: Rotoclone_Low_Water
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_B_VLV.Rotoclone_Low_Water"
-  - Name: Rotoclone_Low_Water_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Rotoclone_Low_Water_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Rotoclone_Low_Water_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Rotoclone_Low_Water_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Rotoclone_Low_Water_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_B_VLV.Rotoclone_Low_Water_Timer.TT"
   - Name: Status
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -17141,110 +16885,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Dutch_C_VLV.Auto_mode"
-  - Name: Bin_A_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_C_VLV.Bin_A_Flow_Trip"
-  - Name: Bin_A_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_A_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_A_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_A_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_A_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_A_Flow_Trip_Timer.TT"
-  - Name: Bin_B_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_C_VLV.Bin_B_Flow_Trip"
-  - Name: Bin_B_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_B_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_B_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_B_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_B_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Bin_B_Flow_Trip_Timer.TT"
   - Name: Close_cmd
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -17759,58 +17399,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Dutch_C_VLV.ready"
-  - Name: Rotoclone_Low_Water
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Dutch_C_VLV.Rotoclone_Low_Water"
-  - Name: Rotoclone_Low_Water_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Rotoclone_Low_Water_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Rotoclone_Low_Water_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Rotoclone_Low_Water_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Rotoclone_Low_Water_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Dutch_C_VLV.Rotoclone_Low_Water_Timer.TT"
   - Name: Status
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -17840,110 +17428,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "BATCH_SCALE_DUMP_VLV.Auto_mode"
-  - Name: Bin_A_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BATCH_SCALE_DUMP_VLV.Bin_A_Flow_Trip"
-  - Name: Bin_A_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_A_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_A_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_A_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_A_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_A_Flow_Trip_Timer.TT"
-  - Name: Bin_B_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BATCH_SCALE_DUMP_VLV.Bin_B_Flow_Trip"
-  - Name: Bin_B_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_B_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_B_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_B_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_B_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Bin_B_Flow_Trip_Timer.TT"
   - Name: Close_cmd
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -18458,58 +17942,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "BATCH_SCALE_DUMP_VLV.ready"
-  - Name: Rotoclone_Low_Water
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BATCH_SCALE_DUMP_VLV.Rotoclone_Low_Water"
-  - Name: Rotoclone_Low_Water_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Rotoclone_Low_Water_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Rotoclone_Low_Water_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Rotoclone_Low_Water_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Rotoclone_Low_Water_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_SCALE_DUMP_VLV.Rotoclone_Low_Water_Timer.TT"
   - Name: Status
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -18539,110 +17971,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "BATCH_MIXER_DUMP_VLV.Auto_mode"
-  - Name: Bin_A_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BATCH_MIXER_DUMP_VLV.Bin_A_Flow_Trip"
-  - Name: Bin_A_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_A_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_A_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_A_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_A_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_A_Flow_Trip_Timer.TT"
-  - Name: Bin_B_Flow_Trip
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BATCH_MIXER_DUMP_VLV.Bin_B_Flow_Trip"
-  - Name: Bin_B_Flow_Trip_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_B_Flow_Trip_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_B_Flow_Trip_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_B_Flow_Trip_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_B_Flow_Trip_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Bin_B_Flow_Trip_Timer.TT"
   - Name: Close_cmd
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -19157,58 +18485,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "BATCH_MIXER_DUMP_VLV.ready"
-  - Name: Rotoclone_Low_Water
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BATCH_MIXER_DUMP_VLV.Rotoclone_Low_Water"
-  - Name: Rotoclone_Low_Water_Timer
-    Type: TIMER
-    DataType: TIMER
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Rotoclone_Low_Water_Timer.ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Rotoclone_Low_Water_Timer.DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Rotoclone_Low_Water_Timer.EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Rotoclone_Low_Water_Timer.PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "BATCH_MIXER_DUMP_VLV.Rotoclone_Low_Water_Timer.TT"
   - Name: Status
     Type: RAEtherNetIPTag
     DataType: Int32

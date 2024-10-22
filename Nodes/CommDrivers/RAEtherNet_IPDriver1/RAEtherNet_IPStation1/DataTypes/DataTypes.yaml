@@ -14,6 +14,26 @@ Children:
      "Namespace": 20
     },
     "Fields": [{
+      "Name": "Bin_Diverter_pos1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bin_Diverter_pos2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bin_Diverter_pos3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bin_Diverter_pos4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Bin_diverter_valve_status",
       "DataType": {
        "Id": 6
@@ -37,6 +57,21 @@ Children:
       "Name": "Dump_Station_Start",
       "DataType": {
        "Id": 1
+      }
+     },{
+      "Name": "Dutch_Bin_A_Flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Dutch_Bin_B_Flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Dutch_Bin_C_Flow",
+      "DataType": {
+       "Id": 10
       }
      },{
       "Name": "Dutchman_A_Full",
@@ -211,6 +246,11 @@ Children:
       "Name": "Discharge_mode_selected",
       "DataType": {
        "Id": 6
+      }
+     },{
+      "Name": "DIVERTER_VALVE_4TH_POS",
+      "DataType": {
+       "Id": 1
       }
      },{
       "Name": "DIVERTER_VALVE_POSITION",
@@ -635,6 +675,11 @@ Children:
       "ValueRank": "OneDimension",
       "ArrayDimensions": [32]
      },{
+      "Name": "Shaker_moving_prox",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Shaker_overload_ok",
       "DataType": {
        "Id": 1
@@ -768,12 +813,22 @@ Children:
       "ValueRank": "OneDimension",
       "ArrayDimensions": [20]
      },{
+      "Name": "Super_sac_A_running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Super_Sac_A_Selected_hmi",
       "DataType": {
        "Id": 1
       }
      },{
       "Name": "Super_Sac_auto_mode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_sac_B_running",
       "DataType": {
        "Id": 1
       }
@@ -929,6 +984,39 @@ Children:
      "Namespace": 20
     },
     "Fields": [{
+      "Name": "BULK_AUGER_FLOW",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BULK_AUGER_FLOW_SCP",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Dutch_A_level_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Dutch_B_Level_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Dutch_C_level_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
       "Name": "Dutchman_A_Level",
       "DataType": {
        "Id": 10
@@ -954,14 +1042,97 @@ Children:
        "Id": 10
       }
      },{
+      "Name": "Mixer_scale_level_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
       "Name": "Mixer_Scale_Weight",
       "DataType": {
        "Id": 10
       }
      },{
+      "Name": "PM_1_dis_flow_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "PM_1_Discharge_flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PM_2_dis_flow_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "PM_2_Discharge_flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PM_3_dis_flow_SCP",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "PM_3_Discharge_flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PM_Elevator_Flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PM_Elevator_flow_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "PM_Hopper_Level_SCP",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
       "Name": "PM_Hopper_Mixer_Level_Sensor",
       "DataType": {
        "Id": 10
+      }
+     },{
+      "Name": "PM_level_1_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "PM_Level_2_SCP",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "PM_level_3_SCP",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
       }
      },{
       "Name": "PM_Level_Mill_Sensor_1",
@@ -988,9 +1159,82 @@ Children:
       "DataType": {
        "Id": 10
       }
+     },{
+      "Name": "SUPERSAC_LOADER_FLOW",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SUPERSAC_LOADER_FLOW_SCP",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
      }]
    }
   DisplayName: {"LocaleId":"","Text":"SENSORS"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SCP
+  Id: g=ead24fb0425d5762bd62036d04747964
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SCP",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ead24fb0425d5762bd62036d04747964",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Input",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Input_Max",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Input_Min",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Output",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Scaled_Max",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Scaled_Min",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SCP"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -1440,6 +1684,13 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Dutch_A_Low_Flow_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
       "Name": "Dutch_A_Overload",
       "DataType": {
        "Id": 1
@@ -1473,6 +1724,13 @@ Children:
       "Name": "Dutch_B_High_Amps",
       "DataType": {
        "Id": 1
+      }
+     },{
+      "Name": "Dutch_B_Low_Flow_Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
       }
      },{
       "Name": "Dutch_B_Overload",
@@ -1905,6 +2163,13 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Rotoclone_Low_Water_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
       "Name": "Rotoclone_Motor_End_1",
       "DataType": {
        "Id": 1
@@ -1939,6 +2204,11 @@ Children:
       "DataType": {
        "Id": 1
       }
+     },{
+      "Name": "Unloader_Estop_tripped",
+      "DataType": {
+       "Id": 1
+      }
      }]
    }
   DisplayName: {"LocaleId":"","Text":"HMI_ALARMS"}
@@ -1961,6 +2231,23 @@ Children:
      "Namespace": 20
     },
     "Fields": [{
+      "Name": "Batch_Feed_Flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Batch_feed_flow_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Batch_mixer_high",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Batch_mode_selected",
       "DataType": {
        "Id": 1
@@ -1970,6 +2257,13 @@ Children:
       "DataType": {
        "Id": 6
       }
+     },{
+      "Name": "Batch_oneshot",
+      "DataType": {
+       "Id": 1
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [32]
      },{
       "Name": "Dwell_time_remain_milsec",
       "DataType": {
@@ -2115,6 +2409,18 @@ Children:
       "Name": "REJECT_AUTO_START_HMI_TOGGLE",
       "DataType": {
        "Id": 1
+      }
+     },{
+      "Name": "Reject_Feed_Flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Reject_Feed_flow_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
       }
      },{
       "Name": "Reject_mode_selected",
@@ -2439,6 +2745,18 @@ Children:
        "Namespace": 20
       }
      },{
+      "Name": "Speed_RPM",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Speed_RPM_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
       "Name": "Upper_Left_Rub_Sensor_Trip",
       "DataType": {
        "Id": 1
@@ -2732,7 +3050,7 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "Dutchman_C_Feed",
+      "Name": "Dutchman_C_Feed_phot_eye_tripped",
       "DataType": {
        "Id": 1
       }
@@ -2836,30 +3154,6 @@ Children:
       "Name": "Auto_mode",
       "DataType": {
        "Id": 1
-      }
-     },{
-      "Name": "Bin_A_Flow_Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Bin_A_Flow_Trip_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
-      }
-     },{
-      "Name": "Bin_B_Flow_Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Bin_B_Flow_Trip_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
       }
      },{
       "Name": "Close_cmd",
@@ -3008,18 +3302,6 @@ Children:
       "Name": "ready",
       "DataType": {
        "Id": 1
-      }
-     },{
-      "Name": "Rotoclone_Low_Water",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Rotoclone_Low_Water_Timer",
-      "DataType": {
-       "IdType": 2,
-       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
-       "Namespace": 20
       }
      },{
       "Name": "Status",
@@ -3742,6 +4024,11 @@ Children:
       }
      },{
       "Name": "Bulk_Auger_Temp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cooler_Airlock",
       "DataType": {
        "Id": 6
       }
