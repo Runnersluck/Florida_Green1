@@ -178,7 +178,7 @@ Children:
       Id: g=48a6f41745c42875c4b81d93de996890
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Bagger_Elevator_Motor_End_1"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Motor_End_1"
       Children:
       - Name: Mode
         Id: g=3f316a01c83fc599d6c9993a9fb7c25a

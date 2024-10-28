@@ -322,6 +322,11 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/Time"
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -359,6 +364,11 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}@BrowseName"
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -396,6 +406,11 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Message"
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -668,6 +683,11 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Severity"
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -728,6 +748,11 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+      - Name: RowTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
