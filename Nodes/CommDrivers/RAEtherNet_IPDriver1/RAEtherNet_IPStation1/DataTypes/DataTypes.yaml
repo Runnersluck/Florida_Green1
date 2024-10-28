@@ -996,6 +996,13 @@ Children:
        "Namespace": 20
       }
      },{
+      "Name": "Dutch_A_flow_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
       "Name": "Dutch_A_level_scp",
       "DataType": {
        "IdType": 2,
@@ -1003,7 +1010,21 @@ Children:
        "Namespace": 20
       }
      },{
+      "Name": "Dutch_B_flow_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
       "Name": "Dutch_B_Level_scp",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ead24fb0425d5762bd62036d04747964",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Dutch_C_Flow_Scp",
       "DataType": {
        "IdType": 2,
        "Id": "ead24fb0425d5762bd62036d04747964",
@@ -1818,6 +1839,30 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Main_Panel_Safety_light_blink",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Main_Panel_Safety_light_OFF_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Main_Panel_Safety_light_ON_timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "30101fcb1bd79a88a0013de9f19fdad0",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Main_panel_Safety_tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "ON_UPS_Power_Alarm",
       "DataType": {
        "Id": 1
@@ -1934,6 +1979,11 @@ Children:
       }
      },{
       "Name": "Pellet_Mill_Explosion_Valve_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pellet_Mill_Panel_Safety_Tripped",
       "DataType": {
        "Id": 1
       }

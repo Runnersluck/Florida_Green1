@@ -1,0 +1,52 @@
+Name: Master_alarms
+Id: g=bccaa2d9f35a81f5a4e7f5652dc492b7
+Type: FolderType
+Children:
+- Name: Main Panel Safety Tripped
+  Id: g=b79d985d313efa37fd4d8e535bfa5597
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4cfde856156c42f86e0b5ff464c58057
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=0c3e9c4cde6132e5814d41eb383d7d9d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d05787a1f34e9d43d0e9af865e3e56fe
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Main_panel_Safety_tripped"
+      Children:
+      - Name: Mode
+        Id: g=c1d337288ab3881164e2353003fa4246
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=55d5b7ecc030fe62e4cd7734072d010c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward

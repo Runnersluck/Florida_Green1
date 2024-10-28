@@ -6110,6 +6110,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Main_Feed_Auger_Motor_End_1"
+  - Name: Main_panel_Safety_tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Main_panel_Safety_tripped"
   - Name: ON_UPS_Power_Alarm
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -6302,6 +6310,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Alarms.Pellet_Mill_Explosion_Valve_Tripped"
+  - Name: Pellet_Mill_Panel_Safety_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarms.Pellet_Mill_Panel_Safety_Tripped"
   - Name: PM1_FULL
     Type: RAEtherNetIPTag
     DataType: Boolean
