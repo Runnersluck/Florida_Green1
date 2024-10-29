@@ -3730,6 +3730,132 @@ Children:
                 - Name: Blink
                   Type: BaseDataVariableType
                   DataType: Boolean
+      - Name: Level_status1
+        Type: Level_status
+        Children:
+        - Name: Rectangle1
+          Type: Rectangle
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_B_Level"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 476.0
+      - Name: Level_status2
+        Type: Level_status
+        Children:
+        - Name: Rectangle1
+          Type: Rectangle
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 4.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_A_Level"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 315.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 474.0
     - Name: NonVFDmotorstatus1
       Type: NonVFDmotorstatus
       Children:
@@ -26289,7 +26415,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Surge_Auger"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Auger_Temp"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean

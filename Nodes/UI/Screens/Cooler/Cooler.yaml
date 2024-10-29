@@ -11610,7 +11610,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: LocalizedText
                       ModellingRule: Optional
-                      Value: {"LocaleId":"en-US","Text":"Empty Time Remaining"}
+                      Value: {"LocaleId":"en-US","Text":"Empty Time Setpoint"}
                     - Name: HorizontalAlignment
                       Type: BaseVariableType
                       DataType: HorizontalAlignment
@@ -11641,28 +11641,23 @@ Children:
                       DataType: Color
                       ModellingRule: Optional
                       Value: "#fffdfd"
-                  - Name: TextBox1
-                    Type: TextBox
+                  - Name: SpinBox1
+                    Type: SpinBox
                     Children:
-                    - Name: Text
+                    - Name: Value
                       Type: BaseDataVariableType
-                      DataType: LocalizedText
+                      DataType: Double
                       Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_input/Empty_time_remaining"
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Outputs_for_cooler/Empty_time_setpoint"
                         Children:
                         - Name: Mode
                           Type: BaseVariableType
                           DataType: DynamicLinkMode
                           ModellingRule: Optional
                           Value: 2
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 110.0
                     - Name: HorizontalAlignment
                       Type: BaseVariableType
                       DataType: HorizontalAlignment
@@ -11673,35 +11668,6 @@ Children:
                       DataType: VerticalAlignment
                       ModellingRule: Optional
                       Value: 3
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 5.0
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 5.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                    - Name: BottomMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 5.0
-                    - Name: TextHorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: TextHorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
             - Name: Panel1
               Type: Panel
               Children:
@@ -11982,154 +11948,19 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 3.0
-              - Name: bad
-                Type: Normalspinbox
+              - Name: VerticalLayout1
+                Type: ColumnLayout
                 Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                  Children:
-                  - Name: Width
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 50.0
-                  - Name: Height
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 50.0
-                  - Name: BorderThickness
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 3.0
-                  - Name: FillColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#000afb"
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 3
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 3
-                  - Name: CornerRadius
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 3.0
-                - Name: HorizontalLayout1
-                  Type: RowLayout
-                  Children:
-                  - Name: Label1
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      ModellingRule: Optional
-                      Value: {"LocaleId":"en-US","Text":""}
-                  - Name: SpinBox1
-                    Type: SpinBox
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Double
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Feed_Auger_1/AMPERAGE"
-                - Name: VerticalLayout1
-                  Type: ColumnLayout
-                  Children:
-                  - Name: Width
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 50.0
-                  - Name: Height
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 50.0
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 3
-                  - Name: VerticalAlignment
-                    Type: BaseVariableType
-                    DataType: VerticalAlignment
-                    ModellingRule: Optional
-                    Value: 3
-                  - Name: Label1
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      ModellingRule: Optional
-                      Value: {"LocaleId":"en-US","Text":"Cooler Gate Timer(secs)"}
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 3
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 3
-                    - Name: TextColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      ModellingRule: Optional
-                      Value: "#ffffff"
-                    - Name: TextHorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: TextHorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                  - Name: SpinBox1
-                    Type: SpinBox
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Double
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Outputs_for_cooler/Gate_time_setpoint"
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 3
-                    - Name: VerticalAlignment
-                      Type: BaseVariableType
-                      DataType: VerticalAlignment
-                      ModellingRule: Optional
-                      Value: 3
-                - Name: LeftMargin
+                - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                - Name: TopMargin
+                  Value: 50.0
+                - Name: Height
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
+                  Value: 50.0
                 - Name: HorizontalAlignment
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
@@ -12140,6 +11971,60 @@ Children:
                   DataType: VerticalAlignment
                   ModellingRule: Optional
                   Value: 3
+                - Name: Label1
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"Cooler Gate Timer(secs)"}
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: TextColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#ffffff"
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Outputs_for_cooler/Gate_time_setpoint"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
             - Name: Panel1
               Type: Panel
               Children:
@@ -12299,6 +12184,16 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 5.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
                 - Name: HorizontalAlignment
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
@@ -14468,6 +14363,16 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 3
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color
