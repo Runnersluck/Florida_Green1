@@ -1,0 +1,481 @@
+Name: Super_Sac_alarms
+Id: g=461f35a7ca74ab12078c48b821ad99b3
+Type: FolderType
+Children:
+- Name: Super_Sac_Panel_Comms_Fault
+  Id: g=67c3bc4d593918fdecf819278c8afedc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=851181938eb29f46c3e42a7304b40da6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ae096c132b2f35bfb1b5dc8a0c79673f
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=17eed6621556f5696d2dbbb6b18988e5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Super_sac_com_fault"
+      Children:
+      - Name: Mode
+        Id: g=58aa9986676c16b02f3fb996ae8ace2a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=70971da7f8a84c9cdbcbd9409b3d8175
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=f4bf2e3b2e94e5bef1e1be02f763e449
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super Sac Panel Comms Fault"}
+- Name: Super_Sac_Estop_Pressed
+  Id: g=3017b9199904c53dde34724395d242db
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d4827379a1c43acd3a5a4e266f42f958
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=0cb9648e9ed3c19a6b44484b260adbfc
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=1f73456ece4adc507d08ad0e85de6016
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Super_sac_panel_fault"
+      Children:
+      - Name: Mode
+        Id: g=05872d159513f1a59f5bb8107de6790b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c1f6138a3667265ee52c88b0474492bc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=259db089ed1f5b302a93be762e3bb5d2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super Sac Estop Pressed"}
+- Name: Super_Sac_Discharge_Auger_A_Failed_to_start
+  Id: g=81a5271b88ef28206b66ec60661d4ac3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=027148d5929f8dcc2df759285a43bf59
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c72a2332255043ef65356b8bc2110eef
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=5faa80943179bc8f25ee2b09fd5de585
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Super_sac_feed_auger_A_fts"
+      Children:
+      - Name: Mode
+        Id: g=fd3b066b35dc7a1771ce34322a274b63
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7008bfbee23c58f7386f5d92e4255899
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=a8d03b519dcc71ff8a632f89db7d9f41
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super Sac Discharge Auger A Failed to start"}
+- Name: Super_Sac_B_Discharge_Auger_Failed_to_Start
+  Id: g=e1694cc96345e73bd26bb558b352cd8a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=56fb0bda506d087b5310640bb2639432
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f697bdc1f691f14412c56701c2dde15e
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=1710e2a11758f2532e38b4aa841e9743
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Super_sac_feed_auger_B_fts"
+      Children:
+      - Name: Mode
+        Id: g=88dc833a21f84fb13c1de02c3f962c2e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7c6aa4ae891ca41b380219908eedf80d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=3251f8a3e214f4c5aa34b1088b1b3613
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super Sac B Discharge Auger Failed to Start"}
+- Name: Super_Sac_A_Gyrator_Failed_to_Start
+  Id: g=1094f733c2c87ded1f0e9f7d07722a01
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a4206551d50fe5802e7ee4ea60b78dd7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=53afa1c11eceb7326c5fccf42a33bde4
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=779d450cac63fadd106801a00a64f79c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Super_sac_A_gyrator_fts"
+      Children:
+      - Name: Mode
+        Id: g=734423de1cef798c456ac24c7cc801a8
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a16c95028c4ebf5fbd3b7c847f7993df
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=3ee1249fa34ca9f43a5ea0c895118cf9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super Sac A Gyrator Failed to Start"}
+- Name: Super_sac_B_Gyrator_Failed_to_Start
+  Id: g=ee066b04b4f85becb130097fb3bac6ec
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7bcdacdf1e2cde6f850bda30ddff00ff
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=990f690feb8e7e297b8074fe624ac9a8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=9ecc3a8bc500601a4b1120e3829b0e21
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Super_sac_B_gyrator_fts"
+      Children:
+      - Name: Mode
+        Id: g=29a1378707037820c7d0f92bc8275721
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=16dd0c1dc757d532c322b3407548dee0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=956c15e2146b6666d35cd435e336a298
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super sac B Gyrator Failed to Start"}
+- Name: Super_Sac_Synthethic_Auger_Failed_to_Start
+  Id: g=b7d4a3e3a9f03f69cb01a836b2925a91
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=57aa092faa5f15b678a0b54dfe8220b9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=159e74b490995eaea9efea06b9fcbc91
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=fcaa209c6e4763153586ad35ae164102
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Sac_sythentic_auger_fts"
+      Children:
+      - Name: Mode
+        Id: g=17357f874d3f0c278dd4c4b6e4d9284e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=228def3a6fb78026f7c5a4ee8d454b5e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=e5b521c224448f48fcd84f44d48a1c4a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super Sac Synthethic Auger Failed to Start"}
+- Name: Super_Sac_B_low_weight
+  Id: g=f789f576284ee2e6b1e7d2526925e6aa
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f24772a094a00664d2b374181ef55627
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=429451a0a68b7f2643ca60c411e0c4c8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=dcdbacf60c7f797cc7296f8179412c68
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Super_sac_A_low_weight"
+      Children:
+      - Name: Mode
+        Id: g=1aa2c9cd6abf277134f6f1722f4fd02a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7fbeb82516b65ec749f542ffc6174eb4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=a58a429ec3d853664754d5846ffb0dc4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super Sac B low weight"}
+- Name: Super_Sac_B_Low_Weight
+  Id: g=7d54e162ea49288da710cdb258df9a16
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cd314bf1b96892b08ea03f5656c98011
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=040095d64124137fdbeab9e4a6af2835
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4501ef6628e4c0de594600c674b5fb02
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Super_sac_B_low_weight"
+      Children:
+      - Name: Mode
+        Id: g=801015bb6b76f60049bfdfa07637fe17
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4717cd16449bac12cb5392b826225ef9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=f024ac59f03c21af81beb3afe6457169
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Super Sac B Low Weight"}

@@ -2,7 +2,7 @@ Name: Master_alarms
 Id: g=bccaa2d9f35a81f5a4e7f5652dc492b7
 Type: FolderType
 Children:
-- Name: Main Panel Safety Tripped
+- Name: Main_Panel_Safety_Tripped
   Id: g=b79d985d313efa37fd4d8e535bfa5597
   Type: OffNormalAlarmController
   Children:
@@ -50,3 +50,8 @@ Children:
   - Class: Reference
     Target: ns=13;i=132
     Direction: Forward
+  - Name: Message
+    Id: g=4e2014889309e005b7930c8e4677237c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Main Panel Safety Tripped"}
