@@ -2869,7 +2869,7 @@ Children:
       Value: "Bagger_Isolation_exp_valve.Ready"
   - Name: High_Dust_kill_all_time_remaining_hours
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -2877,7 +2877,7 @@ Children:
       Value: "Bagger_Isolation_exp_valve.High_Dust_kill_all_time_remaining_hours"
   - Name: High_dust_kill_all_time_remaining_Minute
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -2915,6 +2915,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Bagger_Isolation_exp_valve.Maintenance_complete_hmi_button"
+  - Name: HIGH_dust_level_Started
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_Isolation_exp_valve.HIGH_dust_level_Started"
 - Name: Bag_hopper_Isolation_exp_valve
   Id: g=0a3362526e2b9110b0b1ae46dfce0852
   Type: EXPLOSION_VALVE
@@ -3126,7 +3134,7 @@ Children:
       Value: "Bag_hopper_Isolation_exp_valve.Ready"
   - Name: High_Dust_kill_all_time_remaining_hours
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -3134,7 +3142,7 @@ Children:
       Value: "Bag_hopper_Isolation_exp_valve.High_Dust_kill_all_time_remaining_hours"
   - Name: High_dust_kill_all_time_remaining_Minute
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -3172,6 +3180,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Bag_hopper_Isolation_exp_valve.Maintenance_complete_hmi_button"
+  - Name: HIGH_dust_level_Started
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bag_hopper_Isolation_exp_valve.HIGH_dust_level_Started"
 - Name: Batch
   Type: BATCH
   DataType: BATCH
@@ -5376,7 +5392,7 @@ Children:
       Value: "Batch_Isolation_exp_valve.Ready"
   - Name: High_Dust_kill_all_time_remaining_hours
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -5384,7 +5400,7 @@ Children:
       Value: "Batch_Isolation_exp_valve.High_Dust_kill_all_time_remaining_hours"
   - Name: High_dust_kill_all_time_remaining_Minute
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -5422,6 +5438,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Batch_Isolation_exp_valve.Maintenance_complete_hmi_button"
+  - Name: HIGH_dust_level_Started
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_Isolation_exp_valve.HIGH_dust_level_Started"
 - Name: Batch_Mixer
   Id: g=a2814e8a436a03c603b63936cfe7dd62
   Type: VFD_CONTROLS
@@ -11647,7 +11671,7 @@ Children:
       Value: "Cooler_Isolation_exp_valve.Ready"
   - Name: High_Dust_kill_all_time_remaining_hours
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -11655,7 +11679,7 @@ Children:
       Value: "Cooler_Isolation_exp_valve.High_Dust_kill_all_time_remaining_hours"
   - Name: High_dust_kill_all_time_remaining_Minute
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -11693,6 +11717,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Cooler_Isolation_exp_valve.Maintenance_complete_hmi_button"
+  - Name: HIGH_dust_level_Started
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Isolation_exp_valve.HIGH_dust_level_Started"
 - Name: Cooler_shaker
   Id: g=1350a8bd43dd5166988e94f57fdb3354
   Type: MTR_STARTER_CONTROLS
@@ -20254,7 +20286,7 @@ Children:
       Value: "PM_Isolation_exp_valve.Ready"
   - Name: High_Dust_kill_all_time_remaining_hours
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -20262,7 +20294,7 @@ Children:
       Value: "PM_Isolation_exp_valve.High_Dust_kill_all_time_remaining_hours"
   - Name: High_dust_kill_all_time_remaining_Minute
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -20300,6 +20332,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "PM_Isolation_exp_valve.Maintenance_complete_hmi_button"
+  - Name: HIGH_dust_level_Started
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PM_Isolation_exp_valve.HIGH_dust_level_Started"
 - Name: Receiving
   Type: RECEIVING
   DataType: RECEIVING

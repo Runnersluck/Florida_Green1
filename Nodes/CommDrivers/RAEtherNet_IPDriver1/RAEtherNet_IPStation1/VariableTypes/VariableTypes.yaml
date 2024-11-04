@@ -5447,7 +5447,7 @@ Children:
       Value: "Ready"
   - Name: High_Dust_kill_all_time_remaining_hours
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -5455,7 +5455,7 @@ Children:
       Value: "High_Dust_kill_all_time_remaining_hours"
   - Name: High_dust_kill_all_time_remaining_Minute
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
@@ -5493,6 +5493,14 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Maintenance_complete_hmi_button"
+  - Name: HIGH_dust_level_Started
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HIGH_dust_level_Started"
 - Name: HMI_ALARMS
   Id: g=1ce2075e8d229df97a75ff19a909127e
   Supertype: TagStructure

@@ -2001,12 +2001,12 @@ Children:
      },{
       "Name": "High_Dust_kill_all_time_remaining_hours",
       "DataType": {
-       "Id": 6
+       "Id": 10
       }
      },{
       "Name": "High_dust_kill_all_time_remaining_Minute",
       "DataType": {
-       "Id": 6
+       "Id": 10
       }
      },{
       "Name": "High_dust_Kill_all_time_remaining_ms",
@@ -2025,6 +2025,11 @@ Children:
       }
      },{
       "Name": "Maintenance_complete_hmi_button",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HIGH_dust_level_Started",
       "DataType": {
        "Id": 1
       }
