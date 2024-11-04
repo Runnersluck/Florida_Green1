@@ -161,3 +161,56 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+- Name: Main_Feed_Auger_FAULT
+  Id: g=db514d1d622ad546c8deb5f85eb76b23
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b3a81cb0fc639a7704541a1847b45c3d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1bbd861ddee6c648d57aa9421391afa3
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d06343ecf6dac9559d74e20b854c765a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Main_Feed_Auger/FAULT"
+      Children:
+      - Name: Mode
+        Id: g=28684989162998dc24e186a5c0d20bfd
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=212828692bc96dc10dadec416dfb1cef
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=a41e49826a1338d89c60ae3cc4290def
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Main Feed Auger VFD Faulted"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
