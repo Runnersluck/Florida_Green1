@@ -7084,7 +7084,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1395.0
+        Value: 1394.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -7436,6 +7436,10 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 265.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
     - Name: EXP_Maint_timer1
       Type: EXP_Maint_timer
       Children:
@@ -7503,7 +7507,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 383.0
+        Value: 378.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -7571,12 +7575,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 982.0
+        Value: 978.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 383.0
+        Value: 378.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -7644,12 +7648,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1192.0
+        Value: 1190.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 381.0
+        Value: 379.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -7722,7 +7726,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 381.0
+        Value: 379.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -7790,7 +7794,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1604.0
+        Value: 1600.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -7801,6 +7805,10 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 140.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
     - Name: Panel1
       Type: Panel
       Children:
