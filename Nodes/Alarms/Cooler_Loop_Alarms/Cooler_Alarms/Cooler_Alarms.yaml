@@ -1,0 +1,269 @@
+Name: Cooler_Alarms
+Id: g=840fa7507bf06c4c1fb75688e4b121de
+Type: FolderType
+Children:
+- Name: Cooler_Panel_Estop_Tripped
+  Id: g=e6aac4a58638b8f550eb880ab906f545
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3df89979ccf7e7226e88069ef86dcb08
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6a244c7adeb97abe4024addc7dac6e70
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=fd45f866ca7c29cb32f520e46c9e354a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Panel_Estop_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=255428ce0a422110fcad62baa196d023
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c913684b33b598048ff71b35c42e9696
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=dca12c211f51df3a9916e278cb29acfa
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Estop Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+- Name: Cooler_Shaker_breaker_tripped
+  Id: g=88e93b72a850a8667344c0ad5f9beef0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=527843df367cbc8f8133d7c3cb8de640
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b21a64095c0a3ca6cfbbdf7eb31588f7
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=8055457a0753364c31f843b26494273b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Shaker_breaker_tripped"
+      Children:
+      - Name: Mode
+        Id: g=d54fb3003bd8c53722746b10b8b65f12
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d2d5ed2bbbd3c7e5615f7dac48df921e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=76ae0224a506b5bf5ed5c32d98b4b8ac
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Shaker Breaker Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+- Name: Cooler_Grid_Breaker_Tripped
+  Id: g=cb5ed9a569b33ab80e8cc0948c19fd4d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1c14c59ff0591f92a7e3f1101779f1dc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9aacf1cbf0e3342596d3279f97096f39
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=af08dd868462520878a24bd07bbaecdb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Grid_Breaker_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=3e9ec25184fc8d194c0a01e88d4f5a28
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ff261d82a75d93058feaf2511f464039
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=4b945b1096e587281e94000d01f19c4b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Grid Breaker Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+- Name: Cooler_Airlock_Breaker_Tripped
+  Id: g=c909d9e02b8708986eaefe8d06bd0c1d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=25f9a63cee1f35a3e4ccdbac683a67a8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=03087b6521b7805d705ddbf83b426a18
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=980b59511f0ea5c81bcd7a0f61ce6555
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Airlock_Breaker_Tripped"
+      Children:
+      - Name: Mode
+        Id: g=357910bcfb80dfd5e5fcbc4d7f0018be
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=88be81b0f1367af29019440bdd10347d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=926282cc438ce07f1d267d8dfa9bb176
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Airlock Breaker Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+- Name: Cooler_Comm_Loss
+  Id: g=d8c11635b7d21be37d44c95ae3531646
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=93e8cbdbfdb1b582074d6afbe8738b01
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6e1d9bea862f97ed0a8cdf4ad65797b5
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=49877b930ead942bf0a36acbd89db847
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=9a5223232f20ea39b59bff5754243a48
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=88a65c70d1dcf3520b509bd33fdc0d5c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=ffadf9672b1eda678f531db1b44a0e49
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Panel Comms Loss"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

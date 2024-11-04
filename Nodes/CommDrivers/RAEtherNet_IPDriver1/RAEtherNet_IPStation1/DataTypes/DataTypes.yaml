@@ -2830,6 +2830,36 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Cooler_Panel_Estop_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Shaker_breaker_tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Grid_Breaker_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Airlock_Breaker_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bulk_Auger_Breaker_Tripped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "Bagger_Elevator_FTS",
       "DataType": {
        "Id": 1

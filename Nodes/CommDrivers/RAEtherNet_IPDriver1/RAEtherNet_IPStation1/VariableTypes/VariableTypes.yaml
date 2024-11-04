@@ -6911,6 +6911,54 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Cooler_Elevator_Upper_Right_Rub_Trip"
+  - Name: Cooler_Panel_Estop_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Panel_Estop_Tripped"
+  - Name: Cooler_Shaker_breaker_tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Shaker_breaker_tripped"
+  - Name: Cooler_Grid_Breaker_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Grid_Breaker_Tripped"
+  - Name: Cooler_Airlock_Breaker_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Airlock_Breaker_Tripped"
+  - Name: Bulk_Auger_Breaker_Tripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bulk_Auger_Breaker_Tripped"
+  - Name: Cooler_Comm_Loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_Comm_Loss"
   - Name: Bagger_Elevator_FTS
     Type: RAEtherNetIPTag
     DataType: Boolean
