@@ -7907,49 +7907,46 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
             Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Isolation_exp_valve/HIGH_dust_level_Started"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
               Children:
-              - Name: Source
+              - Name: Key
                 Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Isolation_exp_valve/HIGH_dust_level_Started"
-              - Name: ns=3;Pairs
-                Type: BaseObjectType
-                ModellingRule: None
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ModellingRule: None
-                - Name: Pair1
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ModellingRule: None
-                    Value: true
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
 - Name: ODOR_MOTORS_OOC
   Id: g=9f01bffb836f9249e6c20ea193a17ae3
   Supertype: Screen
