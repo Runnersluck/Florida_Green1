@@ -373,7 +373,7 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Super Sac Synthethic Auger Failed to Start"}
-- Name: Super_Sac_B_low_weight
+- Name: Super_Sac_A_low_weight
   Id: g=f789f576284ee2e6b1e7d2526925e6aa
   Type: OffNormalAlarmController
   Children:
@@ -425,7 +425,7 @@ Children:
     Id: g=a58a429ec3d853664754d5846ffb0dc4
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Super Sac B low weight"}
+    Value: {"LocaleId":"en-US","Text":"Super Sac A low weight"}
 - Name: Super_Sac_B_Low_Weight
   Id: g=7d54e162ea49288da710cdb258df9a16
   Type: OffNormalAlarmController
