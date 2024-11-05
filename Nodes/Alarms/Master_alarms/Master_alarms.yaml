@@ -55,3 +55,109 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Main Panel Safety Tripped"}
+- Name: Main_Panel_Comm_loss
+  Id: g=9e1ee179636bf187a249348050a050cd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=549246243cca7eba9cd7f9ef01996839
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cc2929094bbe002fc4e173165ceef2aa
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=dad980c41eb4248aee97e00b973a4c1d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Main_Panel_Comm_loss"
+      Children:
+      - Name: Mode
+        Id: g=768c69b658085817579d391a55ed0c74
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=15d209bad9165c294dcc7d10f447f661
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=66d2444a755b45fb9eeda0bd355c16e8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Main Panel Comm Loss"}
+- Name: Dutchman_Panel_Comm_loss
+  Id: g=f3d9778b8c5f7d9aac6a84a3272a762a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e301b387e19c92bfd133c47c4e0346ab
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a06685033e85e0cec267f9536430e4cc
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=240f48f78fd550e6f778690659d2185d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutchman_Panel_Comm_loss"
+      Children:
+      - Name: Mode
+        Id: g=205eb8ed81c71957c0a204493e9580d9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a88cd55f0d093d4aee22515aec389d7b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=875446f35019fcf10411200dbf36c39d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman Panel Comm Loss"}

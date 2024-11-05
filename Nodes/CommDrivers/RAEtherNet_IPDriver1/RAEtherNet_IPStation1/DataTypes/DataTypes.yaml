@@ -2055,6 +2055,46 @@ Children:
      "Namespace": 20
     },
     "Fields": [{
+      "Name": "Main_Panel_Comm_loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_Panel_Comm_loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagging_Panel_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bag_Conveyor_Panel_Comm_loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bag_robot_panel_comm_loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Super_sac_panel_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_Panel_Comm_loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bag_sealer_Panel_Comm_loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "ON_UPS_Power_Alarm",
       "DataType": {
        "Id": 1
