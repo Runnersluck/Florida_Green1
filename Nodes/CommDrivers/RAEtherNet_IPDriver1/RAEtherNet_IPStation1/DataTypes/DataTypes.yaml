@@ -2095,6 +2095,46 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Receiving_IEnode_1_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Dutchman_IEnode_2_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Batch_IEnode_3_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pellet_Mill_IEnode_4_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pellet_Mills_IEnode_5_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cooler_IEnode_6_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bagger_IEnode_7_comm_loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Bag_Diverter_IEnode_8_Comm_Loss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "ON_UPS_Power_Alarm",
       "DataType": {
        "Id": 1

@@ -161,3 +161,427 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman Panel Comm Loss"}
+- Name: Receiving_IEnode_1_Comm_Loss
+  Id: g=55dc1d008615987f4cfc1881bd68c804
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a54120f461e5e61c4c64adc46d91681f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6db43da6ee4863b03bf338dd73290701
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=3ae7380d629d59f2926ea68a7882192a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Receiving_IEnode_1_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=2d5d181ab39b11e8b693b1944f6a3af3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5990ef14c08a9e6b2de9f59945fd6eab
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=c697f2c9b02bf1ae2919afe4c6392096
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Receiving_IEnode_1_Comm_Loss"}
+- Name: Dutchman_IEnode_2_Comm_Loss
+  Id: g=06f0db3966ec0825b13378f6411fcfce
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1c74209a1c328a2d5f5242a9999b010f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ac671283b8e5a2a7c2b8950d43e39ca4
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=9db1532e0e4c3a9dd0f798459cf083d4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Dutchman_IEnode_2_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=47f0957ac4862984075638afd51ce9d6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3bd9482f028a1c7771544846402fc9e8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=43a8ebd84969e679db6c667502434be4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Dutchman_IEnode_2_Comm_Loss"}
+- Name: Batch_IEnode_3_Comm_Loss
+  Id: g=ce80bc177ff3304f7a15b93fa6915d47
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c4ebc07c9b651378bae18e5ee7c7e5ba
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=edc4589513b6ccfab0b6bb63b15e5481
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=17869d3ccb1a56a81db911bce7cbf0bb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_IEnode_3_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=a6d3541aedcca6ef14f9b90d23fcae12
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ecdc459240a5883a016e83d45c3a57f2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=95fd5368ddc67f9b8e74ca1278d44760
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Batch_IEnode_3_Comm_Loss"}
+- Name: Pellet_Mill_IEnode_4_Comm_Loss
+  Id: g=d055b1a987731a4582d3758d0c12f5c3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4905383258132a4d4bf3e9187409f773
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=80bf81dde561239e5048940f3d6fa306
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=8be72131dd8c29fa48a438dcc6d80787
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Pellet_Mill_IEnode_4_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=68bd76240f83e8fd1a70c2452ddc3ca4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7e016aa9797f628f496d01ef3cdae583
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=0417f17cfd6c31f1cad73fea402a1b45
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet_Mill_IEnode_4_Comm_Loss"}
+- Name: Pellet_Mills_IEnode_5_Comm_Loss
+  Id: g=efc02497e0da55260c84c1b926187c10
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c3ccb100d933678547101e2a283123bb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cf160b29dee7098b9af6627419978095
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b583768a7cdd956d44afe0506fa1570d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Pellet_Mills_IEnode_5_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=e025fe308021ee6593b9dfdf96b9a721
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d42637365ba2431b615ce175570babdc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=6b86dc1ae7662f6f014826ff6b58e9d6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pellet_Mills_IEnode_5_Comm_Loss"}
+- Name: Cooler_IEnode_6_Comm_Loss
+  Id: g=5a7f7da680967598cd3eba9a3bb80647
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5ab18a73d7c49671d72ce83aa0a3aa76
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cc1511f5b2bea90df8cbccd8b0878c89
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=7501ea2cc44af604638c2b23e8b9c702
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_IEnode_6_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=5e49681f90164f970a1645bb111b0133
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=00ce0f9c92040a4072ca23964cebbeff
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=0a91a2cc9c1a19fe8e01eca8f1eb2b34
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_IEnode_6_Comm_Loss"}
+- Name: Bagger_IEnode_7_comm_loss
+  Id: g=aa4f933d31892b8678804e1c6d64ba6b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4fadc4589d0d7b107bc157bd1e660660
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ce2085ce31cee2399f6011e7a20e8aa8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=eeca074784ff9524389504fe908a9d73
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_IEnode_7_comm_loss"
+      Children:
+      - Name: Mode
+        Id: g=775eba21032244ce0e7ebca381a8c409
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c9b1444ab11fbf4959833d8b94ebac39
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=7cdd268925a0fcd71295dbb0e21fa881
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Bagger_IEnode_7_comm_loss"}
+- Name: Bag_Diverter_IEnode_8_Comm_Loss
+  Id: g=762e952c16356807d83688f4282d4613
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7b84ad88bedb3b7912b9a588ebc161e5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=09d998f49511401627ffc950f9b9e4e6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2ef0d3214dfe0726fd2b01311be9c5e8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bag_Diverter_IEnode_8_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=105a6d80fd0a1f592106606aec5263e4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e2cea76deeecb233c494dc80cb04f71d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=f2009b7c351da2e60bcdf5061656c660
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Bag_Diverter_IEnode_8_Comm_Loss"}

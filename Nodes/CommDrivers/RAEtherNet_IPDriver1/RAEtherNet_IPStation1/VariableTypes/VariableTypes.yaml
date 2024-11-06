@@ -5571,6 +5571,70 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Bag_sealer_Panel_Comm_loss"
+  - Name: Receiving_IEnode_1_Comm_Loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Receiving_IEnode_1_Comm_Loss"
+  - Name: Dutchman_IEnode_2_Comm_Loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Dutchman_IEnode_2_Comm_Loss"
+  - Name: Batch_IEnode_3_Comm_Loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Batch_IEnode_3_Comm_Loss"
+  - Name: Pellet_Mill_IEnode_4_Comm_Loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pellet_Mill_IEnode_4_Comm_Loss"
+  - Name: Pellet_Mills_IEnode_5_Comm_Loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pellet_Mills_IEnode_5_Comm_Loss"
+  - Name: Cooler_IEnode_6_Comm_Loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cooler_IEnode_6_Comm_Loss"
+  - Name: Bagger_IEnode_7_comm_loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bagger_IEnode_7_comm_loss"
+  - Name: Bag_Diverter_IEnode_8_Comm_Loss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Bag_Diverter_IEnode_8_Comm_Loss"
   - Name: ON_UPS_Power_Alarm
     Type: RAEtherNetIPTag
     DataType: Boolean
