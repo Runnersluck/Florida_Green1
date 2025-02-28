@@ -7084,7 +7084,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1395.0
+        Value: 1394.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -7436,6 +7436,517 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 265.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+    - Name: EXP_Maint_timer1
+      Type: EXP_Maint_timer
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Maint Timer
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Isolation_exp_valve/High_Dust_kill_all_time_remaining_hours"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                - Name: Visible
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Isolation_exp_valve/High_dust_maintenance_timer/EN"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 780.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 378.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 140.0
+    - Name: EXP_Maint_timer2
+      Type: EXP_Maint_timer
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Maint Timer
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Isolation_exp_valve/High_Dust_kill_all_time_remaining_hours"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                - Name: Visible
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Isolation_exp_valve/High_dust_maintenance_timer/EN"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 978.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 378.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 140.0
+    - Name: EXP_Maint_timer3
+      Type: EXP_Maint_timer
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Maint Timer
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Isolation_exp_valve/High_Dust_kill_all_time_remaining_hours"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                - Name: Visible
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Isolation_exp_valve/High_dust_maintenance_timer/EN"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1190.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 379.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 140.0
+    - Name: EXP_Maint_timer4
+      Type: EXP_Maint_timer
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Maint Timer
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bagger_Isolation_exp_valve/High_Dust_kill_all_time_remaining_hours"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                - Name: Visible
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bagger_Isolation_exp_valve/High_dust_maintenance_timer/EN"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1394.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 379.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 140.0
+    - Name: EXP_Maint_timer5
+      Type: EXP_Maint_timer
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: VerticalLayout1
+          Type: ColumnLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Maint Timer
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bag_hopper_Isolation_exp_valve/High_Dust_kill_all_time_remaining_hours"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                - Name: Visible
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bag_hopper_Isolation_exp_valve/High_dust_maintenance_timer/EN"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1600.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 378.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 140.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+    - Name: Panel1
+      Type: Panel
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 551.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 164.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1209.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 851.0
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 3.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#fa0202"
+        - Name: CornerRadius
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 3.0
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Warning!! Once the Maintenance Timer reaches 0.0. The whole system will STOP!! Clean Explosion Valve and Have Supervisor Acknowledge Valve is Safe when system is OFF!"}
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: TextHorizontalAlignment
+            Type: BaseVariableType
+            DataType: TextHorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: TextVerticalAlignment
+            Type: BaseVariableType
+            DataType: TextVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: WordWrap
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: true
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Isolation_exp_valve/HIGH_dust_level_Started"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
 - Name: ODOR_MOTORS_OOC
   Id: g=9f01bffb836f9249e6c20ea193a17ae3
   Supertype: Screen
@@ -10051,7 +10562,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Rotoclone Motor End Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -10079,7 +10590,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Motor_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Rotoclone_Motor_End"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -10128,7 +10639,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Rotoclone Gear End Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -10156,7 +10667,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Rotoclone_Gear_End"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -10813,7 +11324,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                          Value: {"LocaleId":"en-US","Text":"Rotoclone Bearing High Temp Setpoint"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -10827,7 +11338,16 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Rotoclone/Overtemp_Setpoint"
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: -1.0
             - Name: Panel2
               Type: Panel
               Children:
@@ -10851,41 +11371,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel3
               Type: Panel
               Children:

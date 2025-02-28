@@ -4,3 +4,4 @@ Type: FolderType
 Children:
 - File: Rotoclone_Alarms/Rotoclone_Alarms.yaml
 - File: Cyclone_Airlock_Alarms/Cyclone_Airlock_Alarms.yaml
+- File: Explosion_valve_faults/Explosion_valve_faults.yaml

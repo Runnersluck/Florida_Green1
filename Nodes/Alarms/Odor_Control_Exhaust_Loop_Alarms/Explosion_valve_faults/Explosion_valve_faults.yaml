@@ -1,33 +1,33 @@
-Name: Bagger_Feed_Elevator_Alarms
-Id: g=003ef6a03093b5cb7ced3aea70d06584
+Name: Explosion_valve_faults
+Id: g=859fa014a097c4ba76ca79ae5bd4cda0
 Type: FolderType
 Children:
-- Name: Bagger_Feed_Elevator_FTS_Alarm
-  Id: g=3d9e107b3ba5a3deba7409981665c134
+- Name: Batch_Isolation_exp_valve_High_dust_lvl_fault
+  Id: g=8876ee11653bb6e20061f2565c060ad9
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=e0f3a661ace0560391e9c57370b2426c
+    Id: g=397c0bd56d4b4eee596be2da86a3bb43
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=62b622f953c037a44da382d3985c50b9
+    Id: g=b4e12fa3bb0085c5f5827b0ada192a64
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=8c5d4e1f5555f9fcf339db9774382340
+      Id: g=9ec3d9d29add4600a3412bcb0fe67b3e
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_FTS"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Isolation_exp_valve/High_dust_lvl_fault"
       Children:
       - Name: Mode
-        Id: g=48222871ab3866a276b9f5f189615508
+        Id: g=048a40704497867c7cc295c004a0cc42
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=6129bf185c856f0ba71da3cbb4a23dde
+    Id: g=3d795e394419aa9e466c792445d5629b
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -42,10 +42,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=907b1c4f8688e7fc7de26248d02787d2
+    Id: g=ba67b953b65bc246d35b08e7602121c1
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Failed to Start"}
+    Value: {"LocaleId":"en-US","Text":"Batch Isolation Valve High Dust Warning "}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -55,32 +55,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_High_Amp_Alarm
-  Id: g=1af263ec1fa3e8275a569fd9015dcc23
+- Name: Batch_Isolation_exp_valve_High_dust_Kill_all_fault
+  Id: g=d8166368c871b42dae62d2337b24da1e
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=8269bb65b82bc026a64f2ae7941c9a4f
+    Id: g=c2da427469ac8d1fae71183ae3f8664d
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=0a8ad8052549cbc048907c94c39a8e9c
+    Id: g=b7d27d27caf10e69828e9ba8e568d289
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=2a72f450cad03c7e56168573ff8129c9
+      Id: g=4d74c0d89fa5de973aaf38eccc933811
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_High_Amps"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Isolation_exp_valve/High_dust_Kill_all_fault"
       Children:
       - Name: Mode
-        Id: g=987554395feb204dce393947a7f49a04
+        Id: g=35ff62b4bd58b5d38d877a565cbb8ebb
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=9e3dd86a77c95eed96659dc5dc37d0d1
+    Id: g=4cc0c14efd5c60210143b6d05d7581b4
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -95,10 +95,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=d95a3e8523eccf5f3d34aaca8e2656c3
+    Id: g=f5ced561294d57a72ef309e1bcedee4b
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Overcurrent"}
+    Value: {"LocaleId":"en-US","Text":"Batch Isolation Valve High Dust Fault "}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -108,32 +108,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_Overload_Tripped_Alarm
-  Id: g=183c8a9fcd6945c19ea4eeef51f4fa65
+- Name: Batch_Isolation_exp_valve_Flap_tripped_fault
+  Id: g=d6a2c6aeb28511a32929817ea4b21de1
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=0ba3450a08da00d6df00f98c63113bcc
+    Id: g=3e648f2e7e6b92ff77beaf1a5a2c7b55
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=b71f5ac6afe089952a279ed99349368a
+    Id: g=b2eb5b08aafb95e916a93f531539dd16
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=cbe0f01a845a6b7ae1acac4058f23faf
+      Id: g=385ceda3aa8026182944275c6d7b318c
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Overload"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Batch_Isolation_exp_valve/Flap_tripped_fault"
       Children:
       - Name: Mode
-        Id: g=a1c87cd7f25b126ae39f73e5c51bf87b
+        Id: g=e0296aa9e7ba7f148f2bbb7a1ce4b312
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=27e76ecab34725fc23640977b7f18db9
+    Id: g=65da7cdae2a32ea8e869e9fff3b8fbd9
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -148,10 +148,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=1c13b6fedc8966f88da35cd2a36685c0
+    Id: g=1ff459de0d46dbc3796766d0e40daf38
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Motor Overload Tripped"}
+    Value: {"LocaleId":"en-US","Text":"Batch Isolation Valve Tripped "}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -161,32 +161,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_Bearing_Overtemp_Alarm_1
-  Id: g=d15e4aa42d02bc10a0acfbe4fc430197
+- Name: PM_Isolation_exp_valve_Flap_tripped_fault
+  Id: g=7d02b0921be9d29093932f053002d29e
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=88623778b060bc9a87d79a22076863fa
+    Id: g=7026b0f0a1a8e658f62d280967c16446
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=6b32b1a8938dc4bd47f014e59db23633
+    Id: g=9d725de162aa07f15b26d193c19a6611
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=48a6f41745c42875c4b81d93de996890
+      Id: g=535f466352752a462e3a76bf062b91b4
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Motor_End_1"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Isolation_exp_valve/Flap_tripped_fault"
       Children:
       - Name: Mode
-        Id: g=3f316a01c83fc599d6c9993a9fb7c25a
+        Id: g=5d9661a6e59a1594c4aa146e0c9568b1
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=15352537946a02fd1ae2f15be3285b9c
+    Id: g=ab2fa44f21aa72bfd274c138d1c4224d
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -201,10 +201,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=040572a9bb22915dd87635b88fd05e1f
+    Id: g=5bc91953ec506fc8625674c54fbdbfa6
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bearing Motor End 1 Overheated"}
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Isolation Valve Tripped "}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -214,32 +214,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_Bearing_Overtemp_Alarm_2
-  Id: g=3843830933a4ef5d0f7fa17c1b2973ed
+- Name: PM_Isolation_exp_valve_High_dust_lvl_fault
+  Id: g=776da0322cc21995b6b2c3e28235af96
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=4e816992f5e0f4008a4b3fba445c523e
+    Id: g=27a71568629f8b259a5a3895093b71b1
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=64847af7454d975f4a22ff9bbb53a3ee
+    Id: g=8c3267064f07e22cbc4df5ac0f3301aa
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=e2db2b44546ed13d7d3a7f4a0f1cde13
+      Id: g=8abb24190abf3bca53e3f8b01a63eda7
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Motor_End_2"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Isolation_exp_valve/High_dust_lvl_fault"
       Children:
       - Name: Mode
-        Id: g=182d36825f0dca0ce007bd5e72976368
+        Id: g=ae5b14259b83b57b347f11f61bcfa170
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=26a1d076f1a4b383eb3f69763f245b0c
+    Id: g=c13695c4f04821a5a3c099279a97903e
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -254,10 +254,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=f9fb4f06679197eafecbf379f752bf0a
+    Id: g=baca717c0bfc1e3d41aa2c41ec3af614
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bearing Motor End 2 Overheated"}
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Isolation High Dust Warning"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -267,32 +267,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_Bearing_Overtemp_Alarm_3
-  Id: g=5090e2e55ffcb2b4fac80c0674ee5403
+- Name: PM_Isolation_exp_valve_High_dust_Kill_all_fault
+  Id: g=120b849e1413055fbc878e302ab850dd
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=a219d88bddcda4b1d94c2a93935a264a
+    Id: g=f17df33f7281754e3303146acdf871f8
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=ce6f0373f9cec89ebc5746a7cf064474
+    Id: g=c1d494dcc35279fdeed2d90583ea83f0
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=5a509d968e8102ee656d35b1cb593b7c
+      Id: g=aaa18ceac9f34632ab3ef20d7371acbd
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Gear_End_1"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Isolation_exp_valve/High_dust_Kill_all_fault"
       Children:
       - Name: Mode
-        Id: g=f2f41c48b9ac7eb739e63d5d6b48da6f
+        Id: g=13f285bfdd7e92432b65b686111f7895
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=e84c90ad534ff4e7c6601eeaf2494a1a
+    Id: g=af0e06ad76e1f4b2e06b01e8183a2739
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -307,10 +307,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=6e58a6d0704ea2993f9e7be0f88f4ba0
+    Id: g=5de9e53620e6b5686234c84690d18965
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bearing Gear End 1 Overheated"}
+    Value: {"LocaleId":"en-US","Text":"Pellet Mill Isolation High Dust Fault"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -320,32 +320,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_Bearing_Overtemp_Alarm_4
-  Id: g=9c8a97ba32630c5c56653b75a4ed6056
+- Name: Cooler_Isolation_exp_valve_High_dust_Kill_all_fault
+  Id: g=ab841c06ca2196d72d43e5458fcb487a
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=0ac5bf0675bb42903225efc9cfb0fc16
+    Id: g=772e3737a1a57c0c58ec9f55736c4586
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=733d75812c1e229cb672b64ca8247235
+    Id: g=8951ea7d6c0cc754955e2b59919256ce
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=2951653ab930a9296fbc88696699ae2f
+      Id: g=51123d35eccf459a79a4cad714414b4b
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Batch_Elevator_Gear_End_2"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Isolation_exp_valve/High_dust_Kill_all_fault"
       Children:
       - Name: Mode
-        Id: g=bf2c7d081ee78305eb12b3a366e8f938
+        Id: g=1d19ccc9df9069c741f6203213fd2195
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=e6b83f5e43450ea1dfdd1455d29cbcce
+    Id: g=5849d01d99b487ef7ee3d47e92e2cf0f
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -360,22 +360,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=27ebb81040fde1d8c9d7a633ddcd2180
+    Id: g=6472236bbfadc585a8e3ea631c7646a0
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing Gear End 2 Overheated"}
-    Children:
-    - Name: DynamicLink
-      Id: g=9dc7b39096b95f46b320360a33a1ae5a
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "Bagger Feed Elevator Gear End 2 Overheated"
-      Children:
-      - Name: IsPull
-        Id: g=7d5a296443fd5429dd42edf1ed00a590
-        Type: BaseVariableType
-        DataType: Boolean
-        Value: true
+    Value: {"LocaleId":"en-US","Text":"Cooler Isolation High Dust Fault"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -385,32 +373,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_BR_Rub_Alarm
-  Id: g=7097f14de76fe60fab707e5a3bc48316
+- Name: Cooler_Isolation_exp_valve_High_dust_lvl_fault
+  Id: g=250b80807b1098c56c0c07aa3afd9f23
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=5989eb9847da613305d5d83fee66be66
+    Id: g=957ab0ade72a20d9ac4cd2e6a7685eb6
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=c08785bdfdb3b2a5f3d159c03a9a52ef
+    Id: g=90a1b90d1ca58702e22a50bb4842e879
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=d1a171e07970b333d5779b5d1bb3165b
+      Id: g=7f3f85baa1c35e75427657e3b6a99fd1
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Lower_Right_Rub_Trip"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Isolation_exp_valve/High_dust_lvl_fault"
       Children:
       - Name: Mode
-        Id: g=0db481cd3929046bbf6cc89f15341721
+        Id: g=c838dd30b7ea38dffba8f460070e3a01
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=afb008a35b15eec756b2329ddd95025d
+    Id: g=de6353e146390f73c0680294533ead54
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -425,10 +413,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=ad67af5a18ee4440811652ecb273a5f0
+    Id: g=670cdfddeb7c8ab0b5435039c1aa5c39
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bottom Right Rub Sensor Tripped"}
+    Value: {"LocaleId":"en-US","Text":"Cooler Isolation High Dust Warning"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -438,32 +426,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_BL_Rub_Alarm
-  Id: g=f523f86c64dcefa345a85b841d6d5870
+- Name: Cooler_Isolation_exp_valve_Flap_tripped_fault
+  Id: g=d1245a2c233f7c4909aeea97badc51b7
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=6c1d51d999215a346fe302faad2c889f
+    Id: g=2ee31463715c73f39364af369068fe00
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=646da789dbac7e1c254f5ad6bec422f8
+    Id: g=74533451159eabb87b6d6f1e68c5dab5
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=3c49753f86acb75d1ea6154a749f4cb6
+      Id: g=b1832e3967f4c95654df1b85b49f881e
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Lower_Left_Rub_Trip"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Isolation_exp_valve/Flap_tripped_fault"
       Children:
       - Name: Mode
-        Id: g=6df3bc70cb1199f6be2c9df68a5de3cd
+        Id: g=1eafe0c06d3cd54f4ad3af6e9d4595d4
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=e8289371d275c85f7abbe0418905ce7e
+    Id: g=87345688b798454fa91518e1eca80a85
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -478,10 +466,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=5a27fb2ef4a92df20eac5c8c4918f79f
+    Id: g=2102137ff34121ca22f41ca323e8596a
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Bottom Left Rub Sensor Tripped"}
+    Value: {"LocaleId":"en-US","Text":"Cooler Isolation Tripped"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -491,32 +479,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_TR_Rub_Alarm
-  Id: g=0a4292618d7420877a79a8f52fa3cae2
+- Name: Bagger_Isolation_exp_valve_Flap_tripped_fault
+  Id: g=d1e673a8e78f45dfd1ab833d4dc3f002
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=d9b3f85c6d69e8ea2fcfc38c0b36369d
+    Id: g=6d991c375151837617f68a971653718d
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=83c688239570cd6555cd3e30e4376520
+    Id: g=b64d574e6227294b499f78b3065f08be
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=a8a9d854d389aa2c9bd272f20d449596
+      Id: g=9970488f2b916ed3b1ea701e6bc9d88e
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Upper_Right_Rub_Trip"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bagger_Isolation_exp_valve/Flap_tripped_fault"
       Children:
       - Name: Mode
-        Id: g=ba79c802b31ae9a66aaf4262450fa0e5
+        Id: g=062a3f1fc8f09f780078086e8bf137bd
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=073df80170dfabd33deb5300952e63e9
+    Id: g=110ebbdd574494c1e803fea3a2e02d62
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -531,10 +519,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=3a0f2f692946135c7dbd53628d8d9b8d
+    Id: g=1173f960a7f8cb308cd817d88def3f05
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Top Right Rub Sensor Tripped"}
+    Value: {"LocaleId":"en-US","Text":"Bagger Isolation Tripped"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -544,32 +532,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_TL_Rub_Alarm
-  Id: g=ca8c78ef1eeeace5ad87d8e65760b821
+- Name: Bagger_Isolation_exp_valve_High_dust_lvl_fault
+  Id: g=73b7ca9101dde0a68f9c1f887ba71d32
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=ef259623879edf58683525424b7e2008
+    Id: g=8c62d0a3c20524981b7460c8b2179912
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=9becc5973769be4f82af8a9559600545
+    Id: g=71f68a9a0b5edf46181c4606b4764fbb
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=61fa666b9a2e291392129d968073f8b1
+      Id: g=6b7ecae8aecb8ca9f5fdb4476f4787dc
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Upper_Left_Rub_Trip"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bagger_Isolation_exp_valve/High_dust_lvl_fault"
       Children:
       - Name: Mode
-        Id: g=3249d9dc1b0eca8391e7f7e523af34fc
+        Id: g=9bce568df62e2bd51aa411dd5249210e
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=f4946565e951dafcba705ad19d017122
+    Id: g=a4ad91000a6db88c342f739300a77c6c
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -584,10 +572,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=7d2a280c278edcf4996c732b7539312c
+    Id: g=0cc0013678a7e916f2217e344dbdee57
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Top Left Rub Sensor Tripped"}
+    Value: {"LocaleId":"en-US","Text":"Bagger Isolation High Dust Level Warning"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -597,32 +585,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_EXP1_Alarm
-  Id: g=04e3d9627a9c948b0d48e1235788c186
+- Name: Bagger_Isolation_exp_valve_High_dust_Kill_all_fault
+  Id: g=01381fdab581895a3b392e6b35c7f9dd
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=feb17ebd73ed929b5d4d086f18a819a3
+    Id: g=9da2b05bdb0aa2c3ce423a76008fe45b
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=73c894f46f8c91815fd894f609c28d2a
+    Id: g=460ee5a78c6cd45dc9c8794c8e456673
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=a581db45aa931ffc4c665d61b35ef7d1
+      Id: g=6567db2917c92c9ee5cb4d38e6212b2f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_EXP_1_Tripped"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bagger_Isolation_exp_valve/High_dust_Kill_all_fault"
       Children:
       - Name: Mode
-        Id: g=abd07327aa5dd929c80fd1287d62ffa7
+        Id: g=fb77b0398089ba506fb9f709fb7b861e
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=1c633867895b6ae42bf603dc889b479f
+    Id: g=8d017edd84e67322339722423df67f66
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -637,10 +625,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=5e790430ae11c6056af6c56144256bd9
+    Id: g=ce56209eefc267ad7f419757216d7081
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Explosion Panel Tripped"}
+    Value: {"LocaleId":"en-US","Text":"Bagger Isolation High Dust Level Fault"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -650,32 +638,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_Low_Flow_Alarm
-  Id: g=364c348ee5129db4a43e798ab935cdbe
+- Name: Bag_hopper_Isolation_exp_valve_High_dust_Kill_all_fault
+  Id: g=4e73ecf77548d6cb6b6e4f29ed9725f9
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=730f4a75bbc4fa2a99b261c37818339e
+    Id: g=5dacde97e1f72d293e74f871297c3b81
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=50e6116198b7799dc31bd16e16993256
+    Id: g=1e5fe71cc19a97a37f053ad02c0c1fc3
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=7dcce71f02ad847c51b57c42a4650220
+      Id: g=38c5c896caa1cf0fdd65ff497cd963d7
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Low_Flow"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bag_hopper_Isolation_exp_valve/High_dust_Kill_all_fault"
       Children:
       - Name: Mode
-        Id: g=814cc1de47936284d553d7bfd38b3c7d
+        Id: g=58fe0c384609291c60508b2cbf8f8a99
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=683dcb8bc3ba4436c949faf3fc1b4b70
+    Id: g=a5a6fc17961a151dd0a6042c788731e2
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -690,10 +678,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=74792bbcc502d27e2228c5b87c33b8d4
+    Id: g=e1e4631c87eae218fd5b675d608a2606
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Clogged or has Low Flow"}
+    Value: {"LocaleId":"en-US","Text":"Bag Hopper Isolation High Dust Level Fault"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -703,32 +691,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Bagger_Feed_Elevator_Low_Speed_Alarm
-  Id: g=3b51774207141fb16b72929fdf17eeb9
+- Name: Bag_hopper_Isolation_exp_valve_High_dust_lvl_fault
+  Id: g=86663f07d2351863a474d5a956356eb8
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=12639a8efb19cc1a65cffaa35c7cdbec
+    Id: g=c12537ee5491b1167863b2f09b24a93a
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=25747f349d8e09343d48402f43ba2a20
+    Id: g=89c8e2090a38b13b2c5165c884767f2b
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=459e7ae8c4fb0fc370ed45003e7069a4
+      Id: g=d0422b454bccd3c94b83cf46cce0c60f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Bagger_Elevator_Low_Speed"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bag_hopper_Isolation_exp_valve/High_dust_lvl_fault"
       Children:
       - Name: Mode
-        Id: g=0f42b9b6cf8b3ad1aa5b1b0717479e4b
+        Id: g=599f6425032383b06e4c89fbc5e0cc60
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=80f8a82de382bde9b8ca53373ab2db8b
+    Id: g=f9a4358661c2649bf45178427dc8f191
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -743,10 +731,63 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=6d61dd99694fb93055482b92861b2aa1
+    Id: g=ec4cbfb1310613688610e08527b01460
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Bagger Feed Elevator Jammed or Running Too Slow"}
+    Value: {"LocaleId":"en-US","Text":"Bag Hopper Isolation High Dust Level Warning"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+- Name: Bag_hopper_Isolation_exp_valve_Flap_tripped_fault
+  Id: g=ab06eeec6d750669d792b3f7b2e72fa0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cc6e3ea441785ce858749757a6700792
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ed60929c0aa3723139a6c1b25ebc16e6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=36fbadf6d0164bef82bbc55d5010310e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bag_hopper_Isolation_exp_valve/Flap_tripped_fault"
+      Children:
+      - Name: Mode
+        Id: g=9b36f726089422193ba59689bcd512fb
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3523f179ab876c03031b34058b0f3fe6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e304e1a4b1308225de5c22116368bc03
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Bag Hopper Isolation Tripped"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward

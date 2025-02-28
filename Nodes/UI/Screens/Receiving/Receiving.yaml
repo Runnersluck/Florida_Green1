@@ -75,6 +75,22 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel5
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Alarms"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/UI/Screens/Master/Alarms5"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -846,222 +862,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
       - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-    - Name: TankStorage1
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#bcbec0"
-      - Name: LevelColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e06801fc"
-      - Name: Level
-        Type: BaseDataVariableType
-        DataType: Double
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_C_Level"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinLevel
-        Type: BaseDataVariableType
-        DataType: Double
-      - Name: MaxLevel
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 100.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 188.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 362.0
-      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Outline
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Outline.svg"
-      - Name: vessel_fill
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/TankStorage_vessel_fill.svg"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: DynamicColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#bcbec0"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
-      - Name: TankStorage_vessel_level
-        Type: LinearGauge
-        Children:
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 70.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../Level"
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Float
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../MinLevel"
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 100.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../MaxLevel"
-        - Name: WarningZones
-          Type: BaseObjectType
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 122.9020004272461
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 235.63400268554688
-        - Name: MajorTickCount
-          Type: BaseDataVariableType
-          DataType: Float
-          ModellingRule: Optional
-        - Name: Orientation
-          Type: BaseDataVariableType
-          DataType: OrientationEnum
-          ModellingRule: Optional
-          Value: 1
-        - Name: ImagePath
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          ModellingRule: Optional
-          Value: "ns=20;%PROJECTDIR%/res/TankStorage_LinearGauge_vessel_level.svg"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#00aeef"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../LevelColor"
-        - Name: ValueChangeBehaviour
-          Type: BaseDataVariableType
-          DataType: ValueChangeBehaviour
-          ModellingRule: Optional
-          Value: 1
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 2.555999994277954
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 2.1816000938415527
-        - Name: ScalePosition
-          Type: BaseDataVariableType
-          DataType: PositionEnum
-          ModellingRule: Optional
-          Value: 2
-      - Name: Equipment_x5F_Storage_x5F_Tank_x5F_Overlay
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 127.64099884033203
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 240.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Equipment_x5F_Storage_x5F_Tank_x5F_Overlay.svg"
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 127.64099884033203
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 240.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 795.0
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 110.0
-      - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
@@ -2143,666 +1943,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 1286.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 306.0
-      - Name: FillMode
-        Type: BaseDataVariableType
-        DataType: FillModeEnum
-        ModellingRule: Optional
-    - Name: Pipe90Degree2
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#d0d2d3"
-      - Name: FlowColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#26a9e0"
-      - Name: FlowOpacity
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 100.0
-      - Name: ShowFlow
-        Type: BaseDataVariableType
-        DataType: Boolean
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 118.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 126.0
-      - Name: Pipe_x5F_90_x5F_Degree_x5F_Outline
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 65.99800109863281
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Pipe_x5F_90_x5F_Degree_x5F_Outline.svg"
-      - Name: Fill
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Pipe90Degree_Fill.svg"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 65.99800109863281
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: DynamicColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#d0d2d3"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
-      - Name: FlowColorPEScaleLayout
-        Type: ScaleLayout
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 65.99800109863281
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Opacity
-          Type: BaseVariableType
-          DataType: Float
-          Value: 100.0
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Children:
-              - Name: ExpressionEvaluator1
-                Type: ExpressionEvaluator
-                Children:
-                - Name: Expression
-                  Type: BaseDataVariableType
-                  DataType: String
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: "{0}"
-                - Name: ns=5;Source0
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../ShowFlow"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Float
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: 100.0
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Float
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-        - Name: FlowColorPE
-          Type: Image
-          Children:
-          - Name: Path
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=20;%PROJECTDIR%/res/Pipe90Degree_FlowColorPE.svg"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 65.99800109863281
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 66.0
-          - Name: DynamicColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#26a9e0"
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../FlowColor"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../FlowOpacity"
-        - Name: OriginalWidth
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 65.99800109863281
-        - Name: OriginalHeight
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 66.0
-      - Name: Pipe_x5F_90_x5F_Degree_x5F_Overlay
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 65.99800109863281
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Pipe_x5F_90_x5F_Degree_x5F_Overlay.svg"
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 65.99800109863281
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 66.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 824.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 302.0
-      - Name: Rotation
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -90.0
-    - Name: PipeStraight3
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#d0d2d3"
-      - Name: FlowColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#26a9e0"
-      - Name: FlowOpacity
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 100.0
-      - Name: ShowFlow
-        Type: BaseDataVariableType
-        DataType: Boolean
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 158.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 44.0
-      - Name: Piping_x5F_Straight_x5F_Outline
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 24.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Pipe_x5F_Straight_x5F_Outline.svg"
-      - Name: Fill
-        Type: Rectangle
-        Children:
-        - Name: BorderColor
-          Type: BaseDataVariableType
-          DataType: Color
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0000799894332886
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.000080108642578
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#d0d2d3"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
-      - Name: flowScaleLayout
-        Type: ScaleLayout
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 24.0
-        - Name: Opacity
-          Type: BaseVariableType
-          DataType: Float
-          Value: 100.0
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Children:
-              - Name: ExpressionEvaluator1
-                Type: ExpressionEvaluator
-                Children:
-                - Name: Expression
-                  Type: BaseDataVariableType
-                  DataType: String
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: "{0}"
-                - Name: ns=5;Source0
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../ShowFlow"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Float
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: 100.0
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Float
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-        - Name: FlowColorPE
-          Type: Image
-          Children:
-          - Name: Path
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=20;%PROJECTDIR%/res/PipeStraight_FlowColorPE.svg"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 66.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 24.0
-          - Name: DynamicColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#26a9e0"
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../FlowColor"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../FlowOpacity"
-        - Name: OriginalWidth
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 66.0
-        - Name: OriginalHeight
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 24.0
-      - Name: Piping_x5F_Straight_x5F_Overlay
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 24.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Pipe_x5F_Straight_x5F_Overlay.svg"
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 66.0
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 24.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 924.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 306.0
-      - Name: FillMode
-        Type: BaseDataVariableType
-        DataType: FillModeEnum
-        ModellingRule: Optional
-    - Name: PipeStraight4
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#d0d2d3"
-      - Name: FlowColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#26a9e0"
-      - Name: FlowOpacity
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 100.0
-      - Name: ShowFlow
-        Type: BaseDataVariableType
-        DataType: Boolean
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 158.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 44.0
-      - Name: Piping_x5F_Straight_x5F_Outline
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 24.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Pipe_x5F_Straight_x5F_Outline.svg"
-      - Name: Fill
-        Type: Rectangle
-        Children:
-        - Name: BorderColor
-          Type: BaseDataVariableType
-          DataType: Color
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0000799894332886
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 22.000080108642578
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#d0d2d3"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
-      - Name: flowScaleLayout
-        Type: ScaleLayout
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 24.0
-        - Name: Opacity
-          Type: BaseVariableType
-          DataType: Float
-          Value: 100.0
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Children:
-              - Name: ExpressionEvaluator1
-                Type: ExpressionEvaluator
-                Children:
-                - Name: Expression
-                  Type: BaseDataVariableType
-                  DataType: String
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: "{0}"
-                - Name: ns=5;Source0
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../ShowFlow"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Float
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: 100.0
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Float
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-        - Name: FlowColorPE
-          Type: Image
-          Children:
-          - Name: Path
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=20;%PROJECTDIR%/res/PipeStraight_FlowColorPE.svg"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 66.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 24.0
-          - Name: DynamicColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#26a9e0"
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../FlowColor"
-          - Name: Opacity
-            Type: BaseVariableType
-            DataType: Float
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../FlowOpacity"
-        - Name: OriginalWidth
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 66.0
-        - Name: OriginalHeight
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 24.0
-      - Name: Piping_x5F_Straight_x5F_Overlay
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 66.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 24.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=20;%PROJECTDIR%/res/Pipe_x5F_Straight_x5F_Overlay.svg"
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 66.0
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 24.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1000.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -5741,22 +4881,32 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1177.0
+        Value: 1178.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 395.0
+        Value: 567.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 20.0
+        Value: 28.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 21.0
+        Value: 25.0
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
     - Name: Label2
       Type: Label
       Children:
@@ -5769,12 +4919,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1512.0
+        Value: 1506.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 395.0
+        Value: 576.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -5785,34 +4935,142 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 22.0
-    - Name: Label3
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"C"}
+        Value: 1
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+    - Name: Level_status1
+      Type: Level_status
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+      - Name: HorizontalLayout1
+        Type: RowLayout
+        Children:
+        - Name: Panel1
+          Type: Panel
+          Children:
+          - Name: Label1
+            Type: Label
+        - Name: Panel2
+          Type: Panel
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+            Children:
+            - Name: BorderColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#000000"
+            - Name: FillColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+            - Name: Blink
+              Type: BaseDataVariableType
+              DataType: Boolean
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_B_Level"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 846.0
+        Value: 1098.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 395.0
-      - Name: Height
+        Value: 803.0
+    - Name: Level_status2
+      Type: Level_status
+      Children:
+      - Name: Rectangle1
+        Type: Rectangle
+      - Name: HorizontalLayout1
+        Type: RowLayout
+        Children:
+        - Name: Panel1
+          Type: Panel
+          Children:
+          - Name: Label1
+            Type: Label
+            Children:
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 4.0
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: BottomMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+        - Name: Panel2
+          Type: Panel
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+            Children:
+            - Name: BorderColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#000000"
+            - Name: FillColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+            - Name: Blink
+              Type: BaseDataVariableType
+              DataType: Boolean
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_A_Level"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+      - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 21.0
-      - Name: Width
+        Value: 1421.0
+      - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 22.0
+        Value: 803.0
 - Name: Manual_Receiving
   Id: g=84e8d0346b6e4b9fafd3698870fd4a7b
   Supertype: Screen
@@ -8456,6 +7714,83 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Motor_End_1"
+                          - Name: Blink
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                      - Name: Label1
+                        Type: Label
+            - Name: Panel3
+              Type: Panel
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: Bearing_Temp1
+                Type: Bearing_Temp
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                - Name: background
+                  Type: Rectangle
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Panel1
+                      Type: Panel
+                      Children:
+                      - Name: cool shaker
+                        Type: Label
+                        Children:
+                        - Name: Text
+                          Type: BaseDataVariableType
+                          DataType: LocalizedText
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing 2"}
+                    - Name: Panel2
+                      Type: Panel
+                      Children:
+                      - Name: Rectangle1
+                        Type: Rectangle
+                        Children:
+                        - Name: BorderColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#000000"
+                        - Name: FillColor
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          Value: "#ffffff"
+                        - Name: Blink
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                        - Name: Label1
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
                               Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Motor_End_2"
                           - Name: Blink
                             Type: BaseDataVariableType
@@ -8533,84 +7868,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel3
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_1"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -8659,7 +7917,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing 2"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -8736,7 +7994,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Outside Elevator Motor End Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -8764,7 +8022,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Outside_Elevator_Motor_End_1"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -8813,7 +8071,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Outside Elevator Motor End Bearing 2"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -8841,7 +8099,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Outside_Elevator_Motor_End_2"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -8890,7 +8148,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Outside Elevator Gear End Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -8918,7 +8176,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Outside_Elevator_Gear_End_1"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -8967,7 +8225,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Outside Elevator Gear End Bearing 2"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -8995,7 +8253,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Outside_Elevator_Gear_End_2"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -9514,7 +8772,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Bearing High Temp Setpoint"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -9552,41 +8810,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel3
               Type: Panel
               Children:
@@ -9610,41 +8833,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel4
               Type: Panel
               Children:
@@ -9668,41 +8856,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel5
               Type: Panel
               Children:
@@ -9746,7 +8899,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                          Value: {"LocaleId":"en-US","Text":"Outside Elevator Bearing High Temp Setpoint"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -9760,7 +8913,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Outside_Elevator/Overtemp_Setpoint"
             - Name: Panel6
               Type: Panel
               Children:
@@ -9784,41 +8937,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel7
               Type: Panel
               Children:
@@ -9842,41 +8960,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel8
               Type: Panel
               Children:
@@ -9900,41 +8983,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel9
               Type: Panel
               Children:

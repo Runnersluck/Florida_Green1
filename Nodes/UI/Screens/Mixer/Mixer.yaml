@@ -91,6 +91,22 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel6
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Alarms"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/UI/Screens/Master/Alarms5"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -3714,6 +3730,132 @@ Children:
                 - Name: Blink
                   Type: BaseDataVariableType
                   DataType: Boolean
+      - Name: Level_status1
+        Type: Level_status
+        Children:
+        - Name: Rectangle1
+          Type: Rectangle
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_B_Level"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 476.0
+      - Name: Level_status2
+        Type: Level_status
+        Children:
+        - Name: Rectangle1
+          Type: Rectangle
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 4.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Rectangle1
+              Type: Rectangle
+              Children:
+              - Name: BorderColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+              - Name: FillColor
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffffff"
+              - Name: Blink
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Analog/Dutchman_A_Level"
+                - Name: Blink
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 315.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 474.0
     - Name: NonVFDmotorstatus1
       Type: NonVFDmotorstatus
       Children:
@@ -15933,6 +16075,140 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 5.0
+    - Name: Explosion_Trip_warning
+      Type: Panel
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 701.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 139.0
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 3.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: CornerRadius
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 3.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#eb001b"
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Explosion Valve High Dust Level or Tripped. Fix to resume operation. "}
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: TextHorizontalAlignment
+            Type: BaseVariableType
+            DataType: TextHorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: TextVerticalAlignment
+            Type: BaseVariableType
+            DataType: TextVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: WordWrap
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Auto_Seq/Odor_system_no_fault"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Boolean
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 381.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 311.0
 - Name: Manual_Batch_feed
   Id: g=f0655d50f850ded4ec0ca87fc6a8b501
   Supertype: Screen
@@ -25783,7 +26059,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Main Auger Gear End Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -25811,7 +26087,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Motor_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Main_Feed_Conv_Gear_End"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -25860,7 +26136,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Gear End Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -25888,7 +26164,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Elevator_Gear_End_1"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -25937,7 +26213,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Gear End Bearing 2"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -25965,7 +26241,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Elevator_Gear_End_2"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -26014,7 +26290,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Motor End Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -26042,7 +26318,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Elevator_Motor_End_1"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -26091,7 +26367,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Motor End Bearing 2"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -26119,7 +26395,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Elevator_Motor_End_2"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -26168,7 +26444,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Batch Mixer Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -26196,7 +26472,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Mixer_Temp"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -26245,7 +26521,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Surge Auger Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -26273,7 +26549,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Auger_Temp"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -26322,7 +26598,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
+                          Value: {"LocaleId":"en-US","Text":"Bulk Auger Bearing"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -26350,7 +26626,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
+                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Bulk_Auger_Temp"
                           - Name: Blink
                             Type: BaseDataVariableType
                             DataType: Boolean
@@ -26379,60 +26655,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Gear End Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper_Gear_End_2"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
             - Name: Panel10
               Type: Panel
               Children:
@@ -26923,7 +27145,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                          Value: {"LocaleId":"en-US","Text":"Main Auger Bearing High Temp Setpoint"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -26937,7 +27159,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Main_Auger/Overtemp_Setpoint"
             - Name: Panel2
               Type: Panel
               Children:
@@ -26981,7 +27203,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                          Value: {"LocaleId":"en-US","Text":"Batch Feed Elevator Bearing High Temp Setpoint"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -26995,7 +27217,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Feed_Elevator/Overtemp_Setpoint"
             - Name: Panel3
               Type: Panel
               Children:
@@ -27019,41 +27241,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel4
               Type: Panel
               Children:
@@ -27077,41 +27264,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel5
               Type: Panel
               Children:
@@ -27135,41 +27287,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel6
               Type: Panel
               Children:
@@ -27213,7 +27330,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                          Value: {"LocaleId":"en-US","Text":"Batch Mixer Bearing High Temp Setpoint"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -27227,7 +27344,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Mixer/Overtemp_Setpoint"
             - Name: Panel7
               Type: Panel
               Children:
@@ -27271,7 +27388,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                          Value: {"LocaleId":"en-US","Text":"Surge Auger Bearing High Temp Setpoint"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -27285,7 +27402,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Batch_Surge_Auger/Overtemp_Setpoint"
             - Name: Panel8
               Type: Panel
               Children:
@@ -27329,7 +27446,7 @@ Children:
                         - Name: Text
                           Type: BaseDataVariableType
                           DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
+                          Value: {"LocaleId":"en-US","Text":"Bulk Auger Bearing High Temp Setpoint"}
                     - Name: Panel2
                       Type: Panel
                       Children:
@@ -27343,42 +27460,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
-                - Name: Bearing_temp_setpoint1
-                  Type: Bearing_temp_setpoint
-                  Children:
-                  - Name: Rectangle1
-                    Type: Rectangle
-                  - Name: background
-                    Type: Rectangle
-                    Children:
-                    - Name: HorizontalLayout1
-                      Type: RowLayout
-                      Children:
-                      - Name: Panel1
-                        Type: Panel
-                        Children:
-                        - Name: cool shaker
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                      - Name: Panel2
-                        Type: Panel
-                        Children:
-                        - Name: SpinBox1
-                          Type: SpinBox
-                          Children:
-                          - Name: Value
-                            Type: BaseDataVariableType
-                            DataType: Double
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
+                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Bulk_Auger/Overtemp_Setpoint"
             - Name: Panel9
               Type: Panel
               Children:
@@ -27402,41 +27484,6 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Drag Hopper Motor End Bearing High Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Drag_Hopper/Overtemp_Setpoint"
             - Name: Panel10
               Type: Panel
               Children:

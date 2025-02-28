@@ -7,3 +7,5 @@ Children:
 - File: Pellet_Mill_Feed_Loop_Alarms/Pellet_Mill_Feed_Loop_Alarms.yaml
 - File: Cooler_Loop_Alarms/Cooler_Loop_Alarms.yaml
 - File: Odor_Control_Exhaust_Loop_Alarms/Odor_Control_Exhaust_Loop_Alarms.yaml
+- File: Master_alarms/Master_alarms.yaml
+- File: Super_Sac_alarms/Super_Sac_alarms.yaml

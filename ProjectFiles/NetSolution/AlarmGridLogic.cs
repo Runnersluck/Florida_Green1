@@ -12,6 +12,9 @@ using FTOptix.NetLogic;
 using FTOptix.RAEtherNetIP;
 using FTOptix.CommunicationDriver;
 using FTOptix.Alarm;
+using FTOptix.DataLogger;
+using FTOptix.Store;
+using FTOptix.ODBCStore;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

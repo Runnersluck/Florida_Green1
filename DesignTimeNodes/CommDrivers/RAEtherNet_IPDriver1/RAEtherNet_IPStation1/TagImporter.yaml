@@ -15,8 +15,7 @@ Children:
 - Name: FilePath
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
-  Value: "file:///C:/Users/chris.schoff/OneDrive - Merrell Bros. Inc/controls shared/Florida_Green_Pellet_Mill.ACD"
+  Value: "file:///C:/Users/chris.schoff/OneDrive - Merrell Bros. Inc/controls shared/Florida Green/FG PLC/PELLET MILL PLC/Florida_Green_Pellet_Mill_11042024.ACD"
 - Name: Mode
   Type: BaseDataVariableType
   DataType: FetchModes
-  Value: 1

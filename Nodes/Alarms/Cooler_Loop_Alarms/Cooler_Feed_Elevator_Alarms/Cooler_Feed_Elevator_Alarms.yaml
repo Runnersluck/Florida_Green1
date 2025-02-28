@@ -178,7 +178,7 @@ Children:
       Id: g=f559ece939bdeed092005761303fb1c7
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Cooler_Elevator_Motor_End_1"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Elevator_Motor_End_1"
       Children:
       - Name: Mode
         Id: g=a3c6e24d6708d08607f734a09934840b
@@ -755,4 +755,40 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+- Name: Cooler Comm Loss
+  Id: g=14462e2bceee7eb6665b07d6847545ee
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=fef4c305e9da238cfd1c29a76d69284b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d3855cab36eaefbd33fb7347bd9c5f26
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=1380c0e520db74e257821594987f7200
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
     Direction: Forward

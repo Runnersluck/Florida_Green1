@@ -5,6 +5,9 @@ using FTOptix.HMIProject;
 using UAManagedCore;
 using FTOptix.UI;
 using FTOptix.NetLogic;
+using FTOptix.DataLogger;
+using FTOptix.Store;
+using FTOptix.ODBCStore;
 #endregion
 
 public class ClockLogic : BaseNetLogic

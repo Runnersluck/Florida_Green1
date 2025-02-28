@@ -125,7 +125,7 @@ Children:
       Id: g=6920807d2c839cd6f7db00581f123ddc
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Rotoclone_Motor_End"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Rotoclone_Motor_End_1"
       Children:
       - Name: Mode
         Id: g=eb374e7aa08aa52b07864a4f9454dc7a

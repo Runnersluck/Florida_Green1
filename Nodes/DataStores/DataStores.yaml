@@ -1,2 +1,197 @@
 Name: DataStores
 Type: DataStoresCategoryFolder
+Children:
+- Name: Optix
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: Optix
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=23;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Number_of_cycles
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Number_of_cycles_Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Florida_Green1/NetLogic/ClockLogic/Time"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: comp_down_stroke_cmd
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: comp_Stroke_cycles
+          Type: StoreColumn
+          DataType: Int32
+        - Name: comp_up_stroke_cmd
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+    - Name: Batch_logger
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=23;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: Blend_A_avg_temp_per_min
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Blend_B_avg_temp_per_min
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Batch_avg_temp_per_hour
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Batch_avg_temp_per_Day
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Blender_a_selected
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: Blender_B_selected
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: Recirc_started
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: Feed_PM_from_Blend_a
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: Feed_PM_from_blend_b
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: LocalTime
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Batch_days
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Batch_Hours
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Batch_minutes
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Batch_stamp
+          Type: StoreColumn
+          DataType: String
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 2
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "Optix"
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=23;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=59
+    Direction: Forward
+  - Name: Server
+    Type: PropertyType
+    DataType: String
+  - Name: Port
+    Type: PropertyType
+    DataType: UInt16
+  - Name: DSN
+    Type: PropertyType
+    DataType: String
+    Value: "Optix"

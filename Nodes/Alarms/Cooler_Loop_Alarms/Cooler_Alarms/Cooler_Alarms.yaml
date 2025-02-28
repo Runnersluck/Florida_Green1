@@ -1,33 +1,33 @@
-Name: Main_Feed_Auger_Alarms
-Id: g=81676d5bbcadc8e5e162093d21c174ef
+Name: Cooler_Alarms
+Id: g=840fa7507bf06c4c1fb75688e4b121de
 Type: FolderType
 Children:
-- Name: Main_Feed_Auger_FTS_Alarm
-  Id: g=d6d61e5d569cea9f7f4b102c3414c2b5
+- Name: Cooler_Panel_Estop_Tripped
+  Id: g=e6aac4a58638b8f550eb880ab906f545
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=b7b6d8eba6f63128b8fb3aaaffbb7914
+    Id: g=3df89979ccf7e7226e88069ef86dcb08
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=b8eb703c0d99aecf08f03b3fdc28763e
+    Id: g=6a244c7adeb97abe4024addc7dac6e70
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=1f657061cc0799db4a82d486f85a64a6
+      Id: g=fd45f866ca7c29cb32f520e46c9e354a
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Main_Feed_Auger_FTS"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Panel_Estop_Tripped"
       Children:
       - Name: Mode
-        Id: g=ecc042db14414d35bfe0d7a25911a175
+        Id: g=255428ce0a422110fcad62baa196d023
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=b8baef3c33b13a49b86dd177ac9af125
+    Id: g=c913684b33b598048ff71b35c42e9696
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -42,10 +42,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=d277ad5c77e84eb5dd1a035391250221
+    Id: g=dca12c211f51df3a9916e278cb29acfa
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Main Feed Auger Failed to Start"}
+    Value: {"LocaleId":"en-US","Text":"Cooler Estop Tripped"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -55,32 +55,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Main_Feed_Auger_VFD_Comm_Loss_Alarm
-  Id: g=25e6f03ecbfaa7c0cd5a7eaebcfd95c6
+- Name: Cooler_Shaker_breaker_tripped
+  Id: g=88e93b72a850a8667344c0ad5f9beef0
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=7e36162a466d7d759d42ea00907ef47c
+    Id: g=527843df367cbc8f8133d7c3cb8de640
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=f48cfde3c91cda0a65200564e8099893
+    Id: g=b21a64095c0a3ca6cfbbdf7eb31588f7
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=0371a2a7ed1d9f67dc02140d959a155c
+      Id: g=8055457a0753364c31f843b26494273b
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Main_Feed_Auger/COMM_NOT_OK"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Shaker_breaker_tripped"
       Children:
       - Name: Mode
-        Id: g=7bd7ebc60e0e95edd43d0790f6cbf603
+        Id: g=d54fb3003bd8c53722746b10b8b65f12
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=310474c61c7ffaf3cc74c59a59941338
+    Id: g=d2d5ed2bbbd3c7e5615f7dac48df921e
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -95,10 +95,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=2d7767171cb0b9d2dccb55a205778a8a
+    Id: g=76ae0224a506b5bf5ed5c32d98b4b8ac
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Main Feed Auger VFD Communication Loss "}
+    Value: {"LocaleId":"en-US","Text":"Cooler Shaker Breaker Tripped"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -108,32 +108,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Main_Feed_Auger_Bearing_Overtemp_Alarm
-  Id: g=0f88d2babf9a54ca6a6b1a928959fd62
+- Name: Cooler_Grid_Breaker_Tripped
+  Id: g=cb5ed9a569b33ab80e8cc0948c19fd4d
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=5a463946e4b7c256f77ba2bd0f8fcbbf
+    Id: g=1c14c59ff0591f92a7e3f1101779f1dc
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=71ac0b6b1d3bb0a2fe17a7fb518fe010
+    Id: g=9aacf1cbf0e3342596d3279f97096f39
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=9bc2ce542fc760878d0fa71c1793b611
+      Id: g=af08dd868462520878a24bd07bbaecdb
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Main_Feed_Auger_Motor_End_1"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Grid_Breaker_Tripped"
       Children:
       - Name: Mode
-        Id: g=f7f8185fc2f17762cee4444778d79848
+        Id: g=3e9ec25184fc8d194c0a01e88d4f5a28
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=3c513bfd5ff7f99c1fe1dccee3ca4fae
+    Id: g=ff261d82a75d93058feaf2511f464039
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -148,10 +148,10 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=f828e380afd5c0ed6cf83fd3000a23c9
+    Id: g=4b945b1096e587281e94000d01f19c4b
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Main Feed Auger Bearing Motor End 1 Overheated"}
+    Value: {"LocaleId":"en-US","Text":"Cooler Grid Breaker Tripped"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
@@ -161,32 +161,32 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
-- Name: Main_Feed_Auger_FAULT
-  Id: g=db514d1d622ad546c8deb5f85eb76b23
+- Name: Cooler_Airlock_Breaker_Tripped
+  Id: g=c909d9e02b8708986eaefe8d06bd0c1d
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=b3a81cb0fc639a7704541a1847b45c3d
+    Id: g=25f9a63cee1f35a3e4ccdbac683a67a8
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=1bbd861ddee6c648d57aa9421391afa3
+    Id: g=03087b6521b7805d705ddbf83b426a18
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=d06343ecf6dac9559d74e20b854c765a
+      Id: g=980b59511f0ea5c81bcd7a0f61ce6555
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Main_Feed_Auger/FAULT"
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Airlock_Breaker_Tripped"
       Children:
       - Name: Mode
-        Id: g=28684989162998dc24e186a5c0d20bfd
+        Id: g=357910bcfb80dfd5e5fcbc4d7f0018be
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
-    Id: g=212828692bc96dc10dadec416dfb1cef
+    Id: g=88be81b0f1367af29019440bdd10347d
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -201,10 +201,63 @@ Children:
     Target: ns=13;i=83
     Direction: Forward
   - Name: Message
-    Id: g=a41e49826a1338d89c60ae3cc4290def
+    Id: g=926282cc438ce07f1d267d8dfa9bb176
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Main Feed Auger VFD Faulted"}
+    Value: {"LocaleId":"en-US","Text":"Cooler Airlock Breaker Tripped"}
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+- Name: Cooler_Comm_Loss
+  Id: g=d8c11635b7d21be37d44c95ae3531646
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=93e8cbdbfdb1b582074d6afbe8738b01
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6e1d9bea862f97ed0a8cdf4ad65797b5
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=49877b930ead942bf0a36acbd89db847
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_Comm_Loss"
+      Children:
+      - Name: Mode
+        Id: g=9a5223232f20ea39b59bff5754243a48
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=88a65c70d1dcf3520b509bd33fdc0d5c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=ffadf9672b1eda678f531db1b44a0e49
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cooler Panel Comms Loss"}
   - Class: Reference
     Target: ns=13;i=130
     Direction: Forward
