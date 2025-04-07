@@ -1728,3 +1728,7 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+- Name: Screen1
+  Id: g=adc991c1fe22758a3126c2f006e5d03f
+  Supertype: Screen
+  ReferenceType: HasComponent

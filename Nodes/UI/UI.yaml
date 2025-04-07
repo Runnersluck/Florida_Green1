@@ -343,6 +343,9 @@ Children:
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+      - Class: Reference
+        Target: ns=1;i=303
+        Direction: Forward
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
