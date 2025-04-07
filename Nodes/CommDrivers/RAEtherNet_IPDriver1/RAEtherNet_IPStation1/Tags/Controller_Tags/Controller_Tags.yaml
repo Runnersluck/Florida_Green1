@@ -1825,7 +1825,6 @@ Children:
       DataType: String
       Value: "Pellet_mill_2.TRIPPED"
 - Name: Pellet_mill_shaker
-  Id: g=ccb1b1b0536661eaea0056e062308e01
   Type: MTR_STARTER_CONTROLS
   DataType: MTR_STARTER_CONTROLS
   Children:
