@@ -1418,391 +1418,6 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 7.0
-      - Name: VFDmotorstatus1
-        Type: VFDmotorstatus
-        Children:
-        - Name: background
-          Type: Rectangle
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Panel1
-            Type: Panel
-            Children:
-            - Name: cool shaker
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Vfdstatusalias}/HMI_Name"
-          - Name: Panel2
-            Type: Panel
-            Children:
-            - Name: Rectangle1
-              Type: Rectangle
-              Children:
-              - Name: BorderColor
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#000000"
-                Children:
-                - Name: KeyValueConverter1
-                  Type: ValueMapConverter
-                  Children:
-                  - Name: Source
-                    Type: BaseDataVariableType
-                    DataType: BaseDataType
-                    ReferenceType: HasSource
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "{Vfdstatusalias}/Manual_Mode"
-                  - Name: Pairs
-                    Type: BaseObjectType
-                    Children:
-                    - Name: Pair
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: Boolean
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#000309"
-                    - Name: Pair1
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: Boolean
-                        Value: true
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#c101f0fa"
-              - Name: FillColor
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#ffffff"
-                Children:
-                - Name: KeyValueConverter1
-                  Type: ValueMapConverter
-                  Children:
-                  - Name: Source
-                    Type: BaseDataVariableType
-                    DataType: BaseDataType
-                    ReferenceType: HasSource
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_Status"
-                  - Name: Pairs
-                    Type: BaseObjectType
-                    Children:
-                    - Name: Pair
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: UInt32
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#c8c8c8fd"
-                    - Name: Pair1
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: UInt32
-                        Value: 1
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#ff0303"
-                    - Name: Pair2
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: UInt32
-                        Value: 2
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#f00101"
-                    - Name: Pair3
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: UInt32
-                        Value: 3
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#c101f0fa"
-                    - Name: Pair4
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: UInt32
-                        Value: 4
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#5353fe"
-                    - Name: Pair5
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: UInt32
-                        Value: 5
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#7afe0afc"
-                    - Name: Pair6
-                      Type: ValueMapPair
-                      Children:
-                      - Name: Key
-                        Type: BaseDataVariableType
-                        DataType: UInt32
-                        Value: 6
-                      - Name: Value
-                        Type: BaseDataVariableType
-                        DataType: Color
-                        Value: "#f9ff74"
-              - Name: Blink
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Children:
-                - Name: KeyValueConverter1
-                  Type: ValueMapConverter
-                  Children:
-                  - Name: Source
-                    Type: BaseDataVariableType
-                    DataType: BaseDataType
-                    ReferenceType: HasSource
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "{Vfdstatusalias}/HMI_Status"
-              - Name: Label1
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"Label1"}
-                  Children:
-                  - Name: KeyValueConverter1
-                    Type: ValueMapConverter
-                    Children:
-                    - Name: Source
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      ReferenceType: HasSource
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "{Vfdstatusalias}/HMI_Status"
-                    - Name: Pairs
-                      Type: BaseObjectType
-                      Children:
-                      - Name: Pair
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Out of Service"
-                      - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 1
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Comm Loss"
-                      - Name: Pair2
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 2
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Fault"
-                      - Name: Pair3
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 3
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Manual Mode"
-                      - Name: Pair4
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 4
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Ready"
-                      - Name: Pair5
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 5
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Running FWD"
-                      - Name: Pair6
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 6
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Value: "Running REV"
-        - Name: Rectangle1
-          Type: Rectangle
-          Children:
-          - Name: MouseDownEventHandler1
-            Type: EventHandler
-            Children:
-            - Name: ListenEventType
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
-            - Name: MethodsToCall
-              Type: BaseObjectType
-              Children:
-              - Name: MethodContainer1
-                Type: BaseObjectType
-                Children:
-                - Name: ObjectPointer
-                  Type: NodePointer
-                  DataType: NodeId
-                  Value: "/Objects/Commands/UICommands"
-                  Children:
-                  - Name: Kind
-                    Type: PropertyType
-                    DataType: NodeId
-                    Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: Method
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: "OpenDialog"
-                - Name: InputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: Dialog
-                    Type: BaseDataVariableType
-                    DataType: NodeId
-                    Value: "/Objects/Florida_Green1/UI/Popups/VFD_popup"
-                  - Name: AliasNode
-                    Type: BaseDataVariableType
-                    DataType: NodeId
-                    ValueRank: ScalarOrOneDimension
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "{Vfdstatusalias}@NodeId"
-                  - Name: ParentItem
-                    Type: BaseDataVariableType
-                    DataType: NodeId
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../../../../..@NodeId"
-                - Name: OutputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: DialogNodeId
-                    Type: BaseDataVariableType
-                    DataType: NodeId
-            - Name: EventArguments
-              Type: MouseDownEvent
-              Children:
-              - Name: EventId
-                Type: PropertyType
-                DataType: ByteString
-              - Name: EventType
-                Type: PropertyType
-                DataType: NodeId
-              - Name: SourceNode
-                Type: PropertyType
-                DataType: NodeId
-              - Name: SourceName
-                Type: PropertyType
-                DataType: String
-              - Name: Time
-                Type: PropertyType
-                DataType: UtcTime
-              - Name: ReceiveTime
-                Type: PropertyType
-                DataType: UtcTime
-              - Name: Message
-                Type: PropertyType
-                DataType: LocalizedText
-              - Name: Severity
-                Type: PropertyType
-                DataType: UInt16
-        - Name: Vfdstatusalias
-          Type: Alias
-          DataType: NodeId
-          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Shaker_table"
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1055.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 891.0
     - Name: Status Bar
       Type: Panel
       Children:
@@ -7606,6 +7221,391 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Boolean
                 ModellingRule: None
+    - Name: VFDmotorstatus1
+      Type: VFDmotorstatus
+      Children:
+      - Name: background
+        Type: Rectangle
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: Panel1
+          Type: Panel
+          Children:
+          - Name: cool shaker
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Vfdstatusalias}/HMI_Name"
+        - Name: Panel2
+          Type: Panel
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+            Children:
+            - Name: BorderColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#000000"
+              Children:
+              - Name: KeyValueConverter1
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Vfdstatusalias}/Manual_Mode"
+                - Name: Pairs
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Pair
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#000309"
+                  - Name: Pair1
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: true
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#c101f0fa"
+            - Name: FillColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+              Children:
+              - Name: KeyValueConverter1
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Vfdstatusalias}/HMI_Status"
+                - Name: Pairs
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Pair
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#c8c8c8fd"
+                  - Name: Pair1
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Value: 1
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#ff0303"
+                  - Name: Pair2
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Value: 2
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#f00101"
+                  - Name: Pair3
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Value: 3
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#c101f0fa"
+                  - Name: Pair4
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Value: 4
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#5353fe"
+                  - Name: Pair5
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Value: 5
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#7afe0afc"
+                  - Name: Pair6
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Value: 6
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      Value: "#f9ff74"
+            - Name: Blink
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Children:
+              - Name: KeyValueConverter1
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Vfdstatusalias}/HMI_Status"
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Label1"}
+                Children:
+                - Name: KeyValueConverter1
+                  Type: ValueMapConverter
+                  Children:
+                  - Name: Source
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{Vfdstatusalias}/HMI_Status"
+                  - Name: Pairs
+                    Type: BaseObjectType
+                    Children:
+                    - Name: Pair
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Out of Service"
+                    - Name: Pair1
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 1
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Comm Loss"
+                    - Name: Pair2
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 2
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Fault"
+                    - Name: Pair3
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 3
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Manual Mode"
+                    - Name: Pair4
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 4
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Ready"
+                    - Name: Pair5
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 5
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Running FWD"
+                    - Name: Pair6
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 6
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Running REV"
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: MouseDownEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/UICommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "OpenDialog"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: Dialog
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  Value: "/Objects/Florida_Green1/UI/Popups/VFD_popup"
+                - Name: AliasNode
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  ValueRank: ScalarOrOneDimension
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Vfdstatusalias}@NodeId"
+                - Name: ParentItem
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../..@NodeId"
+              - Name: OutputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: DialogNodeId
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+          - Name: EventArguments
+            Type: MouseDownEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+      - Name: Vfdstatusalias
+        Type: Alias
+        DataType: NodeId
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/PM_Shaker_table"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1110.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 890.0
 - Name: MotorOOC1
   Id: g=6ddf97574d2117c69c04ad272f560858
   Supertype: Screen
