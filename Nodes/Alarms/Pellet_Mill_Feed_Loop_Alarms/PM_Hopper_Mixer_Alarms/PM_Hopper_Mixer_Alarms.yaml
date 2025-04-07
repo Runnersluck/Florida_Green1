@@ -55,6 +55,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: PM_Hopper_Mixer_Bearing_Overtemp_Alarm
   Id: g=155e56b32218b231dcbd8e73c9e12cb1
   Type: OffNormalAlarmController
@@ -107,6 +122,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: PM_Hopper_Mixer_Full_Alarm
   Id: g=0b5826db30a158cb9b02552de403793f
@@ -161,6 +191,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: PM_Hopper_Mixer_EXP_Panel_Tripped_Alarm
   Id: g=bb57623f31f5425e4ac329f27d4fe1b3
   Type: OffNormalAlarmController
@@ -213,4 +258,19 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward

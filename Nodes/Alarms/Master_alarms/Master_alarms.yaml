@@ -55,6 +55,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Main Panel Safety Tripped"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Main_Panel_Comm_loss
   Id: g=9e1ee179636bf187a249348050a050cd
   Type: OffNormalAlarmController
@@ -108,6 +123,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Main Panel Comm Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Dutchman_Panel_Comm_loss
   Id: g=f3d9778b8c5f7d9aac6a84a3272a762a
   Type: OffNormalAlarmController
@@ -161,6 +191,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman Panel Comm Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Receiving_IEnode_1_Comm_Loss
   Id: g=55dc1d008615987f4cfc1881bd68c804
   Type: OffNormalAlarmController
@@ -214,6 +259,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Receiving_IEnode_1_Comm_Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Dutchman_IEnode_2_Comm_Loss
   Id: g=06f0db3966ec0825b13378f6411fcfce
   Type: OffNormalAlarmController
@@ -267,6 +327,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Dutchman_IEnode_2_Comm_Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Batch_IEnode_3_Comm_Loss
   Id: g=ce80bc177ff3304f7a15b93fa6915d47
   Type: OffNormalAlarmController
@@ -320,6 +395,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Batch_IEnode_3_Comm_Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Pellet_Mill_IEnode_4_Comm_Loss
   Id: g=d055b1a987731a4582d3758d0c12f5c3
   Type: OffNormalAlarmController
@@ -373,6 +463,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet_Mill_IEnode_4_Comm_Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Pellet_Mills_IEnode_5_Comm_Loss
   Id: g=efc02497e0da55260c84c1b926187c10
   Type: OffNormalAlarmController
@@ -426,6 +531,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pellet_Mills_IEnode_5_Comm_Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Cooler_IEnode_6_Comm_Loss
   Id: g=5a7f7da680967598cd3eba9a3bb80647
   Type: OffNormalAlarmController
@@ -479,6 +599,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarms/Cooler_IEnode_6_Comm_Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Bagger_IEnode_7_comm_loss
   Id: g=aa4f933d31892b8678804e1c6d64ba6b
   Type: OffNormalAlarmController
@@ -532,6 +667,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bagger_IEnode_7_comm_loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Bag_Diverter_IEnode_8_Comm_Loss
   Id: g=762e952c16356807d83688f4282d4613
   Type: OffNormalAlarmController
@@ -585,3 +735,18 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Bag_Diverter_IEnode_8_Comm_Loss"}
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward

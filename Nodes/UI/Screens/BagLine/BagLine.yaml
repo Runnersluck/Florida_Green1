@@ -1394,7 +1394,7 @@ Children:
               Value: true
             - Name: ImagePosition
               Type: BaseDataVariableType
-              DataType: Position
+              DataType: ButtonImagePosition
               ModellingRule: Optional
               Value: 4
             - Name: HorizontalAlignment

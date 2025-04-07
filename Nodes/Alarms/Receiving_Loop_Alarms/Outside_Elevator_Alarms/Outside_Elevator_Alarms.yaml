@@ -55,6 +55,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_High_Amp_Alarm
   Id: g=f7a6b1d54ecdd39218111941ec8b0e05
   Type: OffNormalAlarmController
@@ -107,6 +122,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Outside_Elevator_Bearing_Overtemp_Alarm_1
   Id: g=74102732ff795d32e0ee1c8d9fdb0264
@@ -161,6 +191,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_Bearing_Overtemp_Alarm_2
   Id: g=9b5577dba295ef80e0ce82ca94354c88
   Type: OffNormalAlarmController
@@ -214,6 +259,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_Bearing_Overtemp_Alarm_3
   Id: g=ba9bdaf960895ca4c8c28a98499d0b46
   Type: OffNormalAlarmController
@@ -266,6 +326,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Outside_Elevator_Bearing_Overtemp_Alarm_4
   Id: g=55e8ac9440dc15ee13e1e5666ca30543
@@ -332,6 +407,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_BR_Rub_Alarm
   Id: g=68f167e1d4388de9c845c9414e47e11d
   Type: OffNormalAlarmController
@@ -384,6 +474,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Outside_Elevator_BL_Rub_Alarm
   Id: g=4a3aa06ad4f3b086509146464fc7fd80
@@ -438,6 +543,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_TR_Rub_Alarm
   Id: g=f62edc9f9e8830653d7694825476e860
   Type: OffNormalAlarmController
@@ -490,6 +610,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Outside_Elevator_TL_Rub_Alarm
   Id: g=220a6bd3a8799421a6d09062565e07a1
@@ -544,6 +679,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_EXP1_Alarm
   Id: g=68cdd33f2eae5b31c78255af35ceac4e
   Type: OffNormalAlarmController
@@ -596,6 +746,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Outside_Elevator_EXP2_Alarm
   Id: g=1f3016f02a9f2aaa2aef08ae2fb2d071
@@ -650,6 +815,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_EXP3_Alarm
   Id: g=0285a96538bc5aa808295400877e2cb9
   Type: OffNormalAlarmController
@@ -702,6 +882,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Outside_Elevator_EXP4_Alarm
   Id: g=68db17c19a5cadb1440ac08e42c3bd90
@@ -756,6 +951,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_Low_Flow_Alarm
   Id: g=93dfc4f66b8033afdd9df2454434399b
   Type: OffNormalAlarmController
@@ -809,6 +1019,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Outside_Elevator_Low_Speed_Alarm
   Id: g=dd8b1227a2f3837e8a78f5f67cfa92df
   Type: OffNormalAlarmController
@@ -861,4 +1086,19 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward

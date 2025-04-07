@@ -55,6 +55,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Overload_Tripped_Alarm
   Id: g=6a1c927637b48125c0b28f5e12829479
   Type: OffNormalAlarmController
@@ -107,6 +122,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Batch_Feed_Elevator_High_Amps_Alarm
   Id: g=ef82f3f053b9f88fe7a3c52c9b9c8e6f
@@ -161,6 +191,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Batch_Feed_Elevator_BR_Rub_Alarm
   Id: g=095f064f08b5dae973369eeb874385fd
   Type: OffNormalAlarmController
@@ -213,6 +258,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Batch_Feed_Elevator_BL_Rub_Alarm
   Id: g=b80153cd11db18336ca4eb1e2863dd4a
@@ -267,6 +327,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Batch_Feed_Elevator_TR_Rub_Alarm
   Id: g=d7c819cb6bca77b4657a2851a1f26bd4
   Type: OffNormalAlarmController
@@ -319,6 +394,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Batch_Feed_Elevator_TL_Rub_Alarm
   Id: g=94821a691dea1ab2bce551631fa349ae
@@ -373,6 +463,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_1
   Id: g=c6a674ade103f4f7db097f54789174bd
   Type: OffNormalAlarmController
@@ -425,6 +530,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_2
   Id: g=2256ddcb17ad8676afc72e955cba3ee7
@@ -479,6 +599,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_3
   Id: g=e7cafcf75e05373f5749f7613c72accf
   Type: OffNormalAlarmController
@@ -531,6 +666,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Batch_Feed_Elevator_Bearing_Overtemp_Alarm_4
   Id: g=f1301d683c509d04c8e7ac143fbc093e
@@ -597,6 +747,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Batch_Feed_Elevator_EXP_Panel_Alarm
   Id: g=bcdfad1177e36b91680d11891bfca7d7
   Type: OffNormalAlarmController
@@ -649,6 +814,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: Batch_Feed_Elevator EXP_Valve_Alarm
   Id: g=54984d3c92712ba7febf0736d5455e97
@@ -703,6 +883,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: Batch_Feed_Elevator_Low_Speed_Alarm
   Id: g=8e020b6ab629d16546c75b2e98f46e86
   Type: OffNormalAlarmController
@@ -755,4 +950,19 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward

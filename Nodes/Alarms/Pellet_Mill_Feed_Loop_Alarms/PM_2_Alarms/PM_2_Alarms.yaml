@@ -55,6 +55,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: PM_2_Feed_Auger_VFD_Comm_Loss_Alarm
   Id: g=dc06ceb61569804120e51314b082231e
   Type: OffNormalAlarmController
@@ -107,6 +122,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: PM_2_Feed_Auger_Bearing_Overtemp_Alarm
   Id: g=8591d9954e1893d900f5352dea154b78
@@ -161,6 +191,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: PM_2_FTS_Alarm
   Id: g=c8a652ea64dcdf6767eecfd4eba315bd
   Type: OffNormalAlarmController
@@ -213,6 +258,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: PM_2_High_Amps_Alarm
   Id: g=91c72001e56609bbb7328272c7d99f71
@@ -267,6 +327,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: PM_2_Full_Alarm
   Id: g=4854d8acc4ef54b68d94323b2e9d6d24
   Type: OffNormalAlarmController
@@ -319,6 +394,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward
 - Name: PM_2_Bearing_Overtemp_Alarm
   Id: g=e63857949509214a37ce6b3e6a42639b
@@ -373,6 +463,21 @@ Children:
   - Class: Reference
     Target: ns=13;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
 - Name: PM_Feed_Auger_2_FAULT
   Id: g=8dc5af79cc409e8f8c5dd9a484408e43
   Type: OffNormalAlarmController
@@ -425,4 +530,19 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
     Direction: Forward

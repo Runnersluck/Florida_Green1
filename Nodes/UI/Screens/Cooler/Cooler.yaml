@@ -6584,7 +6584,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Duration
                   ModellingRule: Optional
-                  Value: "0:00:00:0.5000000"
+                  Value: "0:00:00:00.5000000"
                 - Name: Visible
                   Type: BaseDataVariableType
                   DataType: Boolean
@@ -6676,7 +6676,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Duration
                   ModellingRule: Optional
-                  Value: "0:00:00:0.5000000"
+                  Value: "0:00:00:00.5000000"
                 - Name: Visible
                   Type: BaseDataVariableType
                   DataType: Boolean

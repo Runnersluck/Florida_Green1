@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.DataLogger;
 using FTOptix.Store;
 using FTOptix.ODBCStore;
+using FTOptix.WebUI;
 #endregion
 
 public class ClockLogic : BaseNetLogic
