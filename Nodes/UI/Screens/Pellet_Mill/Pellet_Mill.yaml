@@ -9388,6 +9388,10 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
       - Name: VFDMotorController1
         Type: VFDMotorController
         Children:
@@ -10273,6 +10277,14 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
       - Name: NonVFDMotorController2
         Type: NonVFDMotorController
         Children:
@@ -11004,6 +11016,10 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
       - Name: VFDMotorController2
         Type: VFDMotorController
         Children:
@@ -11889,6 +11905,14 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
       - Name: NonVFDMotorController3
         Type: NonVFDMotorController
         Children:
@@ -12620,6 +12644,10 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
     - Name: HorizontalLayout2
       Type: RowLayout
       Children:
@@ -13528,6 +13556,14 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
       - Name: NonVFDMotorController2
         Type: NonVFDMotorController
         Children:
@@ -14259,6 +14295,10 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
       - Name: NonVFDMotorController3
         Type: NonVFDMotorController
         Children:
@@ -14990,6 +15030,10 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
       - Name: VFDMotorController1
         Type: VFDMotorController
         Children:
@@ -15875,6 +15919,14 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/VFD_CONTROLS"
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
       - Name: Panel1
         Type: Panel
         Children:
