@@ -11913,8 +11913,8 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-      - Name: NonVFDMotorController3
-        Type: NonVFDMotorController
+      - Name: PelletMillControllerWithWaterValve1
+        Type: PelletMillControllerWithWaterValve
         Children:
         - Name: Rectangle1
           Type: Rectangle
@@ -12325,6 +12325,24 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "{NonVFDcont}/HMI_STOP_PB"
+            - Name: Panel5
+              Type: Panel
+              Children:
+              - Name: Switch1
+                Type: Switch
+                Children:
+                - Name: Checked
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{NonVFDcont}/Auto_mode"
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
             - Name: Panel4
               Type: Panel
               Children:

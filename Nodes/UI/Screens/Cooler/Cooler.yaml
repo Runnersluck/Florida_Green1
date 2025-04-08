@@ -10026,12 +10026,12 @@ Children:
       - Name: nonVFD_mtr_visual_status
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":2,"Id":"3b19c7abf7e296439b13775d8fc0bc05","Namespace":20}
+        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cooler_Feed_Elevator"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"f9905bd5c52fc4400bdc47f193aceae4","Namespace":20}
+          Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/MTR_STARTER_CONTROLS"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
