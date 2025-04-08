@@ -38,6 +38,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 10.0
     - Name: HitTestVisible
       Type: BaseDataVariableType
       DataType: Boolean
@@ -298,6 +299,11 @@ Children:
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 5.0
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -378,6 +384,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
+            Value: 5.0
           - Name: TextHorizontalAlignment
             Type: BaseVariableType
             DataType: TextHorizontalAlignment
@@ -679,6 +686,14 @@ Children:
                       Type: BaseDataVariableType
                       DataType: Boolean
                       ModellingRule: None
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: BottomMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: ContentHorizontalAlignment
@@ -1338,6 +1353,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
+                Value: 2.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -1346,11 +1362,17 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
+                Value: 2.0
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 25.0
+                Value: 20.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 2.0
             - Name: Label1
               Type: Label
               Children:
@@ -1829,18 +1851,22 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
+            Value: 2.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
+            Value: 2.0
           - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
+            Value: 2.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
+            Value: 2.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size

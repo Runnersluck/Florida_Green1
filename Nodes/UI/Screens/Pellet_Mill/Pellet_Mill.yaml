@@ -18134,6 +18134,11 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 3
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color
