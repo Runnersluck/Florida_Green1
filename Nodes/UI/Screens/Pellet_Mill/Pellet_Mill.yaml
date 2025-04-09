@@ -16741,6 +16741,14 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Hopper/Overtemp_Setpoint"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
         - Name: Bearing_temp_setpoint3
           Type: Bearing_temp_setpoint
           Children:
