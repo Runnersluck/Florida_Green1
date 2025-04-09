@@ -16024,7 +16024,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 50.0
+          Value: 960.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
@@ -16034,7 +16034,6 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 3
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -16634,6 +16633,10 @@ Children:
                       DataType: Boolean
                 - Name: Label1
                   Type: Label
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -16655,7 +16658,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 50.0
+          Value: 960.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
@@ -16665,7 +16668,6 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 3
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
