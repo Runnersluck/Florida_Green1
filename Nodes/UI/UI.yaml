@@ -380,7 +380,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1200.0
+    Value: 1080.0
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String

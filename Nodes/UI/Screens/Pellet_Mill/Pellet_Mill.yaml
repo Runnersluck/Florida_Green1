@@ -15996,31 +15996,30 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 1080.0
-    - Name: Panel1
-      Type: Panel
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+    - Name: HorizontalLayout1
+      Type: RowLayout
       Children:
       - Name: Width
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 300.0
+        Value: 50.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 300.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: HorizontalLayout1
-        Type: RowLayout
+        Value: 50.0
+      - Name: VerticalLayout1
+        Type: ColumnLayout
         Children:
         - Name: Width
           Type: BaseVariableType
@@ -16032,922 +16031,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 50.0
-        - Name: Panel1
-          Type: Panel
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: VerticalLayout1
-            Type: ColumnLayout
-            Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: Panel1
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Motor End Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Motor_End_1"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel2
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Motor End Bearing 2"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Motor_End_2"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel3
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Gear End Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Gear_End_1"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel4
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Gear End Bearing 2"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Motor_End_2"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel5
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM Hopper Mixer Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Hopper_Temp"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel6
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM #1 Feed Auger Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_1_Temp"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel7
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Pellet Mill #1 Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Sensor_1_Temp"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel8
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM #2 Feed Auger Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_2_Temp"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel9
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Pellet Mill #2 Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Sensor_2_Temp"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel10
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM #3 Feed Auger Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_3_Temp"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel11
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_Temp1
-                Type: Bearing_Temp
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Pellet Mill #3 Bearing"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: Rectangle1
-                        Type: Rectangle
-                        Children:
-                        - Name: BorderColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                        - Name: FillColor
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#ffffff"
-                        - Name: Blink
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                        - Name: Label1
-                          Type: Label
-                          Children:
-                          - Name: Text
-                            Type: BaseDataVariableType
-                            DataType: LocalizedText
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Sensor_3_Temp"
-                          - Name: Blink
-                            Type: BaseDataVariableType
-                            DataType: Boolean
-                      - Name: Label1
-                        Type: Label
-            - Name: Panel12
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -16958,1257 +16041,917 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 3
-        - Name: Panel3
-          Type: Panel
+        - Name: Bearing_Temp1
+          Type: Bearing_Temp
           Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: VerticalLayout1
-            Type: ColumnLayout
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
             Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: Panel1
-              Type: Panel
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel2
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel3
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel4
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel5
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel6
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel7
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel8
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel9
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel10
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel11
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel12
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-        - Name: Panel2
-          Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Motor End Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Motor_End_1"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp2
+          Type: Bearing_Temp
           Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: VerticalLayout1
-            Type: ColumnLayout
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
             Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: Panel1
-              Type: Panel
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Motor End Bearing 2"}
+              - Name: Panel2
+                Type: Panel
                 Children:
                 - Name: Rectangle1
                   Type: Rectangle
-                - Name: background
-                  Type: Rectangle
                   Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
                     Children:
-                    - Name: Panel1
-                      Type: Panel
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
                       Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Bearing High Temp Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Feed_Elevator/Overtemp_Setpoint"
-            - Name: Panel2
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel3
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel4
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel5
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM Hopper Bearing High Temp Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Hopper/Overtemp_Setpoint"
-            - Name: Panel6
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM #1 Feed Auger Bearing High Temp Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_1/Overtemp_Setpoint"
-            - Name: Panel7
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Pellet Mill #1 Bearing High Temp Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_1/Overtemp_Setpoint"
-            - Name: Panel8
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM #2 Feed Auger Bearing High Temp Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_2/Overtemp_Setpoint"
-            - Name: Panel9
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Pellet Mill #2 Bearing High Temp Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_2/Overtemp_Setpoint"
-            - Name: Panel10
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"PM #3 Feed Auger Bearing High Temp Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_3/Overtemp_Setpoint"
-            - Name: Panel11
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: Bearing_temp_setpoint1
-                Type: Bearing_temp_setpoint
-                Children:
-                - Name: Rectangle1
-                  Type: Rectangle
-                - Name: background
-                  Type: Rectangle
-                  Children:
-                  - Name: HorizontalLayout1
-                    Type: RowLayout
-                    Children:
-                    - Name: Panel1
-                      Type: Panel
-                      Children:
-                      - Name: cool shaker
-                        Type: Label
-                        Children:
-                        - Name: Text
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          Value: {"LocaleId":"en-US","Text":"Pellet Mill #3 Bearing High Temp Setpoint"}
-                    - Name: Panel2
-                      Type: Panel
-                      Children:
-                      - Name: SpinBox1
-                        Type: SpinBox
-                        Children:
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Double
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_3/Overtemp_Setpoint"
-            - Name: Panel12
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-        - Name: Panel4
-          Type: Panel
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Motor_End_2"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp3
+          Type: Bearing_Temp
           Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: VerticalLayout1
-            Type: ColumnLayout
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
             Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: Panel1
-              Type: Panel
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel2
-              Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Gear End Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Gear_End_1"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp4
+          Type: Bearing_Temp
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel3
-              Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Gear End Bearing 2"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Elevator_Motor_End_2"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp5
+          Type: Bearing_Temp
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel4
-              Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM Hopper Mixer Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Hopper_Temp"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp6
+          Type: Bearing_Temp
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel5
-              Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM #1 Feed Auger Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_1_Temp"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp7
+          Type: Bearing_Temp
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel6
-              Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"Pellet Mill #1 Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Sensor_1_Temp"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp8
+          Type: Bearing_Temp
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel7
-              Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM #2 Feed Auger Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_2_Temp"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp9
+          Type: Bearing_Temp
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel8
-              Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"Pellet Mill #2 Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Sensor_2_Temp"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp10
+          Type: Bearing_Temp
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel9
-              Type: Panel
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM #3 Feed Auger Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_3_Temp"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+        - Name: Bearing_Temp11
+          Type: Bearing_Temp
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
               Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel10
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel11
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: Panel12
-              Type: Panel
-              Children:
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-      - Name: BottomMargin
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"Pellet Mill #3 Bearing"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#000000"
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffffff"
+                  - Name: Blink
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Sensor_3_Temp"
+                    - Name: Blink
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                - Name: Label1
+                  Type: Label
+      - Name: HorizontalAlignment
         Type: BaseVariableType
-        DataType: Size
+        DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 200.0
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: ContentAlignment
+        Type: BaseVariableType
+        DataType: ContentHorizontalAlignment
+        ModellingRule: Optional
+      - Name: VerticalLayout2
+        Type: ColumnLayout
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: Bearing_temp_setpoint1
+          Type: Bearing_temp_setpoint
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM Feed Elevator Bearing High Temp Setpoint"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Feed_Elevator/Overtemp_Setpoint"
+        - Name: Bearing_temp_setpoint2
+          Type: Bearing_temp_setpoint
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM Hopper Bearing High Temp Setpoint"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_Hopper/Overtemp_Setpoint"
+        - Name: Bearing_temp_setpoint3
+          Type: Bearing_temp_setpoint
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM #1 Feed Auger Bearing High Temp Setpoint"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_1/Overtemp_Setpoint"
+        - Name: Bearing_temp_setpoint4
+          Type: Bearing_temp_setpoint
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"Pellet Mill #1 Bearing High Temp Setpoint"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_1/Overtemp_Setpoint"
+        - Name: Bearing_temp_setpoint5
+          Type: Bearing_temp_setpoint
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM #2 Feed Auger Bearing High Temp Setpoint"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/Feed_Auger_2/Overtemp_Setpoint"
+        - Name: Bearing_temp_setpoint6
+          Type: Bearing_temp_setpoint
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"Pellet Mill #2 Bearing High Temp Setpoint"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_2/Overtemp_Setpoint"
+        - Name: Bearing_temp_setpoint7
+          Type: Bearing_temp_setpoint
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"PM #3 Feed Auger Bearing High Temp Setpoint"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_3/Overtemp_Setpoint"
+        - Name: Bearing_temp_setpoint8
+          Type: Bearing_temp_setpoint
+          Children:
+          - Name: Rectangle1
+            Type: Rectangle
+          - Name: background
+            Type: Rectangle
+            Children:
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Panel1
+                Type: Panel
+                Children:
+                - Name: cool shaker
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"LocaleId":"en-US","Text":"Pellet Mill #3 Bearing High Temp Setpoint"}
+              - Name: Panel2
+                Type: Panel
+                Children:
+                - Name: SpinBox1
+                  Type: SpinBox
+                  Children:
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Double
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_3/Overtemp_Setpoint"
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color
