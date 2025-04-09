@@ -15990,12 +15990,12 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1920.0
+      Value: 1770.0
     - Name: OriginalHeight
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1080.0
+      Value: 1019.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -16005,6 +16005,7 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
+      Value: 3
     - Name: HorizontalLayout1
       Type: RowLayout
       Children:
@@ -16957,3 +16958,23 @@ Children:
     DataType: Color
     ModellingRule: Optional
     Value: "#002559"
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1770.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1019.0
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
