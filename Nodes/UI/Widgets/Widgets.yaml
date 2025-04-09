@@ -10304,7 +10304,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 100.0
+    Value: 90.0
   - Name: Rectangle1
     Type: Rectangle
     Children:
