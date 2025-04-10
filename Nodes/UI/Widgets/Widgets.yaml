@@ -10347,6 +10347,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 3.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -2.0
   - Name: background
     Type: Rectangle
     Children:
