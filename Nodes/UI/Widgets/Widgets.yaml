@@ -10351,7 +10351,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: -2.0
   - Name: background
     Type: Rectangle
     Children:
@@ -10730,6 +10729,11 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#000afb"
+  - Name: TopMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: -3.0
 - Name: Bearing_temp_setpoint
   Id: g=62045d429572bba52881b39c2ed71ca6
   Supertype: Panel
@@ -11015,6 +11019,11 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#000afb"
+  - Name: TopMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: -3.0
 - Name: Level_status
   Id: g=055da246811dcfed8d6386d7bc2b1d42
   Supertype: Panel

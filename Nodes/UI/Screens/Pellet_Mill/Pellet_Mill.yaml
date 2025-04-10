@@ -15995,15 +15995,17 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1080.0
+      Value: 903.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
+      Value: 3
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
+      Value: 3
     - Name: HorizontalLayout1
       Type: RowLayout
       Children:
@@ -16011,12 +16013,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: -1.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: -1.0
       - Name: VerticalLayout1
         Type: ColumnLayout
         Children:
@@ -16637,6 +16639,14 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -16751,6 +16761,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
+            Value: -3.0
         - Name: Bearing_temp_setpoint3
           Type: Bearing_temp_setpoint
           Children:
@@ -16961,6 +16972,15 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "/Objects/Florida_Green1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BEARING/PM_3/Overtemp_Setpoint"
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 4.0
+    - Name: FillMode
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color
