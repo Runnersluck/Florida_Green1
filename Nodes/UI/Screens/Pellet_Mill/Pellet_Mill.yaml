@@ -15995,7 +15995,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 903.0
+      Value: 1080.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -16981,6 +16981,7 @@ Children:
       Type: BaseDataVariableType
       DataType: FillModeEnum
       ModellingRule: Optional
+      Value: 1
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color
@@ -16990,19 +16991,17 @@ Children:
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
-    Value: 3
   - Name: Width
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: -1.0
+    Value: 1920.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: -1.0
+    Value: 1080.0
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
-    Value: 3

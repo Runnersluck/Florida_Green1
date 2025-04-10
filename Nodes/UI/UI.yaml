@@ -2160,6 +2160,7 @@ Children:
       Type: BaseDataVariableType
       DataType: FillModeEnum
       ModellingRule: Optional
+      Value: 1
   - Name: FullScreen
     Type: BaseDataVariableType
     DataType: Boolean
