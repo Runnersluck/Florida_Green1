@@ -543,6 +543,30 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "Rotoclone_water_solv.Not_Aligned_Timer.DN"
+- Name: PM_2_water_solv
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PM_2_water_solv"
+- Name: PM_3_water_solv
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PM_3_water_solv"
+- Name: PM_1_water_solv
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PM_1_water_solv"
 - Name: PM_Feed_Auger_1
   Id: g=bf0c4afe183962b576199369c35add88
   Type: VFD_CONTROLS

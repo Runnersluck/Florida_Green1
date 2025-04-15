@@ -7531,7 +7531,7 @@ Children:
         DataType: String
         ValueRank: OneDimension
         ArrayDimensions: [0]
-        Value: ["80","80","80","80","80","80","80","80"]
+        Value: ["Auto","Auto","Auto","Auto","Auto","Auto","Auto","Auto"]
       - Name: Columns
         Type: BaseDataVariableType
         DataType: String
@@ -8332,6 +8332,16 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 2
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color
