@@ -3,7 +3,7 @@ Type: FolderType
 Children:
 - Name: NonVfd_popup
   Id: g=e211d53077c9a12e8fe4f81fc9fbb901
-  Supertype: Popup
+  Supertype: Dialog
   ReferenceType: HasComponent
   Children:
   - Class: Reference
@@ -58,7 +58,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
-      Value: true
     - Name: NonVFDMotorController1
       Type: NonVFDMotorController
       Children:
@@ -489,6 +488,34 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Boolean
                 Value: true
+              - Name: CheckedText
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Auto Mode ON"}
+              - Name: UncheckedText
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Manual Mode ON"}
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 8.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 1.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
           - Name: Panel7
             Type: Panel
             Children:
@@ -781,6 +808,10 @@ Children:
                           Type: BaseDataVariableType
                           DataType: String
                           Value: "Running Reverse"
+        - Name: HitTestVisible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
       - Name: NonVFDcont
         Type: Alias
         DataType: NodeId
@@ -817,16 +848,6 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-  - Name: HorizontalAlignment
-    Type: BaseVariableType
-    DataType: HorizontalAlignment
-    ModellingRule: Optional
-    Value: 2
-  - Name: VerticalAlignment
-    Type: BaseVariableType
-    DataType: VerticalAlignment
-    ModellingRule: Optional
-    Value: 2
   - Name: Button1
     Type: Button
     Children:
@@ -908,7 +929,7 @@ Children:
       Value: {"LocaleId":"en-US","Text":"Close"}
 - Name: VFD_popup
   Id: g=08dfb140c484084ea7535dedbc70fa0a
-  Supertype: Popup
+  Supertype: Dialog
   ReferenceType: HasComponent
   Children:
   - Class: Reference
@@ -924,16 +945,6 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 496.0
-  - Name: HorizontalAlignment
-    Type: BaseVariableType
-    DataType: HorizontalAlignment
-    ModellingRule: Optional
-    Value: 2
-  - Name: VerticalAlignment
-    Type: BaseVariableType
-    DataType: VerticalAlignment
-    ModellingRule: Optional
-    Value: 2
   - Name: VFDpop
     Type: Alias
     DataType: NodeId
@@ -980,7 +991,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
-      Value: true
     - Name: VFDMotorController1
       Type: VFDMotorController
       Children:
@@ -1407,6 +1417,89 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{VFDcont}/Auto_Mode"
+              - Name: MouseDownEventHandler1
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
+                - Name: ListenObject
+                  Type: NodePointer
+                  DataType: NodeId
+                  ReferenceType: HasProperty
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: NodeClass
+                    Type: PropertyType
+                    DataType: NodePointerNodeClass
+                    ModellingRule: Optional
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../..@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: MethodsToCall
+                  Type: BaseObjectType
+                - Name: EventArguments
+                  Type: MouseDownEvent
+                  Children:
+                  - Name: EventId
+                    Type: PropertyType
+                    DataType: ByteString
+                  - Name: EventType
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceNode
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceName
+                    Type: PropertyType
+                    DataType: String
+                  - Name: Time
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: ReceiveTime
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: LocalTime
+                    Type: PropertyType
+                    DataType: TimeZoneDataType
+                    ModellingRule: Optional
+                  - Name: Message
+                    Type: PropertyType
+                    DataType: LocalizedText
+                  - Name: Severity
+                    Type: PropertyType
+                    DataType: UInt16
+                  - Name: ConditionClassId
+                    Type: PropertyType
+                    DataType: NodeId
+                    ModellingRule: Optional
+                  - Name: ConditionClassName
+                    Type: PropertyType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                  - Name: ConditionSubClassId
+                    Type: PropertyType
+                    DataType: NodeId
+                    ModellingRule: Optional
+                    ValueRank: OneDimension
+                    ArrayDimensions: [0]
+                  - Name: ConditionSubClassName
+                    Type: PropertyType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    ValueRank: OneDimension
+                    ArrayDimensions: [0]
           - Name: Panel5
             Type: Panel
             Children:
@@ -1975,7 +2068,7 @@ Children:
       Value: "#fa0202"
 - Name: VALVE_POPUP
   Id: g=8a1f0b957124d25037ccf939bc11fcc7
-  Supertype: Popup
+  Supertype: Dialog
   ReferenceType: HasComponent
   Children:
   - Class: Reference
@@ -2593,13 +2686,3 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 38.0
-  - Name: HorizontalAlignment
-    Type: BaseVariableType
-    DataType: HorizontalAlignment
-    ModellingRule: Optional
-    Value: 2
-  - Name: VerticalAlignment
-    Type: BaseVariableType
-    DataType: VerticalAlignment
-    ModellingRule: Optional
-    Value: 2
